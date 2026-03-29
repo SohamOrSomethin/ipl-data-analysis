@@ -1,0 +1,9 @@
+http://localhost:5000/api/seasons
+
+http://localhost:5000/api/top-batters
+
+http://localhost:5000/api/top-batters?season=2023 
+
+http://localhost:5000/api/top-bowlers 
+
+http://localhost:5000/api/orange-cap 

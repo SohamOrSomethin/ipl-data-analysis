@@ -11,62 +11,25 @@ Jupyter notebook for analyzing IPL ball‑by‑ball data (2008–2025), includin
 ## 1. Prerequisites
 
 You need:
-- Python 3.8+
-- `pandas`, `numpy`, `jupyter`
+- Python 3.11.9 (create virtual environment)
+- node installed
+
 
 Install dependencies:
 
 ```bash
-pip install pandas numpy jupyter
+pip install pandas numpy flask flask-cors
 ```
 
----
+## 2. steps
 
-## 2. Dataset Setup
+# i. run flask server in one terminal
+# ii. in another terminal npm intall axios recharts
+# iii. npm run dev
 
-1. Download the IPL dataset from Kaggle:
-   - https://www.kaggle.com/datasets/chaitu20/ipl-dataset2008-2025
-   
-2. Unzip and place the CSV file (e.g., `IPL.csv`) in your project folder:
+### 3. what works
 
- ipl-data-analysis/
-├── ipl_stats.ipynb
-├── data/
-│ └── IPL.csv <-- your Kaggle CSV
-└── README.md
-
-3. Update the file path in the notebook (if needed):
-
-```python
-df = pd.read_csv("data/IPL.csv", low_memory=False)
-```
-
----
-
-## 3. Run Jupyter Notebook
-
-In your project folder:
-
-```bash
-jupyter notebook
-```
-
-or
-
-```bash
-jupyter lab
-```
-
-- Open `ipl_stats.ipynb`.
-- Run all cells (Kernel → Restart & Run All) to see:
-- data cleaning steps
-- derived stats (top runs, sixes, wickets, etc.)
-
----
-
-## 4. What You Can Extend
-
-You can:
-- Add filters (e.g., specific seasons, teams, or formats).
-- Add plots (using `matplotlib` or `seaborn`).
-- Export clean stats to smaller CSV files (under 100 MB) for sharing.
+1 saare links in flask wala file
+2 also stuff like http://localhost:5000/api/top-batters?season=2023  if you add ?season="Season" vo automatic filter karega
+3 frontend pe top batsmen and bowlers for each season can filter by year
+4 purple and orange cap each year
