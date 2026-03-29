@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments (any name/location)
+venv/
+.venv/
+env/
+*.venv
+iplenv/
+
+# Flask
+instance/
+.env
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Data files (optional - remove if you want to track the CSV)
+*.csv
