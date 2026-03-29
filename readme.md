@@ -23,9 +23,9 @@ pip install pandas numpy flask flask-cors
 
 ## 2. steps
 
-# i. run flask server in one terminal
-# ii. in another terminal npm intall axios recharts
-# iii. npm run dev
+- i. run flask server in one terminal
+- ii. in another terminal npm intall axios recharts
+- iii. npm run dev
 
 ### 3. what works
 
