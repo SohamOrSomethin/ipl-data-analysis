@@ -29,7 +29,7 @@ pip install pandas numpy flask flask-cors
 
 ### 3. what works
 
-1 saare links in flask wala file
-2 also stuff like http://localhost:5000/api/top-batters?season=2023  if you add ?season="Season" vo automatic filter karega
-3 frontend pe top batsmen and bowlers for each season can filter by year
-4 purple and orange cap each year
+- saare links in flask wala file
+- also stuff like http://localhost:5000/api/top-batters?season=2023  if you add ?season="Season" vo automatic filter karega
+- frontend pe top batsmen and bowlers for each season can filter by year
+- purple and orange cap each year
