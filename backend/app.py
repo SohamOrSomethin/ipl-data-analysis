@@ -2,11 +2,12 @@ from flask import Flask, jsonify, request
 import pandas as pd
 from flask_cors import CORS
 
+
 app = Flask(__name__)
 CORS(app)
 
 # ── Load & Clean ──────────────────────────────────────────
-df = pd.read_csv(r"C:\Users\deole\Desktop\python\misc\IPL.csv")
+df = pd.read_csv("../data/IPL.csv")
 
 SEASON_MAP = {
     "2007/08": "2008",
