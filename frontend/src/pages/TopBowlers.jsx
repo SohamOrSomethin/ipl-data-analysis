@@ -48,15 +48,15 @@ export default function TopBowlers() {
 
       {loading ? <p>Loading...</p> : (
         <ResponsiveContainer width="100%" height={300}>
-          <BarChart data={bowlers} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
-            <XAxis dataKey="bowler" stroke="#94a3b8" tick={{ fill: '#94a3b8', fontSize: 12 }} />
-            <YAxis stroke="#94a3b8" tick={{ fill: '#94a3b8', fontSize: 12 }} />
+          <BarChart data={bowlers} layout="vertical" margin={{ top: 10, right: 30, left: 30, bottom: 0 }}>
+            <XAxis type="number" stroke="#94a3b8" tick={{ fill: '#94a3b8', fontSize: 12 }} />
+            <YAxis type="category" dataKey="bowler" stroke="#94a3b8" tick={{ fill: '#94a3b8', fontSize: 12 }} width={80} />
             <Tooltip 
               cursor={{ fill: 'rgba(255, 255, 255, 0.04)' }}
               contentStyle={{ backgroundColor: '#1e293b', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: '#f8fafc' }}
               itemStyle={{ color: '#06b6d4', fontWeight: 600 }}
             />
-            <Bar dataKey="wickets" fill="#06b6d4" radius={[4, 4, 0, 0]} barSize={32} />
+            <Bar dataKey="wickets" fill="#06b6d4" radius={[0, 4, 4, 0]} barSize={16} />
           </BarChart>
         </ResponsiveContainer>
       )}
