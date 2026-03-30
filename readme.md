@@ -1,129 +1,89 @@
-#  IPL Stats Dashboard
+# IPL Data Analytics Platform
 
-A full-stack cricket analytics web app built with **Flask + React**, powered by ball-by-ball IPL match data.
+A high-performance, full-stack cricket analytics dashboard visualizing ball-by-ball performance data from the Indian Premier League (IPL). Built with a **Flask API**, a stunning **React + Vite** frontend, and optimized with a blitz-fast **Static JSON** distribution layer.
 
 ---
 
-## Tech Stack
+## Architecture Stack
 
-| Layer    | Technology               |
-|----------|--------------------------|
-| Backend  | Python, Flask, Pandas    |
-| Frontend | React, Axios             |
-| Data     | IPL ball-by-ball CSV     |
-| Cache    | Static JSON files        |
+| Layer    | Technology               | Purpose |
+|----------|--------------------------|---------|
+| **Backend**  | Python, Flask, Pandas | Parsers and APIs for handling heavy data logic on the raw CSV data. |
+| **Frontend** | React, Vite, CSS, Recharts | Premium, responsive visual UI featuring a "Night Match" dark mode. |
+| **Delivery** | Static JSONs | Blazing fast local/Vercel delivery for All-Time statistics routing. |
 
 ---
 
 ## Project Structure
 
-```
-ipl-dashboard/
-├── app.py                 # Flask backend
-├── export_data.py          # Generates static JSON files from CSV
+```text
+ipl-data-analysis/
+├── backend/               # Flask Python Server
+│   ├── app.py             # Main routing and dynamic queries
+│   ├── export_data.py     # Batch processor: CSV -> Static JSONs
+│   ├── static/data/       # Generated data dumps
+│   └── ...
 ├── data/
-│   └── ipl_data.csv       # Raw ball-by-ball IPL  data
-├── static/
-│   └── data/
-│       ├── players.json   # Pre-built career stats (all players)
-│       └── seasons.json   # List of available seasons
-└── client/                # React frontend
-    ├── src/
-    │   ├── App.jsx
-    │   └── components/
-    └── package.json
-```
-## Installation
-
-### 1. Clone the repository
-
-```bash
-git clone (this repo)
-cd ipl-dashboard
+│   └── IPL.csv            # Original ball-by-ball dataset (Kaggle)
+├── frontend/              # React Vite Application
+│   ├── public/data/       # Frontend-static dataset copies (fast-path routing)
+│   ├── src/
+│   │   ├── pages/         # OrangeCap, PurpleCap, Analytics Panels
+│   │   ├── index.css      # Custom premium glassmorphic styling
+│   │   └── App.jsx
+│   └── package.json
+└── readme.md
 ```
 
-### 2. Set up Python environment
+---
+
+## Quick Start
+
+### 1. Setup Backend (Data & API)
+
+Ensure the massive IPL ball-by-ball CSV is located at `data/IPL.csv`. Next, activate your python environment and generate the Static Models:
 
 ```bash
+cd backend
 python -m venv venv
-venv\Scripts\activate
-pip install flask pandas flask-cors
-```
+venv\Scripts\activate   # Or `source venv/bin/activate` 
+pip install -r requirements.txt  # Or manually install flask pandas flask-cors
 
-### 3. Add the dataset
-
-Place your IPL ball-by-ball CSV file at: data/ipl_data.csv
-
-### 4. Generate static JSON files
-
-Run this once before starting the server (and again whenever the dataset changes):
-
-```bash
+# 1. Regenerate optimized JSONs from CSV
 python export_data.py
-```
-Server runs at `http://localhost:5000`
 
-### 5. Start the React frontend
+# 2. Boot up the dynamic API router
+python app.py
+```
+*Backend runs locally at `http://localhost:5000`*
+
+
+### 2. Setup Frontend
+
+Because of the Static File linkage, you'll need the JSONs copied into `/frontend/public/data/` if they aren't already.
 
 ```bash
-cd client
+cd frontend
 npm install
+
+# Start the blazingly fast development server
 npm run dev
 ```
+*Frontend interface accessible at `http://localhost:5173`*
 
-Frontend runs at `http://localhost:5173`
+---
+
+## Smart Data Strategy
+
+This platform uses a duel-resolution data approach:
+
+1. **Lightning Fast "All-Time" Queries:** The Vite client will organically poll `/data/...` pre-built caches instead of waking up your Python deployment, rendering complex graphs instantly.
+2. **Dynamic "Season-Filtered" Queries:** When digging deep into specific seasons (e.g. "Who was the best bowler in 2023?"), React cascades requests down via Axios to the Python Flask backend to run a parameterized Pandas dataframe scan over the raw CSV.
 
 ---
 
-## API Endpoints
+## Features Included
 
-### `GET /api/players`
-
-Search for players by name. Supports optional season filtering.
-
-**Query Parameters**
-
-| Parameter | Type   | Required | Description                          |
-|-----------|--------|----------|--------------------------------------|
-| `name`    | string | Yes      | Player name (min 2 characters)       |
-| `season`  | string | No       | Filter by season (e.g. `2023`). Omit for all-time stats |
-
-**Example Requests**
-GET /api/players?name=Kohli
-GET /api/players?name=Kohli&season=2023
-GET /api/players?name=Bumrah&season=2022
-
-**Example Response**
-
-```json
-[
-  {
-    "name": "V Kohli",
-    "runs": 892,
-    "balls_faced": 634,
-    "fours": 78,
-    "sixes": 22,
-    "wickets": 0
-  }
-]
-```
-
----
-## Features
-
-- **Player search** — Live search by name with 2-character minimum
-- **Batting stats** — Runs, balls faced, 4s, 6s, strike rate
-- **Bowling stats** — Total wickets taken
-- **Season filter** — View stats for a specific IPL season or all-time
-- **Smart data strategy** — All-time queries use pre-built JSON cache; season-filtered queries scan the CSV for accuracy
-- **Dual-source player lookup** — Searches both `batter` and `bowler` columns, so all-rounders and pure bowlers are included
-
----
-## Data Notes
-
-- `players.json` is generated from the full CSV at startup via `preprocess.py`
-- Season-filtered requests (`?season=XXXX`) always query the live CSV for correctness
-- All numeric fields are returned as integers; `strike_rate` is a float rounded to 2 decimal places
-- Players with 0 batting or 0 bowling appearances are still included via outer join
-
----
+- **Leaderboards:** Track all-time highest scorers and top wicket-takers through interactive, responsive Data Visualizations (powered by `Recharts`).
+- **Award Caches:** Beautiful data-tables dynamically highlighting the Orange Cap and Purple Cap receivers through history.
+- **Premium UI:** Entire client stylized with modern "Night Match" glassmorphism, completely devoid of heavy CSS frameworks for maximal performance and customized theming.

@@ -10,22 +10,24 @@ export default function PurpleCap() {
   }, [])
 
   return (
-    <div style={{ padding: '2rem' }}>
-      <h2>Purple Cap Winners</h2>
-      <table border="1" cellPadding="8">
-        <thead>
-          <tr><th>Season</th><th>Bowler</th><th>Wickets</th></tr>
-        </thead>
-        <tbody>
-          {data.map(row => (
-            <tr key={row.season}>
-              <td>{row.season}</td>
-              <td>{row.bowler}</td>
-              <td>{row.wickets}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+    <div className="glass-card">
+      <h2 className="card-title">Purple Cap Winners</h2>
+      <div className="table-container">
+        <table>
+          <thead>
+            <tr><th>Season</th><th>Bowler</th><th>Wickets</th></tr>
+          </thead>
+          <tbody>
+            {data.map(row => (
+              <tr key={row.season}>
+                <td>{row.season}</td>
+                <td>{row.bowler}</td>
+                <td>{row.wickets}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 }

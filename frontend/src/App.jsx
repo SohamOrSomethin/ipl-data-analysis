@@ -5,12 +5,14 @@ import PurpleCap from './pages/PurpleCap'
 
 function App() {
   return (
-    <div>
-      <h1>IPL Dashboard</h1>
-      <TopBatters/>
-      <TopBowlers/>
-      <OrangeCap />
-      <PurpleCap />
+    <div className="dashboard-container">
+      <h1 className="app-title">IPL Data Analytics</h1>
+      <div className="grid-layout">
+        <TopBatters/>
+        <TopBowlers/>
+        <OrangeCap />
+        <PurpleCap />
+      </div>
     </div>
   )
 }
