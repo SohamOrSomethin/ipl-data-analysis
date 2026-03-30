@@ -9,17 +9,28 @@ export default function TopBowlers() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/seasons')
+    axios.get('/data/seasons.json')
       .then(res => setSeasons(res.data))
   }, [])
 
   useEffect(() => {
     setLoading(true)
-    axios.get(`http://localhost:5000/api/top-bowlers?season=${selected}`)
-      .then(res => {
-        setBowlers(res.data)
+    if (selected === 'all') {
+      axios.get('/data/players.json').then(res => {
+        const top10 = res.data
+          .sort((a, b) => b.wickets - a.wickets)
+          .slice(0, 10)
+          .map(p => ({ bowler: p.name, wickets: p.wickets }))
+        setBowlers(top10)
         setLoading(false)
       })
+    } else {
+      axios.get(`http://localhost:5000/api/top-bowlers?season=${selected}`)
+        .then(res => {
+          setBowlers(res.data)
+          setLoading(false)
+        })
+    }
   }, [selected])
 
   return (

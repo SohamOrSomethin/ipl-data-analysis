@@ -9,17 +9,28 @@ export default function TopBatters() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/seasons')
+    axios.get('/data/seasons.json')
       .then(res => setSeasons(res.data))
   }, [])
 
   useEffect(() => {
     setLoading(true)
-    axios.get(`http://localhost:5000/api/top-batters?season=${selected}`)
-      .then(res => {
-        setBatters(res.data)
+    if (selected === 'all') {
+      axios.get('/data/players.json').then(res => {
+        const top10 = res.data
+          .sort((a, b) => b.runs - a.runs)
+          .slice(0, 10)
+          .map(p => ({ batter: p.name, runs: p.runs }))
+        setBatters(top10)
         setLoading(false)
       })
+    } else {
+      axios.get(`http://localhost:5000/api/top-batters?season=${selected}`)
+        .then(res => {
+          setBatters(res.data)
+          setLoading(false)
+        })
+    }
   }, [selected])
 
   return (

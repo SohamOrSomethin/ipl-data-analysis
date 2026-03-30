@@ -5,7 +5,7 @@ export default function OrangeCap() {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/orange-cap')
+    axios.get('/data/orange_cap.json')
       .then(res => setData(res.data))
   }, [])
 

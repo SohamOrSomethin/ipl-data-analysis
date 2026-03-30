@@ -5,7 +5,7 @@ export default function PurpleCap() {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/purple-cap')
+    axios.get('/data/purple_cap.json')
       .then(res => setData(res.data))
   }, [])
 
