@@ -1,0 +1,41 @@
+import { NavLink } from 'react-router-dom';
+
+export default function Navbar() {
+  return (
+    <nav className="glass-nav">
+      <div className="nav-container">
+        <NavLink to="/" className="nav-logo">
+          <span className="logo-icon">🏏</span>
+          IPL Analytics
+        </NavLink>
+        <div className="nav-links">
+          <NavLink 
+            to="/" 
+            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+            end
+          >
+            Dashboard
+          </NavLink>
+          <NavLink 
+            to="/orange-cap" 
+            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+          >
+            Orange Cap
+          </NavLink>
+          <NavLink 
+            to="/purple-cap" 
+            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+          >
+            Purple Cap
+          </NavLink>
+          <NavLink 
+            to="/players" 
+            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+          >
+            Players
+          </NavLink>
+        </div>
+      </div>
+    </nav>
+  );
+}

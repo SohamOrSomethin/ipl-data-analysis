@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
+import LoadingSpinner from '../components/LoadingSpinner'
+import ErrorBoundary from '../components/ErrorBoundary'
 
 export default function TopBowlers() {
   const [bowlers, setBowlers] = useState([])
@@ -45,9 +47,9 @@ export default function TopBowlers() {
           ))}
         </select>
       </div>
-
-      {loading ? <p>Loading...</p> : (
-        <ResponsiveContainer width="100%" height={300}>
+      <ErrorBoundary>
+        {loading ? <LoadingSpinner /> : (
+          <ResponsiveContainer width="100%" height={300}>
           <BarChart data={bowlers} layout="vertical" margin={{ top: 10, right: 30, left: 30, bottom: 0 }}>
             <XAxis type="number" stroke="#94a3b8" tick={{ fill: '#94a3b8', fontSize: 12 }} />
             <YAxis type="category" dataKey="bowler" stroke="#94a3b8" tick={{ fill: '#94a3b8', fontSize: 12 }} width={80} />
@@ -60,6 +62,7 @@ export default function TopBowlers() {
           </BarChart>
         </ResponsiveContainer>
       )}
+      </ErrorBoundary>
     </div>
   )
 }

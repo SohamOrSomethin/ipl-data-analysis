@@ -1,70 +1,27 @@
-import { useEffect, useState } from 'react'
-import axios from 'axios'
-import TopBatters from './pages/TopBatters'
-import TopBowlers from './pages/TopBowlers'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Dashboard from './pages/Dashboard'
 import OrangeCap from './pages/OrangeCap'
 import PurpleCap from './pages/PurpleCap'
-import StatCard from './components/StatCard'
+import Navbar from './components/Navbar'
+import ErrorBoundary from './components/ErrorBoundary'
 
 function App() {
-  const [records, setRecords] = useState({
-    total_runs: 0,
-    total_wickets: 0,
-    highest_score: 0,
-    best_bowling: "0/0"
-  })
-
-  useEffect(() => {
-    axios.get('/data/records.json')
-      .then(res => setRecords(res.data))
-      .catch(err => console.error("Error loading records:", err))
-  }, [])
-
   return (
-    <div className="dashboard-container">
-      <header className="app-header">
-        <h1 className="app-title">IPL Data Analytics</h1>
-        <p className="app-subtitle">All-time performance & historical records</p>
-      </header>
-      
-      <div className="stats-grid">
-        <StatCard 
-          title="All-Time Runs" 
-          value={records.total_runs.toLocaleString()} 
-          subtitle="Total runs in IPL history" 
-          icon="🏏" 
-          accentColor="var(--accent-cyan)" 
-        />
-        <StatCard 
-          title="All-Time Wickets" 
-          value={records.total_wickets.toLocaleString()} 
-          subtitle="Total wickets taken" 
-          icon="🎯" 
-          accentColor="var(--accent-purple)" 
-        />
-        <StatCard 
-          title="Highest Score" 
-          value={records.highest_score} 
-          subtitle="Highest individual innings" 
-          icon="🔥" 
-          accentColor="#f59e0b" 
-        />
-        <StatCard 
-          title="Best Bowling" 
-          value={records.best_bowling} 
-          subtitle="Best match figures" 
-          icon="💨" 
-          accentColor="#10b981" 
-        />
+    <Router>
+      <div className="app-shell">
+        <Navbar />
+        <main className="dashboard-container">
+          <ErrorBoundary>
+            <Routes>
+              <Route path="/" element={<Dashboard />} />
+              <Route path="/orange-cap" element={<OrangeCap />} />
+              <Route path="/purple-cap" element={<PurpleCap />} />
+              <Route path="/players" element={<div className="glass-card"><h2>Player Analytics</h2><p>Coming Soon...</p></div>} />
+            </Routes>
+          </ErrorBoundary>
+        </main>
       </div>
-
-      <div className="grid-layout">
-        <TopBatters/>
-        <TopBowlers/>
-        <OrangeCap />
-        <PurpleCap />
-      </div>
-    </div>
+    </Router>
   )
 }
 
