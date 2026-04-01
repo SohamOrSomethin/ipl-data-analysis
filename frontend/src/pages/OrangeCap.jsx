@@ -11,11 +11,11 @@ export default function OrangeCap() {
 
   return (
     <div className="glass-card">
-      <h2 className="card-title">Orange Cap Winners</h2>
+      <h2 className="card-title">🏏 Orange Cap Winners</h2>
       <div className="table-container">
         <table>
           <thead>
-            <tr><th>Season</th><th>Batter</th><th>Runs</th></tr>
+            <tr><th>Season</th><th>Batter Name</th><th>Total Runs</th></tr>
           </thead>
           <tbody>
             {data.map(row => (

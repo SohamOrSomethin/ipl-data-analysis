@@ -11,11 +11,11 @@ export default function PurpleCap() {
 
   return (
     <div className="glass-card">
-      <h2 className="card-title">Purple Cap Winners</h2>
+      <h2 className="card-title">🎯 Purple Cap Winners</h2>
       <div className="table-container">
         <table>
           <thead>
-            <tr><th>Season</th><th>Bowler</th><th>Wickets</th></tr>
+            <tr><th>Season</th><th>Bowler Name</th><th>Total Wickets</th></tr>
           </thead>
           <tbody>
             {data.map(row => (
