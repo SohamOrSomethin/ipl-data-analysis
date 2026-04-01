@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 # ── Load & Clean ──────────────────────────────────────────
-df = pd.read_csv(r"C:\Users\deole\Desktop\python\misc\IPL.csv", low_memory=False)
+df = pd.read_csv("../data/IPL.csv", low_memory=False)
 
 TEAM_ALIASES = {
     "rcb": "Royal Challengers Bangalore",
