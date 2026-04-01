@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts'
 import LoadingSpinner from '../components/LoadingSpinner'
 import ErrorBoundary from '../components/ErrorBoundary'
 
@@ -9,6 +9,7 @@ export default function TopBowlers() {
   const [seasons, setSeasons] = useState([])
   const [selected, setSelected] = useState('all')
   const [loading, setLoading] = useState(true)
+  const [hoveredIndex, setHoveredIndex] = useState(null)
 
   useEffect(() => {
     axios.get('/data/seasons.json')
@@ -56,9 +57,24 @@ export default function TopBowlers() {
             <Tooltip 
               cursor={{ fill: 'rgba(255, 255, 255, 0.04)' }}
               contentStyle={{ backgroundColor: '#1e293b', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: '#f8fafc' }}
-              itemStyle={{ color: '#06b6d4', fontWeight: 600 }}
+              itemStyle={{ color: '#8b5cf6', fontWeight: 600 }}
             />
-            <Bar dataKey="wickets" fill="#06b6d4" radius={[0, 4, 4, 0]} barSize={16} />
+            <Bar 
+              dataKey="wickets" 
+              radius={[0, 4, 4, 0]} 
+              barSize={16}
+              onMouseLeave={() => setHoveredIndex(null)}
+            >
+              {bowlers.map((entry, index) => (
+                <Cell 
+                  key={`cell-${index}`}
+                  cursor="pointer"
+                  fill={index === hoveredIndex ? '#a78bfa' : '#8b5cf6'}
+                  onMouseEnter={() => setHoveredIndex(index)}
+                  style={{ transition: 'fill 0.3s ease' }}
+                />
+              ))}
+            </Bar>
           </BarChart>
         </ResponsiveContainer>
       )}
