@@ -8,7 +8,7 @@ SEASON_MAP = {
     "2020/21": "2020",
 }
 
-df = pd.read_csv(r"C:\Users\deole\Desktop\python\misc\IPL.csv", low_memory=False) #khud ka daaldo pls
+df = pd.read_csv(r"../data/IPL.csv", low_memory=False)
 
 df["season"] = df["season"].astype(str).str.strip().replace(SEASON_MAP)
 df["runs_batter"]   = pd.to_numeric(df["runs_batter"],   errors="coerce").fillna(0)
@@ -72,13 +72,15 @@ print(f" teams.json — {len(teams)} entries")
 # ── 3. records.json ───────────────────────────────────────
 records = {
     "most_runs": df.groupby("batter")["runs_batter"].sum().idxmax(),
-    #idmax returns index of whoever has maximum value 
-    #toh if virat has 7263 runs itll return virat now 7263
     "most_wickets": df.groupby("bowler")["bowler_wicket"].sum().idxmax(),
-    #groupby bowler names , sum and get max wale ka naam
-    "highest_score_in_match": int(df["runs_total"].max()),
-    #just get max of total runs wala column
+    "total_runs": int(df["runs_total"].sum()),
+    "total_wickets": int(df["bowler_wicket"].sum()),
+    "highest_score": int(df.groupby(["match_id", "batter"])["runs_batter"].sum().max()),
 }
+# Calculate Best Bowling (Wickets/Runs)
+best_b = df.groupby(["match_id", "bowler"]).agg(wickets=("bowler_wicket", "sum"), runs=("runs_bowler", "sum")).sort_values(["wickets", "runs"], ascending=[False, True]).iloc[0]
+records["best_bowling"] = f"{int(best_b['wickets'])}/{int(best_b['runs'])}"
+
 with open("static/data/records.json", "w") as f:
     json.dump(records, f)
 print(f" records.json")
