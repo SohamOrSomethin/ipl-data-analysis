@@ -230,7 +230,7 @@ def players():
         results.append({
             "name": player_name,
             "runs": int(bat["runs_batter"].sum()),
-            "balls_faced": int(bat["balls_faced"].sum()),
+            "balls": int(bat["balls_faced"].sum()),
             "fours": int((bat["runs_batter"] == 4).sum()),
             "sixes": int((bat["runs_batter"] == 6).sum()),
             "wickets": int(bowl["bowler_wicket"].sum()),

@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Dashboard from './pages/Dashboard'
 import OrangeCap from './pages/OrangeCap'
 import PurpleCap from './pages/PurpleCap'
+import Players from './pages/Players'
 import Navbar from './components/Navbar'
 import ErrorBoundary from './components/ErrorBoundary'
 
@@ -16,7 +17,7 @@ function App() {
               <Route path="/" element={<Dashboard />} />
               <Route path="/orange-cap" element={<OrangeCap />} />
               <Route path="/purple-cap" element={<PurpleCap />} />
-              <Route path="/players" element={<div className="glass-card"><h2>Player Analytics</h2><p>Coming Soon...</p></div>} />
+              <Route path="/players" element={<Players />} />
             </Routes>
           </ErrorBoundary>
         </main>
