@@ -15,7 +15,7 @@ export default function PurpleCap() {
       <div className="table-container">
         <table>
           <thead>
-            <tr><th>Season</th><th>Bowler Name</th><th>Total Wickets</th></tr>
+            <tr><th>Season</th><th>Bowler Name</th><th>Total Wickets</th><th>Team</th></tr>
           </thead>
           <tbody>
             {data.map(row => (
@@ -23,6 +23,7 @@ export default function PurpleCap() {
                 <td>{row.season}</td>
                 <td>{row.bowler}</td>
                 <td>{row.wickets}</td>
+                <td>{row.team}</td>
               </tr>
             ))}
           </tbody>

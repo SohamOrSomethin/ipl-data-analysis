@@ -92,11 +92,11 @@ print(" seasons.json")
 
 # 5. orange_cap.json
 orange_cap = (
-    df.groupby(["season", "batter"])["runs_batter"]
+    df.groupby(["season", "batter", "batting_team"])["runs_batter"]
     .sum().reset_index()
     .sort_values(["season", "runs_batter"], ascending=[True, False])
     .groupby("season").first().reset_index()
-    .rename(columns={"runs_batter": "runs"})
+    .rename(columns={"runs_batter": "runs", "batting_team": "team"})
     .to_dict(orient="records")
 )
 with open("static/data/orange_cap.json", "w") as f:
@@ -105,11 +105,11 @@ print(" orange_cap.json")
 
 # 6. purple_cap.json
 purple_cap = (
-    df.groupby(["season", "bowler"])["bowler_wicket"]
+    df.groupby(["season", "bowler", "bowling_team"])["bowler_wicket"]
     .sum().reset_index()
     .sort_values(["season", "bowler_wicket"], ascending=[True, False])
     .groupby("season").first().reset_index()
-    .rename(columns={"bowler_wicket": "wickets"})
+    .rename(columns={"bowler_wicket": "wickets", "bowling_team": "team"})
     .to_dict(orient="records")
 )
 with open("static/data/purple_cap.json", "w") as f:

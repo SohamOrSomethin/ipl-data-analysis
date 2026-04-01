@@ -15,7 +15,7 @@ export default function OrangeCap() {
       <div className="table-container">
         <table>
           <thead>
-            <tr><th>Season</th><th>Batter Name</th><th>Total Runs</th></tr>
+            <tr><th>Season</th><th>Batter Name</th><th>Total Runs</th><th>Team</th></tr>
           </thead>
           <tbody>
             {data.map(row => (
@@ -23,6 +23,7 @@ export default function OrangeCap() {
                 <td>{row.season}</td>
                 <td>{row.batter}</td>
                 <td>{row.runs}</td>
+                <td>{row.team}</td>
               </tr>
             ))}
           </tbody>
