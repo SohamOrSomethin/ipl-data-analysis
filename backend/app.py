@@ -8,7 +8,67 @@ app = Flask(__name__)
 CORS(app)
 
 # ── Load & Clean ──────────────────────────────────────────
-df = pd.read_csv("../data/IPL.csv")
+df = pd.read_csv(r"C:\Users\deole\Desktop\python\misc\IPL.csv", low_memory=False)
+
+TEAM_ALIASES = {
+    "rcb": "Royal Challengers Bangalore",
+    "mi": "Mumbai Indians",
+    "csk": "Chennai Super Kings",
+    "kkr": "Kolkata Knight Riders",
+    "rr": "Rajasthan Royals",
+    "srh": "Sunrisers Hyderabad",
+    "dc": "Delhi Capitals",
+    "dd": "Delhi Daredevils",
+    "pbks": "Punjab Kings",
+    "kxip": "Kings XI Punjab",
+    "lsg": "Lucknow Super Giants",
+    "gt": "Gujarat Titans",
+    "gl": "Gujarat Lions",
+    "rps": "Rising Pune Supergiant",
+    "rpsg": "Rising Pune Supergiants",
+    "pwi": "Pune Warriors India",
+    "ktk": "Kochi Tuskers Kerala",
+    "deccan chargers":          "Deccan Chargers",
+    "sunrisers hyderabad":      "Sunrisers Hyderabad",
+    "delhi daredevils":         "Delhi Daredevils",
+    "delhi capitals":           "Delhi Capitals",
+    "kings xi punjab":          "Kings XI Punjab",
+    "punjab kings":             "Punjab Kings",
+    "royal challengers bangalore": "Royal Challengers Bangalore",
+    "royal challengers bengaluru": "Royal Challengers Bangalore",
+    "pune warriors india":      "Pune Warriors India",
+    "rising pune supergiant":   "Rising Pune Supergiant",
+    "rising pune supergiants":  "Rising Pune Supergiants",
+    "gujarat lions":            "Gujarat Lions",
+    "kochi tuskers kerala":     "Kochi Tuskers Kerala",
+    "mumbai indians":           "Mumbai Indians",
+    "chennai super kings":      "Chennai Super Kings",
+    "kolkata knight riders":    "Kolkata Knight Riders",
+    "rajasthan royals":         "Rajasthan Royals",
+    "lucknow super giants":     "Lucknow Super Giants",
+    "gujarat titans":           "Gujarat Titans",
+}
+
+HOME_CITIES = {
+    "mumbai indians":              ["mumbai", "wankhede"],
+    "chennai super kings":         ["chennai", "chepauk"],
+    "royal challengers bangalore": ["bengaluru", "bangalore", "chinnaswamy"],
+    "kolkata knight riders":       ["kolkata", "eden gardens"],
+    "rajasthan royals":            ["jaipur", "sawai"],
+    "delhi daredevils":            ["delhi", "feroz"],
+    "delhi capitals":              ["delhi", "feroz"],
+    "sunrisers hyderabad":         ["hyderabad", "rajiv gandhi"],
+    "deccan chargers":             ["hyderabad", "rajiv gandhi"],
+    "punjab kings":                ["mohali", "dharamsala", "mullanpur"],
+    "kings xi punjab":             ["mohali", "dharamsala"],
+    "lucknow super giants":        ["lucknow", "ekana"],
+    "gujarat titans":              ["ahmedabad", "narendra modi"],
+    "gujarat lions":               ["rajkot", "saurashtra"],
+    "rising pune supergiant":      ["pune", "maharashtra"],
+    "rising pune supergiants":     ["pune", "maharashtra"],
+    "pune warriors india":         ["pune", "maharashtra"],
+    "kochi tuskers kerala":        ["kochi", "jawaharlal"],
+}
 
 SEASON_MAP = {
     "2007/08": "2008",
@@ -40,7 +100,8 @@ print(f" Data cleaned.")
 
 @app.route("/api/seasons")
 def seasons():
-    return jsonify(sorted(df["season"].unique().tolist()))
+    seasons = sorted(df["season"].dropna().astype(str).unique().tolist())
+    return jsonify(seasons)
 
 @app.route("/api/top-batters")
 def top_batters():
@@ -177,6 +238,104 @@ def players():
         #get stats and jsonify
 
     return jsonify(results)
+
+def resolve_team(name):
+    key = name.strip().lower()
+    return TEAM_ALIASES.get(key, name.strip())
+
+@app.route("/api/teams/<team>/summary")
+def team_summary(team):
+    season = request.args.get("season", "all") # agar season not given toh consider all
+
+    canonical = resolve_team(team)           # "delhi daredevils" → "Delhi Daredevils"
+    canonical_lower = canonical.lower() #standardize krdo in lowercase
+
+    team_data = df[
+        (df["batting_team"].str.lower() == canonical_lower) |
+        (df["bowling_team"].str.lower() == canonical_lower)].copy()  #get all matches played by the team batting &bowling
+
+    if season != "all":
+        team_data = team_data[team_data["season"].astype(str) == str(season)]
+        #wahi wala team data jaha pe season == given season
+
+    if team_data.empty:
+        return jsonify({"team": canonical, "season": season, "message": "No data found"}), 404
+
+    #wins code
+    unique_matches = team_data.drop_duplicates(subset="match_id")
+    total_matches = len(unique_matches)
+    wins = (unique_matches["match_won_by"].str.lower() == canonical_lower).sum()
+    #wins = count the number of matches won by jaha matches_won_by column == team name
+    win_pct = round((wins / total_matches) * 100, 2) if total_matches else 0.0
+
+    # ── Home / Away ───────────────────────────────────────────────────────────
+    home_keywords = HOME_CITIES.get(canonical_lower, []) # get home cities for input team
+    if home_keywords:
+        pattern = "|".join(home_keywords)
+        home_matches = unique_matches[
+            unique_matches["venue"].str.lower().str.contains(pattern, na=False)
+        ].shape[0]
+        #if venue contains that pattern then home match , count waise saare home matches
+    else:
+        home_matches = 0
+    away_matches = total_matches - home_matches
+
+    # ── NRR ───────────────────────────────────────────────────────────────────
+    batting_rows = team_data[team_data["batting_team"].str.lower() == canonical_lower]
+    bowling_rows = team_data[team_data["bowling_team"].str.lower() == canonical_lower]
+
+    runs_scored = batting_rows["runs_total"].sum()
+    overs_faced = batting_rows["valid_ball"].sum() / 6.0
+
+    runs_conceded = bowling_rows["runs_total"].sum()
+    overs_bowled = bowling_rows["valid_ball"].sum() / 6.0
+
+    nrr = round(
+    (runs_scored / overs_faced) - (runs_conceded / overs_bowled),3) \
+        if overs_faced > 0 and overs_bowled > 0 else 0.0
+    if(season == "all"):
+     nrr=0.0
+
+    # ── Top 3 Batters ─────────────────────────────────────────────────────────
+    batters = (
+        batting_rows.groupby("batter")
+        .agg(runs=("runs_batter", "sum"), balls=("balls_faced", "sum"))
+        .reset_index()
+    )
+    batters["strike_rate"] = (batters["runs"] / batters["balls"] * 100).round(2)
+    top_batters = (
+        batters.sort_values(["runs", "strike_rate"], ascending=[False, False])
+        .head(3)
+        .to_dict(orient="records")
+    )
+    
+
+    # ── Top 3 Bowlers ─────────────────────────────────────────────────────────
+    bowlers = (
+        bowling_rows.groupby("bowler")
+        .agg(wickets=("bowler_wicket", "sum"), runs_conceded=("runs_total", "sum"))
+        .reset_index()
+    )
+    top_bowlers = (
+        bowlers.sort_values(["wickets", "runs_conceded"], ascending=[False, True])
+        .head(3)
+        .to_dict(orient="records")
+    )
+
+    return jsonify(
+    {
+        "team":       canonical,
+        "season":     season,
+        "matches":    total_matches,
+        "wins":       int(wins),
+        "win_pct":    win_pct,
+        "home_away":  {"home": home_matches, "away": away_matches},
+        "nrr":        nrr,
+        "top_batters": top_batters,
+        "top_bowlers": top_bowlers,
+    }
+    )
+
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
