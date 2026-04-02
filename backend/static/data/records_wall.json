@@ -1,0 +1,50 @@
+[
+  {
+    "key": "highest_individual_score",
+    "value": 175,
+    "player": "Chris Gayle",
+    "match": "Royal Challengers Bangalore vs Pune Warriors India",
+    "season": "2013",
+    "description": "Chris Gayle - 175* (66 balls)"
+  },
+  {
+    "key": "worst_collapse",
+    "value": 49,
+    "player": "Royal Challengers Bangalore",
+    "match": "Royal Challengers Bangalore vs Kolkata Knight Riders",
+    "season": "2017",
+    "description": "RCB all out for 49"
+  },
+  {
+    "key": "most_expensive_over",
+    "value": 37,
+    "player": "Prashant Parameswaran (over 15)",
+    "match": "Royal Challengers Bangalore vs Kochi Tuskers Kerala",
+    "season": "2011",
+    "description": "37 runs conceded in one over"
+  },
+  {
+    "key": "fastest_fifty",
+    "value": 13,
+    "player": "Yashasvi Jaiswal",
+    "match": "Rajasthan Royals vs Kolkata Knight Riders",
+    "season": "2023",
+    "description": "Yashasvi Jaiswal - 50 in 13 balls"
+  },
+  {
+    "key": "most_sixes_innings",
+    "value": 17,
+    "player": "Chris Gayle",
+    "match": "Royal Challengers Bangalore vs Pune Warriors India",
+    "season": "2013",
+    "description": "Chris Gayle - 17 sixes"
+  },
+  {
+    "key": "best_bowling_figures",
+    "value": "6/12",
+    "player": "Alzarri Joseph",
+    "match": "Mumbai Indians vs Sunrisers Hyderabad",
+    "season": "2019",
+    "description": "Alzarri Joseph - 6/12"
+  }
+]

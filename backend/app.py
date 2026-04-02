@@ -45,6 +45,7 @@ TEAM_ALIASES = {
     "gujarat lions": "Gujarat Lions",
     "rising pune supergiants": "Rising Pune Supergiants",
     "pune warriors india": "Pune Warriors India",
+    "pune warriors": "Pune Warriors India",
     "kochi tuskers kerala": "Kochi Tuskers Kerala",
     "deccan chargers": "Deccan Chargers",
 
