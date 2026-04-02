@@ -257,6 +257,10 @@ def team_summary(team):
     if season != "all":
         team_data = team_data[team_data["season"].astype(str) == str(season)]
         #wahi wala team data jaha pe season == given season
+    
+    if season == "all":
+        pass
+        #implement this soham bhai
 
     if team_data.empty:
         return jsonify({"team": canonical, "season": season, "message": "No data found"}), 404
