@@ -1,89 +1,93 @@
 # IPL Data Analytics Platform
 
-A high-performance, full-stack cricket analytics dashboard visualizing ball-by-ball performance data from the Indian Premier League (IPL). Built with a **Flask API**, a stunning **React + Vite** frontend, and optimized with a blitz-fast **Static JSON** distribution layer.
+A high-performance, full-stack cricket analytics dashboard visualizing ball-by-ball performance data from the Indian Premier League (IPL). This platform provides deep insights into player performances, team trends, and historical records with a premium, glassmorphic UI.
 
 ---
 
-## Architecture Stack
+## 🚀 Key Features
 
-| Layer    | Technology               | Purpose |
-|----------|--------------------------|---------|
-| **Backend**  | Python, Flask, Pandas | Parsers and APIs for handling heavy data logic on the raw CSV data. |
-| **Frontend** | React, Vite, CSS, Recharts | Premium, responsive visual UI featuring a "Night Match" dark mode. |
-| **Delivery** | Static JSONs | Blazing fast local/Vercel delivery for All-Time statistics routing. |
+- **🏆 Dynamic Leaderboards:** Track top 10 batters (runs) and bowlers (wickets) with season-specific filtering or all-time aggregated views.
+- **🛡️ Team Analytics Dashboard:** Comprehensive view of franchise performance, including:
+  - Total Wins, Matches Played, and Win Percentage.
+  - **Net Run Rate (NRR)** calculations.
+  - **Home vs Away** match distribution analysis.
+  - **Season History:** Win/Loss trends over the years.
+  - **Key Performers:** Automated identification of a team's top 3 batters and bowlers.
+- **👤 Advanced Player Search:** Instant search for over 600+ IPL players with detailed career statistics including runs, balls faced, strike rates, 4s, 6s, and wickets.
+- **🥇 Award Histories:** Interactive tables for **Orange Cap** and **Purple Cap** winners across all IPL seasons.
+- **🎨 Premium "Night Match" UI:** A custom-styled glassmorphic interface designed for clarity and visual impact, optimized for large data visualizations using `Recharts`.
 
 ---
 
-## Project Structure
+## 🛠️ Technology Stack
+
+| Layer | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Frontend** | React 19, Vite, Recharts, Axios | Responsive UI, high-speed rendering, and interactive data viz. |
+| **Backend** | Python, Flask, Pandas | Heavy-lift data processing, normalization, and dynamic API endpoints. |
+| **Styling** | Vanilla CSS (Glassmorphism) | Lightweight, performant, and premium design language. |
+| **Data Flow** | Hybrid Static/Dynamic | Pre-generated caches for global stats + live Pandas queries for filters. |
+
+---
+
+## 📂 Project Structure
 
 ```text
 ipl-data-analysis/
-├── backend/               # Flask Python Server
-│   ├── app.py             # Main routing and dynamic queries
-│   ├── export_data.py     # Batch processor: CSV -> Static JSONs
-│   ├── static/data/       # Generated data dumps
-│   └── ...
+├── backend/               # Flask Application
+│   ├── app.py             # Main API & Routing logic
+│   ├── export_data.py     # Batch Data Pre-processor (CSV -> JSON)
+│   └── static/data/       # Optimized data caches for heavy queries
 ├── data/
 │   └── IPL.csv            # Original ball-by-ball dataset (Kaggle)
-├── frontend/              # React Vite Application
-│   ├── public/data/       # Frontend-static dataset copies (fast-path routing)
+├── frontend/              # Vite + React Application
 │   ├── src/
-│   │   ├── pages/         # OrangeCap, PurpleCap, Analytics Panels
-│   │   ├── index.css      # Custom premium glassmorphic styling
-│   │   └── App.jsx
-│   └── package.json
-└── readme.md
+│   │   ├── pages/         # Dashboard, TeamSelector, Players, etc.
+│   │   ├── components/    # Reusable UI elements
+│   │   ├── App.jsx        # Routing and Page layout
+│   │   └── index.css      # Core Design System
+│   └── public/data/       # Static assets for instant load-path
+└── README.md
 ```
 
 ---
 
-## Quick Start
+## ⚡ Quick Start
 
-### 1. Setup Backend (Data & API)
+### 1. Prerequisites
+- Python 3.9+ 
+- Node.js 18+
+- The `IPL.csv` dataset placed in the `/data/` folder.
 
-Ensure the massive IPL ball-by-ball CSV is located at `data/IPL.csv`. Next, activate your python environment and generate the Static Models:
+### 2. Setup Backend (Data & API)
 
 ```bash
 cd backend
 python -m venv venv
-venv\Scripts\activate   # Or `source venv/bin/activate` 
-pip install -r requirements.txt  # Or manually install flask pandas flask-cors
+venv\Scripts\activate   # Linux/Mac: source venv/bin/activate
+pip install flask pandas flask-cors
 
-# 1. Regenerate optimized JSONs from CSV
+# 1. First, generate the optimized statistics caches
 python export_data.py
 
-# 2. Boot up the dynamic API router
+# 2. Start the API server
 python app.py
 ```
-*Backend runs locally at `http://localhost:5000`*
+*Backend runs at `http://localhost:5000`*
 
-
-### 2. Setup Frontend
-
-Because of the Static File linkage, you'll need the JSONs copied into `/frontend/public/data/` if they aren't already.
+### 3. Setup Frontend
 
 ```bash
 cd frontend
 npm install
-
-# Start the blazingly fast development server
 npm run dev
 ```
-*Frontend interface accessible at `http://localhost:5173`*
+*Frontend runs at `http://localhost:5173`*
 
 ---
 
-## Smart Data Strategy
+## 📊 Data Strategy
 
-This platform uses a duel-resolution data approach:
-
-1. **Lightning Fast "All-Time" Queries:** The Vite client will organically poll `/data/...` pre-built caches instead of waking up your Python deployment, rendering complex graphs instantly.
-2. **Dynamic "Season-Filtered" Queries:** When digging deep into specific seasons (e.g. "Who was the best bowler in 2023?"), React cascades requests down via Axios to the Python Flask backend to run a parameterized Pandas dataframe scan over the raw CSV.
-
----
-
-## Features Included
-
-- **Leaderboards:** Track all-time highest scorers and top wicket-takers through interactive, responsive Data Visualizations (powered by `Recharts`).
-- **Award Caches:** Beautiful data-tables dynamically highlighting the Orange Cap and Purple Cap receivers through history.
-- **Premium UI:** Entire client stylized with modern "Night Match" glassmorphism, completely devoid of heavy CSS frameworks for maximal performance and customized theming.
+This platform uses a **dual-resolution architecture** to ensure performance:
+1. **Cache Layer:** Pre-calculated JSON files for all-time stats (Orange Cap, Purple Cap, Player listings) allow for sub-100ms initial page loads.
+2. **Dynamic Engine:** When users filter by specific seasons or teams, the Flask backend performs on-the-fly Pandas operations on the raw dataset to provide accurate, real-time filtered analytics.
