@@ -6,12 +6,19 @@ const TEAM_LOGOS = {
   "Chennai Super Kings": "https://upload.wikimedia.org/wikipedia/en/2/2b/Chennai_Super_Kings_Logo.svg",
   "Kolkata Knight Riders": "https://upload.wikimedia.org/wikipedia/en/4/4c/Kolkata_Knight_Riders_Logo.svg",
   "Royal Challengers Bangalore": "https://upload.wikimedia.org/wikipedia/en/2/2b/Royal_Challengers_Bangalore_2020_logo.svg",
-  "Rajasthan Royals": "https://upload.wikimedia.org/wikipedia/en/6/60/Rajasthan_Royals_Logo.svg",
-  "Delhi Capitals": "https://upload.wikimedia.org/wikipedia/en/f/f5/Delhi_Capitals_Logo.svg",
+  "Rajasthan Royals": "https://upload.wikimedia.org/wikipedia/hi/thumb/6/60/Rajasthan_Royals_Logo.svg/960px-Rajasthan_Royals_Logo.svg.png",
+  "Delhi Capitals": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Delhi_Capitals.svg/1280px-Delhi_Capitals.svg.png",
   "Sunrisers Hyderabad": "https://upload.wikimedia.org/wikipedia/en/8/81/Sunrisers_Hyderabad.svg",
   "Punjab Kings": "https://upload.wikimedia.org/wikipedia/en/d/d4/Punjab_Kings_Logo.svg",
   "Gujarat Titans": "https://upload.wikimedia.org/wikipedia/en/0/09/Gujarat_Titans_Logo.svg",
-  "Lucknow Super Giants": "https://upload.wikimedia.org/wikipedia/en/a/a9/Lucknow_Super_Giants_Logo.svg",
+  "Lucknow Super Giants": "https://static.vecteezy.com/system/resources/previews/075/244/945/non_2x/lucknow-super-giants-logo-lsg-logo-icon-on-transparent-background-free-png.png",
+  "Rising Pune Supergiant": "https://upload.wikimedia.org/wikipedia/en/9/9a/Rising_Pune_Supergiant.png",
+  "Gujarat Lions": "https://upload.wikimedia.org/wikipedia/en/c/c4/Gujarat_Lions.png",
+  "Deccan Chargers": "https://upload.wikimedia.org/wikipedia/en/a/a6/HyderabadDeccanChargers.png",
+  "Kochi Tuskers Kerala": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Kochi_Tuskers_Kerala_Logo.svg/1280px-Kochi_Tuskers_Kerala_Logo.svg.png",
+  "Pune Warriors India": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Pune_Warriors_India_IPL_Logo.png/250px-Pune_Warriors_India_IPL_Logo.png",
+  "Delhi Daredevils": "https://upload.wikimedia.org/wikipedia/sa/7/74/298px-Delhi_Daredevils_Logo.svg.png",
+  "Kings XI Punjab": "https://1000logos.net/wp-content/uploads/2022/09/Punjab-Kings-Logo-2012.png"
 };
 
 const TeamSelector = () => {

@@ -43,7 +43,10 @@ const TeamDashboard = () => {
     return (
         <div className="dashboard-content">
             <div className="dashboard-header">
-                <h1>{teamName} Dashboard</h1>
+                <div className="header-left">
+                    <button className="back-btn" onClick={() => window.history.back()}>← Back</button>
+                    <h1>{teamName} Dashboard</h1>
+                </div>
                 <div className="select-container">
                     <select 
                         className="premium-select"
