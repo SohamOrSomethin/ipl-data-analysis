@@ -5,6 +5,8 @@ import PurpleCap from './pages/PurpleCap'
 import Players from './pages/Players'
 import Navbar from './components/Navbar'
 import ErrorBoundary from './components/ErrorBoundary'
+import TeamSelector from './pages/TeamSelector'
+import TeamDashboard from './pages/TeamDashboard'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
               <Route path="/orange-cap" element={<OrangeCap />} />
               <Route path="/purple-cap" element={<PurpleCap />} />
               <Route path="/players" element={<Players />} />
+              <Route path="/teams" element={<TeamSelector />} />
+              <Route path="/teams/:teamName" element={<TeamDashboard />} />
             </Routes>
           </ErrorBoundary>
         </main>
