@@ -30,6 +30,7 @@ TEAM_ALIASES = {
     "pwi": "Pune Warriors India",
     "ktk": "Kochi Tuskers Kerala",
     "dcg": "Deccan Chargers",
+    "pwi": "Pune Warriors",
 
     # canonical names
     "mumbai indians": "Mumbai Indians",
@@ -44,8 +45,8 @@ TEAM_ALIASES = {
     "gujarat titans": "Gujarat Titans",
     "gujarat lions": "Gujarat Lions",
     "rising pune supergiants": "Rising Pune Supergiants",
-    "pune warriors india": "Pune Warriors India",
-    "pune warriors": "Pune Warriors India",
+    "pune warriors india": "Pune Warriors",
+    "pune warriors": "Pune Warriors",
     "kochi tuskers kerala": "Kochi Tuskers Kerala",
     "deccan chargers": "Deccan Chargers",
 
@@ -54,6 +55,13 @@ TEAM_ALIASES = {
     "kings xi punjab": "Punjab Kings",
     "royal challengers bengaluru": "Royal Challengers Bangalore",
     "rising pune supergiant": "Rising Pune Supergiants",
+}
+
+TEAM_DISPLAY = {
+    "Pune Warriors": "Pune Warriors India",
+    "Delhi Capitals": "Delhi Capitals",
+    "Punjab Kings": "Punjab Kings",
+    "Royal Challengers Bangalore": "Royal Challengers Bangalore",
 }
 
 HOME_CITIES = {
@@ -169,7 +177,8 @@ def purple_cap():
 @app.route("/api/teams")
 def teams():
     unique = {
-        resolve_team(row["team"]) for row in TEAMS
+        TEAM_DISPLAY.get(resolve_team(row["team"]), resolve_team(row["team"]))
+        for row in TEAMS
     }
     return jsonify(sorted(unique))
 
@@ -353,7 +362,7 @@ def team_summary(team):
 
     return jsonify(
     {
-        "team":       canonical,
+        "team": TEAM_DISPLAY.get(canonical, canonical),
         "season":     season,
         "matches":    total_matches,
         "wins":       int(wins),
