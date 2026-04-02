@@ -11,6 +11,7 @@ CORS(app)
 df = pd.read_csv("../data/IPL.csv", low_memory=False)
 
 TEAM_ALIASES = {
+    # abbreviations
     "rcb": "Royal Challengers Bangalore",
     "mi": "Mumbai Indians",
     "csk": "Chennai Super Kings",
@@ -18,35 +19,40 @@ TEAM_ALIASES = {
     "rr": "Rajasthan Royals",
     "srh": "Sunrisers Hyderabad",
     "dc": "Delhi Capitals",
-    "dd": "Delhi Daredevils",
+    "dd": "Delhi Capitals",
     "pbks": "Punjab Kings",
-    "kxip": "Kings XI Punjab",
+    "kxip": "Punjab Kings",
     "lsg": "Lucknow Super Giants",
     "gt": "Gujarat Titans",
     "gl": "Gujarat Lions",
-    "rps": "Rising Pune Supergiant",
+    "rps": "Rising Pune Supergiants",
     "rpsg": "Rising Pune Supergiants",
     "pwi": "Pune Warriors India",
     "ktk": "Kochi Tuskers Kerala",
-    "deccan chargers":          "Deccan Chargers",
-    "sunrisers hyderabad":      "Sunrisers Hyderabad",
-    "delhi daredevils":         "Delhi Daredevils",
-    "delhi capitals":           "Delhi Capitals",
-    "kings xi punjab":          "Kings XI Punjab",
-    "punjab kings":             "Punjab Kings",
+    "dcg": "Deccan Chargers",
+
+    # canonical names
+    "mumbai indians": "Mumbai Indians",
+    "chennai super kings": "Chennai Super Kings",
+    "kolkata knight riders": "Kolkata Knight Riders",
+    "rajasthan royals": "Rajasthan Royals",
+    "sunrisers hyderabad": "Sunrisers Hyderabad",
+    "delhi capitals": "Delhi Capitals",
+    "punjab kings": "Punjab Kings",
     "royal challengers bangalore": "Royal Challengers Bangalore",
+    "lucknow super giants": "Lucknow Super Giants",
+    "gujarat titans": "Gujarat Titans",
+    "gujarat lions": "Gujarat Lions",
+    "rising pune supergiants": "Rising Pune Supergiants",
+    "pune warriors india": "Pune Warriors India",
+    "kochi tuskers kerala": "Kochi Tuskers Kerala",
+    "deccan chargers": "Deccan Chargers",
+
+    # renamed teams → canonical
+    "delhi daredevils": "Delhi Capitals",
+    "kings xi punjab": "Punjab Kings",
     "royal challengers bengaluru": "Royal Challengers Bangalore",
-    "pune warriors india":      "Pune Warriors India",
-    "rising pune supergiant":   "Rising Pune Supergiant",
-    "rising pune supergiants":  "Rising Pune Supergiants",
-    "gujarat lions":            "Gujarat Lions",
-    "kochi tuskers kerala":     "Kochi Tuskers Kerala",
-    "mumbai indians":           "Mumbai Indians",
-    "chennai super kings":      "Chennai Super Kings",
-    "kolkata knight riders":    "Kolkata Knight Riders",
-    "rajasthan royals":         "Rajasthan Royals",
-    "lucknow super giants":     "Lucknow Super Giants",
-    "gujarat titans":           "Gujarat Titans",
+    "rising pune supergiant": "Rising Pune Supergiants",
 }
 
 HOME_CITIES = {
@@ -75,6 +81,15 @@ SEASON_MAP = {
     "2009/10": "2010",
     "2020/21": "2020",
 }
+
+with open("static/data/orange_cap.json") as f:
+    ORANGE_CAP = json.load(f)
+
+with open("static/data/purple_cap.json") as f:
+    PURPLE_CAP = json.load(f)
+
+with open("static/data/teams.json") as f:
+    TEAMS = json.load(f)
 
 def clean_data(df):
     # Normalize season using explicit mapping for the 3 edge cases
@@ -142,41 +157,20 @@ def top_bowlers():
 # ── Orange Cap (top scorer per season) ───────────────────
 @app.route("/api/orange-cap")
 def orange_cap():
-    result = (
-        df.groupby(["season", "batter"])["runs_batter"]
-        .sum()
-        .reset_index()
-        .sort_values(["season", "runs_batter"], ascending=[True, False])
-        .groupby("season")
-        .first()
-        .reset_index()
-        .rename(columns={"runs_batter": "runs"})
-    )
-    return jsonify(result.to_dict(orient="records"))
+    return jsonify(ORANGE_CAP)
 
 # ── Purple Cap (top wicket taker per season) ──────────────
 @app.route("/api/purple-cap")
 def purple_cap():
-    result = (
-        df.groupby(["season", "bowler"])["bowler_wicket"]
-        #basically , aise group karo ki bowlers with same name and sum are clubbed into a stack, then look at bowler wicket from that stack and sum it
-        .sum()
-        .reset_index()
-        .sort_values(["season", "bowler_wicket"], ascending=[True, False])
-        #sort seasons asc and wicekts desc
-        .groupby("season")
-        .first()
-        #abhi this is tricky toh hua aisa we have all the bowlers in every season with their sum of wickets sorted in desc, toh PEHELA row will always be the purple cap when you sort by season bcuz desc mai FIRST wala will always be leading wicket taker
-        .reset_index()
-        .rename(columns={"bowler_wicket": "wickets"})
-    )
-    return jsonify(result.to_dict(orient="records"))
+    return jsonify(PURPLE_CAP)
 
 # ── Team stats ────────────────────────────────────────────
 @app.route("/api/teams")
 def teams():
-    return jsonify(sorted(df["batting_team"].dropna().unique().tolist()))
-#saare batting teams lo, NA udao, unqiue wala rakho and list mai return karo
+    unique = {
+        resolve_team(row["team"]) for row in TEAMS
+    }
+    return jsonify(sorted(unique))
 
 with open("static/data/players.json") as f:
     players_cache = {p["name"]: p for p in json.load(f)}
@@ -241,7 +235,17 @@ def players():
 
 def resolve_team(name):
     key = name.strip().lower()
-    return TEAM_ALIASES.get(key, name.strip())
+
+    # direct alias
+    if key in TEAM_ALIASES:
+        return TEAM_ALIASES[key]
+
+    # reverse match (canonical already)
+    for v in TEAM_ALIASES.values():
+        if key == v.lower():
+            return v
+
+    return name.strip()
 
 @app.route("/api/teams/<team>/summary")
 def team_summary(team):
