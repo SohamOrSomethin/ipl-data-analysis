@@ -267,6 +267,26 @@ def team_summary(team):
 
     #wins code
     unique_matches = team_data.drop_duplicates(subset="match_id")
+
+    history = []
+
+    if season == "all":
+     grouped = unique_matches.groupby("season")
+
+     for s, group in grouped:
+        total = len(group)
+        wins = (
+            group["match_won_by"].str.lower() == canonical_lower
+        ).sum()
+
+        history.append({
+            "season": str(s),
+            "wins": int(wins),
+            "total": int(total)
+        })
+
+    history = sorted(history, key=lambda x: x["season"])
+
     total_matches = len(unique_matches)
     wins = (unique_matches["match_won_by"].str.lower() == canonical_lower).sum()
     #wins = count the number of matches won by jaha matches_won_by column == team name
@@ -337,6 +357,7 @@ def team_summary(team):
         "nrr":        nrr,
         "top_batters": top_batters,
         "top_bowlers": top_bowlers,
+        "history": history if season == "all" else []
     }
     )
 
