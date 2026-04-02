@@ -34,6 +34,12 @@ export default function Navbar() {
           >
             Players
           </NavLink>
+          <NavLink 
+            to="/teams" 
+            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+          >
+            Teams
+          </NavLink>
         </div>
       </div>
     </nav>
