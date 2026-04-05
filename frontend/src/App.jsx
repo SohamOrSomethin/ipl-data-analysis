@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import ErrorBoundary from './components/ErrorBoundary'
 import TeamSelector from './pages/TeamSelector'
 import TeamDashboard from './pages/TeamDashboard'
+import HeadToHead from './pages/HeadToHead'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <Route path="/players" element={<Players />} />
               <Route path="/teams" element={<TeamSelector />} />
               <Route path="/teams/:teamName" element={<TeamDashboard />} />
+              <Route path="/head-to-head" element={<HeadToHead />} />
             </Routes>
           </ErrorBoundary>
         </main>

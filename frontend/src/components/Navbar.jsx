@@ -40,6 +40,12 @@ export default function Navbar() {
           >
             Teams
           </NavLink>
+          <NavLink 
+            to="/head-to-head" 
+            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+          >
+            H2H
+          </NavLink>
         </div>
       </div>
     </nav>
