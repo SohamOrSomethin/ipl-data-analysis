@@ -24,28 +24,22 @@ export default function HeadToHead() {
     if (!team1 || !team2) return;
     setLoading(true);
     
-    // Attempting to fetch from backend, but fallback to mock data since backend is restricted
-    fetch(`http://localhost:5000/api/head-to-head?team1=${encodeURIComponent(team1)}&team2=${encodeURIComponent(team2)}`)
+    fetch(`http://localhost:5000/api/h2h/${encodeURIComponent(team1)}/${encodeURIComponent(team2)}`)
       .then(res => {
          if(!res.ok) throw new Error("Endpoint not found");
          return res.json();
       })
       .then(data => {
-         setStats(data);
+         setStats({
+            ...data,
+            team1Wins: data.team1_wins,
+            team2Wins: data.team2_wins
+         });
          setLoading(false);
       })
       .catch((err) => {
-         console.warn("Backend head-to-head not implemented, using mock data.", err);
-         const t1Wins = (team1.length * 3) % 15 + 5;
-         const t2Wins = (team2.length * 3) % 15 + 4;
-         setStats({
-            team1,
-            team2,
-            matches: t1Wins + t2Wins,
-            team1Wins: t1Wins,
-            team2Wins: t2Wins,
-            ties: 0
-         });
+         console.error("Error fetching H2H stats.", err);
+         setStats(null);
          setLoading(false);
       });
   };
