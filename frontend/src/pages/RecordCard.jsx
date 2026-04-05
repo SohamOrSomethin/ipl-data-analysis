@@ -1,8 +1,3 @@
-// •	Build RecordCard: large headline stat, context line, and a Share button
-// •	Build Records Wall page: six record cards in a responsive two-column grid
-// •	Implement Share button that copies tweet-ready text to clipboard
-// •	Add CSS scroll-reveal animation on card entry
-
 import React, { useState, useEffect } from 'react';
 import StatCard from '../components/StatCard';
 
@@ -20,7 +15,8 @@ export default function RecordCard() {
         highestIndividualScore: { player: "Chris Gayle", score: "175*", team: "RCB", year: 2013 },
         bestBowlingFigures: { player: "Alzarri Joseph", figures: "6/12", team: "MI", year: 2019 },
       });
-    })
+      setLoading(false);
+    }, 800);
   }, []);
 
   return (
@@ -64,8 +60,8 @@ export default function RecordCard() {
           />
           <StatCard 
             title="Best Bowling Figures" 
-            value={records.bestBowling.figures} 
-            subtitle={`${records.bestBowling.player} (${records.bestBowling.team}) - ${records.bestBowling.year}`}
+            value={records.bestBowlingFigures.figures} 
+            subtitle={`${records.bestBowlingFigures.player} (${records.bestBowlingFigures.team}) - ${records.bestBowlingFigures.year}`}
             accentColor="#eab308"
           />
         </div>
