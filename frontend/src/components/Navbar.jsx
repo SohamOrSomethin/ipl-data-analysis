@@ -46,6 +46,12 @@ export default function Navbar() {
           >
             H2H
           </NavLink>
+          <NavLink 
+            to="/record-card" 
+            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+          >
+            Record Card
+          </NavLink>
         </div>
       </div>
     </nav>
