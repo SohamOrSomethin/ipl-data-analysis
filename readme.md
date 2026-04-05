@@ -14,6 +14,8 @@ A high-performance, full-stack cricket analytics dashboard visualizing ball-by-b
   - **Season History:** Win/Loss trends over the years.
   - **Key Performers:** Automated identification of a team's top 3 batters and bowlers.
 - **👤 Advanced Player Search:** Instant search for over 600+ IPL players with detailed career statistics including runs, balls faced, strike rates, 4s, 6s, and wickets.
+- **⚔️ Head-to-Head (Rivalry):** Directly compare the historical performance of any two franchises to see win/loss distributions, total matches, and win rates.
+- **🏆 All-Time Records Wall:** Visually engaging cards detailing the highest team totals, lowest scores, and best individual batting and bowling figures in IPL history.
 - **🥇 Award Histories:** Interactive tables for **Orange Cap** and **Purple Cap** winners across all IPL seasons.
 - **🎨 Premium "Night Match" UI:** A custom-styled glassmorphic interface designed for clarity and visual impact, optimized for large data visualizations using `Recharts`.
 
@@ -65,7 +67,7 @@ ipl-data-analysis/
 cd backend
 python -m venv venv
 venv\Scripts\activate   # Linux/Mac: source venv/bin/activate
-pip install flask pandas flask-cors
+pip install -r requirements.txt
 
 # 1. First, generate the optimized statistics caches
 python export_data.py
