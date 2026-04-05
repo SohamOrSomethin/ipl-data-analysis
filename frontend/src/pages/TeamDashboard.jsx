@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { 
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, 
-  LineChart, Line, CartesianGrid, Legend 
+  LineChart, Line, CartesianGrid, Legend, PieChart, Pie, Cell
 } from 'recharts';
 import StatCard from '../components/StatCard';
 import LoadingSpinner from '../components/LoadingSpinner';
@@ -34,11 +34,12 @@ const TeamDashboard = () => {
 
     if (loading || !teamData) return <LoadingSpinner />;
 
-    // Prepare data for Home vs Away Bar Chart
-    const homeAwayData = [
-        { name: 'Home', matches: teamData.home_away.home },
-        { name: 'Away', matches: teamData.home_away.away },
+    // Prepare data for Win vs Loss/Tie Pie Chart
+    const winLossData = [
+        { name: 'Wins', value: teamData.wins },
+        { name: 'Losses & Ties', value: teamData.matches - teamData.wins },
     ];
+    const COLORS = ['#10b981', '#ef4444'];
 
     return (
         <div className="dashboard-content">
@@ -67,17 +68,29 @@ const TeamDashboard = () => {
             </div>
 
             <div className="grid-layout">
-                {/* Chart 1: Home vs Away (Bar) */}
+                {/* Chart 1: Win/Loss Ratio (Pie) */}
                 <div className="glass-card chart-card">
-                    <h2 className="card-title">Home vs Away Split</h2>
+                    <h2 className="card-title">Overall Match Results</h2>
                     <div style={{ width: '100%', height: 300 }}>
                         <ResponsiveContainer>
-                            <BarChart data={homeAwayData}>
-                                <XAxis dataKey="name" stroke="#94a3b8" />
-                                <YAxis stroke="#94a3b8" />
-                                <Tooltip contentStyle={{ backgroundColor: '#1e293b', border: 'none', borderRadius: '8px' }} />
-                                <Bar dataKey="matches" fill="#06b6d4" radius={[4, 4, 0, 0]} />
-                            </BarChart>
+                            <PieChart>
+                                <Pie 
+                                  data={winLossData} 
+                                  cx="50%" 
+                                  cy="50%" 
+                                  innerRadius={60}
+                                  outerRadius={100} 
+                                  paddingAngle={5}
+                                  dataKey="value"
+                                  stroke="none"
+                                >
+                                  {winLossData.map((entry, index) => (
+                                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                                  ))}
+                                </Pie>
+                                <Tooltip contentStyle={{ backgroundColor: '#1e293b', border: 'none', borderRadius: '8px', color: '#fff' }} />
+                                <Legend verticalAlign="bottom" height={36} wrapperStyle={{ color: '#94a3b8' }}/>
+                            </PieChart>
                         </ResponsiveContainer>
                     </div>
                 </div>
