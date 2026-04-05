@@ -376,5 +376,24 @@ def team_summary(team):
     )
 
 
+@app.route("/api/h2h/<t1>/<t2>")
+def h2h(t1, t2):
+    team1 = resolve_team(t1)
+    team2 = resolve_team(t2)
+
+    with open("static/data/head_to_head.json", "r") as f:
+        data = json.load(f)
+
+    for record in data:
+        if (
+            (record["team1"].lower() == team1.lower() and record["team2"].lower() == team2.lower())
+            or
+            (record["team1"].lower() == team2.lower() and record["team2"].lower() == team1.lower())
+        ):
+            return jsonify(record)
+
+    return jsonify({"error": "H2H not found"}), 404
+
+
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
