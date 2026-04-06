@@ -682,6 +682,23 @@ def list_venues():
     venues.sort(key=lambda x: x["total_matches"], reverse=True)
     return jsonify(venues)
 
+@app.route("/api/venues/search", methods=["GET"])
+def search_venues():
+    query = request.args.get("q", "").strip().lower()
+    if not query:
+        return jsonify({"error": "q parameter is required"}), 400
+
+    results = [
+        {
+            "venue": v["venue"],
+            "city": v["city"],
+            "total_matches": v["total_matches"]
+        }
+        for v in VENUE_STATS.values()
+        if query in v["venue"].lower() or query in v["city"].lower()
+    ]
+    results.sort(key=lambda x: x["total_matches"], reverse=True)
+    return jsonify(results)
 
 @app.route("/api/venues/<path:venue_name>", methods=["GET"])
 def venue_detail(venue_name):
