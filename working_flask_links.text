@@ -1,9 +1,46 @@
+Basic APIs
 http://localhost:5000/api/seasons
+http://localhost:5000/api/teams
+http://localhost:5000/api/orange-cap
+http://localhost:5000/api/purple-cap
 
+Top players
 http://localhost:5000/api/top-batters
+http://localhost:5000/api/top-batters?season=2023
+http://localhost:5000/api/top-bowlers
+http://localhost:5000/api/top-bowlers?season=2022
 
-http://localhost:5000/api/top-batters?season=2023 
+Player search
+http://localhost:5000/api/players?name=kohli
+http://localhost:5000/api/players?name=warner&season=2016
 
-http://localhost:5000/api/top-bowlers 
+Team summary
+http://localhost:5000/api/teams/RCB/summary
+http://localhost:5000/api/teams/MI/summary?season=2020
+http://localhost:5000/api/teams/CSK/summary?season=all
 
-http://localhost:5000/api/orange-cap 
+Head-to-Head (static)
+http://localhost:5000/api/h2h/RCB/MI
+http://localhost:5000/api/h2h/CSK/MI
+
+H2H dynamic
+http://localhost:5000/api/h2h?team1=RCB&team2=KKR
+http://localhost:5000/api/h2h?team1=CSK&team2=MI&from=2018&to=2023
+http://localhost:5000/api/h2h?team1=MI&team2=RCB&from=2015
+
+H2H venues
+http://localhost:5000/api/h2h/venues?team1=RCB&team2=KKR
+http://localhost:5000/api/h2h/venues?team1=CSK&team2=MI
+http://localhost:5000/api/h2h/venues?team1=MI&team2=RCB&from=2015&to=2023
+
+Venues list
+http://localhost:5000/api/venues
+
+Venue search
+http://localhost:5000/api/venues/search?q=mumbai
+http://localhost:5000/api/venues/search?q=eden
+
+Venue detail
+http://localhost:5000/api/venues/Eden Gardens
+http://localhost:5000/api/venues/Wankhede Stadium
+http://localhost:5000/api/venues/M Chinnaswamy Stadium?min_matches=5
