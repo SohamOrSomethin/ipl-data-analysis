@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request
 import pandas as pd
 from flask_cors import CORS
 import json
+import os
 
 
 app = Flask(__name__)
@@ -91,6 +92,40 @@ SEASON_MAP = {
     "2020/21": "2020",
 }
 
+VENUE_ALIASES = {
+    "Arun Jaitley Stadium, Delhi": "Arun Jaitley Stadium",
+    "Feroz Shah Kotla": "Arun Jaitley Stadium",
+    "Brabourne Stadium, Mumbai": "Brabourne Stadium",
+    "Dr DY Patil Sports Academy, Mumbai": "Dr DY Patil Sports Academy",
+    "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+    "Eden Gardens, Kolkata": "Eden Gardens",
+    "Himachal Pradesh Cricket Association Stadium, Dharamsala": "Himachal Pradesh Cricket Association Stadium",
+    "M Chinnaswamy Stadium, Bengaluru": "M Chinnaswamy Stadium",
+    "M.Chinnaswamy Stadium": "M Chinnaswamy Stadium",
+    "MA Chidambaram Stadium, Chepauk": "MA Chidambaram Stadium",
+    "MA Chidambaram Stadium, Chepauk, Chennai": "MA Chidambaram Stadium",
+    "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur": "Maharaja Yadavindra Singh International Cricket Stadium",
+    "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh": "Maharaja Yadavindra Singh International Cricket Stadium",
+    "Maharashtra Cricket Association Stadium, Pune": "Maharashtra Cricket Association Stadium",
+    "Narendra Modi Stadium, Ahmedabad": "Narendra Modi Stadium",
+    "Sardar Patel Stadium, Motera": "Narendra Modi Stadium",
+    "Punjab Cricket Association IS Bindra Stadium, Mohali": "Punjab Cricket Association IS Bindra Stadium",
+    "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh": "Punjab Cricket Association IS Bindra Stadium",
+    "Punjab Cricket Association Stadium, Mohali": "Punjab Cricket Association IS Bindra Stadium",
+    "Rajiv Gandhi International Stadium, Uppal": "Rajiv Gandhi International Stadium",
+    "Rajiv Gandhi International Stadium, Uppal, Hyderabad": "Rajiv Gandhi International Stadium",
+    "Sawai Mansingh Stadium, Jaipur": "Sawai Mansingh Stadium",
+    "Wankhede Stadium, Mumbai": "Wankhede Stadium",
+    "Zayed Cricket Stadium, Abu Dhabi": "Zayed Cricket Stadium",
+    "Sheikh Zayed Stadium": "Zayed Cricket Stadium",
+}
+
+def normalise_venue(name):
+    if not name:
+        return "Unknown"
+    name = name.strip()
+    return VENUE_ALIASES.get(name, name)
+
 with open("static/data/orange_cap.json") as f:
     ORANGE_CAP = json.load(f)
 
@@ -109,6 +144,8 @@ def clean_data(df):
     df["runs_batter"]   = pd.to_numeric(df["runs_batter"],   errors="coerce").fillna(0)
     df["bowler_wicket"] = pd.to_numeric(df["bowler_wicket"], errors="coerce").fillna(0)
     df["runs_total"]    = pd.to_numeric(df["runs_total"],    errors="coerce").fillna(0)
+
+    df["venue"] = df["venue"].apply(normalise_venue)
 
     # Strip whitespace from string columns
     for col in ["batter", "bowler", "batting_team", "bowling_team", "venue", "season"]:
@@ -393,6 +430,181 @@ def h2h(t1, t2):
             return jsonify(record)
 
     return jsonify({"error": "H2H not found"}), 404
+
+MATCH_SUMMARY_PATH = os.path.join("static", "data", "match_summary.json")
+
+with open(MATCH_SUMMARY_PATH, "r", encoding="utf-8") as f:
+    MATCH_SUMMARY = json.load(f)
+
+def get_pair_matches(team1, team2):
+    """Return all matches between two canonical team names, order-independent."""
+    t1, t2 = sorted([team1.strip(), team2.strip()])
+    return [
+        m for m in MATCH_SUMMARY
+        if sorted([m["team1"], m["team2"]]) == [t1, t2]
+    ]
+
+# ── GET /api/h2h?team1=CSK&team2=MI&from=2018&to=2023 ──────────────────────────
+@app.route("/api/h2h", methods=["GET"])
+def h2h_period():
+    team1_raw = request.args.get("team1", "").strip()
+    team2_raw = request.args.get("team2", "").strip()
+    from_season = request.args.get("from", "").strip()
+    to_season   = request.args.get("to", "").strip()
+
+    if not team1_raw or not team2_raw:
+        return jsonify({"error": "team1 and team2 are required"}), 400
+
+    team1 = resolve_team(team1_raw)
+    team2 = resolve_team(team2_raw)
+
+    matches = get_pair_matches(team1, team2)
+
+    if not matches:
+        return jsonify({"error": f"No matches found between {team1} and {team2}"}), 404
+
+    # Filter by season range
+    if from_season:
+        matches = [m for m in matches if m["season"] and str(m["season"]) >= from_season]
+    if to_season:
+        matches = [m for m in matches if m["season"] and str(m["season"]) <= to_season]
+
+    if not matches:
+        return jsonify({"error": "No matches found in the given time period"}), 404
+
+    # wins (ignore no result)
+    team1_wins = sum(1 for m in matches if m["winner"] == team1)
+    team2_wins = sum(1 for m in matches if m["winner"] == team2)
+    #sum karte jao thats why 1 for m in matches
+
+    total   = len(matches)
+    decided = team1_wins + team2_wins
+    no_result = total - decided
+
+    # highest scoring (safe)
+    highest = max(matches, key=lambda m: m.get("total_runs", 0)) if matches else None
+
+    return jsonify({
+        "team1": team1,
+        "team2": team2,
+        "from_season": from_season or None,
+        "to_season":   to_season   or None,
+
+        "matches": total,
+        "team1_wins": team1_wins,
+        "team2_wins": team2_wins,
+        "no_result": no_result,
+
+        "team1_win_pct": round((team1_wins / decided) * 100, 2) if decided else 0.0,
+        "team2_win_pct": round((team2_wins / decided) * 100, 2) if decided else 0.0,
+
+        "highest_scoring_match": highest,
+
+        "matches_list": sorted(
+            matches,
+            key=lambda m: (m["date"] or "", m["match_id"])
+        )
+    })
+
+# ── GET /api/h2h/venues?team1=CSK&team2=MI&from=2018&to=2023 ───────────────────
+@app.route("/api/h2h/venues", methods=["GET"]) #methods GET se bascially fetch data from user
+def h2h_venues():
+    team1_raw = request.args.get("team1", "").strip()
+    team2_raw = request.args.get("team2", "").strip()
+    from_season = request.args.get("from", "").strip()
+    to_season   = request.args.get("to", "").strip()
+    #get allat from request agar nahi mila to blank pakdo
+
+    if not team1_raw or not team2_raw:
+        return jsonify({"error": "team1 and team2 are required"}), 400
+
+    team1 = resolve_team(team1_raw)
+    team2 = resolve_team(team2_raw)
+
+    matches = get_pair_matches(team1, team2)
+    #get all matches with team1 vs team 2 store in matches
+
+    if not matches:
+        return jsonify({"error": f"No matches found between {team1} and {team2}"}), 404
+
+    # season filter
+    if from_season:
+        matches = [m for m in matches if m["season"] and str(m["season"]) >= from_season]
+    if to_season:
+        matches = [m for m in matches if m["season"] and str(m["season"]) <= to_season]
+    
+    #keep only wahi m (for m in matches) which are in range
+    if not matches:
+        return jsonify({"error": "No matches found in the given time period"}), 404
+
+    # ── Aggregate per venue ─────────────────────────────────
+    venue_stats = {} #dict banao
+
+    for m in matches:
+        venue = m.get("venue") or "Unknown"
+        city  = m.get("city")  or None
+
+        if venue not in venue_stats: #if doesnt exist banao ek entry
+            venue_stats[venue] = {
+                "venue": venue,
+                "city": city,
+                "matches": 0,
+                "team1_wins": 0,
+                "team2_wins": 0,
+                "no_result": 0
+            }
+
+        venue_stats[venue]["matches"] += 1 #calc number of matches
+
+        if m["winner"] == team1:
+            venue_stats[venue]["team1_wins"] += 1
+        elif m["winner"] == team2:
+            venue_stats[venue]["team2_wins"] += 1
+        else:
+            venue_stats[venue]["no_result"] += 1
+
+    # ── Add percentages ─────────────────────────────────────
+    venues_list = []
+
+    for v in venue_stats.values():
+        decided = v["team1_wins"] + v["team2_wins"] #no ties only winners wale taken
+
+        venues_list.append({
+            **v,
+            "team1_win_pct": round((v["team1_wins"] / decided) * 100, 2) if decided else 0.0,
+            "team2_win_pct": round((v["team2_wins"] / decided) * 100, 2) if decided else 0.0,
+        })
+
+    # sort by matches
+    venues_list.sort(key=lambda v: v["matches"], reverse=True)
+
+    most_played = venues_list[0] if venues_list else None #1st wala will be most played 
+
+    # min 2 matches for fortress
+    qualified = [v for v in venues_list if v["matches"] >= 3] #taken to calc fortress
+
+    team1_fortress = max(
+        qualified,
+        key=lambda v: v["team1_win_pct"]
+    ) if qualified else None #max win pct for team1 in team 1 vs team 2
+
+    team2_fortress = max(
+        qualified,
+        key=lambda v: v["team2_win_pct"]
+    ) if qualified else None
+
+    return jsonify({
+        "team1": team1,
+        "team2": team2,
+        "from_season": from_season or None,
+        "to_season":   to_season   or None,
+
+        "most_played_venue": most_played,
+        "team1_fortress": team1_fortress,
+        "team2_fortress": team2_fortress,
+
+        "venues": venues_list
+    })
 
 
 if __name__ == "__main__":
