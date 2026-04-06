@@ -3,6 +3,7 @@ import pandas as pd
 from flask_cors import CORS
 import json
 import os
+from collections import defaultdict
 
 
 app = Flask(__name__)
@@ -154,6 +155,63 @@ def clean_data(df):
 
     df = df.dropna(subset=["batter", "bowler"])
     return df
+
+
+def build_venue_stats(match_summary):
+    venue_data = defaultdict(lambda: {
+        "venue": "",
+        "city": "",
+        "total_matches": 0,
+        "teams": defaultdict(lambda: {"matches": 0, "wins": 0})
+    })
+
+    for m in match_summary:
+        venue = normalise_venue(m.get("venue"))
+        city  = m.get("city") or "Unknown"
+        team1 = m.get("team1")
+        team2 = m.get("team2")
+        winner = m.get("winner")
+
+        if not team1 or not team2:
+            continue
+
+        venue_data[venue]["venue"] = venue
+        venue_data[venue]["city"]  = city
+        venue_data[venue]["total_matches"] += 1
+
+        venue_data[venue]["teams"][team1]["matches"] += 1
+        venue_data[venue]["teams"][team2]["matches"] += 1
+
+        if winner == team1:
+            venue_data[venue]["teams"][team1]["wins"] += 1
+        elif winner == team2:
+            venue_data[venue]["teams"][team2]["wins"] += 1
+
+    # Convert to serialisable format with win % and ranking
+    result = {}
+    for venue, data in venue_data.items():
+        teams_list = []
+        for team, stats in data["teams"].items():
+            win_pct = round((stats["wins"] / stats["matches"]) * 100, 2) if stats["matches"] else 0.0
+            teams_list.append({
+                "team": team,
+                "matches": stats["matches"],
+                "wins": stats["wins"],
+                "losses": stats["matches"] - stats["wins"],
+                "win_pct": win_pct
+            })
+
+        # Rank by win_pct desc, then wins desc as tiebreaker
+        teams_list.sort(key=lambda x: (x["win_pct"], x["wins"]), reverse=True)
+
+        result[venue] = {
+            "venue": data["venue"],
+            "city": data["city"],
+            "total_matches": data["total_matches"],
+            "teams": teams_list
+        }
+
+    return result
 
 df = clean_data(df)
 print(f" Data cleaned.")
@@ -606,6 +664,53 @@ def h2h_venues():
         "venues": venues_list
     })
 
+with open("static/data/match_summary.json", encoding="utf-8") as f:
+    MATCH_SUMMARY = json.load(f)
+
+VENUE_STATS = build_venue_stats(MATCH_SUMMARY)
+
+@app.route("/api/venues", methods=["GET"])
+def list_venues():
+    venues = [
+        {
+            "venue": v["venue"],
+            "city": v["city"],
+            "total_matches": v["total_matches"]
+        }
+        for v in VENUE_STATS.values()
+    ]
+    venues.sort(key=lambda x: x["total_matches"], reverse=True)
+    return jsonify(venues)
+
+
+@app.route("/api/venues/<path:venue_name>", methods=["GET"])
+def venue_detail(venue_name):
+    min_matches = int(request.args.get("min_matches", 1))
+
+    canonical = normalise_venue(venue_name.strip())
+
+    data = VENUE_STATS.get(canonical)
+    if not data:
+        for key in VENUE_STATS:
+            if key.lower() == canonical.lower():
+                data = VENUE_STATS[key]
+                break
+
+    if not data:
+        return jsonify({"error": f"Venue '{venue_name}' not found"}), 404
+
+    filtered_teams = [
+        t for t in data["teams"]
+        if t["matches"] >= min_matches
+    ]
+
+    return jsonify({
+        "venue": data["venue"],
+        "city": data["city"],
+        "total_matches": data["total_matches"],
+        "min_matches_filter": min_matches,
+        "teams": filtered_teams
+    })
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
