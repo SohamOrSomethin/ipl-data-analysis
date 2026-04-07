@@ -3,6 +3,7 @@ import axios from 'axios'
 import TopBatters from './TopBatters'
 import TopBowlers from './TopBowlers'
 import StatCard from '../components/StatCard'
+import OnThisDay from '../components/OnThisDay'
 
 export default function Dashboard() {
   const [records, setRecords] = useState({
@@ -20,6 +21,8 @@ export default function Dashboard() {
 
   return (
     <>
+      <OnThisDay />
+
       <div className="stats-grid">
         <StatCard 
           title="All-Time Runs" 
