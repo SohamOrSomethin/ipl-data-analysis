@@ -5,6 +5,10 @@ const QuizCard = ({ questionData, questionNum, totalQuestions, onAnswer }) => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [isRevealed, setIsRevealed] = useState(false);
 
+  const correctIndex = questionData.correct_index !== undefined 
+    ? questionData.correct_index 
+    : questionData.options.indexOf(questionData.answer);
+
   const handleOptionClick = (index) => {
     if (isRevealed) return;
     setSelectedOption(index);
@@ -12,7 +16,7 @@ const QuizCard = ({ questionData, questionNum, totalQuestions, onAnswer }) => {
     
     // Pass the truthy/falsy value after a short delay for UX
     setTimeout(() => {
-      onAnswer(index === questionData.correct_index);
+      onAnswer(index === correctIndex);
       setSelectedOption(null);
       setIsRevealed(false);
     }, 1500);
@@ -45,7 +49,7 @@ const QuizCard = ({ questionData, questionNum, totalQuestions, onAnswer }) => {
           };
 
           if (isRevealed) {
-            if (index === questionData.correct_index) {
+            if (index === correctIndex) {
               btnStyle.background = 'rgba(16, 185, 129, 0.2)';
               btnStyle.borderColor = '#10b981'; // Green for correct
             } else if (index === selectedOption) {
@@ -97,7 +101,7 @@ export default function DailyQuiz() {
   };
 
   useEffect(() => {
-    fetch('/data/questions.json')
+    fetch('http://localhost:5000/static/data/ipl_quiz.json')
       .then(res => res.json())
       .then(allQuestions => {
         // Date-seed logic: day of year

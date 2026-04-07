@@ -35,13 +35,33 @@ export default function OnThisDay() {
         const dd = String(today.getDate()).padStart(2, '0');
         const todayKey = `${mm}-${dd}`;
 
-        if (data[todayKey]) {
-          setEventData({ date: todayKey, ...data[todayKey] });
+        // Convert the backend array into a map where fact !== null
+        const dataMap = {};
+        if (Array.isArray(data)) {
+          data.forEach(item => {
+            if (item.fact !== null && item.fact !== undefined) {
+              let yearStr = 'Did You Know?';
+              if (item.category === 'birthday') yearStr = '🎂 Birthday';
+              else if (item.category === 'history') yearStr = '📜 History';
+              else if (item.category === 'record') yearStr = '🏆 Record';
+              else if (item.category === 'final') yearStr = '🌟 Final Match';
+              else if (item.category === 'semifinal') yearStr = '🔥 Semifinal Match';
+
+              dataMap[item.date] = { year: yearStr, event: item.fact };
+            }
+          });
+        } else {
+          // fallback if it's still the old dict object
+          Object.assign(dataMap, data);
+        }
+
+        if (dataMap[todayKey]) {
+          setEventData({ date: todayKey, ...dataMap[todayKey] });
           setIsNearest(false);
         } else {
-          const nearestKey = getNearestDateKey(data, today.getMonth() + 1, today.getDate());
+          const nearestKey = getNearestDateKey(dataMap, today.getMonth() + 1, today.getDate());
           if (nearestKey) {
-            setEventData({ date: nearestKey, ...data[nearestKey] });
+            setEventData({ date: nearestKey, ...dataMap[nearestKey] });
             setIsNearest(true);
           }
         }
