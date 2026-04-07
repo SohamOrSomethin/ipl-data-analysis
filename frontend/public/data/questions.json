@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Who holds the record for the highest individual score in IPL history?",
+    "options": ["Brendon McCullum", "Chris Gayle", "AB de Villiers", "Virat Kohli"],
+    "correct_index": 1
+  },
+  {
+    "question": "Which team has won the most IPL titles (alongside CSK)?",
+    "options": ["Mumbai Indians", "Kolkata Knight Riders", "Rajasthan Royals", "Gujarat Titans"],
+    "correct_index": 0
+  },
+  {
+    "question": "Who scored the first-ever century in the IPL (in 2008)?",
+    "options": ["Sachin Tendulkar", "Virender Sehwag", "Brendon McCullum", "Adam Gilchrist"],
+    "correct_index": 2
+  },
+  {
+    "question": "What are the best single-match bowling figures in IPL history?",
+    "options": ["6/12", "6/14", "5/5", "6/19"],
+    "correct_index": 0
+  },
+  {
+    "question": "Which player has hit the most sixes in IPL history?",
+    "options": ["Rohit Sharma", "Chris Gayle", "MS Dhoni", "Virat Kohli"],
+    "correct_index": 1
+  },
+  {
+    "question": "Who won the Orange Cap in the inaugural 2008 IPL season?",
+    "options": ["Shaun Marsh", "Matthew Hayden", "Gautam Gambhir", "Sanath Jayasuriya"],
+    "correct_index": 0
+  },
+  {
+    "question": "Who was the first Indian captain to win an IPL title?",
+    "options": ["MS Dhoni", "Rohit Sharma", "Gautam Gambhir", "Sachin Tendulkar"],
+    "correct_index": 0
+  },
+  {
+    "question": "Which bowler has taken the most wickets in IPL history?",
+    "options": ["Lasith Malinga", "Amit Mishra", "Yuzvendra Chahal", "Piyush Chawla"],
+    "correct_index": 2
+  },
+  {
+    "question": "Who holds the record for the fastest century in IPL history?",
+    "options": ["David Miller", "Chris Gayle", "Yusuf Pathan", "AB de Villiers"],
+    "correct_index": 1
+  },
+  {
+    "question": "Against which team did Virat Kohli score 4 centuries in a single season (2016)?",
+    "options": ["He scored against 4 different teams", "Gujarat Lions", "Pune Supergiants", "Kings XI Punjab"],
+    "correct_index": 0
+  },
+  {
+    "question": "Who was the most expensive player in the inaugural IPL 2008 auction?",
+    "options": ["MS Dhoni", "Andrew Symonds", "Sanath Jayasuriya", "Sachin Tendulkar"],
+    "correct_index": 0
+  },
+  {
+    "question": "Which team chased down the highest target in IPL history (224 against RR in 2020)?",
+    "options": ["Mumbai Indians", "Kolkata Knight Riders", "Kings XI Punjab (Punjab Kings)", "Chennai Super Kings"],
+    "correct_index": 2
+  }
+]
