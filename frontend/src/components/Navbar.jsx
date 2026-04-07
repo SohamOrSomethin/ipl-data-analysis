@@ -52,6 +52,13 @@ export default function Navbar() {
           >
             Record Card
           </NavLink>
+          <NavLink 
+            to="/daily-quiz" 
+            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+            style={{ color: 'var(--accent-gold)' }}
+          >
+            Daily Quiz 🧠
+          </NavLink>
         </div>
       </div>
     </nav>
