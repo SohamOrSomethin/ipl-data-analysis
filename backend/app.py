@@ -1,9 +1,12 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request,Blueprint
 import pandas as pd
 from flask_cors import CORS
 import json
 import os
 from collections import defaultdict
+import re
+from datetime import datetime
+
 
 
 app = Flask(__name__)
@@ -135,6 +138,10 @@ with open("static/data/purple_cap.json") as f:
 
 with open("static/data/teams.json") as f:
     TEAMS = json.load(f)
+
+
+with open("static/data/on_this_day.json", encoding="utf-8") as f:
+    _raw_facts = json.load(f)
 
 def clean_data(df):
     # Normalize season using explicit mapping for the 3 edge cases

@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 1,
+    "category": "record",
+    "question": "Who holds the record for the highest individual score in IPL history?",
+    "options": [
+      "Virat Kohli",
+      "AB de Villiers",
+      "Chris Gayle",
+      "Brendon McCullum"
+    ],
+    "answer": "Chris Gayle"
+  },
+  {
+    "id": 2,
+    "category": "record",
+    "question": "What is Chris Gayle's highest individual score in a single IPL innings?",
+    "options": [
+      "158*",
+      "175*",
+      "162*",
+      "183*"
+    ],
+    "answer": "175*"
+  },
+  {
+    "id": 3,
+    "category": "record",
+    "question": "Who scored 175* for RCB against Pune Warriors in 2013?",
+    "options": [
+      "AB de Villiers",
+      "Virat Kohli",
+      "Chris Gayle",
+      "David Warner"
+    ],
+    "answer": "Chris Gayle"
+  },
+  {
+    "id": 4,
+    "category": "record",
+    "question": "What is the highest team total in IPL history?",
+    "options": [
+      "263/5",
+      "277/3",
+      "265/4",
+      "259/4"
+    ],
+    "answer": "277/3"
+  },
+  {
+    "id": 5,
+    "category": "record",
+    "question": "Which team scored the highest ever IPL total of 277/3?",
+    "options": [
+      "Royal Challengers Bangalore",
+      "Chennai Super Kings",
+      "Mumbai Indians",
+      "Sunrisers Hyderabad"
+    ],
+    "answer": "Sunrisers Hyderabad"
+  },
+  {
+    "id": 6,
+    "category": "record",
+    "question": "Against which team did Sunrisers Hyderabad score 277/3 in 2024?",
+    "options": [
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore",
+      "Mumbai Indians",
+      "Kolkata Knight Riders"
+    ],
+    "answer": "Mumbai Indians"
+  },
+  {
+    "id": 7,
+    "category": "record",
+    "question": "What is the lowest team total in IPL history?",
+    "options": [
+      "58",
+      "49",
+      "67",
+      "54"
+    ],
+    "answer": "49"
+  },
+  {
+    "id": 8,
+    "category": "record",
+    "question": "Which team was bowled out for just 49, the lowest IPL total ever?",
+    "options": [
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bangalore",
+      "Delhi Capitals"
+    ],
+    "answer": "Royal Challengers Bangalore"
+  },
+  {
+    "id": 9,
+    "category": "record",
+    "question": "Who bowled RCB out for 49 in 2017?",
+    "options": [
+      "Mumbai Indians",
+      "Sunrisers Hyderabad",
+      "Kolkata Knight Riders",
+      "Chennai Super Kings"
+    ],
+    "answer": "Kolkata Knight Riders"
+  },
+  {
+    "id": 10,
+    "category": "record",
+    "question": "Who hit the fastest century in IPL history and in how many balls?",
+    "options": [
+      "AB de Villiers off 31 balls",
+      "Chris Gayle off 30 balls",
+      "David Warner off 29 balls",
+      "Yusuf Pathan off 32 balls"
+    ],
+    "answer": "Chris Gayle off 30 balls"
+  },
+  {
+    "id": 11,
+    "category": "record",
+    "question": "AB de Villiers hit his fastest IPL century in 31 balls. Against which team?",
+    "options": [
+      "Sunrisers Hyderabad",
+      "Mumbai Indians",
+      "Gujarat Lions",
+      "Kolkata Knight Riders"
+    ],
+    "answer": "Gujarat Lions"
+  },
+  {
+    "id": 12,
+    "category": "record",
+    "question": "Who holds the record for the fastest fifty in IPL history?",
+    "options": [
+      "Chris Gayle",
+      "Yusuf Pathan",
+      "Kieron Pollard",
+      "AB de Villiers"
+    ],
+    "answer": "Yusuf Pathan"
+  },
+  {
+    "id": 13,
+    "category": "record",
+    "question": "Yusuf Pathan's record fastest fifty in IPL was scored off how many balls?",
+    "options": [
+      "9",
+      "8",
+      "7",
+      "10"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 14,
+    "category": "record",
+    "question": "Who has scored the most runs in IPL history?",
+    "options": [
+      "Rohit Sharma",
+      "David Warner",
+      "Shikhar Dhawan",
+      "Virat Kohli"
+    ],
+    "answer": "Virat Kohli"
+  },
+  {
+    "id": 15,
+    "category": "record",
+    "question": "Who holds the record for most runs in a single IPL season?",
+    "options": [
+      "Virat Kohli",
+      "David Warner",
+      "Shubman Gill",
+      "Jos Buttler"
+    ],
+    "answer": "Virat Kohli"
+  },
+  {
+    "id": 16,
+    "category": "record",
+    "question": "How many runs did Virat Kohli score in the 2016 IPL season?",
+    "options": [
+      "876",
+      "973",
+      "900",
+      "952"
+    ],
+    "answer": "973"
+  },
+  {
+    "id": 17,
+    "category": "record",
+    "question": "How many centuries did Virat Kohli score in the 2016 IPL season?",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "6"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": 18,
+    "category": "record",
+    "question": "Who has the most centuries in IPL history?",
+    "options": [
+      "Chris Gayle",
+      "Virat Kohli",
+      "David Warner",
+      "Jos Buttler"
+    ],
+    "answer": "Virat Kohli"
+  },
+  {
+    "id": 19,
+    "category": "record",
+    "question": "How many IPL centuries has Virat Kohli scored in his career?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 20,
+    "category": "record",
+    "question": "Who has the most sixes in IPL history?",
+    "options": [
+      "Rohit Sharma",
+      "AB de Villiers",
+      "Chris Gayle",
+      "Kieron Pollard"
+    ],
+    "answer": "Chris Gayle"
+  },
+  {
+    "id": 21,
+    "category": "record",
+    "question": "How many sixes has Chris Gayle hit in IPL history?",
+    "options": [
+      "298",
+      "322",
+      "357",
+      "340"
+    ],
+    "answer": "357"
+  },
+  {
+    "id": 22,
+    "category": "record",
+    "question": "Chris Gayle holds the record for most sixes in a single innings. How many?",
+    "options": [
+      "14",
+      "16",
+      "17",
+      "18"
+    ],
+    "answer": "17"
+  },
+  {
+    "id": 23,
+    "category": "record",
+    "question": "Who has the most fours in IPL history?",
+    "options": [
+      "Virat Kohli",
+      "Rohit Sharma",
+      "David Warner",
+      "Shikhar Dhawan"
+    ],
+    "answer": "Shikhar Dhawan"
+  },
+  {
+    "id": 24,
+    "category": "record",
+    "question": "How many fours has Shikhar Dhawan hit in IPL history?",
+    "options": [
+      "672",
+      "750",
+      "804",
+      "831"
+    ],
+    "answer": "804"
+  },
+  {
+    "id": 25,
+    "category": "record",
+    "question": "Who took the best bowling figures in IPL history?",
+    "options": [
+      "Lasith Malinga",
+      "Alzarri Joseph",
+      "Dwayne Bravo",
+      "Yuzvendra Chahal"
+    ],
+    "answer": "Alzarri Joseph"
+  },
+  {
+    "id": 26,
+    "category": "record",
+    "question": "What are Alzarri Joseph's record IPL bowling figures?",
+    "options": [
+      "6/12",
+      "6/14",
+      "5/6",
+      "6/19"
+    ],
+    "answer": "6/12"
+  },
+  {
+    "id": 27,
+    "category": "record",
+    "question": "Alzarri Joseph's record bowling figures came in his very first IPL match. Which team did he play for?",
+    "options": [
+      "Royal Challengers Bangalore",
+      "Sunrisers Hyderabad",
+      "Mumbai Indians",
+      "Chennai Super Kings"
+    ],
+    "answer": "Mumbai Indians"
+  },
+  {
+    "id": 28,
+    "category": "record",
+    "question": "Against which team did Alzarri Joseph take 6/12 on his IPL debut in 2019?",
+    "options": [
+      "Chennai Super Kings",
+      "Sunrisers Hyderabad",
+      "Kolkata Knight Riders",
+      "Rajasthan Royals"
+    ],
+    "answer": "Sunrisers Hyderabad"
+  },
+  {
+    "id": 29,
+    "category": "record",
+    "question": "Who took the most wickets in an IPL season (28 wickets)?",
+    "options": [
+      "Dwayne Bravo",
+      "Lasith Malinga",
+      "Yuzvendra Chahal",
+      "Amit Mishra"
+    ],
+    "answer": "Lasith Malinga"
+  },
+  {
+    "id": 30,
+    "category": "record",
+    "question": "Who is the all-time leading wicket-taker in IPL history?",
+    "options": [
+      "Lasith Malinga",
+      "Dwayne Bravo",
+      "Amit Mishra",
+      "Yuzvendra Chahal"
+    ],
+    "answer": "Yuzvendra Chahal"
+  },
+  {
+    "id": 31,
+    "category": "record",
+    "question": "Who was the first IPL bowler to cross 200 wickets?",
+    "options": [
+      "Dwayne Bravo",
+      "Lasith Malinga",
+      "Amit Mishra",
+      "Yuzvendra Chahal"
+    ],
+    "answer": "Yuzvendra Chahal"
+  },
+  {
+    "id": 32,
+    "category": "record",
+    "question": "Which bowler has the best economy rate among bowlers with 50+ IPL matches?",
+    "options": [
+      "Jasprit Bumrah",
+      "Bhuvneshwar Kumar",
+      "Rashid Khan",
+      "Lasith Malinga"
+    ],
+    "answer": "Rashid Khan"
+  },
+  {
+    "id": 33,
+    "category": "record",
+    "question": "What is Rashid Khan's economy rate in IPL (50+ matches)?",
+    "options": [
+      "6.40",
+      "6.65",
+      "7.10",
+      "6.90"
+    ],
+    "answer": "6.65"
+  },
+  {
+    "id": 34,
+    "category": "record",
+    "question": "Who has played the most matches in IPL history?",
+    "options": [
+      "Rohit Sharma",
+      "MS Dhoni",
+      "Suresh Raina",
+      "Virat Kohli"
+    ],
+    "answer": "MS Dhoni"
+  },
+  {
+    "id": 35,
+    "category": "record",
+    "question": "How many IPL matches has MS Dhoni played?",
+    "options": [
+      "234",
+      "248",
+      "264",
+      "271"
+    ],
+    "answer": "264"
+  },
+  {
+    "id": 36,
+    "category": "record",
+    "question": "What is the highest successful run chase in IPL history?",
+    "options": [
+      "218",
+      "224",
+      "232",
+      "219"
+    ],
+    "answer": "224"
+  },
+  {
+    "id": 37,
+    "category": "record",
+    "question": "Which team successfully chased 224 — the highest chase in IPL history — in 2020?",
+    "options": [
+      "Mumbai Indians",
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "answer": "Rajasthan Royals"
+  },
+  {
+    "id": 38,
+    "category": "record",
+    "question": "Who set the target of 224 that Rajasthan Royals chased in 2020?",
+    "options": [
+      "Delhi Capitals",
+      "Sunrisers Hyderabad",
+      "Punjab Kings",
+      "Kolkata Knight Riders"
+    ],
+    "answer": "Punjab Kings"
+  },
+  {
+    "id": 39,
+    "category": "record",
+    "question": "What is the highest partnership in IPL history?",
+    "options": [
+      "210*",
+      "215*",
+      "229*",
+      "206*"
+    ],
+    "answer": "229*"
+  },
+  {
+    "id": 40,
+    "category": "record",
+    "question": "Who formed the 229-run partnership — the highest in IPL history?",
+    "options": [
+      "Rohit Sharma & KL Rahul",
+      "Chris Gayle & Virat Kohli",
+      "Virat Kohli & AB de Villiers",
+      "David Warner & Jonny Bairstow"
+    ],
+    "answer": "Virat Kohli & AB de Villiers"
+  },
+  {
+    "id": 41,
+    "category": "record",
+    "question": "In which year did Virat Kohli and AB de Villiers record their 229-run partnership?",
+    "options": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "answer": "2016"
+  },
+  {
+    "id": 42,
+    "category": "record",
+    "question": "Quinton de Kock and KL Rahul shared an unbeaten 210-run partnership in 2022. For which team?",
+    "options": [
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Lucknow Super Giants",
+      "Delhi Capitals"
+    ],
+    "answer": "Lucknow Super Giants"
+  },
+  {
+    "id": 43,
+    "category": "record",
+    "question": "Who has the most maiden overs in IPL history?",
+    "options": [
+      "Jasprit Bumrah",
+      "Lasith Malinga",
+      "Bhuvneshwar Kumar",
+      "Zaheer Khan"
+    ],
+    "answer": "Bhuvneshwar Kumar"
+  },
+  {
+    "id": 44,
+    "category": "record",
+    "question": "RCB scored 263/5 against Pune Warriors in 2013. What is this in the list of highest IPL team totals?",
+    "options": [
+      "Highest",
+      "Second highest",
+      "Third highest",
+      "Fourth highest"
+    ],
+    "answer": "Second highest"
+  },
+  {
+    "id": 45,
+    "category": "record",
+    "question": "Who scored the first century in IPL history?",
+    "options": [
+      "Brendon McCullum",
+      "Adam Gilchrist",
+      "Suresh Raina",
+      "Sachin Tendulkar"
+    ],
+    "answer": "Suresh Raina"
+  },
+  {
+    "id": 46,
+    "category": "record",
+    "question": "Who took the very first hat-trick in IPL history?",
+    "options": [
+      "Amit Mishra",
+      "Makhaya Ntini",
+      "Lakshmipathy Balaji",
+      "Irfan Pathan"
+    ],
+    "answer": "Lakshmipathy Balaji"
+  },
+  {
+    "id": 47,
+    "category": "record",
+    "question": "When did Lakshmipathy Balaji take the first IPL hat-trick?",
+    "options": [
+      "April 18, 2008",
+      "May 10, 2008",
+      "May 5, 2008",
+      "April 25, 2008"
+    ],
+    "answer": "May 10, 2008"
+  },
+  {
+    "id": 48,
+    "category": "record",
+    "question": "Which team was Lakshmipathy Balaji playing for when he took the first IPL hat-trick?",
+    "options": [
+      "Kolkata Knight Riders",
+      "Royal Challengers Bangalore",
+      "Chennai Super Kings",
+      "Mumbai Indians"
+    ],
+    "answer": "Chennai Super Kings"
+  },
+  {
+    "id": 49,
+    "category": "record",
+    "question": "Who took the second hat-trick in IPL history (just 5 days after the first)?",
+    "options": [
+      "Makhaya Ntini",
+      "Pragyan Ojha",
+      "Amit Mishra",
+      "Irfan Pathan"
+    ],
+    "answer": "Amit Mishra"
+  },
+  {
+    "id": 50,
+    "category": "record",
+    "question": "How many hat-tricks has Amit Mishra taken in IPL history?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 51,
+    "category": "record",
+    "question": "Amit Mishra is the only IPL bowler with three hat-tricks. For how many different franchises were they taken?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 52,
+    "category": "record",
+    "question": "Who took a hat-trick in the 2023 IPL against KKR, dismissing Andre Russell, Sunil Narine and Shardul Thakur?",
+    "options": [
+      "Mohammed Shami",
+      "Alzarri Joseph",
+      "Rashid Khan",
+      "Jasprit Bumrah"
+    ],
+    "answer": "Rashid Khan"
+  },
+  {
+    "id": 53,
+    "category": "record",
+    "question": "Which bowler took three hat-tricks in a single IPL season, making 2008 the year with most hat-tricks?",
+    "options": [
+      "Makhaya Ntini",
+      "Lakshmipathy Balaji",
+      "Amit Mishra",
+      "Irfan Pathan"
+    ],
+    "answer": "Makhaya Ntini"
+  },
+  {
+    "id": 54,
+    "category": "record",
+    "question": "Yuvraj Singh took two hat-tricks in the same IPL season. Which season was it?",
+    "options": [
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "answer": "2009"
+  },
+  {
+    "id": 55,
+    "category": "history",
+    "question": "When was the very first IPL match played?",
+    "options": [
+      "April 10, 2008",
+      "April 18, 2008",
+      "April 22, 2008",
+      "March 29, 2008"
+    ],
+    "answer": "April 18, 2008"
+  },
+  {
+    "id": 56,
+    "category": "history",
+    "question": "Which two teams played in the very first IPL match?",
+    "options": [
+      "CSK vs MI",
+      "KKR vs RCB",
+      "RCB vs DC",
+      "MI vs RR"
+    ],
+    "answer": "KKR vs RCB"
+  },
+  {
+    "id": 57,
+    "category": "history",
+    "question": "Who scored 158* in the first IPL match announcing T20 cricket to the world?",
+    "options": [
+      "Virender Sehwag",
+      "Adam Gilchrist",
+      "Brendon McCullum",
+      "Sachin Tendulkar"
+    ],
+    "answer": "Brendon McCullum"
+  },
+  {
+    "id": 58,
+    "category": "history",
+    "question": "Where was the first IPL match played?",
+    "options": [
+      "Wankhede Stadium",
+      "M. Chinnaswamy Stadium",
+      "Eden Gardens",
+      "MA Chidambaram Stadium"
+    ],
+    "answer": "Eden Gardens"
+  },
+  {
+    "id": 59,
+    "category": "history",
+    "question": "In which year was the entire IPL season moved to South Africa?",
+    "options": [
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "answer": "2009"
+  },
+  {
+    "id": 60,
+    "category": "history",
+    "question": "Why was the 2009 IPL held entirely in South Africa?",
+    "options": [
+      "Security concerns",
+      "Indian general elections",
+      "Stadium renovations",
+      "Monsoon season"
+    ],
+    "answer": "Indian general elections"
+  },
+  {
+    "id": 61,
+    "category": "history",
+    "question": "In which year was the IPL played in the UAE due to COVID-19?",
+    "options": [
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "answer": "2020"
+  },
+  {
+    "id": 62,
+    "category": "history",
+    "question": "Which IPL season is the only one played entirely without any fans?",
+    "options": [
+      "IPL 2009 (South Africa)",
+      "IPL 2020 (UAE)",
+      "IPL 2021 (India)",
+      "IPL 2014 (UAE)"
+    ],
+    "answer": "IPL 2020 (UAE)"
+  },
+  {
+    "id": 63,
+    "category": "history",
+    "question": "Which two teams were suspended from the IPL for two years (2016–2017) following the spot-fixing scandal?",
+    "options": [
+      "MI & KKR",
+      "RCB & DC",
+      "CSK & RR",
+      "SRH & KXIP"
+    ],
+    "answer": "CSK & RR"
+  },
+  {
+    "id": 64,
+    "category": "history",
+    "question": "IPL was the first sporting event broadcast live on which platform?",
+    "options": [
+      "Facebook Live",
+      "YouTube",
+      "Twitter/X",
+      "Hotstar"
+    ],
+    "answer": "YouTube"
+  },
+  {
+    "id": 65,
+    "category": "history",
+    "question": "Which team won the IPL in its debut season (2008)?",
+    "options": [
+      "Chennai Super Kings",
+      "Mumbai Indians",
+      "Rajasthan Royals",
+      "Kolkata Knight Riders"
+    ],
+    "answer": "Rajasthan Royals"
+  },
+  {
+    "id": 66,
+    "category": "history",
+    "question": "Gujarat Titans won the IPL in their debut season. Which year was that?",
+    "options": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "answer": "2022"
+  },
+  {
+    "id": 67,
+    "category": "history",
+    "question": "Royal Challengers Bengaluru won their first ever IPL title in which year?",
+    "options": [
+      "2023",
+      "2024",
+      "2025",
+      "2022"
+    ],
+    "answer": "2025"
+  },
+  {
+    "id": 68,
+    "category": "history",
+    "question": "How many times had RCB appeared in the IPL final before winning in 2025?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 69,
+    "category": "history",
+    "question": "Which team has won the most IPL titles?",
+    "options": [
+      "Rajasthan Royals",
+      "Royal Challengers Bangalore",
+      "Mumbai Indians",
+      "Chennai Super Kings"
+    ],
+    "answer": "Mumbai Indians"
+  },
+  {
+    "id": 70,
+    "category": "history",
+    "question": "How many IPL titles has Mumbai Indians won?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": 71,
+    "category": "history",
+    "question": "How many IPL titles has Chennai Super Kings won (as of 2025)?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": 72,
+    "category": "history",
+    "question": "Who is the most successful captain in IPL history with 5 titles?",
+    "options": [
+      "Virat Kohli",
+      "MS Dhoni",
+      "Rohit Sharma",
+      "Gautam Gambhir"
+    ],
+    "answer": "Rohit Sharma"
+  },
+  {
+    "id": 73,
+    "category": "history",
+    "question": "In which year did Mumbai Indians become the most successful IPL franchise with their 5th title?",
+    "options": [
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "answer": "2020"
+  },
+  {
+    "id": 74,
+    "category": "history",
+    "question": "Which was the only time before 2025 that both GT and LSG were fully established as teams for a full season?",
+    "options": [
+      "IPL 2022",
+      "IPL 2023",
+      "IPL 2024",
+      "IPL 2021"
+    ],
+    "answer": "IPL 2024"
+  },
+  {
+    "id": 75,
+    "category": "final",
+    "question": "Who won the IPL 2008 title?",
+    "options": [
+      "Chennai Super Kings",
+      "Kolkata Knight Riders",
+      "Rajasthan Royals",
+      "Mumbai Indians"
+    ],
+    "answer": "Rajasthan Royals"
+  },
+  {
+    "id": 76,
+    "category": "final",
+    "question": "Chennai Super Kings won their first IPL title in which year?",
+    "options": [
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "answer": "2010"
+  },
+  {
+    "id": 77,
+    "category": "final",
+    "question": "Who was the Player of the Match in the 2010 IPL Final?",
+    "options": [
+      "MS Dhoni",
+      "Virender Sehwag",
+      "Suresh Raina",
+      "Murali Vijay"
+    ],
+    "answer": "Suresh Raina"
+  },
+  {
+    "id": 78,
+    "category": "final",
+    "question": "CSK beat MI by how many runs in the 2010 IPL Final?",
+    "options": [
+      "12",
+      "22",
+      "30",
+      "18"
+    ],
+    "answer": "22"
+  },
+  {
+    "id": 79,
+    "category": "final",
+    "question": "Who won the 2014 IPL Final?",
+    "options": [
+      "Kings XI Punjab",
+      "Chennai Super Kings",
+      "Sunrisers Hyderabad",
+      "Kolkata Knight Riders"
+    ],
+    "answer": "Kolkata Knight Riders"
+  },
+  {
+    "id": 80,
+    "category": "final",
+    "question": "Who scored 94* off 50 balls in the 2014 IPL Final to help KKR win?",
+    "options": [
+      "Yusuf Pathan",
+      "Gautam Gambhir",
+      "Manish Pandey",
+      "Robin Uthappa"
+    ],
+    "answer": "Manish Pandey"
+  },
+  {
+    "id": 81,
+    "category": "final",
+    "question": "KKR chased what target to win the 2014 IPL Final?",
+    "options": [
+      "175",
+      "185",
+      "199",
+      "210"
+    ],
+    "answer": "199"
+  },
+  {
+    "id": 82,
+    "category": "final",
+    "question": "Who won the 2015 IPL Final?",
+    "options": [
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore",
+      "Sunrisers Hyderabad",
+      "Mumbai Indians"
+    ],
+    "answer": "Mumbai Indians"
+  },
+  {
+    "id": 83,
+    "category": "final",
+    "question": "By how many runs did Mumbai Indians beat CSK in the 2015 IPL Final?",
+    "options": [
+      "21",
+      "31",
+      "41",
+      "51"
+    ],
+    "answer": "41"
+  },
+  {
+    "id": 84,
+    "category": "final",
+    "question": "Who won the 2017 IPL Final?",
+    "options": [
+      "Rising Pune Supergiant",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Sunrisers Hyderabad"
+    ],
+    "answer": "Mumbai Indians"
+  },
+  {
+    "id": 85,
+    "category": "final",
+    "question": "By how many runs did Mumbai Indians beat Rising Pune Supergiant in the 2017 IPL Final?",
+    "options": [
+      "1",
+      "5",
+      "8",
+      "3"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 86,
+    "category": "final",
+    "question": "Who was the Player of the Match in the 2017 IPL Final?",
+    "options": [
+      "Rohit Sharma",
+      "Jasprit Bumrah",
+      "Hardik Pandya",
+      "Krunal Pandya"
+    ],
+    "answer": "Krunal Pandya"
+  },
+  {
+    "id": 87,
+    "category": "final",
+    "question": "Who won the 2018 IPL Final?",
+    "options": [
+      "Sunrisers Hyderabad",
+      "Kolkata Knight Riders",
+      "Rajasthan Royals",
+      "Chennai Super Kings"
+    ],
+    "answer": "Chennai Super Kings"
+  },
+  {
+    "id": 88,
+    "category": "final",
+    "question": "Shane Watson scored how many runs in the 2018 IPL Final for CSK?",
+    "options": [
+      "92*",
+      "105*",
+      "117*",
+      "124*"
+    ],
+    "answer": "117*"
+  },
+  {
+    "id": 89,
+    "category": "final",
+    "question": "CSK won the 2018 title after returning from how many years of suspension?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": 90,
+    "category": "final",
+    "question": "Who won the 2019 IPL Final?",
+    "options": [
+      "Chennai Super Kings",
+      "Delhi Capitals",
+      "Kolkata Knight Riders",
+      "Mumbai Indians"
+    ],
+    "answer": "Mumbai Indians"
+  },
+  {
+    "id": 91,
+    "category": "final",
+    "question": "The 2019 IPL Final was won by how many runs?",
+    "options": [
+      "3",
+      "1",
+      "5",
+      "7"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 92,
+    "category": "final",
+    "question": "Who was the Player of the Match in the 2019 IPL Final?",
+    "options": [
+      "Rohit Sharma",
+      "Hardik Pandya",
+      "Jasprit Bumrah",
+      "Lasith Malinga"
+    ],
+    "answer": "Jasprit Bumrah"
+  },
+  {
+    "id": 93,
+    "category": "final",
+    "question": "Who won the 2020 IPL Final played in the UAE?",
+    "options": [
+      "Delhi Capitals",
+      "Royal Challengers Bangalore",
+      "Sunrisers Hyderabad",
+      "Mumbai Indians"
+    ],
+    "answer": "Mumbai Indians"
+  },
+  {
+    "id": 94,
+    "category": "final",
+    "question": "Who won the 2021 IPL Final?",
+    "options": [
+      "Kolkata Knight Riders",
+      "Delhi Capitals",
+      "Rajasthan Royals",
+      "Chennai Super Kings"
+    ],
+    "answer": "Chennai Super Kings"
+  },
+  {
+    "id": 95,
+    "category": "final",
+    "question": "Who scored 86 in the 2021 IPL Final helping CSK win?",
+    "options": [
+      "Ruturaj Gaikwad",
+      "MS Dhoni",
+      "Ravindra Jadeja",
+      "Faf du Plessis"
+    ],
+    "answer": "Faf du Plessis"
+  },
+  {
+    "id": 96,
+    "category": "final",
+    "question": "Where was the 2021 IPL Final held?",
+    "options": [
+      "Dubai International Cricket Stadium",
+      "Narendra Modi Stadium",
+      "Wankhede Stadium",
+      "Eden Gardens"
+    ],
+    "answer": "Dubai International Cricket Stadium"
+  },
+  {
+    "id": 97,
+    "category": "final",
+    "question": "Who won the 2022 IPL title in their debut season?",
+    "options": [
+      "Lucknow Super Giants",
+      "Rajasthan Royals",
+      "Gujarat Titans",
+      "Punjab Kings"
+    ],
+    "answer": "Gujarat Titans"
+  },
+  {
+    "id": 98,
+    "category": "final",
+    "question": "Who won the 2023 IPL Final?",
+    "options": [
+      "Gujarat Titans",
+      "Mumbai Indians",
+      "Lucknow Super Giants",
+      "Chennai Super Kings"
+    ],
+    "answer": "Chennai Super Kings"
+  },
+  {
+    "id": 99,
+    "category": "final",
+    "question": "By what method was the 2023 IPL Final decided?",
+    "options": [
+      "Super Over",
+      "D/L Method",
+      "Bowl-out",
+      "Normal play"
+    ],
+    "answer": "D/L Method"
+  },
+  {
+    "id": 100,
+    "category": "final",
+    "question": "Where was the 2023 IPL Final played?",
+    "options": [
+      "Wankhede Stadium",
+      "Eden Gardens",
+      "MA Chidambaram Stadium",
+      "Narendra Modi Stadium"
+    ],
+    "answer": "Narendra Modi Stadium"
+  },
+  {
+    "id": 101,
+    "category": "teams",
+    "question": "Which team won the 2012 IPL title?",
+    "options": [
+      "Mumbai Indians",
+      "Chennai Super Kings",
+      "Kolkata Knight Riders",
+      "Delhi Daredevils"
+    ],
+    "answer": "Kolkata Knight Riders"
+  },
+  {
+    "id": 102,
+    "category": "teams",
+    "question": "Which team won the 2013 IPL title?",
+    "options": [
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore",
+      "Mumbai Indians",
+      "Rajasthan Royals"
+    ],
+    "answer": "Mumbai Indians"
+  },
+  {
+    "id": 103,
+    "category": "teams",
+    "question": "Which team won the 2016 IPL title?",
+    "options": [
+      "Royal Challengers Bangalore",
+      "Gujarat Lions",
+      "Sunrisers Hyderabad",
+      "Rising Pune Supergiant"
+    ],
+    "answer": "Sunrisers Hyderabad"
+  },
+  {
+    "id": 104,
+    "category": "teams",
+    "question": "Which team did Deccan Chargers later become?",
+    "options": [
+      "Gujarat Titans",
+      "Lucknow Super Giants",
+      "Sunrisers Hyderabad",
+      "Rising Pune Supergiant"
+    ],
+    "answer": "Sunrisers Hyderabad"
+  },
+  {
+    "id": 105,
+    "category": "teams",
+    "question": "Which team did Delhi Daredevils rebrand to?",
+    "options": [
+      "Delhi Capitals",
+      "Delhi Tigers",
+      "Delhi Royals",
+      "Delhi Strikers"
+    ],
+    "answer": "Delhi Capitals"
+  },
+  {
+    "id": 106,
+    "category": "teams",
+    "question": "Kings XI Punjab rebranded to which team name?",
+    "options": [
+      "Punjab Royals",
+      "Punjab Super Kings",
+      "Punjab Kings",
+      "Punjab Warriors"
+    ],
+    "answer": "Punjab Kings"
+  },
+  {
+    "id": 107,
+    "category": "teams",
+    "question": "Royal Challengers Bangalore rebranded to which name?",
+    "options": [
+      "RCB Bangalore",
+      "Royal Challengers Bengaluru",
+      "Bangalore Royals",
+      "RCB Super Kings"
+    ],
+    "answer": "Royal Challengers Bengaluru"
+  },
+  {
+    "id": 108,
+    "category": "teams",
+    "question": "Which two franchises were added to IPL in 2022 taking the teams count to 10?",
+    "options": [
+      "Gujarat Giants & Pune Supergiants",
+      "Lucknow Super Giants & Gujarat Titans",
+      "Pune Warriors & Kochi Tuskers",
+      "Rising Pune & Gujarat Lions"
+    ],
+    "answer": "Lucknow Super Giants & Gujarat Titans"
+  },
+  {
+    "id": 109,
+    "category": "teams",
+    "question": "How many teams compete in the IPL as of 2024?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "answer": "10"
+  },
+  {
+    "id": 110,
+    "category": "teams",
+    "question": "How many league matches were played in IPL 2024?",
+    "options": [
+      "60",
+      "70",
+      "74",
+      "78"
+    ],
+    "answer": "74"
+  },
+  {
+    "id": 111,
+    "category": "player",
+    "question": "MS Dhoni has won how many IPL titles as captain?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "5"
+  },
+  {
+    "id": 112,
+    "category": "player",
+    "question": "Which IPL team does MS Dhoni captain?",
+    "options": [
+      "Mumbai Indians",
+      "Rajasthan Royals",
+      "Sunrisers Hyderabad",
+      "Chennai Super Kings"
+    ],
+    "answer": "Chennai Super Kings"
+  },
+  {
+    "id": 113,
+    "category": "player",
+    "question": "Virat Kohli plays for which IPL franchise?",
+    "options": [
+      "Mumbai Indians",
+      "Delhi Capitals",
+      "Royal Challengers Bengaluru",
+      "Kolkata Knight Riders"
+    ],
+    "answer": "Royal Challengers Bengaluru"
+  },
+  {
+    "id": 114,
+    "category": "player",
+    "question": "Who was the Orange Cap holder in IPL 2016?",
+    "options": [
+      "David Warner",
+      "Chris Gayle",
+      "Rohit Sharma",
+      "Virat Kohli"
+    ],
+    "answer": "Virat Kohli"
+  },
+  {
+    "id": 115,
+    "category": "player",
+    "question": "David Warner won the Orange Cap how many times?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 116,
+    "category": "player",
+    "question": "Shane Warne was the coach/captain of which IPL team in the early seasons?",
+    "options": [
+      "Delhi Daredevils",
+      "Kings XI Punjab",
+      "Rajasthan Royals",
+      "Deccan Chargers"
+    ],
+    "answer": "Rajasthan Royals"
+  },
+  {
+    "id": 117,
+    "category": "player",
+    "question": "Brendon McCullum played his record first IPL innings for which team?",
+    "options": [
+      "Royal Challengers Bangalore",
+      "Chennai Super Kings",
+      "Kolkata Knight Riders",
+      "Mumbai Indians"
+    ],
+    "answer": "Kolkata Knight Riders"
+  },
+  {
+    "id": 118,
+    "category": "player",
+    "question": "Which player has played for the most IPL franchises in his career?",
+    "options": [
+      "Yusuf Pathan",
+      "Dwayne Bravo",
+      "Kieron Pollard",
+      "Dinesh Karthik"
+    ],
+    "answer": "Dinesh Karthik"
+  },
+  {
+    "id": 119,
+    "category": "player",
+    "question": "Who captained Kolkata Knight Riders to their 2012 and 2014 IPL titles?",
+    "options": [
+      "Sourav Ganguly",
+      "Brendon McCullum",
+      "Rohit Sharma",
+      "Gautam Gambhir"
+    ],
+    "answer": "Gautam Gambhir"
+  },
+  {
+    "id": 120,
+    "category": "player",
+    "question": "Who has scored the most runs for a single franchise in IPL history (all for CSK)?",
+    "options": [
+      "MS Dhoni",
+      "Ambati Rayudu",
+      "Suresh Raina",
+      "Faf du Plessis"
+    ],
+    "answer": "Suresh Raina"
+  },
+  {
+    "id": 121,
+    "category": "player",
+    "question": "Lasith Malinga's 28 wickets in IPL 2011 were scored for which team?",
+    "options": [
+      "Royal Challengers Bangalore",
+      "Chennai Super Kings",
+      "Mumbai Indians",
+      "Deccan Chargers"
+    ],
+    "answer": "Mumbai Indians"
+  },
+  {
+    "id": 122,
+    "category": "player",
+    "question": "Who was the first player to be sold for ₹1 crore or more in an IPL auction?",
+    "options": [
+      "MS Dhoni",
+      "Sachin Tendulkar",
+      "Sourav Ganguly",
+      "Andrew Flintoff"
+    ],
+    "answer": "MS Dhoni"
+  },
+  {
+    "id": 123,
+    "category": "player",
+    "question": "Jos Buttler won the Orange Cap in IPL 2022. Which team was he playing for?",
+    "options": [
+      "Rajasthan Royals",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Chennai Super Kings"
+    ],
+    "answer": "Rajasthan Royals"
+  },
+  {
+    "id": 124,
+    "category": "player",
+    "question": "Suryakumar Yadav plays for which IPL team?",
+    "options": [
+      "Chennai Super Kings",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Sunrisers Hyderabad"
+    ],
+    "answer": "Mumbai Indians"
+  },
+  {
+    "id": 125,
+    "category": "player",
+    "question": "Rashid Khan plays for which IPL franchise?",
+    "options": [
+      "Sunrisers Hyderabad",
+      "Lucknow Super Giants",
+      "Rajasthan Royals",
+      "Gujarat Titans"
+    ],
+    "answer": "Gujarat Titans"
+  },
+  {
+    "id": 126,
+    "category": "player",
+    "question": "Which IPL team does Jasprit Bumrah play for?",
+    "options": [
+      "Chennai Super Kings",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Delhi Capitals"
+    ],
+    "answer": "Mumbai Indians"
+  },
+  {
+    "id": 127,
+    "category": "player",
+    "question": "Hardik Pandya won the IPL with MI in 2020 and then returned to captain them in which year?",
+    "options": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "answer": "2024"
+  },
+  {
+    "id": 128,
+    "category": "player",
+    "question": "Ruturaj Gaikwad won the Orange Cap in which IPL season?",
+    "options": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "answer": "2021"
+  },
+  {
+    "id": 129,
+    "category": "player",
+    "question": "Who is Ruturaj Gaikwad's IPL franchise?",
+    "options": [
+      "Mumbai Indians",
+      "Delhi Capitals",
+      "Chennai Super Kings",
+      "Rajasthan Royals"
+    ],
+    "answer": "Chennai Super Kings"
+  },
+  {
+    "id": 130,
+    "category": "player",
+    "question": "Who was IPL's most expensive buy at the 2022 mega auction, sold for ₹16.25 crore?",
+    "options": [
+      "Ishan Kishan",
+      "Shreyas Iyer",
+      "Sam Curran",
+      "Pat Cummins"
+    ],
+    "answer": "Ishan Kishan"
+  },
+  {
+    "id": 131,
+    "category": "venue",
+    "question": "Which stadium hosted the 2018 IPL Final?",
+    "options": [
+      "Eden Gardens",
+      "MA Chidambaram Stadium",
+      "Wankhede Stadium",
+      "Rajiv Gandhi Intl Stadium"
+    ],
+    "answer": "Wankhede Stadium"
+  },
+  {
+    "id": 132,
+    "category": "venue",
+    "question": "The 2019 IPL Final was played at which stadium in Hyderabad?",
+    "options": [
+      "Rajiv Gandhi International Stadium",
+      "Uppal Cricket Stadium",
+      "Lal Bahadur Shastri Stadium",
+      "MA Chidambaram Stadium"
+    ],
+    "answer": "Rajiv Gandhi International Stadium"
+  },
+  {
+    "id": 133,
+    "category": "venue",
+    "question": "AB de Villiers hit his fastest IPL hundred at which stadium?",
+    "options": [
+      "Eden Gardens",
+      "M. Chinnaswamy Stadium",
+      "Wankhede Stadium",
+      "Narendra Modi Stadium"
+    ],
+    "answer": "M. Chinnaswamy Stadium"
+  },
+  {
+    "id": 134,
+    "category": "venue",
+    "question": "Which is the largest cricket stadium in the world that hosted the 2023 IPL Final?",
+    "options": [
+      "Wankhede Stadium",
+      "Eden Gardens",
+      "Narendra Modi Stadium",
+      "MA Chidambaram Stadium"
+    ],
+    "answer": "Narendra Modi Stadium"
+  },
+  {
+    "id": 135,
+    "category": "venue",
+    "question": "The 2014 IPL Final was played at which venue?",
+    "options": [
+      "Wankhede Stadium",
+      "M. Chinnaswamy Stadium",
+      "Eden Gardens",
+      "Feroz Shah Kotla"
+    ],
+    "answer": "M. Chinnaswamy Stadium"
+  },
+  {
+    "id": 136,
+    "category": "general",
+    "question": "How many overs per side is an IPL match?",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "10"
+    ],
+    "answer": "20"
+  },
+  {
+    "id": 137,
+    "category": "general",
+    "question": "IPL stands for?",
+    "options": [
+      "Indian Premier League",
+      "India Premier League",
+      "Indian Players League",
+      "International Premier League"
+    ],
+    "answer": "Indian Premier League"
+  },
+  {
+    "id": 138,
+    "category": "general",
+    "question": "In which year was the IPL founded?",
+    "options": [
+      "2006",
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "answer": "2008"
+  },
+  {
+    "id": 139,
+    "category": "general",
+    "question": "Who is known as the founder of the IPL?",
+    "options": [
+      "N. Srinivasan",
+      "Lalit Modi",
+      "Sourav Ganguly",
+      "Sharad Pawar"
+    ],
+    "answer": "Lalit Modi"
+  },
+  {
+    "id": 140,
+    "category": "general",
+    "question": "The Purple Cap in IPL is awarded to?",
+    "options": [
+      "Most runs scorer",
+      "Most wickets taker",
+      "Most catches taker",
+      "Best economy bowler"
+    ],
+    "answer": "Most wickets taker"
+  },
+  {
+    "id": 141,
+    "category": "general",
+    "question": "The Orange Cap in IPL is awarded to?",
+    "options": [
+      "Best bowler",
+      "Most sixes hitter",
+      "Leading run scorer",
+      "Best fielder"
+    ],
+    "answer": "Leading run scorer"
+  },
+  {
+    "id": 142,
+    "category": "general",
+    "question": "How many overseas players can play in a single IPL team's XI?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": 143,
+    "category": "general",
+    "question": "What is a Super Over used for in IPL?",
+    "options": [
+      "Batting practice",
+      "Tiebreaker when scores are level",
+      "Extra innings in rain-affected match",
+      "Penalty for slow over rate"
+    ],
+    "answer": "Tiebreaker when scores are level"
+  },
+  {
+    "id": 144,
+    "category": "general",
+    "question": "Which governing body oversees the IPL?",
+    "options": [
+      "ICC",
+      "ECB",
+      "BCCI",
+      "Cricket Australia"
+    ],
+    "answer": "BCCI"
+  },
+  {
+    "id": 145,
+    "category": "general",
+    "question": "What does DLS stand for in IPL rain-affected matches?",
+    "options": [
+      "Duckworth-Lewis-Stern",
+      "Dynamic Load Scoring",
+      "Delhi-Lahore System",
+      "Duckworth-Lara System"
+    ],
+    "answer": "Duckworth-Lewis-Stern"
+  },
+  {
+    "id": 146,
+    "category": "general",
+    "question": "In IPL knockout format, which round gives a second chance to the team that loses Qualifier 1?",
+    "options": [
+      "Eliminator",
+      "Qualifier 2",
+      "Semi-final",
+      "Play-off"
+    ],
+    "answer": "Qualifier 2"
+  },
+  {
+    "id": 147,
+    "category": "general",
+    "question": "How many teams qualify for the IPL playoffs?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": 148,
+    "category": "general",
+    "question": "A 'Powerplay' in IPL lasts for how many overs?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "answer": "6"
+  },
+  {
+    "id": 149,
+    "category": "general",
+    "question": "What is the maximum squad size allowed for an IPL team?",
+    "options": [
+      "20",
+      "22",
+      "25",
+      "18"
+    ],
+    "answer": "25"
+  },
+  {
+    "id": 150,
+    "category": "general",
+    "question": "Which broadcaster held IPL rights before Star Sports acquired them?",
+    "options": [
+      "Sony",
+      "Zee TV",
+      "DD Sports",
+      "ESPN"
+    ],
+    "answer": "Sony"
+  },
+  {
+    "id": 151,
+    "category": "trivia",
+    "question": "Who won the very first Player of the Match award in IPL history?",
+    "options": [
+      "Virender Sehwag",
+      "Chris Gayle",
+      "Adam Gilchrist",
+      "Brendon McCullum"
+    ],
+    "answer": "Brendon McCullum"
+  },
+  {
+    "id": 152,
+    "category": "trivia",
+    "question": "How many seasons has CSK played in the IPL playoffs?",
+    "options": [
+      "10 out of 17",
+      "11 out of 15",
+      "12 out of 17",
+      "13 out of 17"
+    ],
+    "answer": "12 out of 17"
+  },
+  {
+    "id": 153,
+    "category": "trivia",
+    "question": "Which IPL team plays its home matches at Eden Gardens?",
+    "options": [
+      "Mumbai Indians",
+      "Royal Challengers Bengaluru",
+      "Delhi Capitals",
+      "Kolkata Knight Riders"
+    ],
+    "answer": "Kolkata Knight Riders"
+  },
+  {
+    "id": 154,
+    "category": "trivia",
+    "question": "Which team plays home matches at M. Chinnaswamy Stadium?",
+    "options": [
+      "Chennai Super Kings",
+      "Sunrisers Hyderabad",
+      "Royal Challengers Bengaluru",
+      "Rajasthan Royals"
+    ],
+    "answer": "Royal Challengers Bengaluru"
+  },
+  {
+    "id": 155,
+    "category": "trivia",
+    "question": "Which team plays home matches at Wankhede Stadium?",
+    "options": [
+      "Gujarat Titans",
+      "Rajasthan Royals",
+      "Mumbai Indians",
+      "Delhi Capitals"
+    ],
+    "answer": "Mumbai Indians"
+  },
+  {
+    "id": 156,
+    "category": "trivia",
+    "question": "Which IPL team's home ground is the Rajiv Gandhi International Stadium?",
+    "options": [
+      "Gujarat Titans",
+      "Sunrisers Hyderabad",
+      "Lucknow Super Giants",
+      "Punjab Kings"
+    ],
+    "answer": "Sunrisers Hyderabad"
+  },
+  {
+    "id": 157,
+    "category": "trivia",
+    "question": "Which team plays home matches at Sawai Mansingh Stadium in Jaipur?",
+    "options": [
+      "Delhi Capitals",
+      "Gujarat Titans",
+      "Punjab Kings",
+      "Rajasthan Royals"
+    ],
+    "answer": "Rajasthan Royals"
+  },
+  {
+    "id": 158,
+    "category": "trivia",
+    "question": "The Ekana Cricket Stadium is home to which IPL franchise?",
+    "options": [
+      "Gujarat Titans",
+      "Punjab Kings",
+      "Lucknow Super Giants",
+      "Delhi Capitals"
+    ],
+    "answer": "Lucknow Super Giants"
+  },
+  {
+    "id": 159,
+    "category": "trivia",
+    "question": "Which team plays home matches at Narendra Modi Stadium in Ahmedabad?",
+    "options": [
+      "Rajasthan Royals",
+      "Mumbai Indians",
+      "Lucknow Super Giants",
+      "Gujarat Titans"
+    ],
+    "answer": "Gujarat Titans"
+  },
+  {
+    "id": 160,
+    "category": "trivia",
+    "question": "Which team plays home matches at Punjab Cricket Association Stadium in Mohali?",
+    "options": [
+      "Delhi Capitals",
+      "Punjab Kings",
+      "Rajasthan Royals",
+      "Lucknow Super Giants"
+    ],
+    "answer": "Punjab Kings"
+  },
+  {
+    "id": 161,
+    "category": "trivia",
+    "question": "Deccan Chargers won the IPL title in which year?",
+    "options": [
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "answer": "2009"
+  },
+  {
+    "id": 162,
+    "category": "trivia",
+    "question": "Who was Deccan Chargers captain when they won the 2009 IPL title?",
+    "options": [
+      "Mahela Jayawardene",
+      "Andrew Symonds",
+      "VVS Laxman",
+      "Adam Gilchrist"
+    ],
+    "answer": "Adam Gilchrist"
+  },
+  {
+    "id": 163,
+    "category": "trivia",
+    "question": "What does 'NRR' stand for in the IPL points table?",
+    "options": [
+      "Net Run Ratio",
+      "Net Run Rate",
+      "Normal Run Rate",
+      "National Run Record"
+    ],
+    "answer": "Net Run Rate"
+  },
+  {
+    "id": 164,
+    "category": "trivia",
+    "question": "How many points does a team get for winning an IPL match?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "id": 165,
+    "category": "trivia",
+    "question": "What happens if an IPL league match is tied or washed out due to rain?",
+    "options": [
+      "Both teams get 0 points",
+      "Match is replayed",
+      "Both teams get 1 point each",
+      "Toss decides the winner"
+    ],
+    "answer": "Both teams get 1 point each"
+  },
+  {
+    "id": 166,
+    "category": "record",
+    "question": "Who holds the record for most wickets taken for a single franchise in IPL history?",
+    "options": [
+      "Dwayne Bravo (CSK)",
+      "Lasith Malinga (MI)",
+      "Amit Mishra (DC)",
+      "Bhuvneshwar Kumar (SRH)"
+    ],
+    "answer": "Dwayne Bravo (CSK)"
+  },
+  {
+    "id": 167,
+    "category": "record",
+    "question": "Who took the most wickets in the 2013 IPL season?",
+    "options": [
+      "Vinay Kumar",
+      "Dwayne Bravo",
+      "Praveen Kumar",
+      "RP Singh"
+    ],
+    "answer": "Dwayne Bravo"
+  },
+  {
+    "id": 168,
+    "category": "record",
+    "question": "Which pair holds the record for the highest opening partnership in IPL history?",
+    "options": [
+      "Rohit Sharma & Ishan Kishan",
+      "David Warner & Jonny Bairstow",
+      "Virat Kohli & AB de Villiers",
+      "Chris Gayle & Virat Kohli"
+    ],
+    "answer": "David Warner & Jonny Bairstow"
+  },
+  {
+    "id": 169,
+    "category": "record",
+    "question": "Who took 5 wickets in an over (hitting for 5 sixes) — the most expensive over in IPL history — bowled by Ravi Bopara?",
+    "options": [
+      "Chris Gayle",
+      "Kieron Pollard",
+      "MS Dhoni",
+      "Yusuf Pathan"
+    ],
+    "answer": "Kieron Pollard"
+  },
+  {
+    "id": 170,
+    "category": "record",
+    "question": "Which bowler has conceded the most runs in a single over in IPL history (36 runs)?",
+    "options": [
+      "Harbhajan Singh",
+      "Chris Woakes",
+      "Ravi Bopara",
+      "Ishant Sharma"
+    ],
+    "answer": "Ravi Bopara"
+  },
+  {
+    "id": 171,
+    "category": "record",
+    "question": "Who scored Rajasthan Royals' most crucial runs in their 2008 title win — known as the IPL's 'Cinderella story' captain?",
+    "options": [
+      "Graeme Smith",
+      "Rahul Dravid",
+      "Shane Warne",
+      "Yusuf Pathan"
+    ],
+    "answer": "Shane Warne"
+  },
+  {
+    "id": 172,
+    "category": "record",
+    "question": "Sunrisers Hyderabad set the highest IPL total of 277/3 in 2024. Who were the two destroyers?",
+    "options": [
+      "David Warner & Jonny Bairstow",
+      "Travis Head & Abhishek Sharma",
+      "Mayank Agarwal & KL Rahul",
+      "Rohit Sharma & Ishan Kishan"
+    ],
+    "answer": "Travis Head & Abhishek Sharma"
+  },
+  {
+    "id": 173,
+    "category": "record",
+    "question": "Who held the record for fastest IPL fifty before Yusuf Pathan broke it?",
+    "options": [
+      "Chris Gayle",
+      "AB de Villiers",
+      "Kieron Pollard",
+      "Rohit Sharma"
+    ],
+    "answer": "Kieron Pollard"
+  },
+  {
+    "id": 174,
+    "category": "record",
+    "question": "What was Brendon McCullum's score in the first ever IPL match?",
+    "options": [
+      "148*",
+      "158*",
+      "168*",
+      "178*"
+    ],
+    "answer": "158*"
+  },
+  {
+    "id": 175,
+    "category": "record",
+    "question": "How many sixes did Chris Gayle hit in his record 175* innings against Pune Warriors?",
+    "options": [
+      "13",
+      "15",
+      "17",
+      "19"
+    ],
+    "answer": "17"
+  },
+  {
+    "id": 176,
+    "category": "auction",
+    "question": "Sam Curran became the most expensive IPL auction buy in history in 2023. How much did Punjab Kings pay?",
+    "options": [
+      "₹16.25 crore",
+      "₹18.50 crore",
+      "₹20 crore",
+      "₹18.25 crore"
+    ],
+    "answer": "₹18.50 crore"
+  },
+  {
+    "id": 177,
+    "category": "auction",
+    "question": "Pat Cummins was bought by SRH for ₹20.50 crore in the 2024 auction, breaking what record?",
+    "options": [
+      "Most expensive bowler",
+      "Most expensive overseas buy",
+      "Most expensive IPL buy ever",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 178,
+    "category": "auction",
+    "question": "Rishabh Pant was sold for ₹27 crore at the 2025 mega auction. To which franchise?",
+    "options": [
+      "Mumbai Indians",
+      "Sunrisers Hyderabad",
+      "Lucknow Super Giants",
+      "Delhi Capitals"
+    ],
+    "answer": "Lucknow Super Giants"
+  },
+  {
+    "id": 179,
+    "category": "auction",
+    "question": "The IPL mega auction happens typically every how many years?",
+    "options": [
+      "2 years",
+      "3 years",
+      "5 years",
+      "4 years"
+    ],
+    "answer": "3 years"
+  },
+  {
+    "id": 180,
+    "category": "auction",
+    "question": "In which year was the first IPL player auction held?",
+    "options": [
+      "2007",
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "answer": "2008"
+  },
+  {
+    "id": 181,
+    "category": "history",
+    "question": "Which IPL season saw the introduction of two new teams — Lucknow and Gujarat?",
+    "options": [
+      "IPL 2020",
+      "IPL 2021",
+      "IPL 2022",
+      "IPL 2023"
+    ],
+    "answer": "IPL 2022"
+  },
+  {
+    "id": 182,
+    "category": "history",
+    "question": "The 2011 IPL had how many teams?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": "10"
+  },
+  {
+    "id": 183,
+    "category": "history",
+    "question": "Kochi Tuskers Kerala played for how many seasons before folding?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 184,
+    "category": "history",
+    "question": "Pune Warriors India folded after which season?",
+    "options": [
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "answer": "2013"
+  },
+  {
+    "id": 185,
+    "category": "history",
+    "question": "Rising Pune Supergiant and Gujarat Lions were temporary replacements for which two suspended teams in 2016–2017?",
+    "options": [
+      "MI and KKR",
+      "CSK and RR",
+      "RCB and DC",
+      "SRH and KXIP"
+    ],
+    "answer": "CSK and RR"
+  },
+  {
+    "id": 186,
+    "category": "history",
+    "question": "The 2021 IPL was split between India and UAE due to which reason?",
+    "options": [
+      "Elections",
+      "Stadium availability",
+      "COVID-19 bio-bubble breach",
+      "Monsoon floods"
+    ],
+    "answer": "COVID-19 bio-bubble breach"
+  },
+  {
+    "id": 187,
+    "category": "history",
+    "question": "IPL 2024 was which edition of the tournament?",
+    "options": [
+      "15th",
+      "16th",
+      "17th",
+      "18th"
+    ],
+    "answer": "17th"
+  },
+  {
+    "id": 188,
+    "category": "history",
+    "question": "The 2024 IPL final was won by which team?",
+    "options": [
+      "Rajasthan Royals",
+      "Sunrisers Hyderabad",
+      "Kolkata Knight Riders",
+      "Mumbai Indians"
+    ],
+    "answer": "Kolkata Knight Riders"
+  },
+  {
+    "id": 189,
+    "category": "history",
+    "question": "KKR won the 2024 IPL title beating which team in the final?",
+    "options": [
+      "Rajasthan Royals",
+      "Sunrisers Hyderabad",
+      "Gujarat Titans",
+      "Punjab Kings"
+    ],
+    "answer": "Sunrisers Hyderabad"
+  },
+  {
+    "id": 190,
+    "category": "history",
+    "question": "Who captained KKR to the 2024 IPL title?",
+    "options": [
+      "Shreyas Iyer",
+      "Nitish Rana",
+      "Venkatesh Iyer",
+      "Rinku Singh"
+    ],
+    "answer": "Shreyas Iyer"
+  },
+  {
+    "id": 191,
+    "category": "player",
+    "question": "Who became the first non-Indian to win the Orange Cap in IPL?",
+    "options": [
+      "Chris Gayle",
+      "David Warner",
+      "Andrew Symonds",
+      "Matthew Hayden"
+    ],
+    "answer": "Matthew Hayden"
+  },
+  {
+    "id": 192,
+    "category": "player",
+    "question": "Who won the Emerging Player award in IPL 2022?",
+    "options": [
+      "Shubman Gill",
+      "Tilak Varma",
+      "Umran Malik",
+      "Kuldeep Yadav"
+    ],
+    "answer": "Umran Malik"
+  },
+  {
+    "id": 193,
+    "category": "player",
+    "question": "Shubman Gill plays for which IPL franchise?",
+    "options": [
+      "Kolkata Knight Riders",
+      "Punjab Kings",
+      "Gujarat Titans",
+      "Lucknow Super Giants"
+    ],
+    "answer": "Gujarat Titans"
+  },
+  {
+    "id": 194,
+    "category": "player",
+    "question": "Which player has won the most Player of the Tournament awards in IPL history?",
+    "options": [
+      "AB de Villiers",
+      "MS Dhoni",
+      "David Warner",
+      "Rohit Sharma"
+    ],
+    "answer": "David Warner"
+  },
+  {
+    "id": 195,
+    "category": "player",
+    "question": "Jofra Archer was bought by which IPL team at the 2022 mega auction?",
+    "options": [
+      "Rajasthan Royals",
+      "Mumbai Indians",
+      "Chennai Super Kings",
+      "Delhi Capitals"
+    ],
+    "answer": "Mumbai Indians"
+  },
+  {
+    "id": 196,
+    "category": "player",
+    "question": "Which overseas player has won the most IPL titles?",
+    "options": [
+      "Chris Gayle",
+      "Kieron Pollard",
+      "Dwayne Bravo",
+      "Lasith Malinga"
+    ],
+    "answer": "Kieron Pollard"
+  },
+  {
+    "id": 197,
+    "category": "player",
+    "question": "Rinku Singh hit 5 consecutive sixes in the last over in 2023 to win from an impossible situation. Against which team?",
+    "options": [
+      "Rajasthan Royals",
+      "Gujarat Titans",
+      "Chennai Super Kings",
+      "Mumbai Indians"
+    ],
+    "answer": "Gujarat Titans"
+  },
+  {
+    "id": 198,
+    "category": "player",
+    "question": "Who bowled the over that Rinku Singh hit 5 sixes in 2023?",
+    "options": [
+      "Rashid Khan",
+      "Mohammed Shami",
+      "Yash Dayal",
+      "Hardik Pandya"
+    ],
+    "answer": "Yash Dayal"
+  },
+  {
+    "id": 199,
+    "category": "player",
+    "question": "MS Dhoni's famous 'helicopter shot' is most associated with which part of a T20 innings?",
+    "options": [
+      "Powerplay",
+      "Middle overs",
+      "Death overs",
+      "Super Over"
+    ],
+    "answer": "Death overs"
+  },
+  {
+    "id": 200,
+    "category": "record",
+    "question": "Which IPL season saw the most sixes hit in a single match (both teams combined)?",
+    "options": [
+      "SRH vs MI 2024 (37 sixes)",
+      "RCB vs KXIP 2013 (35 sixes)",
+      "KKR vs RCB 2008 (30 sixes)",
+      "DC vs MI 2020 (32 sixes)"
+    ],
+    "answer": "SRH vs MI 2024 (37 sixes)"
+  }
+]

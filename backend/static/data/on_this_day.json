@@ -1,30 +1,1862 @@
-{
-  "04-05": {
-    "year": 2019,
-    "event": "Alzarri Joseph recorded the best bowling figures in IPL history (6/12) for Mumbai Indians against Sunrisers Hyderabad in Hyderabad."
+[
+  {
+    "date": "01-01",
+    "fact": "['Mohammad Nabi'] birthday",
+    "category": "birthday"
   },
-  "04-07": {
-    "year": 2018,
-    "event": "Dwayne Bravo's heroic 68 off 30 balls helped Chennai Super Kings chase down 165 against Mumbai Indians after being 118/8, marking CSK's triumphant return to the IPL."
+  {
+    "date": "01-02",
+    "fact": null,
+    "category": "none"
   },
-  "04-18": {
-    "year": 2008,
-    "event": "Brendon McCullum lit up the first-ever IPL match with a spectacular 158* for KKR against RCB, setting the tone for the massive success of the tournament."
+  {
+    "date": "01-03",
+    "fact": "['Lalit Yadav'] birthday",
+    "category": "birthday"
   },
-  "04-23": {
-    "year": 2013,
-    "event": "Chris Gayle smashed the highest individual score in T20 cricket, hitting 175* off 66 balls for RCB against Pune Warriors India at the M. Chinnaswamy Stadium."
+  {
+    "date": "01-04",
+    "fact": null,
+    "category": "none"
   },
-  "05-12": {
-    "year": 2019,
-    "event": "Mumbai Indians won their 4th IPL title by defeating Chennai Super Kings by just 1 run in a thrilling final that went down to the final ball."
+  {
+    "date": "01-05",
+    "fact": null,
+    "category": "none"
   },
-  "05-24": {
-    "year": 2015,
-    "event": "Mumbai Indians defeated Chennai Super Kings by 41 runs at Eden Gardens to lift their second IPL trophy, with Rohit Sharma scoring a quickfire 50."
+  {
+    "date": "01-06",
+    "fact": null,
+    "category": "none"
   },
-  "05-28": {
-    "year": 2023,
-    "event": "Chennai Super Kings won their 5th IPL title in a thrilling rain-affected final against Gujarat Titans, with Ravindra Jadeja hitting a four on the final ball."
+  {
+    "date": "01-07",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-08",
+    "fact": "['Josh Hazlewood'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "01-09",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-10",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-11",
+    "fact": "['Rahul Dravid'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "01-12",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-13",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-14",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-15",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-16",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-17",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-18",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-19",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-20",
+    "fact": "['Axar Patel'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "01-21",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-22",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-23",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-24",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-25",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-26",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-27",
+    "fact": "['Daniel Vettori'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "01-28",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-29",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-30",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "01-31",
+    "fact": "['Ruturaj Gaikwad'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "02-01",
+    "fact": "['Graeme Smith'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "02-02",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-03",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-04",
+    "fact": "['Mahmudullah Riyad'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "02-05",
+    "fact": "['Bhuvneshwar Kumar'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "02-06",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-07",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-08",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-09",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-10",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-11",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-12",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-13",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-14",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-15",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-16",
+    "fact": "['Mayank Agarwal'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "02-17",
+    "fact": "['AB de Villiers'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "02-18",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-19",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-20",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-21",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-22",
+    "fact": "['Harry Brook'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "02-23",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-24",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-25",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-26",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-27",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-28",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-29",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-30",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "02-31",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-01",
+    "fact": "['Shahid Afridi'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "03-02",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-03",
+    "fact": "['Inzamam-ul-Haq'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "03-04",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-05",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-06",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-07",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-08",
+    "fact": "['Ross Taylor'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "03-09",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-10",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-11",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-12",
+    "fact": "The first match of the 2020 IPL was played on March 29, 2020 \u00e2\u20ac\u201d but the tournament was suspended and eventually moved to the UAE due to COVID-19. The UAE season remains the only one played without any fans.",
+    "category": "history"
+  },
+  {
+    "date": "03-13",
+    "fact": "['Mohammed Siraj'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "03-14",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-15",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-16",
+    "fact": "['Tim David'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "03-17",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-18",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-19",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-20",
+    "fact": "['Tamim Iqbal'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "03-21",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-22",
+    "fact": "IPL 2024 started on March 22 \u00e2\u20ac\u201d the 17th season featured 10 teams competing across 74 league matches. It was the first full season with Lucknow Super Giants and Gujarat Titans both fully established.",
+    "category": "history"
+  },
+  {
+    "date": "03-23",
+    "fact": "Gujarat Titans became only the second team in IPL history to win the title in their debut season in 2022, after Rajasthan Royals did it in the inaugural season of 2008.",
+    "category": "history"
+  },
+  {
+    "date": "03-24",
+    "fact": "['Shakib Al Hasan'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "03-25",
+    "fact": "IPL 2010 Final: Chennai Super Kings beat Mumbai Indians by 22 runs at DY Patil Stadium. Suresh Raina was Player of the Match. MS Dhoni lifted CSK's first IPL trophy.",
+    "category": "final"
+  },
+  {
+    "date": "03-26",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-27",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-28",
+    "fact": "['Mujeeb Ur Rahman'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "03-29",
+    "fact": "The 2009 IPL season was moved entirely to South Africa due to the Indian general elections \u00e2\u20ac\u201d the only time the entire tournament was played outside India.",
+    "category": "history"
+  },
+  {
+    "date": "03-30",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "03-31",
+    "fact": "['Hashim Amla'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "04-01",
+    "fact": "['Jofra Archer'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "04-02",
+    "fact": "Rashid Khan holds the best economy rate among bowlers with 50+ matches in IPL history at 6.65 runs per over \u00e2\u20ac\u201d an extraordinary achievement for a spinner in a power-hitting era.",
+    "category": "record"
+  },
+  {
+    "date": "04-03",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "04-04",
+    "fact": "The IPL was the first sporting event ever to be broadcast live on YouTube \u00e2\u20ac\u201d a landmark moment for digital sports broadcasting when it happened during the 2010 season.",
+    "category": "history"
+  },
+  {
+    "date": "04-05",
+    "fact": "AB de Villiers hit the fastest IPL century off just 31 balls for RCB vs Gujarat Lions on April 5, 2016 at Chinnaswamy Stadium \u00e2\u20ac\u201d the fastest hundred in IPL history.",
+    "category": "record"
+  },
+  {
+    "date": "04-06",
+    "fact": "Alzarri Joseph took 6/12 on IPL debut for Mumbai Indians vs Sunrisers Hyderabad on April 6, 2019 \u00e2\u20ac\u201d the best bowling figures in IPL history, achieved in his very first game.",
+    "category": "record"
+  },
+  {
+    "date": "04-07",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "04-08",
+    "fact": "Chennai Super Kings and Rajasthan Royals were suspended for two years (2016\u00e2\u20ac\u201c2017) following the IPL spot-fixing scandal \u00e2\u20ac\u201d the two most successful franchises missing from the tournament for the first time.",
+    "category": "history"
+  },
+  {
+    "date": "04-09",
+    "fact": "Rashid Khan took a hat-trick for Gujarat Titans vs Kolkata Knight Riders on April 9, 2023, dismissing Andre Russell, Sunil Narine and Shardul Thakur in succession.",
+    "category": "record"
+  },
+  {
+    "date": "04-10",
+    "fact": "Chris Gayle hit the fastest century in IPL history off just 30 balls for RCB \u00e2\u20ac\u201d he reached his hundred in the 10th over against KKR in 2013 while going on to score 175*.",
+    "category": "record"
+  },
+  {
+    "date": "04-11",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "04-12",
+    "fact": "Virat Kohli finished the 2016 IPL season with 973 runs \u00e2\u20ac\u201d the most runs scored by any batsman in a single IPL season. He scored 4 centuries and 7 fifties that year.",
+    "category": "record"
+  },
+  {
+    "date": "04-13",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "04-14",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "04-15",
+    "fact": "Shaun Marsh and Adam Gilchrist shared a 206-run partnership for Kings XI Punjab vs RCB in Dharamsala in 2011 \u00e2\u20ac\u201d the biggest opening stand in IPL at the time.",
+    "category": "record"
+  },
+  {
+    "date": "04-16",
+    "fact": "Lakshmipathy Balaji's hat-trick on May 10, 2008 made him the first bowler in IPL history to take three wickets in three consecutive balls \u00e2\u20ac\u201d a milestone that took the cricketing world by surprise in only the 11th match of IPL.",
+    "category": "history"
+  },
+  {
+    "date": "04-17",
+    "fact": "Amit Mishra took his third IPL hat-trick on April 17, 2013, for Sunrisers Hyderabad vs Pune Warriors \u00e2\u20ac\u201d making him the only bowler with three hat-tricks in IPL history, taken for three different franchises.",
+    "category": "record"
+  },
+  {
+    "date": "04-18",
+    "fact": "The very first IPL match was played on April 18, 2008 \u00e2\u20ac\u201d Kolkata Knight Riders vs Royal Challengers Bangalore at Eden Gardens. Brendon McCullum's 158* announced T20 cricket to the world.",
+    "category": "history"
+  },
+  {
+    "date": "04-19",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "04-20",
+    "fact": "Quinton de Kock and KL Rahul put together an unbeaten 210-run partnership for Lucknow Super Giants vs KKR in 2022 \u00e2\u20ac\u201d the second-highest partnership in IPL history.",
+    "category": "record"
+  },
+  {
+    "date": "04-21",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "04-22",
+    "fact": "Yusuf Pathan hit the fastest fifty in IPL history off just 8 balls for Rajasthan Royals on April 22, 2010 \u00e2\u20ac\u201d a record that stood for years.",
+    "category": "record"
+  },
+  {
+    "date": "04-23",
+    "fact": "Royal Challengers Bangalore were bowled out for just 49 against Kolkata Knight Riders in 2017 at Eden Gardens \u00e2\u20ac\u201d the lowest team total in IPL history. Sunil Narine and Chris Woakes ran through the batting.",
+    "category": "record"
+  },
+  {
+    "date": "04-24",
+    "fact": "['Sachin Tendulkar'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "04-25",
+    "fact": "Chris Gayle holds the record for most sixes in IPL history with 357 sixes \u00e2\u20ac\u201d a number unlikely to be challenged for years. He also holds the record for most sixes in a single innings (17).",
+    "category": "record"
+  },
+  {
+    "date": "04-26",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "04-27",
+    "fact": "Bhuvneshwar Kumar has taken the most maiden overs (7) in IPL history \u00e2\u20ac\u201d a remarkable feat in T20 cricket where dot balls, let alone maidens, are an exceptional achievement.",
+    "category": "record"
+  },
+  {
+    "date": "04-28",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "04-29",
+    "fact": "Virat Kohli became the all-time leading run-scorer in IPL history, surpassing 8,000 runs \u00e2\u20ac\u201d no other batsman is even close. He also holds the record for most centuries (8) in the tournament.",
+    "category": "record"
+  },
+  {
+    "date": "04-30",
+    "fact": "Rohit Sharma's career economy as a bowler in IPL is remarkably consistent \u00e2\u20ac\u201d but it's his batting and captaincy that stand out: 5 IPL titles as captain of Mumbai Indians, the most by any captain.",
+    "category": "record"
+  },
+  {
+    "date": "04-31",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "05-01",
+    "fact": "Yuvraj Singh took two hat-tricks in the same IPL season (2009) \u00e2\u20ac\u201d the only player ever to do so. Both came within 16 days of each other during the South Africa edition.",
+    "category": "history"
+  },
+  {
+    "date": "05-02",
+    "fact": "Rajasthan Royals were bowled out for just 58 against Kolkata Knight Riders in 2009 at Eden Gardens \u00e2\u20ac\u201d the joint second-lowest total in IPL history.",
+    "category": "record"
+  },
+  {
+    "date": "05-03",
+    "fact": "Lasith Malinga took the most wickets in a single IPL season in 2011 with 28 wickets for Mumbai Indians \u00e2\u20ac\u201d his yorker mastery in T20 cricket set a benchmark for death bowling.",
+    "category": "record"
+  },
+  {
+    "date": "05-04",
+    "fact": "Royal Challengers Bangalore scored 263/5 against Pune Warriors India in 2013 \u00e2\u20ac\u201d the second highest team total in IPL history. Chris Gayle smashed 175* in that innings.",
+    "category": "record"
+  },
+  {
+    "date": "05-05",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "05-06",
+    "fact": "Shikhar Dhawan holds the record for most fours in IPL history with 804 boundaries \u00e2\u20ac\u201d the most prolific boundary-hitter in the tournament's history across his stints with multiple franchises.",
+    "category": "record"
+  },
+  {
+    "date": "05-07",
+    "fact": "Yuzvendra Chahal became the leading wicket-taker in IPL history with over 205 wickets across his career \u00e2\u20ac\u201d the first bowler to cross the 200-wicket mark in IPL.",
+    "category": "record"
+  },
+  {
+    "date": "05-08",
+    "fact": "['Pat Cummins'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "05-09",
+    "fact": "MS Dhoni holds the record for most matches played in IPL history with 264 appearances \u00e2\u20ac\u201d more than any other player. He has also won the most titles (5) as captain.",
+    "category": "record"
+  },
+  {
+    "date": "05-10",
+    "fact": "Lakshmipathy Balaji took the first-ever hat-trick in IPL history on May 10, 2008, playing for CSK against Kings XI Punjab, dismissing Irfan Pathan, PP Chawla and VRV Singh.",
+    "category": "record"
+  },
+  {
+    "date": "05-11",
+    "fact": "The highest successful run chase in IPL history was by Rajasthan Royals who successfully chased 224 set by Punjab Kings in 2020 \u00e2\u20ac\u201d an extraordinary feat in T20 cricket.",
+    "category": "record"
+  },
+  {
+    "date": "05-12",
+    "fact": "IPL 2019 Final: Mumbai Indians beat Chennai Super Kings by 1 run at Rajiv Gandhi International Stadium, Hyderabad \u00e2\u20ac\u201d another last-ball thriller. Jasprit Bumrah was Player of the Match. MI won their fourth title.",
+    "category": "final"
+  },
+  {
+    "date": "05-13",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "05-14",
+    "fact": "Virat Kohli and AB de Villiers hold the top two highest partnerships in IPL history \u00e2\u20ac\u201d 229 (vs Gujarat Lions, 2016) and 215* (vs Mumbai Indians, 2015), both for RCB at home.",
+    "category": "record"
+  },
+  {
+    "date": "05-15",
+    "fact": "Amit Mishra took his first IPL hat-trick on May 15, 2008, for Delhi vs Deccan Chargers \u00e2\u20ac\u201d the second hat-trick in IPL history, taken just 5 days after the first.",
+    "category": "record"
+  },
+  {
+    "date": "05-16",
+    "fact": "Suresh Raina scored the first century in IPL history on May 16, 2008, for Chennai Super Kings \u00e2\u20ac\u201d the inaugural season's standout batting moment before Brendon McCullum's record innings.",
+    "category": "history"
+  },
+  {
+    "date": "05-17",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "05-18",
+    "fact": "Makhaya Ntini took the third hat-trick in IPL history on May 18, 2008, for CSK vs KKR at Eden Gardens \u00e2\u20ac\u201d the most hat-tricks in a single IPL season (3) came in 2008 alone.",
+    "category": "record"
+  },
+  {
+    "date": "05-19",
+    "fact": "IPL 2017 Qualifier 1: Mumbai Indians beat Rising Pune Supergiant in an epic match that set up a rematch in the final \u00e2\u20ac\u201d which MI won by just 1 run.",
+    "category": "semifinal"
+  },
+  {
+    "date": "05-20",
+    "fact": "Sunrisers Hyderabad scored 277/3 against Mumbai Indians in 2024 \u00e2\u20ac\u201d the highest team total in IPL history. Travis Head and Abhishek Sharma were the destroyers.",
+    "category": "record"
+  },
+  {
+    "date": "05-21",
+    "fact": "IPL 2017 Final: Mumbai Indians beat Rising Pune Supergiant by just 1 run at Rajiv Gandhi International Stadium, Hyderabad \u00e2\u20ac\u201d the closest final in IPL history. Krunal Pandya was Player of the Match.",
+    "category": "final"
+  },
+  {
+    "date": "05-22",
+    "fact": "IPL 2014 Qualifier 2: Kings XI Punjab beat Chennai Super Kings to reach their first IPL final, eliminating the two-time champions in the knockouts.",
+    "category": "semifinal"
+  },
+  {
+    "date": "05-23",
+    "fact": "Mumbai Indians became the most successful IPL franchise by winning their fifth title in 2020, surpassing CSK's four. Rohit Sharma is the most decorated captain in IPL history with 5 titles.",
+    "category": "history"
+  },
+  {
+    "date": "05-24",
+    "fact": "IPL 2015 Final: Mumbai Indians beat Chennai Super Kings by 41 runs at Eden Gardens. Rohit Sharma was Player of the Match. MI's second title.",
+    "category": "final"
+  },
+  {
+    "date": "05-25",
+    "fact": "IPL 2022 Qualifier 2: Rajasthan Royals beat Royal Challengers Bangalore to reach the final, ending RCB's season for the fifth time in the knockouts.",
+    "category": "semifinal"
+  },
+  {
+    "date": "05-26",
+    "fact": "IPL 2023 Qualifier 2: Mumbai Indians beat Lucknow Super Giants to reach the final, where they would go on to lose to Chennai Super Kings.",
+    "category": "semifinal"
+  },
+  {
+    "date": "05-27",
+    "fact": "IPL 2018 Final: Chennai Super Kings beat Sunrisers Hyderabad by 8 wickets at Wankhede Stadium, Mumbai. Shane Watson smashed 117* off 57 balls. CSK won their third title after returning from a 2-year suspension.",
+    "category": "final"
+  },
+  {
+    "date": "05-28",
+    "fact": "IPL 2023 Final: Chennai Super Kings beat Gujarat Titans by 5 wickets (D/L Method) at Narendra Modi Stadium, Ahmedabad. CSK won their fifth title \u00e2\u20ac\u201d equalling Mumbai Indians' record.",
+    "category": "final"
+  },
+  {
+    "date": "05-29",
+    "fact": "IPL 2025 Qualifier 1: Royal Challengers Bengaluru beat Punjab Kings at Chandigarh to reach the final directly, setting up the historic title-clinching match on June 3.",
+    "category": "semifinal"
+  },
+  {
+    "date": "05-30",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "05-31",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-01",
+    "fact": "IPL 2014 Final: Kolkata Knight Riders beat Kings XI Punjab by 3 wickets at M Chinnaswamy Stadium. Manish Pandey scored 94* off 50 balls in a stunning chase of 199.",
+    "category": "final"
+  },
+  {
+    "date": "06-02",
+    "fact": "['Steve Smith', 'Angelo Mathews'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "06-03",
+    "fact": "Royal Challengers Bengaluru ended an 18-year wait to win their first IPL title on June 3, 2025 \u00e2\u20ac\u201d having appeared in three finals (2009, 2011, 2016) without winning before their historic triumph.",
+    "category": "history"
+  },
+  {
+    "date": "06-04",
+    "fact": "['Ben Stokes'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "06-05",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-06",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-07",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-08",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-09",
+    "fact": "['Mushfiqur Rahim'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "06-10",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-11",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-12",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-13",
+    "fact": "['Lockie Ferguson'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "06-14",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-15",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-16",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-17",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-18",
+    "fact": "['Moeen Ali'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "06-19",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-20",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-21",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-22",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-23",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-24",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-25",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-26",
+    "fact": "['Shivam Dube'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "06-27",
+    "fact": "['Dale Steyn'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "06-28",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-29",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "06-30",
+    "fact": "['Sanath Jayasuriya'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "06-31",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-01",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-02",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-03",
+    "fact": "['Harbhajan Singh'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "07-04",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-05",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-06",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-07",
+    "fact": "['MS Dhoni'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "07-08",
+    "fact": "['Sourav Ganguly'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "07-09",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-10",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-11",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-12",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-13",
+    "fact": "['Faf du Plessis'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "07-14",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-15",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-16",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-17",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-18",
+    "fact": "['Smriti Mandhana', 'Ishan Kishan'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "07-19",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-20",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-21",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-22",
+    "fact": "['Trent Boult'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "07-23",
+    "fact": "['Yuzvendra Chahal'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "07-24",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-25",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-26",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-27",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-28",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-29",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "07-30",
+    "fact": "['James Anderson', 'Heinrich Klaasen'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "07-31",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-01",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-02",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-03",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-04",
+    "fact": "['Liam Livingstone'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "08-05",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-06",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-07",
+    "fact": "['Deepak Chahar'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "08-08",
+    "fact": "['Kane Williamson'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "08-09",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-10",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-11",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-12",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-13",
+    "fact": "['Shoaib Akhtar'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "08-14",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-15",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-16",
+    "fact": "['Shivnarine Chanderpaul', 'Marcus Stoinis'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "08-17",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-18",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-19",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-20",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-21",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-22",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-23",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-24",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-25",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-26",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-27",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-28",
+    "fact": "['Lasith Malinga'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "08-29",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-30",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "08-31",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-01",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-02",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-03",
+    "fact": "['Mohammed Shami'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "09-04",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-05",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-06",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-07",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-08",
+    "fact": "['Jos Buttler', 'Shubman Gill', 'Kyle Mayers'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "09-09",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-10",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-11",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-12",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-13",
+    "fact": "['Shane Warne'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "09-14",
+    "fact": "['Suryakumar Yadav'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "09-15",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-16",
+    "fact": "['Harpreet Brar'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "09-17",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-18",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-19",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-20",
+    "fact": "['Rashid Khan'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "09-21",
+    "fact": "['Chris Gayle'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "09-22",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-23",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-24",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-25",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-26",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-27",
+    "fact": "['Brendon McCullum'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "09-28",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-29",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "09-30",
+    "fact": "['Martin Guptill'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "09-31",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-01",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-02",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-03",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-04",
+    "fact": "['Rishabh Pant', 'Aiden Markram'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "10-05",
+    "fact": "['Imran Khan'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "10-06",
+    "fact": "['Morne Morkel'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "10-07",
+    "fact": "['Zaheer Khan', 'Dwayne Bravo'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "10-08",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-09",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-10",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-11",
+    "fact": "['Hardik Pandya'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "10-12",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-13",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-14",
+    "fact": "['Glenn Maxwell', 'Gautam Gambhir'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "10-15",
+    "fact": "IPL 2021 Final: Chennai Super Kings beat Kolkata Knight Riders by 27 runs at Dubai International Cricket Stadium. Faf du Plessis scored 86. CSK's fourth title in their return season after 2019.",
+    "category": "final"
+  },
+  {
+    "date": "10-16",
+    "fact": "['Jacques Kallis'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "10-17",
+    "fact": "['Anil Kumble'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "10-18",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-19",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-20",
+    "fact": "['Virender Sehwag'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "10-21",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-22",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-23",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-24",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-25",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-26",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-27",
+    "fact": "['David Warner', 'Kumar Sangakkara'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "10-28",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-29",
+    "fact": "['Matthew Hayden'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "10-30",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "10-31",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-01",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-02",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-03",
+    "fact": "['Ellyse Perry'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "11-04",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-05",
+    "fact": "['Virat Kohli'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "11-06",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-07",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-08",
+    "fact": "['Brett Lee', 'Tilak Varma'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "11-09",
+    "fact": "['Prithvi Shaw'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "11-10",
+    "fact": "IPL 2020 Final: Mumbai Indians beat Delhi Capitals by 5 wickets at Dubai International Cricket Stadium. Trent Boult was Player of the Match. The entire season was played in the UAE due to the COVID-19 pandemic.",
+    "category": "final"
+  },
+  {
+    "date": "11-11",
+    "fact": "['Sanju Samson'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "11-12",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-13",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-14",
+    "fact": "['Adam Gilchrist'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "11-15",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-16",
+    "fact": "['Waqar Younis'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "11-17",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-18",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-19",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-20",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-21",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-22",
+    "fact": "['Umran Malik'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "11-23",
+    "fact": "['Harshal Patel'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "11-24",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-25",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-26",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-27",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-28",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-29",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-30",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "11-31",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-01",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-02",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-03",
+    "fact": "['Mithali Raj'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "12-04",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-05",
+    "fact": "['Shikhar Dhawan'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "12-06",
+    "fact": "['Ravindra Jadeja', 'Jasprit Bumrah', 'Shreyas Iyer', 'Karun Nair', 'RP Singh'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "12-07",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-08",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-09",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-10",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-11",
+    "fact": "['Tim Southee'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "12-12",
+    "fact": "['Yuvraj Singh'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "12-13",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-14",
+    "fact": "['Kuldeep Yadav'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "12-15",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-16",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-17",
+    "fact": "['Quinton de Kock'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "12-18",
+    "fact": "['Matheesha Pathirana'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "12-19",
+    "fact": "['Ricky Ponting'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "12-20",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-21",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-22",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-23",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-24",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-25",
+    "fact": "['Alastair Cook'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "12-26",
+    "fact": "['Shimron Hetmyer'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "12-27",
+    "fact": "['Nitish Rana'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "12-28",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-29",
+    "fact": null,
+    "category": "none"
+  },
+  {
+    "date": "12-30",
+    "fact": "['Joe Root'] birthday",
+    "category": "birthday"
+  },
+  {
+    "date": "12-31",
+    "fact": null,
+    "category": "none"
   }
-}
+]
