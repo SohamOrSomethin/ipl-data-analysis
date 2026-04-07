@@ -33,7 +33,7 @@ const TeamSelector = () => {
 
   return (
     <div className="team-selector-page">
-      <h1 className="section-title">Select Franchise</h1>
+      <h1 className="section-title"><span className="text-gradient">Select Franchise</span></h1>
       <div className="team-grid">
         {teams.map(team => (
           <div key={team} className="glass-card team-card" onClick={() => navigate(`/teams/${team}`)}>

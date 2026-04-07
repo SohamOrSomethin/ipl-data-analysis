@@ -206,7 +206,7 @@ export default function DailyQuiz() {
 
   return (
     <div className="dashboard-content" style={{ paddingTop: '2rem' }}>
-      <h1 className="section-title">🧠 Daily IPL Quiz</h1>
+      <h1 className="section-title">🧠 <span className="text-gradient">Daily IPL Quiz</span></h1>
       
       {!quizComplete && questions.length > 0 && (
          <QuizCard 

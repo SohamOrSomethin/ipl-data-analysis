@@ -607,6 +607,9 @@ select.premium-select option {
   font-weight: 800;
   margin-bottom: 2.5rem;
   text-align: center;
+}
+
+.text-gradient {
   background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
   background-clip: text;
   -webkit-background-clip: text;

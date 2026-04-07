@@ -104,7 +104,7 @@ export default function HeadToHead() {
 
   return (
     <div className="dashboard-content">
-      <h1 className="section-title">⚔️ Head-to-Head Comparison</h1>
+      <h1 className="section-title">⚔️ <span className="text-gradient">Head-to-Head Comparison</span></h1>
 
       {/* ── Selectors ── */}
       <div className="glass-card chart-card" style={{ marginBottom: '2rem' }}>

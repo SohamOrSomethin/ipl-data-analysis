@@ -12,7 +12,9 @@ export default function PurpleCap() {
 
   return (
     <div className="dashboard-content">
-      <h1 className="section-title">🎯 Purple Cap Winners</h1>
+      <h1 className="section-title" style={{ background: 'none', WebkitTextFillColor: 'initial', color: 'var(--accent-purple)' }}>
+        🎯 Purple Cap Winners
+      </h1>
       
       <div className="glass-card chart-card mb-4" style={{ marginBottom: '2rem' }}>
         <h2 className="card-title">Wickets by Season</h2>

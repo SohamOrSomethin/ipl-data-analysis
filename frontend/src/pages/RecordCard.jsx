@@ -37,7 +37,7 @@ export default function RecordCard() {
 
   return (
     <div className="dashboard-content">
-      <h1 className="section-title">🏆 All-Time IPL Records</h1>
+      <h1 className="section-title">🏆 <span className="text-gradient">All-Time IPL Records</span></h1>
 
       {loading ? (
         <div style={{ textAlign: 'center', color: '#94a3b8', padding: '3rem', fontSize: '1.2rem' }}>
