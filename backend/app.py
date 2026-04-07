@@ -6,6 +6,8 @@ import os
 from collections import defaultdict
 import re
 from datetime import datetime
+import random
+
 
 
 
@@ -139,9 +141,11 @@ with open("static/data/purple_cap.json") as f:
 with open("static/data/teams.json") as f:
     TEAMS = json.load(f)
 
+with open("static/data/ipl_quiz.json") as f:
+    quiz = json.load(f)
 
 with open("static/data/on_this_day.json", encoding="utf-8") as f:
-    _raw_facts = json.load(f)
+    on_this_day = json.load(f)
 
 def clean_data(df):
     # Normalize season using explicit mapping for the 3 edge cases
@@ -735,6 +739,26 @@ def venue_detail(venue_name):
         "min_matches_filter": min_matches,
         "teams": filtered_teams
     })
+
+
+@app.route("/on-this-day")
+def get_on_this_day():
+    today = datetime.now().strftime("%m-%d")
+
+    entry = next((d for d in on_this_day if d["date"] == today), None)
+
+    if entry:
+        return jsonify(entry)
+
+    return jsonify({
+        "date": today,
+        "fact": None,
+        "category": "none"
+    })
+
+@app.route("/quiz")
+def get_quiz():
+    return jsonify(random.choice(quiz))
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
