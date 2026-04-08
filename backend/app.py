@@ -760,5 +760,228 @@ def get_on_this_day():
 def get_quiz():
     return jsonify(random.choice(quiz))
 
+def get_last_over():
+
+    last = df[
+        (df["innings"] == 2) &
+        (df["over"] == 19) &
+        (df["ball"] == 1)
+    ]
+
+    row = last.sample(1).iloc[0]
+
+    match = df[df["match_id"] == row.match_id]
+    final = match.iloc[-1]
+
+    batting = row.batting_team
+    bowling = row.bowling_team
+
+    target = row.runs_target
+    final_score = final.team_runs
+
+    runs_needed = target - row.team_runs
+
+    if final.match_won_by == batting:
+        wickets = 10 - final.team_wicket
+        answer = f"{batting} won by {wickets} wickets"
+
+        opt2 = f"{batting} won by {max(1, wickets-1)} wickets"
+        opt3 = f"{bowling} won by {random.randint(1,8)} runs"
+
+    else:
+        margin = target - final_score
+        answer = f"{bowling} won by {abs(margin)} runs"
+
+        opt2 = f"{bowling} won by {abs(margin)+random.randint(2,6)} runs"
+        opt3 = f"{batting} won by {random.randint(1,4)} wickets"
+
+    options = [answer, opt2, opt3]
+    random.shuffle(options)
+
+    return {
+        "match_id": int(row.match_id),
+        "batting": batting,
+        "bowling": bowling,
+        "question": f"{batting} chasing vs {bowling}",
+        "score": f"{row.team_runs}/{row.team_wicket}",
+        "runs_needed": int(runs_needed),
+        "balls_left": 6,
+        "options": options,
+        "answer": answer
+    }
+
+def get_collapse():
+
+    collapse = df[
+        (df["innings"] == 1) &
+        (df["over"].between(9,12)) &
+        (df["team_wicket"] <= 2) &
+        (df["team_runs"] >= 70)
+    ]
+
+    row = collapse.sample(1).iloc[0]
+
+    match = df[df["match_id"] == row.match_id]
+    final = match[match["innings"] == 1].iloc[-1]
+
+    batting = row.batting_team
+    bowling = row.bowling_team
+
+    actual_runs = int(final.team_runs)
+    actual_wkts = int(final.team_wicket)
+
+
+    overs = row.over + row.ball / 6
+    rr = row.team_runs / overs
+    projected = int(rr * 20)
+
+    collapse_score = int(projected * random.uniform(0.70, 0.85))
+    accelerate_score = int(projected * random.uniform(1.05, 1.20))
+
+    collapse_wkts = min(10, actual_wkts + random.randint(1,3))
+    accel_wkts = max(2, actual_wkts - random.randint(1,2))
+
+    answer = f"{batting} finished {actual_runs}/{actual_wkts}"
+
+    opt2 = f"{batting} finished {projected}/{max(3,actual_wkts-1)}"
+    opt3 = f"{batting} finished {collapse_score}/{collapse_wkts}"
+    opt4 = f"{batting} finished {accelerate_score}/{accel_wkts}"
+
+    options = [answer, opt2, opt3, opt4]
+    random.shuffle(options)
+
+    return {
+        "match_id": int(row.match_id),
+        "batting": batting,
+        "bowling": bowling,
+        "question": f" How many runs did {batting} make against {bowling} while being {row.team_runs}/{row.team_wicket} in {row.over}.{row.ball} overs",
+        "score": f"{row.team_runs}/{row.team_wicket}",
+        "over": f"{row.over}.{row.ball}",
+        "options": options,
+        "answer": answer
+    }
+
+@app.route("/api/game/collapse")
+def collapse():
+    return jsonify(json.loads(json.dumps(get_collapse(), default=int)))
+
+
+@app.route("/api/game/last-over")
+def last_over():
+    return jsonify(json.loads(json.dumps(get_last_over(), default=int)))
+
+def get_player_moment():
+
+    players = df[
+        (df["innings"] == 1) &
+        (df["over"].between(14,18)) &
+        (df["batter_runs"] >= 60)
+    ] #get intresting player rows
+
+    row = players.sample(1).iloc[0] #randomly uthao and amke one row
+
+    match = df[df["match_id"] == row.match_id] #pura match uthao
+    batter = row.batter #batter ka naam
+
+    player_df = match[match["batter"] == batter] #sirf aise balls rakho jaha apna banda battig ka raha hai
+    final = player_df.iloc[-1] #player ka last ball lia 
+
+    final_runs = int(final.batter_runs)
+    out = final.wicket_kind not in [None, "", "NA"] #if last ball not none "" or NA means not out tha batsmen out = false
+
+    batting = row.batting_team
+    bowling = row.bowling_team
+
+
+    if out:
+        answer = f"{batter} out for {final_runs}"
+    else:
+        answer = f"{batter} finished {final_runs}*"
+
+
+    opt2 = f"{batter} finished {final_runs + random.randint(5,20)}*"
+    opt3 = f"{batter} out for {max(30, final_runs-random.randint(5,15))}"
+    opt4 = f"{batter} finished {final_runs + random.randint(-10,10)}*"
+
+    options = [answer, opt2, opt3, opt4]
+    random.shuffle(options)
+
+    return {
+        "match_id": int(row.match_id),
+        "batting": batting,
+        "bowling": bowling,
+        "player": batter,
+        "score": f"{row.team_runs}/{row.team_wicket}",
+        "player_score": f"{row.batter_runs} ({row.batter_balls})",
+        "over": f"{row.over}.{row.ball}",
+        "question": f"{batter} batting for {batting} vs {bowling}",
+        "options": options,
+        "answer": answer
+    }
+
+def get_chase():
+
+    chase = df[
+        (df["innings"] == 2) &
+        (df["over"].between(8,15)) &
+        (df["runs_target"] > 0)
+    ] #matches jaha pe 2nd innings chal rahihai and over rn is between 8 and 15 and ofc runs needed hai to win
+
+    row = chase.sample(1).iloc[0] #take random row convert to single row
+
+    match = df[df["match_id"] == row.match_id] #pura match from that row ball by ball lia
+    final = match.iloc[-1] #final = last ball of the match wala row
+
+    batting = row.batting_team
+    bowling = row.bowling_team
+
+    target = row.runs_target
+    runs = row.team_runs
+    wkts = row.team_wicket
+
+    runs_needed = target - runs
+    balls_left = 120 - (row.over*6 + row.ball)
+
+    # actual result
+    if final.match_won_by == batting: #agar batting team wins while chasing theyll win by wickets na
+        wickets = 10 - final.team_wicket
+        answer = f"{batting} won by {wickets} wickets"
+
+        opt2 = f"{batting} won by {max(1,wickets-1)} wickets" #take random options
+        opt3 = f"{bowling} won by {random.randint(5,20)} runs"
+        opt4 = f"{bowling} won by {random.randint(1,10)} runs"
+
+    else:
+        margin = target - final.team_runs
+        answer = f"{bowling} won by {abs(margin)} runs"
+
+        opt2 = f"{bowling} won by {abs(margin)+random.randint(3,12)} runs"
+        opt3 = f"{batting} won by {random.randint(1,5)} wickets"
+        opt4 = f"{batting} won by {random.randint(1,3)} wickets"
+
+    options = [answer, opt2, opt3, opt4]
+    random.shuffle(options)
+
+    return {
+        "match_id": int(row.match_id),
+        "batting": batting,
+        "bowling": bowling,
+        "target": int(target),
+        "score": f"{runs}/{wkts}",
+        "runs_needed": int(runs_needed),
+        "balls_left": int(balls_left),
+        "question": f"{batting} need {int(runs_needed)} runs in {int(balls_left)} balls against {bowling}",
+        "options": options,
+        "answer": answer
+    }
+
+@app.route("/api/game/player")
+def player():
+    return jsonify(json.loads(json.dumps(get_player_moment(), default=int)))
+
+@app.route("/api/game/chase")
+def chase():
+   return jsonify(json.loads(json.dumps(get_chase(), default=int)))
+
 if __name__ == "__main__":
     app.run(debug=True, port=5000)

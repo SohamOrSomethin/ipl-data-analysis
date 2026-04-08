@@ -44,3 +44,9 @@ Venue detail
 http://localhost:5000/api/venues/Eden Gardens
 http://localhost:5000/api/venues/Wankhede Stadium
 http://localhost:5000/api/venues/M Chinnaswamy Stadium?min_matches=5
+
+Game preductor
+http://127.0.0.1:5000/api/game/last-over
+http://127.0.0.1:5000/api/game/collapse
+http://127.0.0.1:5000/api/game/player
+http://127.0.0.1:5000/api/game/chase
