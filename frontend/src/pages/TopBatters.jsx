@@ -12,14 +12,14 @@ export default function TopBatters() {
   const [hoveredIndex, setHoveredIndex] = useState(null)
 
   useEffect(() => {
-    axios.get('/data/seasons.json')
+    axios.get('http://localhost:5000/static/data/seasons.json')
       .then(res => setSeasons(res.data))
   }, [])
 
   useEffect(() => {
     setLoading(true)
     if (selected === 'all') {
-      axios.get('/data/players.json').then(res => {
+      axios.get('http://localhost:5000/static/data/players.json').then(res => {
         const top10 = res.data
           .sort((a, b) => b.runs - a.runs)
           .slice(0, 10)
