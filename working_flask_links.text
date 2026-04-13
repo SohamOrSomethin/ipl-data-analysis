@@ -50,3 +50,7 @@ http://127.0.0.1:5000/api/game/last-over
 http://127.0.0.1:5000/api/game/collapse
 http://127.0.0.1:5000/api/game/player
 http://127.0.0.1:5000/api/game/chase
+
+Goat 
+http://127.0.0.1:5000/api/goat
+http://127.0.0.1:5000/api/goat?role=bowler
