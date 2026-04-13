@@ -983,5 +983,87 @@ def player():
 def chase():
    return jsonify(json.loads(json.dumps(get_chase(), default=int)))
 
+MIN_MATCHES       = 20
+BOWLER_MIN_MATCHES = 20
+BOWLER_MIN_WICKETS = 15
+
+@app.route('/api/goat')
+def goat():
+    with open("static/data/players.json") as f:
+     players = json.load(f)
+
+    role  = request.args.get('role', 'batter')   # ?role=batter or ?role=bowler
+    limit = min(int(request.args.get('limit', 10)), 25)  # ?limit=10, max 25
+
+    if role == 'bowler':
+        qualified = [
+            p for p in players
+            if p.get('bowler_goat_score', 0) > 0
+            and p.get('matches', 0) >= BOWLER_MIN_MATCHES
+            and p.get('wickets', 0) >= BOWLER_MIN_WICKETS
+        ]
+        sort_key = 'bowler_goat_score'
+    else:
+        qualified = [
+            p for p in players
+            if p.get('batter_goat_score', 0) > 0
+            and p.get('matches', 0) >= MIN_MATCHES
+        ]
+        sort_key = 'batter_goat_score'
+
+    top = sorted(qualified, key=lambda x: x[sort_key], reverse=True)[:limit]
+
+    # Add rank + pluck only what the frontend needs
+    result = []
+    for i, p in enumerate(top, 1):
+        result.append({
+            "rank":     i,
+            "name":     p["name"],
+            "goat_score": p[sort_key],
+            "breakdown":  p.get(
+                "batter_goat_breakdown" if role == "batter" else "bowler_goat_breakdown",
+                {}
+            ),
+            # core stats for display
+            "stats": _goat_stats(p, role)
+        })
+
+    return jsonify({
+        "role":    role,
+        "count":   len(result),
+        "players": result
+    })
+
+
+def _goat_stats(p, role):
+    """Pluck display stats depending on role."""
+    if role == "batter":
+        return {
+            "matches":             p.get("matches", 0),
+            "runs":                p.get("total_runs", 0),
+            "batting_avg":         p.get("batting_avg", 0),
+            "strike_rate":         p.get("strike_rate", 0),
+            "seasons":             p.get("seasons_count", 0),
+            "fours":               p.get("fours", 0),
+            "sixes":               p.get("sixes", 0),
+            "boundary_pct":        p.get("boundary_pct", 0),
+            "knockout_runs":       p.get("knockout_runs", 0),
+            "knockout_avg":        p.get("knockout_avg", 0),
+            "runs_contribution_pct": p.get("runs_contribution_pct", 0),
+        }
+    else:
+        return {
+            "matches":                    p.get("matches", 0),
+            "wickets":                    p.get("wickets", 0),
+            "economy":                    p.get("economy", 0),
+            "bowling_avg":                p.get("bowling_avg", 0),
+            "bowling_sr":                 p.get("bowling_sr", 0),
+            "seasons":                    p.get("seasons_count", 0),
+            "bowling_role":               p.get("bowling_role", "N/A"),
+            "knockout_wickets":           p.get("knockout_wickets", 0),
+            "knockout_economy":           p.get("knockout_economy", 0),
+            "wickets_per_match":          p.get("wickets_per_match", 0),
+        }
+    
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
