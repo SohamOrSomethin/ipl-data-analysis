@@ -24,7 +24,10 @@ gets 100, the worst gets 0, everyone else scales in between.
 ### Component Breakdown
 
 **1. Volume & Dominance (25%)**
-- `runs_contribution_pct = player runs / all runs scored while player was batting × 100`
+- `runs_contribution_pct = player_runs / team_total_runs_in_innings_played × 100`
+- team_total_runs_in_innings_played = sum of all runs scored by the team
+in every innings where this player batted.
+Expected range: 15–30% (normal), 30%+ (very dominant)`
 - Measures batting *importance* not just volume — a player scoring 40/120 ranks
   higher than one scoring 60/220 on this metric
 
@@ -39,6 +42,7 @@ gets 100, the worst gets 0, everyone else scales in between.
 - Score = 60% knockout batting average + 20% knockout strike rate + 20% not-out rate in knockouts
 - Not-out rate bonus rewards match-finishers (Dhoni-style)
 - Players who never appeared in a knockout get 0 on this component
+- A confidence weight is applied to prevent small sample bias:  weight = min(1.0, knockout_innings / 10)
 
 **4. Boundary Aggression + Phase Bonus (15%)**
 - Base = 60% boundary% (runs from 4s and 6s / total runs) + 40% six rate (sixes per 100 balls)
@@ -92,6 +96,7 @@ GOAT_batter = (0.25 × C1) + (0.20 × C2) + (0.25 × C3) + (0.15 × C4) + (0.15 
 - Only finals and knockout matches count
 - Score = 60% knockout wickets per match + 40% inverted knockout economy
 - Players who never appeared in a knockout get 0 on this component
+- A confidence weight is applied to prevent small sample bias: weight = min(1.0, knockout_matches / 8)
 
 **4. Phase Bowling (15%)**
 - Each bowler's primary role is determined by where they bowl the most balls:
@@ -113,6 +118,23 @@ GOAT_bowler = (0.30 × C1) + (0.20 × C2) + (0.25 × C3) + (0.15 × C4) + (0.10 
 ```
 
 ---
+## Score Adjustments
+
+### Career Maturity Penalty
+Applied as a multiplier to the final GOAT score before re-normalisation.
+
+- Batters:  multiplier = min(1.0, matches / 80)
+  - 80+ matches → full score
+  - 20 matches (minimum) → 25% of score
+- Bowlers:  not currently applied (minimum thresholds handle this)
+
+This prevents short-career players from ranking above legends purely
+on rate stats with a small sample size.
+
+### Re-normalisation
+After all scores are computed across the qualifying pool, a final
+min-max re-normalisation is applied so scores always span 0–100.
+The best player in the qualifying pool always scores 100.
 
 ## API
 
