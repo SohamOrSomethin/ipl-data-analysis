@@ -16,7 +16,7 @@ const TEAM_LOGOS = {
   "Gujarat Lions": "https://upload.wikimedia.org/wikipedia/en/c/c4/Gujarat_Lions.png",
   "Deccan Chargers": "https://upload.wikimedia.org/wikipedia/en/a/a6/HyderabadDeccanChargers.png",
   "Kochi Tuskers Kerala": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Kochi_Tuskers_Kerala_Logo.svg/1280px-Kochi_Tuskers_Kerala_Logo.svg.png",
-  "Pune Warriors": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Pune_Warriors_India_IPL_Logo.png/250px-Pune_Warriors_India_IPL_Logo.png",
+  "Pune Warriors India": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Pune_Warriors_India_IPL_Logo.png/500px-Pune_Warriors_India_IPL_Logo.png",
   "Delhi Daredevils": "https://upload.wikimedia.org/wikipedia/sa/7/74/298px-Delhi_Daredevils_Logo.svg.png",
   "Kings XI Punjab": "https://1000logos.net/wp-content/uploads/2022/09/Punjab-Kings-Logo-2012.png"
 };
