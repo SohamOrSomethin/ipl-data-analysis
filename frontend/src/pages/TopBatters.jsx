@@ -14,23 +14,33 @@ export default function TopBatters() {
   useEffect(() => {
     axios.get('http://localhost:5000/static/data/seasons.json')
       .then(res => setSeasons(res.data))
+      .catch(err => console.error("Error fetching seasons:", err))
   }, [])
 
   useEffect(() => {
     setLoading(true)
     if (selected === 'all') {
-      axios.get('http://localhost:5000/static/data/players.json').then(res => {
-        const top10 = res.data
-          .sort((a, b) => b.runs - a.runs)
-          .slice(0, 10)
-          .map(p => ({ batter: p.name, runs: p.runs }))
-        setBatters(top10)
-        setLoading(false)
-      })
+      axios.get('http://localhost:5000/static/data/players.json')
+        .then(res => {
+          const top10 = res.data
+            .sort((a, b) => (b.total_runs || 0) - (a.total_runs || 0))
+            .slice(0, 10)
+            .map(p => ({ batter: p.name, runs: p.total_runs || 0 }))
+          setBatters(top10)
+          setLoading(false)
+        })
+        .catch(err => {
+          console.error("Error fetching all-time batters:", err)
+          setLoading(false)
+        })
     } else {
       axios.get(`http://localhost:5000/api/top-batters?season=${selected}`)
         .then(res => {
           setBatters(res.data)
+          setLoading(false)
+        })
+        .catch(err => {
+          console.error("Error fetching seasonal batters:", err)
           setLoading(false)
         })
     }
