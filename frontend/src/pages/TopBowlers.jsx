@@ -19,31 +19,15 @@ export default function TopBowlers() {
 
   useEffect(() => {
     setLoading(true)
-    if (selected === 'all') {
-      axios.get('http://localhost:5000/static/data/players.json')
-        .then(res => {
-          const top10 = res.data
-            .sort((a, b) => (b.wickets || 0) - (a.wickets || 0))
-            .slice(0, 10)
-            .map(p => ({ bowler: p.name, wickets: p.wickets || 0 }))
-          setBowlers(top10)
-          setLoading(false)
-        })
-        .catch(err => {
-          console.error("Error fetching all-time bowlers:", err)
-          setLoading(false)
-        })
-    } else {
-      axios.get(`http://localhost:5000/api/top-bowlers?season=${selected}`)
-        .then(res => {
-          setBowlers(res.data)
-          setLoading(false)
-        })
-        .catch(err => {
-          console.error("Error fetching seasonal bowlers:", err)
-          setLoading(false)
-        })
-    }
+    axios.get(`http://localhost:5000/api/top-bowlers?season=${selected}`)
+      .then(res => {
+        setBowlers(res.data)
+        setLoading(false)
+      })
+      .catch(err => {
+        console.error("Error fetching bowlers:", err)
+        setLoading(false)
+      })
   }, [selected])
 
   return (
