@@ -124,6 +124,7 @@ VENUE_ALIASES = {
     "Wankhede Stadium, Mumbai": "Wankhede Stadium",
     "Zayed Cricket Stadium, Abu Dhabi": "Zayed Cricket Stadium",
     "Sheikh Zayed Stadium": "Zayed Cricket Stadium",
+    "Wankhede Stadium, Mumbai": "Wankhede Stadium",
 }
 
 def normalise_venue(name):
@@ -300,54 +301,55 @@ with open("static/data/players.json") as f:
 def players():
     name = request.args.get("name", "").strip()
     season = request.args.get("season", "all")
-    #take ip as namea nd season konsa tha
-    #if no name null, if no season consider all seasns
 
     if len(name) < 2:
         return jsonify([])
-    #if name is less than 2 characters return null list seedha ex: k, l, " "
-
-    if season != "all":
-        df_filtered = df[df["season"] == season]
-    else:
-        df_filtered = df
-
-        #agar all nahi hai toh df take by season
-
-
-    matching_batters = df_filtered[df_filtered["batter"].str.contains(name, case=False, na=False)]["batter"].unique()
-    #find saare batsmen with that name
-    matching_bowlers = df_filtered[df_filtered["bowler"].str.contains(name, case=False, na=False)]["bowler"].unique()
-    #find saare bowler with that name
-    all_names = set(matching_batters) | set(matching_bowlers)
-    #make it into a set
 
     if season == "all":
-        matches = [p for p in players_cache.values() 
-                   if name.lower() in p["name"].lower()]
-        return jsonify(sorted(matches, key=lambda x: x["name"]))
-    
-    #agar all hai toh cache mai jo players load kiye the waha se lelo seedha stats
-            
+        matches = [
+            {
+                "name": p["name"],
+                "runs": p["total_runs"],
+                "balls": p["total_balls"],
+                "fours": p["fours"],
+                "sixes": p["sixes"],
+                "wickets": p["wickets"],
+            }
+            for p in players_cache.values()
+            if name.lower() in p["name"].lower()
+        ]
+        return jsonify(sorted(matches, key=lambda x: x["name"])[:20])
+
+    df_filtered = df[df["season"] == season]
+
+    matching_batters = df_filtered[
+        df_filtered["batter"].str.contains(name, case=False, na=False)
+    ]["batter"].unique()
+
+    matching_bowlers = df_filtered[
+        df_filtered["bowler"].str.contains(name, case=False, na=False)
+    ]["bowler"].unique()
+
+    all_names = set(matching_batters) | set(matching_bowlers)
+
+    bat_group = df_filtered.groupby("batter")
+    bowl_group = df_filtered.groupby("bowler")
 
     results = []
     for player_name in sorted(all_names):
-        bat = df_filtered[df_filtered["batter"] == player_name]
-        #wo wala bat jaha batter name == player name
-        bowl = df_filtered[df_filtered["bowler"] == player_name]
-        #vo wala bowl jaha bowler name == player name
+        bat = bat_group.get_group(player_name) if player_name in bat_group.groups else pd.DataFrame()
+        bowl = bowl_group.get_group(player_name) if player_name in bowl_group.groups else pd.DataFrame()
 
         results.append({
             "name": player_name,
-            "runs": int(bat["runs_batter"].sum()),
-            "balls": int(bat["balls_faced"].sum()),
-            "fours": int((bat["runs_batter"] == 4).sum()),
-            "sixes": int((bat["runs_batter"] == 6).sum()),
-            "wickets": int(bowl["bowler_wicket"].sum()),
+            "runs": int(bat["runs_batter"].sum()) if not bat.empty else 0,
+            "balls": int(bat["balls_faced"].sum()) if not bat.empty else 0,
+            "fours": int((bat["runs_batter"] == 4).sum()) if not bat.empty else 0,
+            "sixes": int((bat["runs_batter"] == 6).sum()) if not bat.empty else 0,
+            "wickets": int(bowl["bowler_wicket"].sum()) if not bowl.empty else 0,
         })
-        #get stats and jsonify
 
-    return jsonify(results)
+    return jsonify(results[:20])
 
 def resolve_team(name):
     key = name.strip().lower()
@@ -1065,5 +1067,270 @@ def _goat_stats(p, role):
             "wickets_per_match":          p.get("wickets_per_match", 0),
         }
     
+def get_recent_form(team_canonical, last_n=5, before_date=None):
+    team_matches = [
+        m for m in MATCH_SUMMARY
+        if m.get("team1") == team_canonical or m.get("team2") == team_canonical
+        and (before_date is None or m.get("date", "") < before_date)]
+    # desc sort by dates
+    team_matches.sort(key=lambda m: m.get("date", ""), reverse=True)
+    recent = team_matches[:last_n] #last n tak hi rakho
+    if not recent:
+        return 50.0  #agar recent nahi hai toh take as 50
+    wins = sum(1 for m in recent if m.get("winner") == team_canonical)
+    return round(wins / len(recent) * 100, 2) #nahi to return win pct
+
+def get_current_season_form(team_canonical, current_season, before_date=None):
+    """Win % in current season only — much more relevant than all-time last 5"""
+    season_matches = [
+        m for m in MATCH_SUMMARY
+        if (m.get("team1") == team_canonical or m.get("team2") == team_canonical)
+        and str(m.get("season")) == str(current_season)
+        and (before_date is None or m.get("date", "") < before_date)
+    ]
+    if not season_matches:
+        return 50.0
+    wins = sum(1 for m in season_matches if m.get("winner") == team_canonical)
+    return round(wins / len(season_matches) * 100, 2)
+
+def get_venue_winpct(team_canonical, venue_name, before_date=None):
+    canonical_venue = normalise_venue(venue_name)
+    venue_data = VENUE_STATS.get(canonical_venue)
+    print([t["team"] for t in venue_data["teams"]])
+
+    if not venue_data:
+        return 50.0  # nahi mila venue to 50 rakho (neutral)
+    for t in venue_data["teams"]:
+        if t["team"].lower() == team_canonical.lower():
+            return t["win_pct"] if t["matches"] >= 3 else 50.0 #agar matches at that venue > 3 return vo venue ka winpct
+    return 50.0
+
+def get_venue_winpct(team_canonical, venue_name, before_date=None):
+    canonical_venue = normalise_venue(venue_name)
+
+    if before_date is None:
+        # Live mode — use precomputed VENUE_STATS (fast)
+        venue_data = VENUE_STATS.get(canonical_venue)
+        if not venue_data:
+            return 50.0
+        for t in venue_data["teams"]:
+            if t["team"].lower() == team_canonical.lower():
+                return t["win_pct"] if t["matches"] >= 3 else 50.0
+        return 50.0
+
+    else:
+        # Backtest mode — filter MATCH_SUMMARY by date (accurate)
+        venue_matches = [
+            m for m in MATCH_SUMMARY
+            if normalise_venue(m.get("venue", "")) == canonical_venue
+            and m.get("date", "") < before_date
+            and m.get("result") == "completed"
+            and m.get("winner")
+        ]
+
+        if len(venue_matches) < 3:
+            return 50.0
+
+        team_matches = [
+            m for m in venue_matches
+            if m.get("team1") == team_canonical or m.get("team2") == team_canonical
+        ]
+
+        if len(team_matches) < 3:
+            return 50.0
+
+        wins = sum(1 for m in team_matches if m.get("winner") == team_canonical)
+        return round(wins / len(team_matches) * 100, 2)
+    
+def get_home_boost(team_canonical, venue_name):
+    keywords = HOME_CITIES.get(team_canonical.lower(), [])
+    venue_lower = venue_name.lower()
+    if any(kw in venue_lower for kw in keywords): #agar homegroun advantage rahega toh 60 else 40
+        return 60.0
+    return 40.0
+
+def get_toss_score(toss_winner, team_canonical, toss_decision, venue_name):
+    if not toss_winner:
+        return 50.0  # no toss info neutral
+
+    won_toss = toss_winner.lower() == team_canonical.lower()
+    if not won_toss:
+        return 40.0  # lost toss → slight disadvantage
+
+    # Not enough info to judge venue preference
+    if not venue_name or venue_name == "Unknown":
+        return 60.0  # won toss, but no venue data  small boost only
+
+    canonical_venue = normalise_venue(venue_name)
+
+    # All decided matches at this venue
+    venue_matches = [
+        m for m in MATCH_SUMMARY
+        if normalise_venue(m.get("venue", "")) == canonical_venue
+        and m.get("result") == "completed"
+        and m.get("winner")
+    ]
+
+    if len(venue_matches) < 5:
+        return 60.0  # too few matches means small boost
+
+    # Matches where team batted first (won toss + chose bat)
+    bat_first_matches = [
+        m for m in venue_matches
+        if m.get("toss_decision") == "bat"
+    ]
+
+    # Matches where team fielded first (won toss + chose field)
+    field_first_matches = [
+        m for m in venue_matches
+        if m.get("toss_decision") == "field"
+    ]
+
+    # Win % for bat-first team at this venue
+    bat_first_wins = sum(
+        1 for m in bat_first_matches
+        if m.get("toss_winner") == m.get("winner")  # toss winner batted and won
+    )
+    bat_first_win_pct = (
+        bat_first_wins / len(bat_first_matches)
+        if bat_first_matches else 0.5
+    )
+
+    # Win % for field-first team at this venue
+    field_first_wins = sum(
+        1 for m in field_first_matches
+        if m.get("toss_winner") == m.get("winner")  # toss winner fielded and won
+    )
+    field_first_win_pct = (
+        field_first_wins / len(field_first_matches)
+        if field_first_matches else 0.5
+    )
+
+    # Now score based on whether the decision aligns with venue tendency
+    if toss_decision == "bat":
+        if bat_first_win_pct > 0.52:
+            return 68.0   # good call  venue favours batting first
+        elif bat_first_win_pct < 0.48:
+            return 52.0   # poor call venue actually favours chasing
+        else:
+            return 60.0   # neutral venue, won toss
+
+    elif toss_decision == "field":
+        if field_first_win_pct > 0.52:
+            return 68.0   # good call  venue favours chasing
+        elif field_first_win_pct < 0.48:
+            return 52.0   # poor call  venue favours batting first
+        else:
+            return 60.0   # neutral venue, won toss
+
+    return 60.0  # toss_decision unknown but won toss
+
+def get_pair_matches_before(team1, team2, before_date=None):
+    return [
+        m for m in MATCH_SUMMARY
+        if sorted([m.get("team1"), m.get("team2")]) == sorted([team1, team2])
+        and (before_date is None or m.get("date", "") < before_date)  # ← only past matches
+    ]
+
+@app.route('/api/predict/winner', methods=['GET'])
+def predict_winner():
+    team1_raw = request.args.get('team1', '').strip()
+    team2_raw = request.args.get('team2', '').strip()
+    venue_raw = request.args.get('venue', '').strip()
+    toss_winner_raw = request.args.get('toss_winner', '').strip()
+    toss_decision = request.args.get('toss_decision', '').strip().lower() 
+
+    if not team1_raw or not team2_raw:
+        return jsonify({"error": "team1 and team2 are required"}), 400
+
+    team1 = resolve_team(team1_raw)
+    team2 = resolve_team(team2_raw)
+    toss_winner = resolve_team(toss_winner_raw) if toss_winner_raw else None
+    venue = normalise_venue(venue_raw) if venue_raw else "Unknown"
+
+    team_matches = [m for m in MATCH_SUMMARY if m.get("team1") == team1 or m.get("team2") == team1]
+    team_matches.sort(key=lambda m: m.get("date", ""), reverse=True)
+    print(team_matches[:5])
+
+    # ── Pull features ────────────────────────────────────────────────────────
+    # H2H win %
+    pair_matches = get_pair_matches(team1, team2)
+    decided = [m for m in pair_matches if m.get("winner") in [team1, team2]]
+    h2h_t1 = round(sum(1 for m in decided if m["winner"] == team1) / len(decided) * 100, 2) if decided else 50.0 
+    #bascially count the number of wins of team1 from decided matches between team 1 and team 2 (ye pair matches se aya)
+    h2h_t2 = round(100 - h2h_t1, 2)
+
+    # Recent form (last 5 matches)
+    form_t1 = get_recent_form(team1, last_n=5)
+    form_t2 = get_recent_form(team2, last_n=5)
+
+    # Venue win %
+    venue_t1 = get_venue_winpct(team1, venue)
+    venue_t2 = get_venue_winpct(team2, venue)
+
+    # Home/away boost
+    home_t1 = get_home_boost(team1, venue)
+    home_t2 = get_home_boost(team2, venue)
+
+    # Toss
+    toss_t1 = get_toss_score(toss_winner, team1, toss_decision, venue)
+    toss_t2 = get_toss_score(toss_winner, team2, toss_decision, venue)
+
+    # ── Weighted score ───────────────────────────────────────────────────────
+    WEIGHTS = {
+        "h2h":    0.30,
+        "form":   0.25,
+        "venue":  0.20,
+        "home":   0.15,
+        "toss":   0.10,
+    }
+
+    raw_t1 = (
+        WEIGHTS["h2h"]   * h2h_t1   +
+        WEIGHTS["form"]  * form_t1  +
+        WEIGHTS["venue"] * venue_t1 +
+        WEIGHTS["home"]  * home_t1  +
+        WEIGHTS["toss"]  * toss_t1
+    )
+    raw_t2 = (
+        WEIGHTS["h2h"]   * h2h_t2   +
+        WEIGHTS["form"]  * form_t2  +
+        WEIGHTS["venue"] * venue_t2 +
+        WEIGHTS["home"]  * home_t2  +
+        WEIGHTS["toss"]  * toss_t2
+    )
+
+    # Normalise so both sum to 100
+    total = raw_t1 + raw_t2
+    win_pct_t1 = round(raw_t1 / total * 100, 1) if total > 0 else 50.0
+    win_pct_t2 = round(100 - win_pct_t1, 1)
+
+    predicted_winner = team1 if win_pct_t1 >= win_pct_t2 else team2
+    confidence = "high" if abs(win_pct_t1 - win_pct_t2) > 15 else "medium" if abs(win_pct_t1 - win_pct_t2) > 7 else "low"
+
+    return jsonify({
+        "team1": team1,
+        "team2": team2,
+        "venue": venue,
+        "toss_winner": toss_winner,
+        "toss_decision": toss_decision or None,
+        "predicted_winner": predicted_winner,
+        "confidence": confidence,
+        "win_probability": {
+            team1: win_pct_t1,
+            team2: win_pct_t2,
+        },
+        "factors": {
+            "h2h_winpct":      {"team1": h2h_t1,   "team2": h2h_t2},
+            "recent_form":     {"team1": form_t1,   "team2": form_t2},
+            "venue_winpct":    {"team1": venue_t1,  "team2": venue_t2},
+            "home_advantage":  {"team1": home_t1,   "team2": home_t2},
+            "toss_score":      {"team1": toss_t1,   "team2": toss_t2},
+        }
+    })
+
+
+
+
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
