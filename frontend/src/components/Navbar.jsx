@@ -59,6 +59,12 @@ export default function Navbar() {
           >
             Daily Quiz 🧠
           </NavLink>
+          <NavLink 
+            to="/goat-players" 
+            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+          >
+            G.O.A.T
+          </NavLink>
         </div>
       </div>
     </nav>

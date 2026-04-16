@@ -10,6 +10,7 @@ import TeamDashboard from './pages/TeamDashboard'
 import HeadToHead from './pages/HeadToHead'
 import RecordCard from './pages/RecordCard'
 import DailyQuiz from './pages/DailyQuiz'
+import GoatPlayers from './pages/GoatPlayers'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
               <Route path="/head-to-head" element={<HeadToHead />} />
               <Route path="/record-card" element={<RecordCard />} />
               <Route path="/daily-quiz" element={<DailyQuiz />} />
+              <Route path="/goat-players" element={<GoatPlayers />} />
             </Routes>
           </ErrorBoundary>
         </main>
