@@ -301,54 +301,55 @@ with open("static/data/players.json") as f:
 def players():
     name = request.args.get("name", "").strip()
     season = request.args.get("season", "all")
-    #take ip as namea nd season konsa tha
-    #if no name null, if no season consider all seasns
 
     if len(name) < 2:
         return jsonify([])
-    #if name is less than 2 characters return null list seedha ex: k, l, " "
-
-    if season != "all":
-        df_filtered = df[df["season"] == season]
-    else:
-        df_filtered = df
-
-        #agar all nahi hai toh df take by season
-
-
-    matching_batters = df_filtered[df_filtered["batter"].str.contains(name, case=False, na=False)]["batter"].unique()
-    #find saare batsmen with that name
-    matching_bowlers = df_filtered[df_filtered["bowler"].str.contains(name, case=False, na=False)]["bowler"].unique()
-    #find saare bowler with that name
-    all_names = set(matching_batters) | set(matching_bowlers)
-    #make it into a set
 
     if season == "all":
-        matches = [p for p in players_cache.values() 
-                   if name.lower() in p["name"].lower()]
-        return jsonify(sorted(matches, key=lambda x: x["name"]))
-    
-    #agar all hai toh cache mai jo players load kiye the waha se lelo seedha stats
-            
+        matches = [
+            {
+                "name": p["name"],
+                "runs": p["total_runs"],
+                "balls": p["total_balls"],
+                "fours": p["fours"],
+                "sixes": p["sixes"],
+                "wickets": p["wickets"],
+            }
+            for p in players_cache.values()
+            if name.lower() in p["name"].lower()
+        ]
+        return jsonify(sorted(matches, key=lambda x: x["name"])[:20])
+
+    df_filtered = df[df["season"] == season]
+
+    matching_batters = df_filtered[
+        df_filtered["batter"].str.contains(name, case=False, na=False)
+    ]["batter"].unique()
+
+    matching_bowlers = df_filtered[
+        df_filtered["bowler"].str.contains(name, case=False, na=False)
+    ]["bowler"].unique()
+
+    all_names = set(matching_batters) | set(matching_bowlers)
+
+    bat_group = df_filtered.groupby("batter")
+    bowl_group = df_filtered.groupby("bowler")
 
     results = []
     for player_name in sorted(all_names):
-        bat = df_filtered[df_filtered["batter"] == player_name]
-        #wo wala bat jaha batter name == player name
-        bowl = df_filtered[df_filtered["bowler"] == player_name]
-        #vo wala bowl jaha bowler name == player name
+        bat = bat_group.get_group(player_name) if player_name in bat_group.groups else pd.DataFrame()
+        bowl = bowl_group.get_group(player_name) if player_name in bowl_group.groups else pd.DataFrame()
 
         results.append({
             "name": player_name,
-            "runs": int(bat["runs_batter"].sum()),
-            "balls": int(bat["balls_faced"].sum()),
-            "fours": int((bat["runs_batter"] == 4).sum()),
-            "sixes": int((bat["runs_batter"] == 6).sum()),
-            "wickets": int(bowl["bowler_wicket"].sum()),
+            "runs": int(bat["runs_batter"].sum()) if not bat.empty else 0,
+            "balls": int(bat["balls_faced"].sum()) if not bat.empty else 0,
+            "fours": int((bat["runs_batter"] == 4).sum()) if not bat.empty else 0,
+            "sixes": int((bat["runs_batter"] == 6).sum()) if not bat.empty else 0,
+            "wickets": int(bowl["bowler_wicket"].sum()) if not bowl.empty else 0,
         })
-        #get stats and jsonify
 
-    return jsonify(results)
+    return jsonify(results[:20])
 
 def resolve_team(name):
     key = name.strip().lower()
