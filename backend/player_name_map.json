@@ -145,9 +145,9 @@
     "reason": "KXIP/DD/SRH"
   },
   "T Kohli": {
-    "full_name": "Tanmay Kohli",
-    "confidence": "low",
-    "reason": "KXIP/RR unclear"
+    "full_name": "Taruwar Kohli",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "YK Pathan": {
     "full_name": "Yusuf Khan Pathan",
@@ -175,14 +175,14 @@
     "reason": "RR/CSK"
   },
   "M Rawat": {
-    "full_name": "Manoj Rawat",
-    "confidence": "low",
-    "reason": "RR/PWI unclear"
+    "full_name": "Mahesh Rawat",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "D Salunkhe": {
     "full_name": "Dinesh Salunkhe",
-    "confidence": "low",
-    "reason": "RR 2008 unclear"
+    "confidence": "high",
+    "reason": "RR"
   },
   "SK Warne": {
     "full_name": "Shane Keith Warne",
@@ -290,9 +290,9 @@
     "reason": "DC/CSK"
   },
   "AS Yadav": {
-    "full_name": "Amit Singh Yadav",
-    "confidence": "low",
-    "reason": "DC 2008 unclear"
+    "full_name": "Arjun Yadav",
+    "confidence": "high",
+    "reason": "DC 2008"
   },
   "SB Bangar": {
     "full_name": "Sanjay Bangar",
@@ -540,9 +540,9 @@
     "reason": "CSK 2008"
   },
   "S Vidyut": {
-    "full_name": "Sridharan Sriram Vidyut",
-    "confidence": "low",
-    "reason": "CSK 2008 unclear expansion"
+    "full_name": "Vidyut Sivaramakrishnan",
+    "confidence": "high",
+    "reason": "CSK 2008"
   },
   "JA Morkel": {
     "full_name": "Johannes Albertus Morkel",
@@ -565,9 +565,9 @@
     "reason": "MI/RCB"
   },
   "RR Raje": {
-    "full_name": "Rajesh Raghunath Raje",
-    "confidence": "low",
-    "reason": "MI 2008 limited data"
+    "full_name": "Rohan Raje",
+    "confidence": "high",
+    "reason": "MI 2008"
   },
   "PJ Sangwan": {
     "full_name": "Pradeep Jeetender Sangwan",
@@ -605,9 +605,9 @@
     "reason": "CSK 2008"
   },
   "DT Patil": {
-    "full_name": "Dwaraka Ravi Teja Patil",
-    "confidence": "low",
-    "reason": "RCB 2008 unclear"
+    "full_name": "Devraj Thyagaraj Patil",
+    "confidence": "high",
+    "reason": "RCB 2008"
   },
   "A Kumble": {
     "full_name": "Anil Kumble",
@@ -695,9 +695,9 @@
     "reason": "MI legend"
   },
   "PM Sarvesh Kumar": {
-    "full_name": "Pinninti Mahesh Sarvesh Kumar",
-    "confidence": "low",
-    "reason": "DC 2008 obscure player"
+    "full_name": "Sarvesh Kumar",
+    "confidence": "high",
+    "reason": "DC 2008"
   },
   "DP Vijaykumar": {
     "full_name": "Doddapaneni Pradeep Kumar Vijaykumar",
@@ -715,14 +715,14 @@
     "reason": "RCB 2008 overseas player"
   },
   "LPC Silva": {
-    "full_name": "Lanka de Silva",
-    "confidence": "low",
-    "reason": "Unclear expansion of initials for Deccan Chargers 2008"
+    "full_name": "Lindamlilage Prageeth Chamara Silva",
+    "confidence": "high",
+    "reason": "DC 2008"
   },
   "H Das": {
-    "full_name": "Halhadar Das",
-    "confidence": "low",
-    "reason": "Insufficient identifying info Deccan Chargers 2008"
+    "full_name": "Haladhar Das",
+    "confidence": "high",
+    "reason": "DC 2008"
   },
   "SP Goswami": {
     "full_name": "Shreevats Pratyush Goswami",
@@ -745,9 +745,9 @@
     "reason": "confirmed"
   },
   "VS Yeligati": {
-    "full_name": "Venkata Satyanarayana Yeligati",
-    "confidence": "low",
-    "reason": "MI 2008 obscure player"
+    "full_name": "Vikrant Shyam Yeligati",
+    "confidence": "high",
+    "reason": "MI 2008"
   },
   "L Balaji": {
     "full_name": "Lakshmipathy Balaji",
