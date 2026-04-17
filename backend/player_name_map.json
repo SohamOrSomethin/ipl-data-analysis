@@ -845,9 +845,9 @@
     "reason": "RR 2009"
   },
   "AS Raut": {
-    "full_name": "Ankit Sharma Raut",
-    "confidence": "low",
-    "reason": "Likely Amit Singh Raut (Ambati?) unclear initials"
+    "full_name": "Abhisehk Santosh Raut",
+    "confidence": "high",
+    "reason": "RR 2009"
   },
   "Yashpal Singh": {
     "full_name": "Yashpal Singh",
@@ -865,9 +865,9 @@
     "reason": "Deccan Chargers 2009-10"
   },
   "AN Ghosh": {
-    "full_name": "Arindam Ghosh",
-    "confidence": "low",
-    "reason": "KKR 2009 limited data"
+    "full_name": "Arindam Nanigopal Ghosh",
+    "confidence": "high",
+    "reason": "KKR 2009"
   },
   "BAW Mendis": {
     "full_name": "Balapuwaduge Ajantha Winslow Mendis",
@@ -895,9 +895,9 @@
     "reason": "DC/MI/PWI"
   },
   "Shoaib Ahmed": {
-    "full_name": "Shoaib Ahmed",
-    "confidence": "low",
-    "reason": "Deccan Chargers 2009 unclear identity"
+    "full_name": "Syed Mohammad Shoaib Ahmed",
+    "confidence": "high",
+    "reason": "Deccan Chargers 2009"
   },
   "GR Napier": {
     "full_name": "Graham Richard Napier",
@@ -965,9 +965,9 @@
     "reason": "RR/DD/KKR"
   },
   "C Nanda": {
-    "full_name": "Chirag Nanda",
-    "confidence": "low",
-    "reason": "MI 2009 obscure player"
+    "full_name": "Chetanya Nanda",
+    "confidence": "high",
+    "reason": "MI 2009"
   },
   "SL Malinga": {
     "full_name": "Separamadu Lasith Malinga",
@@ -1000,9 +1000,9 @@
     "reason": "DD 2009-2012"
   },
   "SS Shaikh": {
-    "full_name": "Sarfraz Shaikh",
-    "confidence": "low",
-    "reason": "KKR 2009 unclear"
+    "full_name": "Shoaib Shabbir Shaikh",
+    "confidence": "high",
+    "reason": "KKR 2009"
   },
   "R Ashwin": {
     "full_name": "Ravichandran Ashwin",
