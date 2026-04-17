@@ -1055,9 +1055,9 @@
     "reason": "MI/KKR/KXIP all-rounder"
   },
   "AA Jhunjhunwala": {
-    "full_name": "Ashok Arjun Jhunjhunwala",
-    "confidence": "low",
-    "reason": "DC/PWI/RR unclear full expansion"
+    "full_name": "Abhishek Arunkumar Jhunjhunwala",
+    "confidence": "high",
+    "reason": "DC/PWI/RR"
   },
   "P Dogra": {
     "full_name": "Paras Dogra",
@@ -1155,9 +1155,9 @@
     "reason": "RR 2010"
   },
   "MD Mishra": {
-    "full_name": "Manoj Mishra",
-    "confidence": "low",
-    "reason": "DC/PWI unclear identity"
+    "full_name": "Mohnish Dinesh Mishra",
+    "confidence": "high",
+    "reason": "DC/PWI"
   },
   "UT Yadav": {
     "full_name": "Umesh Yadav",
@@ -1170,9 +1170,9 @@
     "reason": "RR/DC/KXIP"
   },
   "SJ Srivastava": {
-    "full_name": "Siddharth Srivastava",
-    "confidence": "low",
-    "reason": "KXIP unclear"
+    "full_name": "Shalabh Jagdishprasad Srivastava",
+    "confidence": "high",
+    "reason": "KXIP"
   },
   "KM Jadhav": {
     "full_name": "Kedar Mahadev Jadhav",
@@ -1225,9 +1225,9 @@
     "reason": "RCB"
   },
   "AP Dole": {
-    "full_name": "Amit Paunikar Dole",
-    "confidence": "low",
-    "reason": "RR unclear"
+    "full_name": "Aditya Pradip Dole",
+    "confidence": "high",
+    "reason": "RR"
   },
   "AN Ahmed": {
     "full_name": "Abu Nechim Ahmed",
