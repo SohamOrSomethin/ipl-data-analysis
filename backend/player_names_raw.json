@@ -1,0 +1,10590 @@
+[
+  {
+    "raw_name": "SC Ganguly",
+    "teams": [
+      "Pune Warriors",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "appearances": 4244
+  },
+  {
+    "raw_name": "BB McCullum",
+    "teams": [
+      "Gujarat Lions",
+      "Kochi Tuskers Kerala",
+      "Chennai Super Kings",
+      "Kolkata Knight Riders",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "appearances": 5900
+  },
+  {
+    "raw_name": "RT Ponting",
+    "teams": [
+      "Mumbai Indians",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2013"
+    ],
+    "appearances": 280
+  },
+  {
+    "raw_name": "DJ Hussey",
+    "teams": [
+      "Chennai Super Kings",
+      "Kings XI Punjab",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "appearances": 3087
+  },
+  {
+    "raw_name": "Mohammad Hafeez",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 223
+  },
+  {
+    "raw_name": "R Dravid",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 4353
+  },
+  {
+    "raw_name": "W Jaffer",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009"
+    ],
+    "appearances": 268
+  },
+  {
+    "raw_name": "V Kohli",
+    "teams": [
+      "Royal Challengers Bengaluru",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 18158
+  },
+  {
+    "raw_name": "JH Kallis",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "appearances": 8875
+  },
+  {
+    "raw_name": "CL White",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Deccan Chargers",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 1859
+  },
+  {
+    "raw_name": "MV Boucher",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "appearances": 1120
+  },
+  {
+    "raw_name": "B Akhil",
+    "teams": [
+      "Kochi Tuskers Kerala",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2011"
+    ],
+    "appearances": 320
+  },
+  {
+    "raw_name": "AA Noffke",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 46
+  },
+  {
+    "raw_name": "P Kumar",
+    "teams": [
+      "Kings XI Punjab",
+      "Gujarat Lions",
+      "Royal Challengers Bangalore",
+      "Mumbai Indians",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "appearances": 3771
+  },
+  {
+    "raw_name": "Z Khan",
+    "teams": [
+      "Mumbai Indians",
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2014",
+      "2016",
+      "2017"
+    ],
+    "appearances": 2792
+  },
+  {
+    "raw_name": "SB Joshi",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 85
+  },
+  {
+    "raw_name": "PA Patel",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Kochi Tuskers Kerala",
+      "Chennai Super Kings",
+      "Mumbai Indians",
+      "Deccan Chargers",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "appearances": 6381
+  },
+  {
+    "raw_name": "ML Hayden",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "appearances": 2697
+  },
+  {
+    "raw_name": "MEK Hussey",
+    "teams": [
+      "Mumbai Indians",
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "appearances": 6374
+  },
+  {
+    "raw_name": "MS Dhoni",
+    "teams": [
+      "Rising Pune Supergiants",
+      "Rising Pune Supergiant",
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 12349
+  },
+  {
+    "raw_name": "SK Raina",
+    "teams": [
+      "Gujarat Lions",
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021"
+    ],
+    "appearances": 12987
+  },
+  {
+    "raw_name": "JDP Oram",
+    "teams": [
+      "Mumbai Indians",
+      "Chennai Super Kings",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2011"
+    ],
+    "appearances": 712
+  },
+  {
+    "raw_name": "S Badrinath",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 2732
+  },
+  {
+    "raw_name": "K Goel",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "appearances": 559
+  },
+  {
+    "raw_name": "JR Hopes",
+    "teams": [
+      "Delhi Daredevils",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008",
+      "2011"
+    ],
+    "appearances": 1054
+  },
+  {
+    "raw_name": "KC Sangakkara",
+    "teams": [
+      "Deccan Chargers",
+      "Kings XI Punjab",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 4115
+  },
+  {
+    "raw_name": "Yuvraj Singh",
+    "teams": [
+      "Delhi Daredevils",
+      "Kings XI Punjab",
+      "Pune Warriors",
+      "Royal Challengers Bangalore",
+      "Mumbai Indians",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "appearances": 6426
+  },
+  {
+    "raw_name": "SM Katich",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008",
+      "2009"
+    ],
+    "appearances": 662
+  },
+  {
+    "raw_name": "IK Pathan",
+    "teams": [
+      "Delhi Daredevils",
+      "Kings XI Punjab",
+      "Rising Pune Supergiants",
+      "Gujarat Lions",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2016",
+      "2017"
+    ],
+    "appearances": 4572
+  },
+  {
+    "raw_name": "T Kohli",
+    "teams": [
+      "Kings XI Punjab",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009"
+    ],
+    "appearances": 45
+  },
+  {
+    "raw_name": "YK Pathan",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Sunrisers Hyderabad",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "appearances": 9528
+  },
+  {
+    "raw_name": "SR Watson",
+    "teams": [
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "appearances": 11701
+  },
+  {
+    "raw_name": "M Kaif",
+    "teams": [
+      "Kings XI Punjab",
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "appearances": 489
+  },
+  {
+    "raw_name": "DS Lehmann",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 50
+  },
+  {
+    "raw_name": "RA Jadeja",
+    "teams": [
+      "Gujarat Lions",
+      "Chennai Super Kings",
+      "Kochi Tuskers Kerala",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 13453
+  },
+  {
+    "raw_name": "M Rawat",
+    "teams": [
+      "Pune Warriors",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2013"
+    ],
+    "appearances": 154
+  },
+  {
+    "raw_name": "D Salunkhe",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 108
+  },
+  {
+    "raw_name": "SK Warne",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "appearances": 2609
+  },
+  {
+    "raw_name": "SK Trivedi",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 2154
+  },
+  {
+    "raw_name": "G Gambhir",
+    "teams": [
+      "Delhi Daredevils",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "appearances": 10507
+  },
+  {
+    "raw_name": "V Sehwag",
+    "teams": [
+      "Delhi Daredevils",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "appearances": 6639
+  },
+  {
+    "raw_name": "S Dhawan",
+    "teams": [
+      "Delhi Daredevils",
+      "Mumbai Indians",
+      "Deccan Chargers",
+      "Punjab Kings",
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 14537
+  },
+  {
+    "raw_name": "L Ronchi",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2008",
+      "2009"
+    ],
+    "appearances": 59
+  },
+  {
+    "raw_name": "ST Jayasuriya",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "appearances": 1918
+  },
+  {
+    "raw_name": "DJ Thornely",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 156
+  },
+  {
+    "raw_name": "RV Uthappa",
+    "teams": [
+      "Pune Warriors",
+      "Kolkata Knight Riders",
+      "Chennai Super Kings",
+      "Rajasthan Royals",
+      "Mumbai Indians",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "appearances": 9573
+  },
+  {
+    "raw_name": "PR Shah",
+    "teams": [
+      "Mumbai Indians",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2011"
+    ],
+    "appearances": 208
+  },
+  {
+    "raw_name": "AM Nayar",
+    "teams": [
+      "Mumbai Indians",
+      "Kings XI Punjab",
+      "Pune Warriors",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "appearances": 1540
+  },
+  {
+    "raw_name": "SM Pollock",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 872
+  },
+  {
+    "raw_name": "Harbhajan Singh",
+    "teams": [
+      "Mumbai Indians",
+      "Chennai Super Kings",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021"
+    ],
+    "appearances": 6713
+  },
+  {
+    "raw_name": "S Chanderpaul",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 71
+  },
+  {
+    "raw_name": "LRPL Taylor",
+    "teams": [
+      "Pune Warriors",
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "appearances": 2466
+  },
+  {
+    "raw_name": "AC Gilchrist",
+    "teams": [
+      "Deccan Chargers",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 4696
+  },
+  {
+    "raw_name": "Y Venugopal Rao",
+    "teams": [
+      "Deccan Chargers",
+      "Sunrisers Hyderabad",
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2014"
+    ],
+    "appearances": 1978
+  },
+  {
+    "raw_name": "VVS Laxman",
+    "teams": [
+      "Deccan Chargers",
+      "Kochi Tuskers Kerala"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "appearances": 641
+  },
+  {
+    "raw_name": "A Symonds",
+    "teams": [
+      "Mumbai Indians",
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "appearances": 2771
+  },
+  {
+    "raw_name": "RG Sharma",
+    "teams": [
+      "Mumbai Indians",
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 16781
+  },
+  {
+    "raw_name": "SB Styris",
+    "teams": [
+      "Deccan Chargers",
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2011"
+    ],
+    "appearances": 515
+  },
+  {
+    "raw_name": "AS Yadav",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 83
+  },
+  {
+    "raw_name": "SB Bangar",
+    "teams": [
+      "Deccan Chargers",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009"
+    ],
+    "appearances": 279
+  },
+  {
+    "raw_name": "WPUJC Vaas",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "appearances": 688
+  },
+  {
+    "raw_name": "RP Singh",
+    "teams": [
+      "Rising Pune Supergiants",
+      "Kochi Tuskers Kerala",
+      "Mumbai Indians",
+      "Deccan Chargers",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "appearances": 2239
+  },
+  {
+    "raw_name": "WP Saha",
+    "teams": [
+      "Gujarat Titans",
+      "Kings XI Punjab",
+      "Chennai Super Kings",
+      "Kolkata Knight Riders",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 6122
+  },
+  {
+    "raw_name": "LR Shukla",
+    "teams": [
+      "Delhi Daredevils",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "appearances": 1289
+  },
+  {
+    "raw_name": "DPMD Jayawardene",
+    "teams": [
+      "Kochi Tuskers Kerala",
+      "Delhi Daredevils",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 4272
+  },
+  {
+    "raw_name": "S Sohal",
+    "teams": [
+      "Deccan Chargers",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2011"
+    ],
+    "appearances": 819
+  },
+  {
+    "raw_name": "B Lee",
+    "teams": [
+      "Kings XI Punjab",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 1603
+  },
+  {
+    "raw_name": "PP Chawla",
+    "teams": [
+      "Mumbai Indians",
+      "Chennai Super Kings",
+      "Kings XI Punjab",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021",
+      "2023",
+      "2024"
+    ],
+    "appearances": 5850
+  },
+  {
+    "raw_name": "WA Mota",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008",
+      "2009"
+    ],
+    "appearances": 258
+  },
+  {
+    "raw_name": "Kamran Akmal",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 157
+  },
+  {
+    "raw_name": "Shahid Afridi",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 305
+  },
+  {
+    "raw_name": "DJ Bravo",
+    "teams": [
+      "Mumbai Indians",
+      "Gujarat Lions",
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "appearances": 6728
+  },
+  {
+    "raw_name": "MA Khote",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 84
+  },
+  {
+    "raw_name": "A Nehra",
+    "teams": [
+      "Delhi Daredevils",
+      "Pune Warriors",
+      "Chennai Super Kings",
+      "Mumbai Indians",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2012",
+      "2013",
+      "2015",
+      "2016"
+    ],
+    "appearances": 3531
+  },
+  {
+    "raw_name": "GC Smith",
+    "teams": [
+      "Pune Warriors",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "appearances": 1971
+  },
+  {
+    "raw_name": "Pankaj Singh",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "appearances": 336
+  },
+  {
+    "raw_name": "RR Sarwan",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 151
+  },
+  {
+    "raw_name": "S Sreesanth",
+    "teams": [
+      "Kochi Tuskers Kerala",
+      "Kings XI Punjab",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2013"
+    ],
+    "appearances": 1301
+  },
+  {
+    "raw_name": "VRV Singh",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 378
+  },
+  {
+    "raw_name": "SS Tiwary",
+    "teams": [
+      "Mumbai Indians",
+      "Delhi Daredevils",
+      "Rising Pune Supergiants",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2015",
+      "2016",
+      "2017",
+      "2020",
+      "2021"
+    ],
+    "appearances": 2686
+  },
+  {
+    "raw_name": "DS Kulkarni",
+    "teams": [
+      "Mumbai Indians",
+      "Gujarat Lions",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2011",
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "appearances": 2115
+  },
+  {
+    "raw_name": "R Vinay Kumar",
+    "teams": [
+      "Mumbai Indians",
+      "Kochi Tuskers Kerala",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018"
+    ],
+    "appearances": 3482
+  },
+  {
+    "raw_name": "AB Agarkar",
+    "teams": [
+      "Delhi Daredevils",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2013"
+    ],
+    "appearances": 1165
+  },
+  {
+    "raw_name": "M Kartik",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Kings XI Punjab",
+      "Pune Warriors",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 1658
+  },
+  {
+    "raw_name": "I Sharma",
+    "teams": [
+      "Kings XI Punjab",
+      "Gujarat Titans",
+      "Rising Pune Supergiants",
+      "Kolkata Knight Riders",
+      "Deccan Chargers",
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2017",
+      "2019",
+      "2023",
+      "2024"
+    ],
+    "appearances": 3702
+  },
+  {
+    "raw_name": "AM Rahane",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Rising Pune Supergiants",
+      "Kolkata Knight Riders",
+      "Chennai Super Kings",
+      "Rajasthan Royals",
+      "Mumbai Indians",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 11915
+  },
+  {
+    "raw_name": "Shoaib Malik",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 157
+  },
+  {
+    "raw_name": "MK Tiwary",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Delhi Daredevils",
+      "Kings XI Punjab",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2017",
+      "2018"
+    ],
+    "appearances": 3868
+  },
+  {
+    "raw_name": "KD Karthik",
+    "teams": [
+      "Delhi Daredevils",
+      "Kings XI Punjab",
+      "Royal Challengers Bengaluru",
+      "Gujarat Lions",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 9270
+  },
+  {
+    "raw_name": "R Bhatia",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Delhi Daredevils",
+      "Rising Pune Supergiants",
+      "Kolkata Knight Riders",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "appearances": 2588
+  },
+  {
+    "raw_name": "MF Maharoof",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "appearances": 887
+  },
+  {
+    "raw_name": "VY Mahesh",
+    "teams": [
+      "Delhi Daredevils",
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 413
+  },
+  {
+    "raw_name": "TM Srivastava",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008",
+      "2009"
+    ],
+    "appearances": 19
+  },
+  {
+    "raw_name": "B Chipli",
+    "teams": [
+      "Deccan Chargers",
+      "Royal Challengers Bangalore",
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2008",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 539
+  },
+  {
+    "raw_name": "DW Steyn",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Deccan Chargers",
+      "Gujarat Lions",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2020"
+    ],
+    "appearances": 3734
+  },
+  {
+    "raw_name": "DB Das",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2012",
+      "2013"
+    ],
+    "appearances": 505
+  },
+  {
+    "raw_name": "MK Pandey",
+    "teams": [
+      "Lucknow Super Giants",
+      "Pune Warriors",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 8178
+  },
+  {
+    "raw_name": "HH Gibbs",
+    "teams": [
+      "Mumbai Indians",
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2012"
+    ],
+    "appearances": 2043
+  },
+  {
+    "raw_name": "DNT Zoysa",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 99
+  },
+  {
+    "raw_name": "D Kalyankrishna",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 69
+  },
+  {
+    "raw_name": "SE Marsh",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "appearances": 6087
+  },
+  {
+    "raw_name": "SA Asnodkar",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "appearances": 1003
+  },
+  {
+    "raw_name": "Sohail Tanvir",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 796
+  },
+  {
+    "raw_name": "Salman Butt",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 312
+  },
+  {
+    "raw_name": "BJ Hodge",
+    "teams": [
+      "Rajasthan Royals",
+      "Kochi Tuskers Kerala",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "appearances": 3946
+  },
+  {
+    "raw_name": "Umar Gul",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 435
+  },
+  {
+    "raw_name": "AB Dinda",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Delhi Daredevils",
+      "Pune Warriors",
+      "Rising Pune Supergiants",
+      "Kolkata Knight Riders",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2017"
+    ],
+    "appearances": 2068
+  },
+  {
+    "raw_name": "SP Fleming",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 370
+  },
+  {
+    "raw_name": "S Vidyut",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 222
+  },
+  {
+    "raw_name": "JA Morkel",
+    "teams": [
+      "Rising Pune Supergiants",
+      "Delhi Daredevils",
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "appearances": 3784
+  },
+  {
+    "raw_name": "AB de Villiers",
+    "teams": [
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "appearances": 13210
+  },
+  {
+    "raw_name": "Misbah-ul-Haq",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 179
+  },
+  {
+    "raw_name": "YV Takawale",
+    "teams": [
+      "Mumbai Indians",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2014"
+    ],
+    "appearances": 333
+  },
+  {
+    "raw_name": "RR Raje",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2008",
+      "2009"
+    ],
+    "appearances": 188
+  },
+  {
+    "raw_name": "PJ Sangwan",
+    "teams": [
+      "Delhi Daredevils",
+      "Gujarat Titans",
+      "Gujarat Lions",
+      "Kolkata Knight Riders",
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2013",
+      "2017",
+      "2018",
+      "2022"
+    ],
+    "appearances": 1006
+  },
+  {
+    "raw_name": "Mohammad Asif",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 223
+  },
+  {
+    "raw_name": "GD McGrath",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 585
+  },
+  {
+    "raw_name": "Joginder Sharma",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2011"
+    ],
+    "appearances": 336
+  },
+  {
+    "raw_name": "MS Gony",
+    "teams": [
+      "Gujarat Lions",
+      "Deccan Chargers",
+      "Chennai Super Kings",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 1324
+  },
+  {
+    "raw_name": "M Muralitharan",
+    "teams": [
+      "Chennai Super Kings",
+      "Kochi Tuskers Kerala",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "appearances": 2106
+  },
+  {
+    "raw_name": "M Ntini",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 629
+  },
+  {
+    "raw_name": "DT Patil",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 25
+  },
+  {
+    "raw_name": "A Kumble",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "appearances": 1788
+  },
+  {
+    "raw_name": "S Anirudha",
+    "teams": [
+      "Chennai Super Kings",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "appearances": 495
+  },
+  {
+    "raw_name": "MM Patel",
+    "teams": [
+      "Mumbai Indians",
+      "Gujarat Lions",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2017"
+    ],
+    "appearances": 1951
+  },
+  {
+    "raw_name": "CK Kapugedera",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 66
+  },
+  {
+    "raw_name": "A Chopra",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009"
+    ],
+    "appearances": 180
+  },
+  {
+    "raw_name": "T Taibu",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 50
+  },
+  {
+    "raw_name": "J Arunkumar",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 50
+  },
+  {
+    "raw_name": "DB Ravi Teja",
+    "teams": [
+      "Deccan Chargers",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 704
+  },
+  {
+    "raw_name": "PP Ojha",
+    "teams": [
+      "Mumbai Indians",
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "appearances": 2312
+  },
+  {
+    "raw_name": "U Kaul",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 1
+  },
+  {
+    "raw_name": "TM Dilshan",
+    "teams": [
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 2726
+  },
+  {
+    "raw_name": "A Mishra",
+    "teams": [
+      "Lucknow Super Giants",
+      "Delhi Daredevils",
+      "Deccan Chargers",
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2023"
+    ],
+    "appearances": 7186
+  },
+  {
+    "raw_name": "AD Mascarenhas",
+    "teams": [
+      "Kings XI Punjab",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2012",
+      "2013"
+    ],
+    "appearances": 710
+  },
+  {
+    "raw_name": "NK Patel",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009"
+    ],
+    "appearances": 223
+  },
+  {
+    "raw_name": "LA Pomersbach",
+    "teams": [
+      "Kings XI Punjab",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2011",
+      "2013"
+    ],
+    "appearances": 552
+  },
+  {
+    "raw_name": "Iqbal Abdulla",
+    "teams": [
+      "Rajasthan Royals",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "appearances": 1545
+  },
+  {
+    "raw_name": "SR Tendulkar",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 6485
+  },
+  {
+    "raw_name": "PM Sarvesh Kumar",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 34
+  },
+  {
+    "raw_name": "DP Vijaykumar",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 165
+  },
+  {
+    "raw_name": "Shoaib Akhtar",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 302
+  },
+  {
+    "raw_name": "Abdur Razzak",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 22
+  },
+  {
+    "raw_name": "LPC Silva",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 58
+  },
+  {
+    "raw_name": "H Das",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 9
+  },
+  {
+    "raw_name": "SP Goswami",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Rajasthan Royals",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2018",
+      "2020"
+    ],
+    "appearances": 840
+  },
+  {
+    "raw_name": "DR Smith",
+    "teams": [
+      "Mumbai Indians",
+      "Deccan Chargers",
+      "Chennai Super Kings",
+      "Gujarat Lions"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "appearances": 6632
+  },
+  {
+    "raw_name": "SD Chitnis",
+    "teams": [
+      "Mumbai Indians",
+      "Kings XI Punjab",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2011",
+      "2012"
+    ],
+    "appearances": 235
+  },
+  {
+    "raw_name": "CRD Fernando",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2008",
+      "2010"
+    ],
+    "appearances": 477
+  },
+  {
+    "raw_name": "VS Yeligati",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 35
+  },
+  {
+    "raw_name": "L Balaji",
+    "teams": [
+      "Chennai Super Kings",
+      "Kings XI Punjab",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2013",
+      "2014"
+    ],
+    "appearances": 2352
+  },
+  {
+    "raw_name": "A Mukund",
+    "teams": [
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2008",
+      "2013"
+    ],
+    "appearances": 54
+  },
+  {
+    "raw_name": "Younis Khan",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 22
+  },
+  {
+    "raw_name": "RR Powar",
+    "teams": [
+      "Kochi Tuskers Kerala",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "appearances": 572
+  },
+  {
+    "raw_name": "JP Duminy",
+    "teams": [
+      "Mumbai Indians",
+      "Deccan Chargers",
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2018"
+    ],
+    "appearances": 5172
+  },
+  {
+    "raw_name": "A Flintoff",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 171
+  },
+  {
+    "raw_name": "T Thushara",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2009",
+      "2010"
+    ],
+    "appearances": 181
+  },
+  {
+    "raw_name": "JD Ryder",
+    "teams": [
+      "Pune Warriors",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2009",
+      "2011",
+      "2012"
+    ],
+    "appearances": 1500
+  },
+  {
+    "raw_name": "KP Pietersen",
+    "teams": [
+      "Rising Pune Supergiants",
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2012",
+      "2014",
+      "2016"
+    ],
+    "appearances": 2410
+  },
+  {
+    "raw_name": "T Henderson",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 77
+  },
+  {
+    "raw_name": "Kamran Khan",
+    "teams": [
+      "Pune Warriors",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 187
+  },
+  {
+    "raw_name": "RS Bopara",
+    "teams": [
+      "Kings XI Punjab",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2015"
+    ],
+    "appearances": 1478
+  },
+  {
+    "raw_name": "CH Gayle",
+    "teams": [
+      "Punjab Kings",
+      "Kings XI Punjab",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "appearances": 12734
+  },
+  {
+    "raw_name": "MC Henriques",
+    "teams": [
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders",
+      "Punjab Kings",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2021"
+    ],
+    "appearances": 3206
+  },
+  {
+    "raw_name": "R Bishnoi",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 34
+  },
+  {
+    "raw_name": "FH Edwards",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 161
+  },
+  {
+    "raw_name": "KV Sharma",
+    "teams": [
+      "Royal Challengers Bengaluru",
+      "Royal Challengers Bangalore",
+      "Chennai Super Kings",
+      "Mumbai Indians",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2009",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2714
+  },
+  {
+    "raw_name": "PC Valthaty",
+    "teams": [
+      "Kings XI Punjab",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2009",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 1483
+  },
+  {
+    "raw_name": "RJ Quiney",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 228
+  },
+  {
+    "raw_name": "AS Raut",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "appearances": 371
+  },
+  {
+    "raw_name": "Yashpal Singh",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 113
+  },
+  {
+    "raw_name": "M Manhas",
+    "teams": [
+      "Delhi Daredevils",
+      "Chennai Super Kings",
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "appearances": 1024
+  },
+  {
+    "raw_name": "AA Bilakhia",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2009",
+      "2010"
+    ],
+    "appearances": 170
+  },
+  {
+    "raw_name": "AN Ghosh",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 15
+  },
+  {
+    "raw_name": "BAW Mendis",
+    "teams": [
+      "Pune Warriors",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2013"
+    ],
+    "appearances": 265
+  },
+  {
+    "raw_name": "DL Vettori",
+    "teams": [
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "appearances": 1188
+  },
+  {
+    "raw_name": "MN van Wyk",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 303
+  },
+  {
+    "raw_name": "RE van der Merwe",
+    "teams": [
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2013"
+    ],
+    "appearances": 741
+  },
+  {
+    "raw_name": "TL Suman",
+    "teams": [
+      "Mumbai Indians",
+      "Deccan Chargers",
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 1579
+  },
+  {
+    "raw_name": "Shoaib Ahmed",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 114
+  },
+  {
+    "raw_name": "GR Napier",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 51
+  },
+  {
+    "raw_name": "KP Appanna",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2009",
+      "2010"
+    ],
+    "appearances": 232
+  },
+  {
+    "raw_name": "LA Carseldine",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 143
+  },
+  {
+    "raw_name": "NV Ojha",
+    "teams": [
+      "Delhi Daredevils",
+      "Sunrisers Hyderabad",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "appearances": 3017
+  },
+  {
+    "raw_name": "SM Harwood",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 94
+  },
+  {
+    "raw_name": "M Vijay",
+    "teams": [
+      "Delhi Daredevils",
+      "Chennai Super Kings",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "appearances": 6088
+  },
+  {
+    "raw_name": "SB Jakati",
+    "teams": [
+      "Gujarat Lions",
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2009",
+      "2012",
+      "2016"
+    ],
+    "appearances": 1411
+  },
+  {
+    "raw_name": "DA Warner",
+    "teams": [
+      "Delhi Daredevils",
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 14021
+  },
+  {
+    "raw_name": "RJ Harris",
+    "teams": [
+      "Deccan Chargers",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 1345
+  },
+  {
+    "raw_name": "D du Preez",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 75
+  },
+  {
+    "raw_name": "M Morkel",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Delhi Daredevils",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "appearances": 2332
+  },
+  {
+    "raw_name": "AD Mathews",
+    "teams": [
+      "Delhi Daredevils",
+      "Pune Warriors",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2012",
+      "2013",
+      "2015",
+      "2017"
+    ],
+    "appearances": 2280
+  },
+  {
+    "raw_name": "J Botha",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Delhi Daredevils",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2009",
+      "2011",
+      "2012",
+      "2013",
+      "2015"
+    ],
+    "appearances": 1746
+  },
+  {
+    "raw_name": "C Nanda",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 52
+  },
+  {
+    "raw_name": "SL Malinga",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2017"
+    ],
+    "appearances": 4656
+  },
+  {
+    "raw_name": "Mashrafe Mortaza",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 32
+  },
+  {
+    "raw_name": "A Singh",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2009",
+      "2011",
+      "2012"
+    ],
+    "appearances": 722
+  },
+  {
+    "raw_name": "GJ Bailey",
+    "teams": [
+      "Rising Pune Supergiants",
+      "Chennai Super Kings",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "appearances": 1396
+  },
+  {
+    "raw_name": "AB McDonald",
+    "teams": [
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 381
+  },
+  {
+    "raw_name": "Y Nagar",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "appearances": 619
+  },
+  {
+    "raw_name": "SS Shaikh",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 15
+  },
+  {
+    "raw_name": "R Ashwin",
+    "teams": [
+      "Kings XI Punjab",
+      "Rising Pune Supergiants",
+      "Chennai Super Kings",
+      "Rajasthan Royals",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 7895
+  },
+  {
+    "raw_name": "Mohammad Ashraful",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 16
+  },
+  {
+    "raw_name": "CA Pujara",
+    "teams": [
+      "Kings XI Punjab",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "appearances": 796
+  },
+  {
+    "raw_name": "OA Shah",
+    "teams": [
+      "Rajasthan Royals",
+      "Kochi Tuskers Kerala",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 818
+  },
+  {
+    "raw_name": "Anirudh Singh",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 144
+  },
+  {
+    "raw_name": "Jaskaran Singh",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 145
+  },
+  {
+    "raw_name": "AP Tare",
+    "teams": [
+      "Mumbai Indians",
+      "Delhi Daredevils",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2010",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "appearances": 824
+  },
+  {
+    "raw_name": "AT Rayudu",
+    "teams": [
+      "Mumbai Indians",
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "appearances": 9638
+  },
+  {
+    "raw_name": "R Sathish",
+    "teams": [
+      "Mumbai Indians",
+      "Kings XI Punjab",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2013",
+      "2016"
+    ],
+    "appearances": 648
+  },
+  {
+    "raw_name": "R McLaren",
+    "teams": [
+      "Mumbai Indians",
+      "Kings XI Punjab",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2013"
+    ],
+    "appearances": 1022
+  },
+  {
+    "raw_name": "AA Jhunjhunwala",
+    "teams": [
+      "Deccan Chargers",
+      "Pune Warriors",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "appearances": 784
+  },
+  {
+    "raw_name": "P Dogra",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Kings XI Punjab",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010",
+      "2012",
+      "2013"
+    ],
+    "appearances": 289
+  },
+  {
+    "raw_name": "A Uniyal",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 58
+  },
+  {
+    "raw_name": "MS Bisla",
+    "teams": [
+      "Kings XI Punjab",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "appearances": 1700
+  },
+  {
+    "raw_name": "YA Abdulla",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 228
+  },
+  {
+    "raw_name": "EJG Morgan",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Kings XI Punjab",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2013",
+      "2015",
+      "2016",
+      "2017",
+      "2020",
+      "2021"
+    ],
+    "appearances": 2922
+  },
+  {
+    "raw_name": "JM Kemp",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 101
+  },
+  {
+    "raw_name": "S Tyagi",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 236
+  },
+  {
+    "raw_name": "RS Gavaskar",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 20
+  },
+  {
+    "raw_name": "SE Bond",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 202
+  },
+  {
+    "raw_name": "KA Pollard",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "appearances": 9846
+  },
+  {
+    "raw_name": "S Ladda",
+    "teams": [
+      "Delhi Daredevils",
+      "Gujarat Lions",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 165
+  },
+  {
+    "raw_name": "DP Nannes",
+    "teams": [
+      "Delhi Daredevils",
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 961
+  },
+  {
+    "raw_name": "MJ Lumb",
+    "teams": [
+      "Deccan Chargers",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010",
+      "2011"
+    ],
+    "appearances": 569
+  },
+  {
+    "raw_name": "DR Martyn",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 71
+  },
+  {
+    "raw_name": "S Narwal",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010",
+      "2013"
+    ],
+    "appearances": 157
+  },
+  {
+    "raw_name": "AB Barath",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 84
+  },
+  {
+    "raw_name": "Bipul Sharma",
+    "teams": [
+      "Kings XI Punjab",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2012",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "appearances": 698
+  },
+  {
+    "raw_name": "FY Fazal",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010",
+      "2011"
+    ],
+    "appearances": 379
+  },
+  {
+    "raw_name": "AC Voges",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 585
+  },
+  {
+    "raw_name": "MD Mishra",
+    "teams": [
+      "Deccan Chargers",
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "appearances": 710
+  },
+  {
+    "raw_name": "UT Yadav",
+    "teams": [
+      "Delhi Daredevils",
+      "Gujarat Titans",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 5930
+  },
+  {
+    "raw_name": "J Theron",
+    "teams": [
+      "Deccan Chargers",
+      "Kings XI Punjab",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010",
+      "2012",
+      "2015"
+    ],
+    "appearances": 523
+  },
+  {
+    "raw_name": "SJ Srivastava",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2010",
+      "2011"
+    ],
+    "appearances": 325
+  },
+  {
+    "raw_name": "KM Jadhav",
+    "teams": [
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore",
+      "Kochi Tuskers Kerala",
+      "Chennai Super Kings",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2023"
+    ],
+    "appearances": 2598
+  },
+  {
+    "raw_name": "R Sharma",
+    "teams": [
+      "Deccan Chargers",
+      "Pune Warriors",
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 1564
+  },
+  {
+    "raw_name": "Mandeep Singh",
+    "teams": [
+      "Kings XI Punjab",
+      "Kolkata Knight Riders",
+      "Punjab Kings",
+      "Royal Challengers Bangalore",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "appearances": 3623
+  },
+  {
+    "raw_name": "SW Tait",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2013"
+    ],
+    "appearances": 597
+  },
+  {
+    "raw_name": "KB Arun Karthik",
+    "teams": [
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2013"
+    ],
+    "appearances": 123
+  },
+  {
+    "raw_name": "KAJ Roach",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 68
+  },
+  {
+    "raw_name": "PD Collingwood",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 663
+  },
+  {
+    "raw_name": "CK Langeveldt",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2010",
+      "2011"
+    ],
+    "appearances": 185
+  },
+  {
+    "raw_name": "VS Malik",
+    "teams": [
+      "Kings XI Punjab",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010",
+      "2014"
+    ],
+    "appearances": 238
+  },
+  {
+    "raw_name": "A Mithun",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2013"
+    ],
+    "appearances": 367
+  },
+  {
+    "raw_name": "AP Dole",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 115
+  },
+  {
+    "raw_name": "AN Ahmed",
+    "teams": [
+      "Mumbai Indians",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2014",
+      "2015"
+    ],
+    "appearances": 432
+  },
+  {
+    "raw_name": "RS Sodhi",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 5
+  },
+  {
+    "raw_name": "DE Bollinger",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "appearances": 1137
+  },
+  {
+    "raw_name": "S Sriram",
+    "teams": [
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2010",
+      "2011"
+    ],
+    "appearances": 101
+  },
+  {
+    "raw_name": "B Sumanth",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 92
+  },
+  {
+    "raw_name": "C Madan",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 38
+  },
+  {
+    "raw_name": "AG Paunikar",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010",
+      "2011"
+    ],
+    "appearances": 123
+  },
+  {
+    "raw_name": "MR Marsh",
+    "teams": [
+      "Lucknow Super Giants",
+      "Pune Warriors",
+      "Rising Pune Supergiants",
+      "Deccan Chargers",
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2013",
+      "2016",
+      "2020",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 3467
+  },
+  {
+    "raw_name": "AJ Finch",
+    "teams": [
+      "Delhi Daredevils",
+      "Kings XI Punjab",
+      "Pune Warriors",
+      "Gujarat Lions",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders",
+      "Rajasthan Royals",
+      "Mumbai Indians",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2020",
+      "2022"
+    ],
+    "appearances": 4643
+  },
+  {
+    "raw_name": "STR Binny",
+    "teams": [
+      "Mumbai Indians",
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "appearances": 2046
+  },
+  {
+    "raw_name": "Harmeet Singh",
+    "teams": [
+      "Deccan Chargers",
+      "Kings XI Punjab",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2010",
+      "2012",
+      "2013"
+    ],
+    "appearances": 1079
+  },
+  {
+    "raw_name": "IR Jaggi",
+    "teams": [
+      "Deccan Chargers",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2017"
+    ],
+    "appearances": 207
+  },
+  {
+    "raw_name": "DT Christian",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Deccan Chargers",
+      "Royal Challengers Bangalore",
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2013",
+      "2017",
+      "2018",
+      "2021"
+    ],
+    "appearances": 1829
+  },
+  {
+    "raw_name": "RV Gomez",
+    "teams": [
+      "Kochi Tuskers Kerala",
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2011",
+      "2013"
+    ],
+    "appearances": 212
+  },
+  {
+    "raw_name": "MA Agarwal",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Delhi Daredevils",
+      "Kings XI Punjab",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad",
+      "Punjab Kings",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 5417
+  },
+  {
+    "raw_name": "AUK Pathan",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2011",
+      "2012"
+    ],
+    "appearances": 81
+  },
+  {
+    "raw_name": "UBT Chand",
+    "teams": [
+      "Mumbai Indians",
+      "Delhi Daredevils",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "appearances": 661
+  },
+  {
+    "raw_name": "DJ Jacobs",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2011",
+      "2012"
+    ],
+    "appearances": 172
+  },
+  {
+    "raw_name": "Sunny Singh",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 75
+  },
+  {
+    "raw_name": "NJ Rimmington",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 23
+  },
+  {
+    "raw_name": "AL Menaria",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 867
+  },
+  {
+    "raw_name": "WD Parnell",
+    "teams": [
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore",
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2023"
+    ],
+    "appearances": 1114
+  },
+  {
+    "raw_name": "JJ van der Wath",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 111
+  },
+  {
+    "raw_name": "R Ninan",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 47
+  },
+  {
+    "raw_name": "S Aravind",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2015",
+      "2017"
+    ],
+    "appearances": 1149
+  },
+  {
+    "raw_name": "MS Wade",
+    "teams": [
+      "Delhi Daredevils",
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2011",
+      "2022",
+      "2024"
+    ],
+    "appearances": 374
+  },
+  {
+    "raw_name": "TD Paine",
+    "teams": [
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 63
+  },
+  {
+    "raw_name": "SB Wagh",
+    "teams": [
+      "Pune Warriors",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 326
+  },
+  {
+    "raw_name": "AC Thomas",
+    "teams": [
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2011",
+      "2012"
+    ],
+    "appearances": 362
+  },
+  {
+    "raw_name": "JEC Franklin",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2011",
+      "2012"
+    ],
+    "appearances": 1048
+  },
+  {
+    "raw_name": "Shakib Al Hasan",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021"
+    ],
+    "appearances": 3396
+  },
+  {
+    "raw_name": "DH Yagnik",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "appearances": 260
+  },
+  {
+    "raw_name": "S Randiv",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 186
+  },
+  {
+    "raw_name": "BJ Haddin",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 33
+  },
+  {
+    "raw_name": "NLTC Perera",
+    "teams": [
+      "Kings XI Punjab",
+      "Rising Pune Supergiants",
+      "Kochi Tuskers Kerala",
+      "Chennai Super Kings",
+      "Mumbai Indians",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2013",
+      "2015",
+      "2016"
+    ],
+    "appearances": 1335
+  },
+  {
+    "raw_name": "NL McCullum",
+    "teams": [
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 84
+  },
+  {
+    "raw_name": "JE Taylor",
+    "teams": [
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 136
+  },
+  {
+    "raw_name": "J Syed Mohammad",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 257
+  },
+  {
+    "raw_name": "RN ten Doeschate",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "appearances": 558
+  },
+  {
+    "raw_name": "TR Birt",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 120
+  },
+  {
+    "raw_name": "AG Murtaza",
+    "teams": [
+      "Mumbai Indians",
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 294
+  },
+  {
+    "raw_name": "Harpreet Singh",
+    "teams": [
+      "Punjab Kings",
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2023",
+      "2024"
+    ],
+    "appearances": 254
+  },
+  {
+    "raw_name": "M Klinger",
+    "teams": [
+      "Kochi Tuskers Kerala"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 192
+  },
+  {
+    "raw_name": "AC Blizzard",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2011",
+      "2012"
+    ],
+    "appearances": 176
+  },
+  {
+    "raw_name": "I Malhotra",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 16
+  },
+  {
+    "raw_name": "L Ablish",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 54
+  },
+  {
+    "raw_name": "CA Ingram",
+    "teams": [
+      "Delhi Daredevils",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2011",
+      "2019"
+    ],
+    "appearances": 330
+  },
+  {
+    "raw_name": "S Nadeem",
+    "teams": [
+      "Delhi Daredevils",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2020",
+      "2021"
+    ],
+    "appearances": 2104
+  },
+  {
+    "raw_name": "P Parameswaran",
+    "teams": [
+      "Kochi Tuskers Kerala",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2011",
+      "2012"
+    ],
+    "appearances": 390
+  },
+  {
+    "raw_name": "CJ Ferguson",
+    "teams": [
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2011",
+      "2012"
+    ],
+    "appearances": 236
+  },
+  {
+    "raw_name": "VR Aaron",
+    "teams": [
+      "Delhi Daredevils",
+      "Gujarat Titans",
+      "Kings XI Punjab",
+      "Rajasthan Royals",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2014",
+      "2015",
+      "2017",
+      "2019",
+      "2020"
+    ],
+    "appearances": 1640
+  },
+  {
+    "raw_name": "AA Chavan",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2011",
+      "2012"
+    ],
+    "appearances": 277
+  },
+  {
+    "raw_name": "ND Doshi",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 77
+  },
+  {
+    "raw_name": "B Kumar",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Royal Challengers Bengaluru",
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 6668
+  },
+  {
+    "raw_name": "Y Gnaneswara Rao",
+    "teams": [
+      "Kochi Tuskers Kerala"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 35
+  },
+  {
+    "raw_name": "S Rana",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2011",
+      "2014"
+    ],
+    "appearances": 205
+  },
+  {
+    "raw_name": "BA Bhatt",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2011",
+      "2012"
+    ],
+    "appearances": 521
+  },
+  {
+    "raw_name": "F du Plessis",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Royal Challengers Bengaluru",
+      "Rising Pune Supergiants",
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 10310
+  },
+  {
+    "raw_name": "RE Levi",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2012"
+    ],
+    "appearances": 381
+  },
+  {
+    "raw_name": "GJ Maxwell",
+    "teams": [
+      "Delhi Daredevils",
+      "Kings XI Punjab",
+      "Royal Challengers Bengaluru",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 6829
+  },
+  {
+    "raw_name": "SPD Smith",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Pune Warriors",
+      "Rising Pune Supergiants",
+      "Rajasthan Royals",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "appearances": 5239
+  },
+  {
+    "raw_name": "MN Samuels",
+    "teams": [
+      "Delhi Daredevils",
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2012",
+      "2013",
+      "2017"
+    ],
+    "appearances": 804
+  },
+  {
+    "raw_name": "SA Yadav",
+    "teams": [
+      "Mumbai Indians",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 8271
+  },
+  {
+    "raw_name": "KK Cooper",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "appearances": 970
+  },
+  {
+    "raw_name": "JP Faulkner",
+    "teams": [
+      "Gujarat Lions",
+      "Kings XI Punjab",
+      "Pune Warriors",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "appearances": 3312
+  },
+  {
+    "raw_name": "HV Patel",
+    "teams": [
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore",
+      "Punjab Kings",
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2012",
+      "2014",
+      "2015",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 4345
+  },
+  {
+    "raw_name": "DAJ Bracewell",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2012"
+    ],
+    "appearances": 43
+  },
+  {
+    "raw_name": "DJ Harris",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2012"
+    ],
+    "appearances": 214
+  },
+  {
+    "raw_name": "Ankit Sharma",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Rising Pune Supergiants",
+      "Rajasthan Royals",
+      "Deccan Chargers",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "appearances": 529
+  },
+  {
+    "raw_name": "SP Narine",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 10827
+  },
+  {
+    "raw_name": "GB Hogg",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2012",
+      "2015"
+    ],
+    "appearances": 524
+  },
+  {
+    "raw_name": "RR Bhatkal",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2012"
+    ],
+    "appearances": 18
+  },
+  {
+    "raw_name": "CJ McKay",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2012"
+    ],
+    "appearances": 70
+  },
+  {
+    "raw_name": "N Saini",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2012"
+    ],
+    "appearances": 275
+  },
+  {
+    "raw_name": "DA Miller",
+    "teams": [
+      "Gujarat Titans",
+      "Lucknow Super Giants",
+      "Kings XI Punjab",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 5847
+  },
+  {
+    "raw_name": "Azhar Mahmood",
+    "teams": [
+      "Kings XI Punjab",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2012",
+      "2013",
+      "2015"
+    ],
+    "appearances": 1660
+  },
+  {
+    "raw_name": "P Negi",
+    "teams": [
+      "Delhi Daredevils",
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2012",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "appearances": 1771
+  },
+  {
+    "raw_name": "RJ Peterson",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2012"
+    ],
+    "appearances": 117
+  },
+  {
+    "raw_name": "KMDN Kulasekara",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2012"
+    ],
+    "appearances": 359
+  },
+  {
+    "raw_name": "A Ashish Reddy",
+    "teams": [
+      "Deccan Chargers",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2012",
+      "2013",
+      "2015",
+      "2016"
+    ],
+    "appearances": 626
+  },
+  {
+    "raw_name": "V Pratap Singh",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2012"
+    ],
+    "appearances": 213
+  },
+  {
+    "raw_name": "BB Samantray",
+    "teams": [
+      "Deccan Chargers",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2012",
+      "2013"
+    ],
+    "appearances": 235
+  },
+  {
+    "raw_name": "MJ Clarke",
+    "teams": [
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2012"
+    ],
+    "appearances": 277
+  },
+  {
+    "raw_name": "Gurkeerat Singh",
+    "teams": [
+      "Kings XI Punjab",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2012",
+      "2013",
+      "2015",
+      "2016",
+      "2019",
+      "2020"
+    ],
+    "appearances": 930
+  },
+  {
+    "raw_name": "AP Majumdar",
+    "teams": [
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2012"
+    ],
+    "appearances": 163
+  },
+  {
+    "raw_name": "PA Reddy",
+    "teams": [
+      "Deccan Chargers",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2012",
+      "2013"
+    ],
+    "appearances": 367
+  },
+  {
+    "raw_name": "K Upadhyay",
+    "teams": [
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2012",
+      "2013"
+    ],
+    "appearances": 70
+  },
+  {
+    "raw_name": "P Awana",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2012",
+      "2013"
+    ],
+    "appearances": 818
+  },
+  {
+    "raw_name": "AD Russell",
+    "teams": [
+      "Delhi Daredevils",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 8684
+  },
+  {
+    "raw_name": "A Chandila",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2012",
+      "2013"
+    ],
+    "appearances": 498
+  },
+  {
+    "raw_name": "CA Lynn",
+    "teams": [
+      "Mumbai Indians",
+      "Deccan Chargers",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2012",
+      "2014",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021"
+    ],
+    "appearances": 2962
+  },
+  {
+    "raw_name": "Sunny Gupta",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2012"
+    ],
+    "appearances": 26
+  },
+  {
+    "raw_name": "MC Juneja",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2013"
+    ],
+    "appearances": 294
+  },
+  {
+    "raw_name": "KK Nair",
+    "teams": [
+      "Delhi Daredevils",
+      "Kings XI Punjab",
+      "Rajasthan Royals",
+      "Royal Challengers Bangalore",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2025"
+    ],
+    "appearances": 3523
+  },
+  {
+    "raw_name": "GH Vihari",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2013",
+      "2015",
+      "2019"
+    ],
+    "appearances": 1246
+  },
+  {
+    "raw_name": "MDKJ Perera",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2013"
+    ],
+    "appearances": 21
+  },
+  {
+    "raw_name": "R Shukla",
+    "teams": [
+      "Mumbai Indians",
+      "Delhi Daredevils",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2013",
+      "2014"
+    ],
+    "appearances": 176
+  },
+  {
+    "raw_name": "B Laughlin",
+    "teams": [
+      "Chennai Super Kings",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2013",
+      "2018"
+    ],
+    "appearances": 212
+  },
+  {
+    "raw_name": "AS Rajpoot",
+    "teams": [
+      "Chennai Super Kings",
+      "Kings XI Punjab",
+      "Rajasthan Royals",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2013",
+      "2017",
+      "2018",
+      "2020"
+    ],
+    "appearances": 1141
+  },
+  {
+    "raw_name": "M Vohra",
+    "teams": [
+      "Lucknow Super Giants",
+      "Kings XI Punjab",
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "appearances": 2514
+  },
+  {
+    "raw_name": "JD Unadkat",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Lucknow Super Giants",
+      "Delhi Daredevils",
+      "Kolkata Knight Riders",
+      "Rajasthan Royals",
+      "Mumbai Indians",
+      "Sunrisers Hyderabad",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 4108
+  },
+  {
+    "raw_name": "Mohammed Shami",
+    "teams": [
+      "Delhi Daredevils",
+      "Gujarat Titans",
+      "Kings XI Punjab",
+      "Kolkata Knight Riders",
+      "Punjab Kings",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2023",
+      "2025"
+    ],
+    "appearances": 3667
+  },
+  {
+    "raw_name": "BMAJ Mendis",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2013"
+    ],
+    "appearances": 92
+  },
+  {
+    "raw_name": "R Rampaul",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2013",
+      "2014"
+    ],
+    "appearances": 377
+  },
+  {
+    "raw_name": "CH Morris",
+    "teams": [
+      "Delhi Daredevils",
+      "Chennai Super Kings",
+      "Rajasthan Royals",
+      "Royal Challengers Bangalore",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2013",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "appearances": 3334
+  },
+  {
+    "raw_name": "SV Samson",
+    "teams": [
+      "Delhi Daredevils",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 9877
+  },
+  {
+    "raw_name": "SMSM Senanayake",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2013"
+    ],
+    "appearances": 234
+  },
+  {
+    "raw_name": "BJ Rohrer",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2013"
+    ],
+    "appearances": 265
+  },
+  {
+    "raw_name": "KL Rahul",
+    "teams": [
+      "Lucknow Super Giants",
+      "Kings XI Punjab",
+      "Royal Challengers Bangalore",
+      "Punjab Kings",
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 11749
+  },
+  {
+    "raw_name": "Q de Kock",
+    "teams": [
+      "Lucknow Super Giants",
+      "Delhi Daredevils",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Sunrisers Hyderabad",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 6814
+  },
+  {
+    "raw_name": "R Dhawan",
+    "teams": [
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2022",
+      "2023"
+    ],
+    "appearances": 1058
+  },
+  {
+    "raw_name": "MG Johnson",
+    "teams": [
+      "Mumbai Indians",
+      "Kings XI Punjab",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "appearances": 2103
+  },
+  {
+    "raw_name": "LJ Wright",
+    "teams": [
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2013"
+    ],
+    "appearances": 450
+  },
+  {
+    "raw_name": "IC Pandey",
+    "teams": [
+      "Chennai Super Kings",
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2013"
+    ],
+    "appearances": 472
+  },
+  {
+    "raw_name": "X Thalaivan Sargunam",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2013"
+    ],
+    "appearances": 35
+  },
+  {
+    "raw_name": "DJG Sammy",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "appearances": 974
+  },
+  {
+    "raw_name": "KW Richardson",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Pune Warriors",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2016"
+    ],
+    "appearances": 434
+  },
+  {
+    "raw_name": "MM Sharma",
+    "teams": [
+      "Delhi Capitals",
+      "Chennai Super Kings",
+      "Kings XI Punjab",
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 4026
+  },
+  {
+    "raw_name": "CM Gautam",
+    "teams": [
+      "Mumbai Indians",
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "appearances": 317
+  },
+  {
+    "raw_name": "UA Birla",
+    "teams": [
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2013"
+    ],
+    "appearances": 25
+  },
+  {
+    "raw_name": "Parvez Rasool",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Royal Challengers Bangalore",
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2013",
+      "2015",
+      "2016"
+    ],
+    "appearances": 250
+  },
+  {
+    "raw_name": "Sandeep Sharma",
+    "teams": [
+      "Punjab Kings",
+      "Kings XI Punjab",
+      "Sunrisers Hyderabad",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2023",
+      "2025"
+    ],
+    "appearances": 4945
+  },
+  {
+    "raw_name": "S Kaul",
+    "teams": [
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2017",
+      "2018",
+      "2019",
+      "2021"
+    ],
+    "appearances": 1318
+  },
+  {
+    "raw_name": "Sachin Baby",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2013",
+      "2016",
+      "2017",
+      "2021"
+    ],
+    "appearances": 272
+  },
+  {
+    "raw_name": "PV Tambe",
+    "teams": [
+      "Gujarat Lions",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "appearances": 1181
+  },
+  {
+    "raw_name": "NM Coulter-Nile",
+    "teams": [
+      "Mumbai Indians",
+      "Delhi Daredevils",
+      "Rajasthan Royals",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2013",
+      "2015",
+      "2016",
+      "2017",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "appearances": 2034
+  },
+  {
+    "raw_name": "CJ Anderson",
+    "teams": [
+      "Mumbai Indians",
+      "Delhi Daredevils",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2014",
+      "2015",
+      "2017",
+      "2018"
+    ],
+    "appearances": 1886
+  },
+  {
+    "raw_name": "NJ Maddinson",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2014",
+      "2015"
+    ],
+    "appearances": 45
+  },
+  {
+    "raw_name": "AR Patel",
+    "teams": [
+      "Kings XI Punjab",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 8210
+  },
+  {
+    "raw_name": "JJ Bumrah",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2014",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "appearances": 6099
+  },
+  {
+    "raw_name": "JDS Neesham",
+    "teams": [
+      "Mumbai Indians",
+      "Delhi Daredevils",
+      "Kings XI Punjab",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2014",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "appearances": 402
+  },
+  {
+    "raw_name": "TG Southee",
+    "teams": [
+      "Chennai Super Kings",
+      "Kolkata Knight Riders",
+      "Mumbai Indians",
+      "Rajasthan Royals",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021",
+      "2022"
+    ],
+    "appearances": 1739
+  },
+  {
+    "raw_name": "MA Starc",
+    "teams": [
+      "Delhi Capitals",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2014",
+      "2015",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2500
+  },
+  {
+    "raw_name": "BR Dunk",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2014"
+    ],
+    "appearances": 64
+  },
+  {
+    "raw_name": "RR Rossouw",
+    "teams": [
+      "Punjab Kings",
+      "Royal Challengers Bangalore",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2014",
+      "2015",
+      "2023",
+      "2024"
+    ],
+    "appearances": 876
+  },
+  {
+    "raw_name": "Shivam Sharma",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2014"
+    ],
+    "appearances": 118
+  },
+  {
+    "raw_name": "YS Chahal",
+    "teams": [
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2014",
+      "2015",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "appearances": 5734
+  },
+  {
+    "raw_name": "LMP Simmons",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "appearances": 2423
+  },
+  {
+    "raw_name": "VH Zol",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2014"
+    ],
+    "appearances": 65
+  },
+  {
+    "raw_name": "BCJ Cutting",
+    "teams": [
+      "Mumbai Indians",
+      "Sunrisers Hyderabad",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2014",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "appearances": 825
+  },
+  {
+    "raw_name": "Imran Tahir",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Delhi Daredevils",
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2020"
+    ],
+    "appearances": 1684
+  },
+  {
+    "raw_name": "BE Hendricks",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2014",
+      "2015"
+    ],
+    "appearances": 172
+  },
+  {
+    "raw_name": "S Gopal",
+    "teams": [
+      "Mumbai Indians",
+      "Sunrisers Hyderabad",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "appearances": 1851
+  },
+  {
+    "raw_name": "M de Lange",
+    "teams": [
+      "Mumbai Indians",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2014"
+    ],
+    "appearances": 123
+  },
+  {
+    "raw_name": "R Tewatia",
+    "teams": [
+      "Delhi Daredevils",
+      "Gujarat Titans",
+      "Kings XI Punjab",
+      "Rajasthan Royals",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2014",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 3065
+  },
+  {
+    "raw_name": "JO Holder",
+    "teams": [
+      "Lucknow Super Giants",
+      "Kolkata Knight Riders",
+      "Chennai Super Kings",
+      "Rajasthan Royals",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2014",
+      "2016",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "appearances": 1731
+  },
+  {
+    "raw_name": "Karanveer Singh",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2014",
+      "2015"
+    ],
+    "appearances": 251
+  },
+  {
+    "raw_name": "SS Iyer",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Delhi Daredevils",
+      "Punjab Kings",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "appearances": 8372
+  },
+  {
+    "raw_name": "DJ Hooda",
+    "teams": [
+      "Lucknow Super Giants",
+      "Kings XI Punjab",
+      "Chennai Super Kings",
+      "Rajasthan Royals",
+      "Punjab Kings",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 3230
+  },
+  {
+    "raw_name": "Anureet Singh",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Kings XI Punjab",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2015",
+      "2017",
+      "2018"
+    ],
+    "appearances": 535
+  },
+  {
+    "raw_name": "KS Williamson",
+    "teams": [
+      "Gujarat Titans",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024"
+    ],
+    "appearances": 5015
+  },
+  {
+    "raw_name": "SA Abbott",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2015",
+      "2022"
+    ],
+    "appearances": 99
+  },
+  {
+    "raw_name": "J Suchith",
+    "teams": [
+      "Mumbai Indians",
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2015",
+      "2019",
+      "2021",
+      "2022"
+    ],
+    "appearances": 573
+  },
+  {
+    "raw_name": "HH Pandya",
+    "teams": [
+      "Mumbai Indians",
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 7520
+  },
+  {
+    "raw_name": "D Wiese",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2015",
+      "2016",
+      "2023"
+    ],
+    "appearances": 518
+  },
+  {
+    "raw_name": "SN Khan",
+    "teams": [
+      "Punjab Kings",
+      "Kings XI Punjab",
+      "Royal Challengers Bangalore",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "appearances": 925
+  },
+  {
+    "raw_name": "MJ McClenaghan",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "appearances": 1988
+  },
+  {
+    "raw_name": "DJ Muthuswami",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2015"
+    ],
+    "appearances": 93
+  },
+  {
+    "raw_name": "PJ Cummins",
+    "teams": [
+      "Delhi Daredevils",
+      "Sunrisers Hyderabad",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2015",
+      "2017",
+      "2020",
+      "2021",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2875
+  },
+  {
+    "raw_name": "RG More",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2015"
+    ],
+    "appearances": 42
+  },
+  {
+    "raw_name": "SN Thakur",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Lucknow Super Giants",
+      "Kings XI Punjab",
+      "Chennai Super Kings",
+      "Kolkata Knight Riders",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2015",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 3437
+  },
+  {
+    "raw_name": "JC Buttler",
+    "teams": [
+      "Mumbai Indians",
+      "Gujarat Titans",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 9224
+  },
+  {
+    "raw_name": "CR Brathwaite",
+    "teams": [
+      "Delhi Daredevils",
+      "Sunrisers Hyderabad",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "appearances": 736
+  },
+  {
+    "raw_name": "MP Stoinis",
+    "teams": [
+      "Lucknow Super Giants",
+      "Kings XI Punjab",
+      "Punjab Kings",
+      "Royal Challengers Bangalore",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 5946
+  },
+  {
+    "raw_name": "Ishan Kishan",
+    "teams": [
+      "Mumbai Indians",
+      "Gujarat Lions",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 6174
+  },
+  {
+    "raw_name": "C Munro",
+    "teams": [
+      "Delhi Daredevils",
+      "Delhi Capitals",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2016",
+      "2018",
+      "2019"
+    ],
+    "appearances": 288
+  },
+  {
+    "raw_name": "P Sahu",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2016"
+    ],
+    "appearances": 128
+  },
+  {
+    "raw_name": "KH Pandya",
+    "teams": [
+      "Mumbai Indians",
+      "Lucknow Super Giants",
+      "Royal Challengers Bengaluru"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 7393
+  },
+  {
+    "raw_name": "AD Nath",
+    "teams": [
+      "Gujarat Lions",
+      "Kings XI Punjab",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "appearances": 210
+  },
+  {
+    "raw_name": "MJ Guptill",
+    "teams": [
+      "Mumbai Indians",
+      "Kings XI Punjab",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2019"
+    ],
+    "appearances": 414
+  },
+  {
+    "raw_name": "KJ Abbott",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2016"
+    ],
+    "appearances": 120
+  },
+  {
+    "raw_name": "TM Head",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2223
+  },
+  {
+    "raw_name": "M Ashwin",
+    "teams": [
+      "Kings XI Punjab",
+      "Rising Pune Supergiants",
+      "Rajasthan Royals",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "appearances": 1019
+  },
+  {
+    "raw_name": "NS Naik",
+    "teams": [
+      "Kings XI Punjab",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2016",
+      "2019",
+      "2020"
+    ],
+    "appearances": 97
+  },
+  {
+    "raw_name": "RR Pant",
+    "teams": [
+      "Lucknow Super Giants",
+      "Delhi Daredevils",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "appearances": 6764
+  },
+  {
+    "raw_name": "SW Billings",
+    "teams": [
+      "Delhi Daredevils",
+      "Chennai Super Kings",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2022"
+    ],
+    "appearances": 1096
+  },
+  {
+    "raw_name": "KC Cariappa",
+    "teams": [
+      "Kings XI Punjab",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2019"
+    ],
+    "appearances": 268
+  },
+  {
+    "raw_name": "PSP Handscomb",
+    "teams": [
+      "Rising Pune Supergiants"
+    ],
+    "seasons": [
+      "2016"
+    ],
+    "appearances": 18
+  },
+  {
+    "raw_name": "Swapnil Singh",
+    "teams": [
+      "Lucknow Super Giants",
+      "Kings XI Punjab",
+      "Royal Challengers Bengaluru"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2023",
+      "2024"
+    ],
+    "appearances": 260
+  },
+  {
+    "raw_name": "J Yadav",
+    "teams": [
+      "Mumbai Indians",
+      "Delhi Daredevils",
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2016",
+      "2021"
+    ],
+    "appearances": 480
+  },
+  {
+    "raw_name": "UT Khawaja",
+    "teams": [
+      "Rising Pune Supergiants"
+    ],
+    "seasons": [
+      "2016"
+    ],
+    "appearances": 221
+  },
+  {
+    "raw_name": "HM Amla",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2016",
+      "2017"
+    ],
+    "appearances": 1395
+  },
+  {
+    "raw_name": "F Behardien",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2016"
+    ],
+    "appearances": 34
+  },
+  {
+    "raw_name": "BB Sran",
+    "teams": [
+      "Mumbai Indians",
+      "Kings XI Punjab",
+      "Sunrisers Hyderabad",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2016",
+      "2018",
+      "2019"
+    ],
+    "appearances": 562
+  },
+  {
+    "raw_name": "A Zampa",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Rising Pune Supergiants",
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2023"
+    ],
+    "appearances": 780
+  },
+  {
+    "raw_name": "N Rana",
+    "teams": [
+      "Mumbai Indians",
+      "Rajasthan Royals",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 5983
+  },
+  {
+    "raw_name": "S Kaushik",
+    "teams": [
+      "Gujarat Lions"
+    ],
+    "seasons": [
+      "2016"
+    ],
+    "appearances": 216
+  },
+  {
+    "raw_name": "ER Dwivedi",
+    "teams": [
+      "Gujarat Lions"
+    ],
+    "seasons": [
+      "2016"
+    ],
+    "appearances": 22
+  },
+  {
+    "raw_name": "CJ Jordan",
+    "teams": [
+      "Kings XI Punjab",
+      "Royal Challengers Bangalore",
+      "Chennai Super Kings",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2016",
+      "2017",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "appearances": 1145
+  },
+  {
+    "raw_name": "TS Mills",
+    "teams": [
+      "Mumbai Indians",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2017",
+      "2022"
+    ],
+    "appearances": 246
+  },
+  {
+    "raw_name": "A Choudhary",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2017"
+    ],
+    "appearances": 150
+  },
+  {
+    "raw_name": "BA Stokes",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Chennai Super Kings",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2023"
+    ],
+    "appearances": 3344
+  },
+  {
+    "raw_name": "JJ Roy",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Gujarat Lions",
+      "Sunrisers Hyderabad",
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2017",
+      "2018",
+      "2021",
+      "2023"
+    ],
+    "appearances": 1405
+  },
+  {
+    "raw_name": "Vishnu Vinod",
+    "teams": [
+      "Mumbai Indians",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2017",
+      "2023"
+    ],
+    "appearances": 143
+  },
+  {
+    "raw_name": "Basil Thampi",
+    "teams": [
+      "Mumbai Indians",
+      "Gujarat Lions",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "appearances": 610
+  },
+  {
+    "raw_name": "CR Woakes",
+    "teams": [
+      "Delhi Capitals",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2017",
+      "2018",
+      "2021"
+    ],
+    "appearances": 627
+  },
+  {
+    "raw_name": "RA Tripathi",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Chennai Super Kings",
+      "Kolkata Knight Riders",
+      "Rajasthan Royals",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 4540
+  },
+  {
+    "raw_name": "DL Chahar",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Mumbai Indians",
+      "Chennai Super Kings",
+      "Rising Pune Supergiants"
+    ],
+    "seasons": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2023",
+      "2025"
+    ],
+    "appearances": 2638
+  },
+  {
+    "raw_name": "V Shankar",
+    "teams": [
+      "Delhi Daredevils",
+      "Chennai Super Kings",
+      "Gujarat Titans",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2235
+  },
+  {
+    "raw_name": "Rashid Khan",
+    "teams": [
+      "Gujarat Titans",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 6831
+  },
+  {
+    "raw_name": "RD Chahar",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 2198
+  },
+  {
+    "raw_name": "LH Ferguson",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Gujarat Titans",
+      "Royal Challengers Bengaluru",
+      "Kolkata Knight Riders",
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2017",
+      "2020",
+      "2021",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1926
+  },
+  {
+    "raw_name": "C de Grandhomme",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "appearances": 706
+  },
+  {
+    "raw_name": "AF Milne",
+    "teams": [
+      "Mumbai Indians",
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2017",
+      "2021"
+    ],
+    "appearances": 295
+  },
+  {
+    "raw_name": "S Badree",
+    "teams": [
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2017"
+    ],
+    "appearances": 319
+  },
+  {
+    "raw_name": "Mohammad Nabi",
+    "teams": [
+      "Mumbai Indians",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2024"
+    ],
+    "appearances": 730
+  },
+  {
+    "raw_name": "AJ Tye",
+    "teams": [
+      "Lucknow Super Giants",
+      "Gujarat Lions",
+      "Kings XI Punjab",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "appearances": 1332
+  },
+  {
+    "raw_name": "K Rabada",
+    "teams": [
+      "Delhi Daredevils",
+      "Punjab Kings",
+      "Gujarat Titans",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2925
+  },
+  {
+    "raw_name": "Kuldeep Yadav",
+    "teams": [
+      "Delhi Capitals",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 4206
+  },
+  {
+    "raw_name": "Washington Sundar",
+    "teams": [
+      "Rising Pune Supergiant",
+      "Sunrisers Hyderabad",
+      "Gujarat Titans",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2224
+  },
+  {
+    "raw_name": "DM Bravo",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2017"
+    ],
+    "appearances": 8
+  },
+  {
+    "raw_name": "AR Bawne",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2017"
+    ],
+    "appearances": 17
+  },
+  {
+    "raw_name": "SP Jackson",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2017",
+      "2022"
+    ],
+    "appearances": 134
+  },
+  {
+    "raw_name": "Ankit Soni",
+    "teams": [
+      "Gujarat Lions"
+    ],
+    "seasons": [
+      "2017"
+    ],
+    "appearances": 133
+  },
+  {
+    "raw_name": "TA Boult",
+    "teams": [
+      "Delhi Daredevils",
+      "Kolkata Knight Riders",
+      "Rajasthan Royals",
+      "Mumbai Indians",
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 4608
+  },
+  {
+    "raw_name": "E Lewis",
+    "teams": [
+      "Mumbai Indians",
+      "Lucknow Super Giants",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2021",
+      "2022"
+    ],
+    "appearances": 1252
+  },
+  {
+    "raw_name": "MA Wood",
+    "teams": [
+      "Lucknow Super Giants",
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2018",
+      "2023"
+    ],
+    "appearances": 399
+  },
+  {
+    "raw_name": "RK Singh",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2370
+  },
+  {
+    "raw_name": "DJM Short",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2018"
+    ],
+    "appearances": 230
+  },
+  {
+    "raw_name": "K Gowtham",
+    "teams": [
+      "Lucknow Super Giants",
+      "Kings XI Punjab",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "appearances": 942
+  },
+  {
+    "raw_name": "TK Curran",
+    "teams": [
+      "Delhi Capitals",
+      "Rajasthan Royals",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2018",
+      "2020",
+      "2021"
+    ],
+    "appearances": 506
+  },
+  {
+    "raw_name": "M Markande",
+    "teams": [
+      "Mumbai Indians",
+      "Sunrisers Hyderabad",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2023"
+    ],
+    "appearances": 846
+  },
+  {
+    "raw_name": "B Stanlake",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2018"
+    ],
+    "appearances": 399
+  },
+  {
+    "raw_name": "Mujeeb Ur Rahman",
+    "teams": [
+      "Mumbai Indians",
+      "Kings XI Punjab",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "appearances": 743
+  },
+  {
+    "raw_name": "A Dananjaya",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2018"
+    ],
+    "appearances": 34
+  },
+  {
+    "raw_name": "Shubman Gill",
+    "teams": [
+      "Gujarat Titans",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 9123
+  },
+  {
+    "raw_name": "Shivam Mavi",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2018",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "appearances": 1293
+  },
+  {
+    "raw_name": "Mohammed Siraj",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Royal Challengers Bengaluru",
+      "Royal Challengers Bangalore",
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 4055
+  },
+  {
+    "raw_name": "H Klaasen",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2073
+  },
+  {
+    "raw_name": "RK Bhui",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2024"
+    ],
+    "appearances": 50
+  },
+  {
+    "raw_name": "JC Archer",
+    "teams": [
+      "Mumbai Indians",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2020",
+      "2023",
+      "2025"
+    ],
+    "appearances": 2152
+  },
+  {
+    "raw_name": "PP Shaw",
+    "teams": [
+      "Delhi Daredevils",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 3672
+  },
+  {
+    "raw_name": "LE Plunkett",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2018"
+    ],
+    "appearances": 162
+  },
+  {
+    "raw_name": "Mustafizur Rahman",
+    "teams": [
+      "Chennai Super Kings",
+      "Rajasthan Royals",
+      "Mumbai Indians",
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2018",
+      "2021",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "appearances": 1955
+  },
+  {
+    "raw_name": "AD Hales",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2018"
+    ],
+    "appearances": 239
+  },
+  {
+    "raw_name": "MK Lomror",
+    "teams": [
+      "Royal Challengers Bengaluru",
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 908
+  },
+  {
+    "raw_name": "DR Shorey",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2018",
+      "2019"
+    ],
+    "appearances": 45
+  },
+  {
+    "raw_name": "MM Ali",
+    "teams": [
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 3063
+  },
+  {
+    "raw_name": "M Prasidh Krishna",
+    "teams": [
+      "Rajasthan Royals",
+      "Gujarat Titans",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "appearances": 2172
+  },
+  {
+    "raw_name": "P Chopra",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2018"
+    ],
+    "appearances": 9
+  },
+  {
+    "raw_name": "JPR Scantlebury-Searles",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2018"
+    ],
+    "appearances": 67
+  },
+  {
+    "raw_name": "Abhishek Sharma",
+    "teams": [
+      "Delhi Daredevils",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 4241
+  },
+  {
+    "raw_name": "IS Sodhi",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2018",
+      "2019"
+    ],
+    "appearances": 228
+  },
+  {
+    "raw_name": "SO Hetmyer",
+    "teams": [
+      "Rajasthan Royals",
+      "Royal Challengers Bangalore",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2728
+  },
+  {
+    "raw_name": "S Dube",
+    "teams": [
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 3272
+  },
+  {
+    "raw_name": "Navdeep Saini",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "appearances": 751
+  },
+  {
+    "raw_name": "JM Bairstow",
+    "teams": [
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "appearances": 3930
+  },
+  {
+    "raw_name": "KMA Paul",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2019"
+    ],
+    "appearances": 478
+  },
+  {
+    "raw_name": "Rasikh Salam",
+    "teams": [
+      "Mumbai Indians",
+      "Delhi Capitals",
+      "Royal Challengers Bengaluru",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2019",
+      "2022",
+      "2024"
+    ],
+    "appearances": 343
+  },
+  {
+    "raw_name": "N Pooran",
+    "teams": [
+      "Lucknow Super Giants",
+      "Punjab Kings",
+      "Kings XI Punjab",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 3710
+  },
+  {
+    "raw_name": "P Ray Barman",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2019"
+    ],
+    "appearances": 72
+  },
+  {
+    "raw_name": "SM Curran",
+    "teams": [
+      "Punjab Kings",
+      "Chennai Super Kings",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2019",
+      "2020",
+      "2021",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 3828
+  },
+  {
+    "raw_name": "GC Viljoen",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2019"
+    ],
+    "appearances": 162
+  },
+  {
+    "raw_name": "Avesh Khan",
+    "teams": [
+      "Lucknow Super Giants",
+      "Delhi Daredevils",
+      "Rajasthan Royals",
+      "Royal Challengers Bangalore",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2019",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2483
+  },
+  {
+    "raw_name": "S Lamichhane",
+    "teams": [
+      "Delhi Daredevils",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2019"
+    ],
+    "appearances": 213
+  },
+  {
+    "raw_name": "HF Gurney",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2019"
+    ],
+    "appearances": 402
+  },
+  {
+    "raw_name": "SD Lad",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2019"
+    ],
+    "appearances": 23
+  },
+  {
+    "raw_name": "AS Joseph",
+    "teams": [
+      "Mumbai Indians",
+      "Gujarat Titans",
+      "Royal Challengers Bengaluru"
+    ],
+    "seasons": [
+      "2019",
+      "2022",
+      "2023"
+    ],
+    "appearances": 789
+  },
+  {
+    "raw_name": "R Parag",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 3090
+  },
+  {
+    "raw_name": "MJ Santner",
+    "teams": [
+      "Mumbai Indians",
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2019",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 843
+  },
+  {
+    "raw_name": "JL Denly",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2019"
+    ],
+    "appearances": 2
+  },
+  {
+    "raw_name": "LS Livingstone",
+    "teams": [
+      "Punjab Kings",
+      "Royal Challengers Bengaluru",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2019",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1962
+  },
+  {
+    "raw_name": "KK Ahmed",
+    "teams": [
+      "Chennai Super Kings",
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2025"
+    ],
+    "appearances": 2137
+  },
+  {
+    "raw_name": "AJ Turner",
+    "teams": [
+      "Lucknow Super Giants",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2019",
+      "2024"
+    ],
+    "appearances": 63
+  },
+  {
+    "raw_name": "Harpreet Brar",
+    "teams": [
+      "Punjab Kings",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2019",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2224
+  },
+  {
+    "raw_name": "SE Rutherford",
+    "teams": [
+      "Gujarat Titans",
+      "Royal Challengers Bangalore",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2019",
+      "2022",
+      "2025"
+    ],
+    "appearances": 625
+  },
+  {
+    "raw_name": "Y Prithvi Raj",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2019"
+    ],
+    "appearances": 40
+  },
+  {
+    "raw_name": "P Simran Singh",
+    "teams": [
+      "Punjab Kings",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2571
+  },
+  {
+    "raw_name": "JL Pattinson",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2020"
+    ],
+    "appearances": 255
+  },
+  {
+    "raw_name": "A Nortje",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2020",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 1991
+  },
+  {
+    "raw_name": "D Padikkal",
+    "teams": [
+      "Lucknow Super Giants",
+      "Royal Challengers Bengaluru",
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 3543
+  },
+  {
+    "raw_name": "JR Philippe",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2020"
+    ],
+    "appearances": 158
+  },
+  {
+    "raw_name": "PK Garg",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "appearances": 773
+  },
+  {
+    "raw_name": "T Natarajan",
+    "teams": [
+      "Kings XI Punjab",
+      "Sunrisers Hyderabad",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2020"
+    ],
+    "appearances": 1441
+  },
+  {
+    "raw_name": "YBK Jaiswal",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 4211
+  },
+  {
+    "raw_name": "RD Gaikwad",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 6504
+  },
+  {
+    "raw_name": "Abdul Samad",
+    "teams": [
+      "Lucknow Super Giants",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1095
+  },
+  {
+    "raw_name": "KL Nagarkoti",
+    "teams": [
+      "Delhi Capitals",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2020",
+      "2021"
+    ],
+    "appearances": 274
+  },
+  {
+    "raw_name": "Ravi Bishnoi",
+    "teams": [
+      "Lucknow Super Giants",
+      "Punjab Kings",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1844
+  },
+  {
+    "raw_name": "I Udana",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2020"
+    ],
+    "appearances": 211
+  },
+  {
+    "raw_name": "CV Varun",
+    "teams": [
+      "Kings XI Punjab",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "appearances": 3425
+  },
+  {
+    "raw_name": "SS Cottrell",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2020"
+    ],
+    "appearances": 140
+  },
+  {
+    "raw_name": "Arshdeep Singh",
+    "teams": [
+      "Punjab Kings",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2161
+  },
+  {
+    "raw_name": "Kartik Tyagi",
+    "teams": [
+      "Gujarat Titans",
+      "Sunrisers Hyderabad",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "appearances": 757
+  },
+  {
+    "raw_name": "N Jagadeesan",
+    "teams": [
+      "Chennai Super Kings",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "appearances": 313
+  },
+  {
+    "raw_name": "AT Carey",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2020"
+    ],
+    "appearances": 60
+  },
+  {
+    "raw_name": "T Banton",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2020"
+    ],
+    "appearances": 39
+  },
+  {
+    "raw_name": "TU Deshpande",
+    "teams": [
+      "Chennai Super Kings",
+      "Rajasthan Royals",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2020",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1095
+  },
+  {
+    "raw_name": "P Dubey",
+    "teams": [
+      "Punjab Kings",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2020",
+      "2023"
+    ],
+    "appearances": 151
+  },
+  {
+    "raw_name": "Shahbaz Ahmed",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Lucknow Super Giants",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1907
+  },
+  {
+    "raw_name": "DR Sams",
+    "teams": [
+      "Mumbai Indians",
+      "Royal Challengers Bangalore",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "appearances": 709
+  },
+  {
+    "raw_name": "M Jansen",
+    "teams": [
+      "Mumbai Indians",
+      "Punjab Kings",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1240
+  },
+  {
+    "raw_name": "RM Patidar",
+    "teams": [
+      "Royal Challengers Bengaluru",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2021",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2581
+  },
+  {
+    "raw_name": "KA Jamieson",
+    "teams": [
+      "Punjab Kings",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2021",
+      "2025"
+    ],
+    "appearances": 438
+  },
+  {
+    "raw_name": "M Shahrukh Khan",
+    "teams": [
+      "Punjab Kings",
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1165
+  },
+  {
+    "raw_name": "JA Richardson",
+    "teams": [
+      "Punjab Kings",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2021",
+      "2024"
+    ],
+    "appearances": 139
+  },
+  {
+    "raw_name": "Lalit Yadav",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 924
+  },
+  {
+    "raw_name": "Virat Singh",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2021"
+    ],
+    "appearances": 67
+  },
+  {
+    "raw_name": "FA Allen",
+    "teams": [
+      "Mumbai Indians",
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2021",
+      "2022"
+    ],
+    "appearances": 128
+  },
+  {
+    "raw_name": "C Sakariya",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Delhi Capitals",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2021",
+      "2023"
+    ],
+    "appearances": 556
+  },
+  {
+    "raw_name": "DJ Malan",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2021"
+    ],
+    "appearances": 48
+  },
+  {
+    "raw_name": "Anmolpreet Singh",
+    "teams": [
+      "Mumbai Indians",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 218
+  },
+  {
+    "raw_name": "KS Bharat",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2021",
+      "2022"
+    ],
+    "appearances": 594
+  },
+  {
+    "raw_name": "PWH de Silva",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2021",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "appearances": 1478
+  },
+  {
+    "raw_name": "VR Iyer",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 3141
+  },
+  {
+    "raw_name": "AK Markram",
+    "teams": [
+      "Lucknow Super Giants",
+      "Punjab Kings",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2797
+  },
+  {
+    "raw_name": "TH David",
+    "teams": [
+      "Mumbai Indians",
+      "Royal Challengers Bengaluru",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1398
+  },
+  {
+    "raw_name": "T Shamsi",
+    "teams": [
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2021"
+    ],
+    "appearances": 138
+  },
+  {
+    "raw_name": "NT Ellis",
+    "teams": [
+      "Chennai Super Kings",
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "appearances": 697
+  },
+  {
+    "raw_name": "TL Seifert",
+    "teams": [
+      "Delhi Capitals",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2021",
+      "2022"
+    ],
+    "appearances": 40
+  },
+  {
+    "raw_name": "GD Phillips",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2021",
+      "2023"
+    ],
+    "appearances": 375
+  },
+  {
+    "raw_name": "GHS Garton",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2021"
+    ],
+    "appearances": 110
+  },
+  {
+    "raw_name": "RV Patel",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "appearances": 174
+  },
+  {
+    "raw_name": "K Yadav",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2021"
+    ],
+    "appearances": 75
+  },
+  {
+    "raw_name": "Anuj Rawat",
+    "teams": [
+      "Royal Challengers Bengaluru",
+      "Royal Challengers Bangalore",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 804
+  },
+  {
+    "raw_name": "DP Conway",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "appearances": 2727
+  },
+  {
+    "raw_name": "Tilak Varma",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 2349
+  },
+  {
+    "raw_name": "R Powell",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Rajasthan Royals",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 554
+  },
+  {
+    "raw_name": "PBB Rajapaksa",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2022",
+      "2023"
+    ],
+    "appearances": 434
+  },
+  {
+    "raw_name": "RA Bawa",
+    "teams": [
+      "Mumbai Indians",
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2022",
+      "2025"
+    ],
+    "appearances": 39
+  },
+  {
+    "raw_name": "OF Smith",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2022"
+    ],
+    "appearances": 462
+  },
+  {
+    "raw_name": "A Badoni",
+    "teams": [
+      "Lucknow Super Giants"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1563
+  },
+  {
+    "raw_name": "PVD Chameera",
+    "teams": [
+      "Lucknow Super Giants",
+      "Kolkata Knight Riders",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2022",
+      "2025"
+    ],
+    "appearances": 511
+  },
+  {
+    "raw_name": "A Manohar",
+    "teams": [
+      "Gujarat Titans",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 684
+  },
+  {
+    "raw_name": "R Shepherd",
+    "teams": [
+      "Mumbai Indians",
+      "Lucknow Super Giants",
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 885
+  },
+  {
+    "raw_name": "DJ Willey",
+    "teams": [
+      "Chennai Super Kings",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2022",
+      "2023"
+    ],
+    "appearances": 343
+  },
+  {
+    "raw_name": "D Pretorius",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2022"
+    ],
+    "appearances": 213
+  },
+  {
+    "raw_name": "JM Sharma",
+    "teams": [
+      "Punjab Kings",
+      "Royal Challengers Bengaluru"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1469
+  },
+  {
+    "raw_name": "VG Arora",
+    "teams": [
+      "Punjab Kings",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 998
+  },
+  {
+    "raw_name": "Mukesh Choudhary",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2022"
+    ],
+    "appearances": 606
+  },
+  {
+    "raw_name": "Umran Malik",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2022",
+      "2023"
+    ],
+    "appearances": 1045
+  },
+  {
+    "raw_name": "D Brevis",
+    "teams": [
+      "Mumbai Indians",
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "appearances": 828
+  },
+  {
+    "raw_name": "B Sai Sudharsan",
+    "teams": [
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 3626
+  },
+  {
+    "raw_name": "Ramandeep Singh",
+    "teams": [
+      "Mumbai Indians",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "appearances": 346
+  },
+  {
+    "raw_name": "HE van der Dussen",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2022"
+    ],
+    "appearances": 54
+  },
+  {
+    "raw_name": "SS Prabhudessai",
+    "teams": [
+      "Royal Challengers Bengaluru",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 217
+  },
+  {
+    "raw_name": "Akash Deep",
+    "teams": [
+      "Lucknow Super Giants",
+      "Royal Challengers Bengaluru",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 337
+  },
+  {
+    "raw_name": "JR Hazlewood",
+    "teams": [
+      "Chennai Super Kings",
+      "Royal Challengers Bengaluru",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "appearances": 1477
+  },
+  {
+    "raw_name": "KR Sen",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2022"
+    ],
+    "appearances": 258
+  },
+  {
+    "raw_name": "Aman Hakim Khan",
+    "teams": [
+      "Delhi Capitals",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2022",
+      "2023"
+    ],
+    "appearances": 238
+  },
+  {
+    "raw_name": "HR Shokeen",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2022",
+      "2023"
+    ],
+    "appearances": 347
+  },
+  {
+    "raw_name": "Yash Dayal",
+    "teams": [
+      "Gujarat Titans",
+      "Royal Challengers Bengaluru"
+    ],
+    "seasons": [
+      "2022",
+      "2025"
+    ],
+    "appearances": 937
+  },
+  {
+    "raw_name": "DJ Mitchell",
+    "teams": [
+      "Chennai Super Kings",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2022",
+      "2024"
+    ],
+    "appearances": 656
+  },
+  {
+    "raw_name": "Shashank Singh",
+    "teams": [
+      "Punjab Kings",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1325
+  },
+  {
+    "raw_name": "B Indrajith",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2022"
+    ],
+    "appearances": 63
+  },
+  {
+    "raw_name": "Harshit Rana",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "appearances": 775
+  },
+  {
+    "raw_name": "Mohsin Khan",
+    "teams": [
+      "Lucknow Super Giants"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "appearances": 822
+  },
+  {
+    "raw_name": "Simarjeet Singh",
+    "teams": [
+      "Chennai Super Kings",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2022",
+      "2025"
+    ],
+    "appearances": 529
+  },
+  {
+    "raw_name": "M Theekshana",
+    "teams": [
+      "Chennai Super Kings",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2022",
+      "2025"
+    ],
+    "appearances": 966
+  },
+  {
+    "raw_name": "AS Roy",
+    "teams": [
+      "Mumbai Indians",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 225
+  },
+  {
+    "raw_name": "Fazalhaq Farooqi",
+    "teams": [
+      "Sunrisers Hyderabad",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "appearances": 294
+  },
+  {
+    "raw_name": "K Kartikeya",
+    "teams": [
+      "Mumbai Indians",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "appearances": 326
+  },
+  {
+    "raw_name": "RP Meredith",
+    "teams": [
+      "Mumbai Indians",
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2022",
+      "2023"
+    ],
+    "appearances": 423
+  },
+  {
+    "raw_name": "KS Sharma",
+    "teams": [
+      "Lucknow Super Giants"
+    ],
+    "seasons": [
+      "2022",
+      "2023"
+    ],
+    "appearances": 60
+  },
+  {
+    "raw_name": "T Stubbs",
+    "teams": [
+      "Mumbai Indians",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 999
+  },
+  {
+    "raw_name": "R Sanjay Yadav",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2022"
+    ],
+    "appearances": 17
+  },
+  {
+    "raw_name": "A Tomar",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2022"
+    ],
+    "appearances": 17
+  },
+  {
+    "raw_name": "PN Mankad",
+    "teams": [
+      "Lucknow Super Giants",
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2022",
+      "2023"
+    ],
+    "appearances": 394
+  },
+  {
+    "raw_name": "OC McCoy",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2022"
+    ],
+    "appearances": 194
+  },
+  {
+    "raw_name": "Sikandar Raza",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2023",
+      "2024"
+    ],
+    "appearances": 606
+  },
+  {
+    "raw_name": "Rahmanullah Gurbaz",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 531
+  },
+  {
+    "raw_name": "KR Mayers",
+    "teams": [
+      "Lucknow Super Giants"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 529
+  },
+  {
+    "raw_name": "Mukesh Kumar",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2023",
+      "2024"
+    ],
+    "appearances": 945
+  },
+  {
+    "raw_name": "HC Brook",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 580
+  },
+  {
+    "raw_name": "AU Rashid",
+    "teams": [
+      "Punjab Kings",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 87
+  },
+  {
+    "raw_name": "C Green",
+    "teams": [
+      "Mumbai Indians",
+      "Royal Challengers Bengaluru"
+    ],
+    "seasons": [
+      "2023",
+      "2024"
+    ],
+    "appearances": 2218
+  },
+  {
+    "raw_name": "N Wadhera",
+    "teams": [
+      "Mumbai Indians",
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1010
+  },
+  {
+    "raw_name": "Arshad Khan",
+    "teams": [
+      "Mumbai Indians",
+      "Lucknow Super Giants",
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 472
+  },
+  {
+    "raw_name": "Abishek Porel",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 976
+  },
+  {
+    "raw_name": "Dhruv Jurel",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 884
+  },
+  {
+    "raw_name": "MG Bracewell",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 172
+  },
+  {
+    "raw_name": "MW Short",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 208
+  },
+  {
+    "raw_name": "Mohit Rathee",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 43
+  },
+  {
+    "raw_name": "YV Dhull",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 52
+  },
+  {
+    "raw_name": "Yudhvir Singh",
+    "teams": [
+      "Lucknow Super Giants",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2023",
+      "2024"
+    ],
+    "appearances": 178
+  },
+  {
+    "raw_name": "Atharva Taide",
+    "teams": [
+      "Punjab Kings",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 372
+  },
+  {
+    "raw_name": "Liton Das",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 14
+  },
+  {
+    "raw_name": "PD Salt",
+    "teams": [
+      "Kolkata Knight Riders",
+      "Royal Challengers Bengaluru",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1914
+  },
+  {
+    "raw_name": "Vijaykumar Vyshak",
+    "teams": [
+      "Punjab Kings",
+      "Royal Challengers Bengaluru",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2023",
+      "2024"
+    ],
+    "appearances": 383
+  },
+  {
+    "raw_name": "Abdul Basith",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 2
+  },
+  {
+    "raw_name": "Arjun Tendulkar",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 99
+  },
+  {
+    "raw_name": "JP Behrendorff",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 404
+  },
+  {
+    "raw_name": "AJ Hosein",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 43
+  },
+  {
+    "raw_name": "Naveen-ul-Haq",
+    "teams": [
+      "Lucknow Super Giants"
+    ],
+    "seasons": [
+      "2023",
+      "2024"
+    ],
+    "appearances": 465
+  },
+  {
+    "raw_name": "Noor Ahmad",
+    "teams": [
+      "Chennai Super Kings",
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1393
+  },
+  {
+    "raw_name": "JE Root",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 38
+  },
+  {
+    "raw_name": "KM Asif",
+    "teams": [
+      "Chennai Super Kings",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 146
+  },
+  {
+    "raw_name": "MD Shanaka",
+    "teams": [
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 50
+  },
+  {
+    "raw_name": "Sanvir Singh",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2023",
+      "2024"
+    ],
+    "appearances": 46
+  },
+  {
+    "raw_name": "Vivrant Sharma",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 110
+  },
+  {
+    "raw_name": "DG Nalkande",
+    "teams": [
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2023",
+      "2024"
+    ],
+    "appearances": 113
+  },
+  {
+    "raw_name": "R Ravindra",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 675
+  },
+  {
+    "raw_name": "SD Hope",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 242
+  },
+  {
+    "raw_name": "Sumit Kumar",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 79
+  },
+  {
+    "raw_name": "Azmatullah Omarzai",
+    "teams": [
+      "Punjab Kings",
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 472
+  },
+  {
+    "raw_name": "Naman Dhir",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 481
+  },
+  {
+    "raw_name": "G Coetzee",
+    "teams": [
+      "Mumbai Indians",
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 369
+  },
+  {
+    "raw_name": "SZ Mulani",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 39
+  },
+  {
+    "raw_name": "Sameer Rizvi",
+    "teams": [
+      "Chennai Super Kings",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 492
+  },
+  {
+    "raw_name": "SH Johnson",
+    "teams": [
+      "Gujarat Titans",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 215
+  },
+  {
+    "raw_name": "Akash Madhwal",
+    "teams": [
+      "Mumbai Indians",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 875
+  },
+  {
+    "raw_name": "SB Dubey",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 212
+  },
+  {
+    "raw_name": "Mayank Dagar",
+    "teams": [
+      "Royal Challengers Bengaluru",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 141
+  },
+  {
+    "raw_name": "RJW Topley",
+    "teams": [
+      "Mumbai Indians",
+      "Royal Challengers Bengaluru",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 141
+  },
+  {
+    "raw_name": "A Raghuvanshi",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 702
+  },
+  {
+    "raw_name": "Ashutosh Sharma",
+    "teams": [
+      "Punjab Kings",
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 725
+  },
+  {
+    "raw_name": "Nithish Kumar Reddy",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 1212
+  },
+  {
+    "raw_name": "Saurav Chauhan",
+    "teams": [
+      "Royal Challengers Bengaluru"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 35
+  },
+  {
+    "raw_name": "Kumar Kushagra",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 25
+  },
+  {
+    "raw_name": "BR Sharath",
+    "teams": [
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 10
+  },
+  {
+    "raw_name": "WG Jacks",
+    "teams": [
+      "Mumbai Indians",
+      "Royal Challengers Bengaluru"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 1528
+  },
+  {
+    "raw_name": "J Fraser-McGurk",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 627
+  },
+  {
+    "raw_name": "Tanush Kotian",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 54
+  },
+  {
+    "raw_name": "KA Maharaj",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 40
+  },
+  {
+    "raw_name": "Arshad Khan (2)",
+    "teams": [
+      "Lucknow Super Giants"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 19
+  },
+  {
+    "raw_name": "R Sai Kishore",
+    "teams": [
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 734
+  },
+  {
+    "raw_name": "L Wood",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 43
+  },
+  {
+    "raw_name": "LB Williams",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 53
+  },
+  {
+    "raw_name": "AA Kulkarni",
+    "teams": [
+      "Lucknow Super Giants"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 18
+  },
+  {
+    "raw_name": "MJ Suthar",
+    "teams": [
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 21
+  },
+  {
+    "raw_name": "RJ Gleeson",
+    "teams": [
+      "Mumbai Indians",
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 75
+  },
+  {
+    "raw_name": "Gulbadin Naib",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 36
+  },
+  {
+    "raw_name": "D Ferreira",
+    "teams": [
+      "Delhi Capitals",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 33
+  },
+  {
+    "raw_name": "A Kamboj",
+    "teams": [
+      "Mumbai Indians",
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 240
+  },
+  {
+    "raw_name": "T Kohler-Cadmore",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 104
+  },
+  {
+    "raw_name": "Shivam Singh",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 12
+  },
+  {
+    "raw_name": "V Viyaskanth",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 81
+  },
+  {
+    "raw_name": "Aniket Verma",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 286
+  },
+  {
+    "raw_name": "RD Rickelton",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 754
+  },
+  {
+    "raw_name": "R Minz",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 26
+  },
+  {
+    "raw_name": "PVSN Raju",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 35
+  },
+  {
+    "raw_name": "V Nigam",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 398
+  },
+  {
+    "raw_name": "Priyansh Arya",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 863
+  },
+  {
+    "raw_name": "PWA Mulder",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 36
+  },
+  {
+    "raw_name": "J Overton",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 54
+  },
+  {
+    "raw_name": "PHKD Mendis",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 190
+  },
+  {
+    "raw_name": "Suryansh Shedge",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 42
+  },
+  {
+    "raw_name": "SK Rasheed",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 134
+  },
+  {
+    "raw_name": "JP Inglis",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 586
+  },
+  {
+    "raw_name": "XC Bartlett",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 89
+  },
+  {
+    "raw_name": "MS Bhandage",
+    "teams": [
+      "Royal Challengers Bengaluru"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 5
+  },
+  {
+    "raw_name": "V Suryavanshi",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 512
+  },
+  {
+    "raw_name": "A Mhatre",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 247
+  },
+  {
+    "raw_name": "C Bosch",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 95
+  },
+  {
+    "raw_name": "Prince Yadav",
+    "teams": [
+      "Lucknow Super Giants"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 175
+  },
+  {
+    "raw_name": "DS Rathi",
+    "teams": [
+      "Lucknow Super Giants"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 589
+  },
+  {
+    "raw_name": "JG Bethell",
+    "teams": [
+      "Royal Challengers Bengaluru"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 75
+  },
+  {
+    "raw_name": "KS Rathore",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 8
+  },
+  {
+    "raw_name": "Urvil Patel",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 59
+  },
+  {
+    "raw_name": "MJ Owen",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 8
+  },
+  {
+    "raw_name": "KT Maphaka",
+    "teams": [
+      "Mumbai Indians",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 74
+  },
+  {
+    "raw_name": "M Tiwari",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 14
+  },
+  {
+    "raw_name": "L Ngidi",
+    "teams": [
+      "Chennai Super Kings",
+      "Royal Challengers Bengaluru"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 644
+  },
+  {
+    "raw_name": "Sediqullah Atal",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 22
+  },
+  {
+    "raw_name": "MP Breetzke",
+    "teams": [
+      "Lucknow Super Giants"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 17
+  },
+  {
+    "raw_name": "Musheer Khan",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 16
+  },
+  {
+    "raw_name": "BKG Mendis",
+    "teams": [
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 37
+  },
+  {
+    "raw_name": "P Amarnath",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 132
+  },
+  {
+    "raw_name": "B Geeves",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 49
+  },
+  {
+    "raw_name": "Gagandeep Singh",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 84
+  },
+  {
+    "raw_name": "A Nel",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2008"
+    ],
+    "appearances": 22
+  },
+  {
+    "raw_name": "AM Salvi",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2009",
+      "2011"
+    ],
+    "appearances": 156
+  },
+  {
+    "raw_name": "RR Bose",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 12
+  },
+  {
+    "raw_name": "SS Sarkar",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 25
+  },
+  {
+    "raw_name": "RA Shaikh",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2009"
+    ],
+    "appearances": 6
+  },
+  {
+    "raw_name": "C Ganapathy",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 8
+  },
+  {
+    "raw_name": "MB Parmar",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2010"
+    ],
+    "appearances": 19
+  },
+  {
+    "raw_name": "AA Kazi",
+    "teams": [
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 13
+  },
+  {
+    "raw_name": "Anand Rajan",
+    "teams": [
+      "Deccan Chargers",
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "appearances": 162
+  },
+  {
+    "raw_name": "P Prasanth",
+    "teams": [
+      "Kochi Tuskers Kerala"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 6
+  },
+  {
+    "raw_name": "SS Mundhe",
+    "teams": [
+      "Pune Warriors"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 7
+  },
+  {
+    "raw_name": "RW Price",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2011"
+    ],
+    "appearances": 18
+  },
+  {
+    "raw_name": "TP Sudhindra",
+    "teams": [
+      "Deccan Chargers"
+    ],
+    "seasons": [
+      "2012"
+    ],
+    "appearances": 75
+  },
+  {
+    "raw_name": "BW Hilfenhaus",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2012",
+      "2014"
+    ],
+    "appearances": 852
+  },
+  {
+    "raw_name": "P Suyal",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "appearances": 107
+  },
+  {
+    "raw_name": "MG Neser",
+    "teams": [
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2013"
+    ],
+    "appearances": 25
+  },
+  {
+    "raw_name": "K Santokie",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2014"
+    ],
+    "appearances": 51
+  },
+  {
+    "raw_name": "JW Hastings",
+    "teams": [
+      "Chennai Super Kings",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2014",
+      "2016"
+    ],
+    "appearances": 61
+  },
+  {
+    "raw_name": "GS Sandhu",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2015"
+    ],
+    "appearances": 48
+  },
+  {
+    "raw_name": "SM Boland",
+    "teams": [
+      "Rising Pune Supergiants"
+    ],
+    "seasons": [
+      "2016"
+    ],
+    "appearances": 43
+  },
+  {
+    "raw_name": "Tejas Baroka",
+    "teams": [
+      "Gujarat Lions"
+    ],
+    "seasons": [
+      "2017"
+    ],
+    "appearances": 21
+  },
+  {
+    "raw_name": "SS Agarwal",
+    "teams": [
+      "Gujarat Lions"
+    ],
+    "seasons": [
+      "2017"
+    ],
+    "appearances": 24
+  },
+  {
+    "raw_name": "NB Singh",
+    "teams": [
+      "Gujarat Lions"
+    ],
+    "seasons": [
+      "2017"
+    ],
+    "appearances": 25
+  },
+  {
+    "raw_name": "MJ Henry",
+    "teams": [
+      "Lucknow Super Giants",
+      "Kings XI Punjab"
+    ],
+    "seasons": [
+      "2017",
+      "2024"
+    ],
+    "appearances": 105
+  },
+  {
+    "raw_name": "K Khejroliya",
+    "teams": [
+      "Gujarat Titans",
+      "Royal Challengers Bangalore",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2018",
+      "2019",
+      "2023",
+      "2025"
+    ],
+    "appearances": 148
+  },
+  {
+    "raw_name": "CJ Dala",
+    "teams": [
+      "Delhi Daredevils"
+    ],
+    "seasons": [
+      "2018"
+    ],
+    "appearances": 19
+  },
+  {
+    "raw_name": "SC Kuggeleijn",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2019"
+    ],
+    "appearances": 50
+  },
+  {
+    "raw_name": "S Midhun",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2019"
+    ],
+    "appearances": 13
+  },
+  {
+    "raw_name": "O Thomas",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2019"
+    ],
+    "appearances": 63
+  },
+  {
+    "raw_name": "S Sandeep Warrier",
+    "teams": [
+      "Gujarat Titans",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2019",
+      "2020",
+      "2021",
+      "2024"
+    ],
+    "appearances": 176
+  },
+  {
+    "raw_name": "CJ Green",
+    "teams": [
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2020"
+    ],
+    "appearances": 17
+  },
+  {
+    "raw_name": "Monu Kumar",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2020"
+    ],
+    "appearances": 16
+  },
+  {
+    "raw_name": "LI Meriwala",
+    "teams": [
+      "Delhi Capitals"
+    ],
+    "seasons": [
+      "2021"
+    ],
+    "appearances": 19
+  },
+  {
+    "raw_name": "Jalaj S Saxena",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2021"
+    ],
+    "appearances": 18
+  },
+  {
+    "raw_name": "IC Porel",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2021"
+    ],
+    "appearances": 26
+  },
+  {
+    "raw_name": "Akash Singh",
+    "teams": [
+      "Lucknow Super Giants",
+      "Chennai Super Kings",
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2021",
+      "2023",
+      "2025"
+    ],
+    "appearances": 208
+  },
+  {
+    "raw_name": "PH Solanki",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2022"
+    ],
+    "appearances": 36
+  },
+  {
+    "raw_name": "M Pathirana",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 1267
+  },
+  {
+    "raw_name": "J Little",
+    "teams": [
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2023",
+      "2024"
+    ],
+    "appearances": 469
+  },
+  {
+    "raw_name": "RS Hangargekar",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 43
+  },
+  {
+    "raw_name": "NA Saini",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 15
+  },
+  {
+    "raw_name": "Yash Thakur",
+    "teams": [
+      "Lucknow Super Giants",
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 718
+  },
+  {
+    "raw_name": "Suyash Sharma",
+    "teams": [
+      "Royal Challengers Bengaluru",
+      "Kolkata Knight Riders"
+    ],
+    "seasons": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "appearances": 716
+  },
+  {
+    "raw_name": "SSB Magala",
+    "teams": [
+      "Chennai Super Kings"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 37
+  },
+  {
+    "raw_name": "D Jansen",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 28
+  },
+  {
+    "raw_name": "Gurnoor Brar",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 21
+  },
+  {
+    "raw_name": "R Goyal",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2023"
+    ],
+    "appearances": 24
+  },
+  {
+    "raw_name": "H Sharma",
+    "teams": [
+      "Royal Challengers Bengaluru",
+      "Royal Challengers Bangalore"
+    ],
+    "seasons": [
+      "2023",
+      "2024"
+    ],
+    "appearances": 30
+  },
+  {
+    "raw_name": "N Burger",
+    "teams": [
+      "Rajasthan Royals"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 105
+  },
+  {
+    "raw_name": "M Siddharth",
+    "teams": [
+      "Lucknow Super Giants"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 101
+  },
+  {
+    "raw_name": "MP Yadav",
+    "teams": [
+      "Lucknow Super Giants"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 624
+  },
+  {
+    "raw_name": "S Joseph",
+    "teams": [
+      "Lucknow Super Giants"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 30
+  },
+  {
+    "raw_name": "N Thushara",
+    "teams": [
+      "Mumbai Indians",
+      "Royal Challengers Bengaluru"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "appearances": 198
+  },
+  {
+    "raw_name": "V Kaverappa",
+    "teams": [
+      "Punjab Kings"
+    ],
+    "seasons": [
+      "2024"
+    ],
+    "appearances": 24
+  },
+  {
+    "raw_name": "V Puthur",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 73
+  },
+  {
+    "raw_name": "Zeeshan Ansari",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 209
+  },
+  {
+    "raw_name": "Ashwani Kumar",
+    "teams": [
+      "Mumbai Indians"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 314
+  },
+  {
+    "raw_name": "E Malinga",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 165
+  },
+  {
+    "raw_name": "Karim Janat",
+    "teams": [
+      "Gujarat Titans"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 6
+  },
+  {
+    "raw_name": "Harsh Dubey",
+    "teams": [
+      "Sunrisers Hyderabad"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 61
+  },
+  {
+    "raw_name": "W O'Rourke",
+    "teams": [
+      "Lucknow Super Giants"
+    ],
+    "seasons": [
+      "2025"
+    ],
+    "appearances": 64
+  },
+  {
+    "raw_name": "Unknown",
+    "teams": [],
+    "seasons": [
+      "2011",
+      "2015",
+      "2019",
+      "2023",
+      "2025"
+    ],
+    "appearances": 806
+  }
+]

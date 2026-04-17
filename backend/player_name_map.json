@@ -1,0 +1,3842 @@
+{
+  "SC Ganguly": {
+    "full_name": "Sourav Chandidas Ganguly",
+    "confidence": "high",
+    "reason": "KKR/PWI 2008-2012"
+  },
+  "BB McCullum": {
+    "full_name": "Brendon Barrie McCullum",
+    "confidence": "high",
+    "reason": "KKR/CSK/RCB"
+  },
+  "RT Ponting": {
+    "full_name": "Ricky Thomas Ponting",
+    "confidence": "high",
+    "reason": "MI/KKR"
+  },
+  "DJ Hussey": {
+    "full_name": "David John Hussey",
+    "confidence": "high",
+    "reason": "KKR/CSK/KXIP"
+  },
+  "Mohammad Hafeez": {
+    "full_name": "Mohammad Hafeez",
+    "confidence": "high",
+    "reason": "KKR 2008"
+  },
+  "R Dravid": {
+    "full_name": "Rahul Sharad Dravid",
+    "confidence": "high",
+    "reason": "RCB/RR"
+  },
+  "W Jaffer": {
+    "full_name": "Wasim Jaffer",
+    "confidence": "high",
+    "reason": "RCB 2008-09"
+  },
+  "V Kohli": {
+    "full_name": "Virat Kohli",
+    "confidence": "high",
+    "reason": "RCB 2008-2025"
+  },
+  "JH Kallis": {
+    "full_name": "Jacques Henry Kallis",
+    "confidence": "high",
+    "reason": "RCB/KKR"
+  },
+  "CL White": {
+    "full_name": "Cameron Leon White",
+    "confidence": "high",
+    "reason": "RCB/DC/SRH"
+  },
+  "MV Boucher": {
+    "full_name": "Mark Verdon Boucher",
+    "confidence": "high",
+    "reason": "RCB/KKR"
+  },
+  "B Akhil": {
+    "full_name": "Bhuvneshwar Akhil",
+    "confidence": "high",
+    "reason": "confirmed"
+  },
+  "AA Noffke": {
+    "full_name": "Adam Ashley Noffke",
+    "confidence": "high",
+    "reason": "RCB 2008"
+  },
+  "P Kumar": {
+    "full_name": "Praveen Kumar",
+    "confidence": "high",
+    "reason": "RCB/KXIP/MI/SRH"
+  },
+  "Z Khan": {
+    "full_name": "Zaheer Khan",
+    "confidence": "high",
+    "reason": "MI/DD/RCB"
+  },
+  "SB Joshi": {
+    "full_name": "Sunil Bandacharya Joshi",
+    "confidence": "high",
+    "reason": "RCB 2008"
+  },
+  "PA Patel": {
+    "full_name": "Parthiv Ajay Patel",
+    "confidence": "high",
+    "reason": "multiple teams"
+  },
+  "ML Hayden": {
+    "full_name": "Matthew Lawrence Hayden",
+    "confidence": "high",
+    "reason": "CSK"
+  },
+  "MEK Hussey": {
+    "full_name": "Michael Edward Killeen Hussey",
+    "confidence": "high",
+    "reason": "CSK/MI"
+  },
+  "MS Dhoni": {
+    "full_name": "Mahendra Singh Dhoni",
+    "confidence": "high",
+    "reason": "CSK/RPS"
+  },
+  "SK Raina": {
+    "full_name": "Suresh Kumar Raina",
+    "confidence": "high",
+    "reason": "CSK/GL"
+  },
+  "JDP Oram": {
+    "full_name": "Jacob David Philip Oram",
+    "confidence": "high",
+    "reason": "CSK/RR/MI"
+  },
+  "S Badrinath": {
+    "full_name": "Subramaniam Badrinath",
+    "confidence": "high",
+    "reason": "CSK"
+  },
+  "K Goel": {
+    "full_name": "Karan Goel",
+    "confidence": "high",
+    "reason": "KXIP"
+  },
+  "JR Hopes": {
+    "full_name": "James Redfern Hopes",
+    "confidence": "high",
+    "reason": "DD/KXIP"
+  },
+  "KC Sangakkara": {
+    "full_name": "Kumar Chokshanada Sangakkara",
+    "confidence": "high",
+    "reason": "KXIP/DC/SRH"
+  },
+  "Yuvraj Singh": {
+    "full_name": "Yuvraj Singh",
+    "confidence": "high",
+    "reason": "multiple teams"
+  },
+  "SM Katich": {
+    "full_name": "Simon Matthew Katich",
+    "confidence": "high",
+    "reason": "KXIP"
+  },
+  "IK Pathan": {
+    "full_name": "Irfan Khan Pathan",
+    "confidence": "high",
+    "reason": "KXIP/DD/SRH"
+  },
+  "T Kohli": {
+    "full_name": "Tanmay Kohli",
+    "confidence": "low",
+    "reason": "KXIP/RR unclear"
+  },
+  "YK Pathan": {
+    "full_name": "Yusuf Khan Pathan",
+    "confidence": "high",
+    "reason": "RR/KKR/SRH"
+  },
+  "SR Watson": {
+    "full_name": "Shane Robert Watson",
+    "confidence": "high",
+    "reason": "RR/RCB/CSK"
+  },
+  "M Kaif": {
+    "full_name": "Mohammad Kaif",
+    "confidence": "high",
+    "reason": "RR/KXIP/RCB"
+  },
+  "DS Lehmann": {
+    "full_name": "Darren Scott Lehmann",
+    "confidence": "high",
+    "reason": "RR 2008"
+  },
+  "RA Jadeja": {
+    "full_name": "Ravindra Anirudh Jadeja",
+    "confidence": "high",
+    "reason": "RR/CSK"
+  },
+  "M Rawat": {
+    "full_name": "Manoj Rawat",
+    "confidence": "low",
+    "reason": "RR/PWI unclear"
+  },
+  "D Salunkhe": {
+    "full_name": "Dinesh Salunkhe",
+    "confidence": "low",
+    "reason": "RR 2008 unclear"
+  },
+  "SK Warne": {
+    "full_name": "Shane Keith Warne",
+    "confidence": "high",
+    "reason": "RR captain"
+  },
+  "SK Trivedi": {
+    "full_name": "Siddharth Trivedi",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "G Gambhir": {
+    "full_name": "Gautam Gambhir",
+    "confidence": "high",
+    "reason": "DD/KKR"
+  },
+  "V Sehwag": {
+    "full_name": "Virender Sehwag",
+    "confidence": "high",
+    "reason": "DD/KXIP"
+  },
+  "S Dhawan": {
+    "full_name": "Shikhar Dhawan",
+    "confidence": "high",
+    "reason": "multiple teams"
+  },
+  "L Ronchi": {
+    "full_name": "Luke Ronchi",
+    "confidence": "high",
+    "reason": "MI"
+  },
+  "ST Jayasuriya": {
+    "full_name": "Sanath Teran Jayasuriya",
+    "confidence": "high",
+    "reason": "MI"
+  },
+  "DJ Thornely": {
+    "full_name": "Dominic John Thornely",
+    "confidence": "high",
+    "reason": "MI 2008"
+  },
+  "RV Uthappa": {
+    "full_name": "Robin Venu Uthappa",
+    "confidence": "high",
+    "reason": "multiple teams"
+  },
+  "PR Shah": {
+    "full_name": "Pinal Shah",
+    "confidence": "high",
+    "reason": "MI/RR"
+  },
+  "AM Nayar": {
+    "full_name": "Abhishek Mohan Nayar",
+    "confidence": "high",
+    "reason": "MI/RR"
+  },
+  "SM Pollock": {
+    "full_name": "Shaun Maclean Pollock",
+    "confidence": "high",
+    "reason": "MI 2008"
+  },
+  "Harbhajan Singh": {
+    "full_name": "Harbhajan Singh",
+    "confidence": "high",
+    "reason": "MI/CSK/KKR"
+  },
+  "S Chanderpaul": {
+    "full_name": "Shivnarine Chanderpaul",
+    "confidence": "high",
+    "reason": "RCB 2008"
+  },
+  "LRPL Taylor": {
+    "full_name": "Luteru Ross Poutoa Lote Taylor",
+    "confidence": "high",
+    "reason": "RR/RCB/DD"
+  },
+  "AC Gilchrist": {
+    "full_name": "Adam Craig Gilchrist",
+    "confidence": "high",
+    "reason": "DC/KXIP"
+  },
+  "Y Venugopal Rao": {
+    "full_name": "Yalaka Venugopal Rao",
+    "confidence": "high",
+    "reason": "DC/SRH/DD"
+  },
+  "VVS Laxman": {
+    "full_name": "Vangipurapu Venkata Sai Laxman",
+    "confidence": "high",
+    "reason": "DC/Kochi"
+  },
+  "A Symonds": {
+    "full_name": "Andrew Symonds",
+    "confidence": "high",
+    "reason": "DC/MI"
+  },
+  "RG Sharma": {
+    "full_name": "Rohit Gurunath Sharma",
+    "confidence": "high",
+    "reason": "MI/DC"
+  },
+  "SB Styris": {
+    "full_name": "Scott Bernard Styris",
+    "confidence": "high",
+    "reason": "DC/CSK"
+  },
+  "AS Yadav": {
+    "full_name": "Amit Singh Yadav",
+    "confidence": "low",
+    "reason": "DC 2008 unclear"
+  },
+  "SB Bangar": {
+    "full_name": "Sanjay Bangar",
+    "confidence": "high",
+    "reason": "DC/KKR"
+  },
+  "WPUJC Vaas": {
+    "full_name": "Warnakulasuriya Patabendige Ushantha Joseph Chaminda Vaas",
+    "confidence": "high",
+    "reason": "DC"
+  },
+  "RP Singh": {
+    "full_name": "Rudra Pratap Singh",
+    "confidence": "high",
+    "reason": "DC/RCB/MI"
+  },
+  "WP Saha": {
+    "full_name": "Wriddhiman Prasanta Saha",
+    "confidence": "high",
+    "reason": "multiple teams"
+  },
+  "LR Shukla": {
+    "full_name": "Laxmi Ratan Shukla",
+    "confidence": "high",
+    "reason": "KKR/DD"
+  },
+  "DPMD Jayawardene": {
+    "full_name": "Denagamage Praboth Mahela de Silva Jayawardene",
+    "confidence": "high",
+    "reason": "KXIP/DD/Kochi"
+  },
+  "S Sohal": {
+    "full_name": "Sunny Sohal",
+    "confidence": "high",
+    "reason": "DC/KXIP"
+  },
+  "B Lee": {
+    "full_name": "Brett Lee",
+    "confidence": "high",
+    "reason": "KXIP/KKR"
+  },
+  "PP Chawla": {
+    "full_name": "Piyush Pramod Chawla",
+    "confidence": "high",
+    "reason": "KXIP/KKR/MI"
+  },
+  "WA Mota": {
+    "full_name": "Wilkin Mota",
+    "confidence": "high",
+    "reason": "KXIP"
+  },
+  "Kamran Akmal": {
+    "full_name": "Kamran Akmal",
+    "confidence": "high",
+    "reason": "RR 2008"
+  },
+  "Shahid Afridi": {
+    "full_name": "Shahid Afridi",
+    "confidence": "high",
+    "reason": "Deccan Chargers 2008"
+  },
+  "DJ Bravo": {
+    "full_name": "Dwayne John Bravo",
+    "confidence": "high",
+    "reason": "MI/CSK/GL all-rounder"
+  },
+  "MA Khote": {
+    "full_name": "Musavir Khote",
+    "confidence": "medium",
+    "reason": "MI 2008 squad"
+  },
+  "A Nehra": {
+    "full_name": "Ashish Nehra",
+    "confidence": "high",
+    "reason": "DD/CSK/SRH/MI"
+  },
+  "GC Smith": {
+    "full_name": "Graeme Craig Smith",
+    "confidence": "high",
+    "reason": "RR/PWI captain"
+  },
+  "Pankaj Singh": {
+    "full_name": "Pankaj Singh",
+    "confidence": "high",
+    "reason": "RR/RCB"
+  },
+  "RR Sarwan": {
+    "full_name": "Ramnaresh Sarwan",
+    "confidence": "high",
+    "reason": "KXIP 2008"
+  },
+  "S Sreesanth": {
+    "full_name": "Shanthakumaran Sreesanth",
+    "confidence": "high",
+    "reason": "KXIP/RR/Kochi"
+  },
+  "VRV Singh": {
+    "full_name": "Vikram Rajvir Singh",
+    "confidence": "high",
+    "reason": "KXIP 2008"
+  },
+  "SS Tiwary": {
+    "full_name": "Saurabh Sunil Tiwary",
+    "confidence": "high",
+    "reason": "MI/RCB/DD"
+  },
+  "DS Kulkarni": {
+    "full_name": "Dhawal Sunil Kulkarni",
+    "confidence": "high",
+    "reason": "MI/RR/GL"
+  },
+  "R Vinay Kumar": {
+    "full_name": "Ranganath Vinay Kumar",
+    "confidence": "high",
+    "reason": "RCB/MI/KKR"
+  },
+  "AB Agarkar": {
+    "full_name": "Ajit Bhalchandra Agarkar",
+    "confidence": "high",
+    "reason": "DD/KKR"
+  },
+  "M Kartik": {
+    "full_name": "Murali Kartik",
+    "confidence": "high",
+    "reason": "KKR/RCB/KXIP"
+  },
+  "I Sharma": {
+    "full_name": "Ishant Sharma",
+    "confidence": "high",
+    "reason": "DC/SRH/KKR"
+  },
+  "AM Rahane": {
+    "full_name": "Ajinkya Madhukar Rahane",
+    "confidence": "high",
+    "reason": "RR/CSK/KKR"
+  },
+  "Shoaib Malik": {
+    "full_name": "Shoaib Malik",
+    "confidence": "high",
+    "reason": "DD 2008"
+  },
+  "MK Tiwary": {
+    "full_name": "Manoj Kumar Tiwary",
+    "confidence": "high",
+    "reason": "KKR/DD/KXIP"
+  },
+  "KD Karthik": {
+    "full_name": "Krishnakumar Dinesh Karthik",
+    "confidence": "high",
+    "reason": "KKR/RCB/DD"
+  },
+  "R Bhatia": {
+    "full_name": "Rajat Bhatia",
+    "confidence": "high",
+    "reason": "DD/KKR/RR"
+  },
+  "MF Maharoof": {
+    "full_name": "Mohammad Farveez Maharoof",
+    "confidence": "high",
+    "reason": "DD all-rounder"
+  },
+  "VY Mahesh": {
+    "full_name": "Vidyut Yadav Mahesh",
+    "confidence": "medium",
+    "reason": "DD/CSK 2008 player"
+  },
+  "TM Srivastava": {
+    "full_name": "Tanmay Manoj Srivastava",
+    "confidence": "high",
+    "reason": "KXIP 2008-09"
+  },
+  "B Chipli": {
+    "full_name": "Bharat Chipli",
+    "confidence": "high",
+    "reason": "DC/RCB/DD"
+  },
+  "DW Steyn": {
+    "full_name": "Dale Willem Steyn",
+    "confidence": "high",
+    "reason": "RCB/DC/SRH"
+  },
+  "DB Das": {
+    "full_name": "Debabrata Das",
+    "confidence": "high",
+    "reason": "KKR"
+  },
+  "MK Pandey": {
+    "full_name": "Manish Krishnanand Pandey",
+    "confidence": "high",
+    "reason": "KKR/SRH/LSG"
+  },
+  "HH Gibbs": {
+    "full_name": "Herschelle Herman Gibbs",
+    "confidence": "high",
+    "reason": "DC/MI"
+  },
+  "DNT Zoysa": {
+    "full_name": "Dilhara Nalin Thusara de Zoysa",
+    "confidence": "high",
+    "reason": "DC 2008"
+  },
+  "D Kalyankrishna": {
+    "full_name": "Doddapaneni Kalyankrishna",
+    "confidence": "high",
+    "reason": "DC 2008"
+  },
+  "SE Marsh": {
+    "full_name": "Shaun Edward Marsh",
+    "confidence": "high",
+    "reason": "KXIP opener"
+  },
+  "SA Asnodkar": {
+    "full_name": "Swapnil Asnodkar",
+    "confidence": "high",
+    "reason": "RR 2008"
+  },
+  "Sohail Tanvir": {
+    "full_name": "Sohail Tanvir",
+    "confidence": "high",
+    "reason": "RR 2008 purple cap"
+  },
+  "Salman Butt": {
+    "full_name": "Salman Butt",
+    "confidence": "high",
+    "reason": "KKR 2008"
+  },
+  "BJ Hodge": {
+    "full_name": "Bradley John Hodge",
+    "confidence": "high",
+    "reason": "RR/KKR/Kochi"
+  },
+  "Umar Gul": {
+    "full_name": "Umar Gul",
+    "confidence": "high",
+    "reason": "KKR 2008"
+  },
+  "AB Dinda": {
+    "full_name": "Ashok Dinda",
+    "confidence": "high",
+    "reason": "KKR/RCB/PWI"
+  },
+  "SP Fleming": {
+    "full_name": "Stephen Paul Fleming",
+    "confidence": "high",
+    "reason": "CSK 2008"
+  },
+  "S Vidyut": {
+    "full_name": "Sridharan Sriram Vidyut",
+    "confidence": "low",
+    "reason": "CSK 2008 unclear expansion"
+  },
+  "JA Morkel": {
+    "full_name": "Johannes Albertus Morkel",
+    "confidence": "high",
+    "reason": "CSK all-rounder"
+  },
+  "AB de Villiers": {
+    "full_name": "Abraham Benjamin de Villiers",
+    "confidence": "high",
+    "reason": "RCB/DD legend"
+  },
+  "Misbah-ul-Haq": {
+    "full_name": "Misbah-ul-Haq",
+    "confidence": "high",
+    "reason": "RCB 2008"
+  },
+  "YV Takawale": {
+    "full_name": "Yogesh Vijay Takawale",
+    "confidence": "high",
+    "reason": "MI/RCB"
+  },
+  "RR Raje": {
+    "full_name": "Rajesh Raghunath Raje",
+    "confidence": "low",
+    "reason": "MI 2008 limited data"
+  },
+  "PJ Sangwan": {
+    "full_name": "Pradeep Jeetender Sangwan",
+    "confidence": "high",
+    "reason": "DD/KKR/MI"
+  },
+  "Mohammad Asif": {
+    "full_name": "Mohammad Asif",
+    "confidence": "high",
+    "reason": "DD 2008"
+  },
+  "GD McGrath": {
+    "full_name": "Glenn Donald McGrath",
+    "confidence": "high",
+    "reason": "DD 2008"
+  },
+  "Joginder Sharma": {
+    "full_name": "Joginder Sharma",
+    "confidence": "high",
+    "reason": "CSK"
+  },
+  "MS Gony": {
+    "full_name": "Manpreet Singh Gony",
+    "confidence": "high",
+    "reason": "CSK/DC/KXIP"
+  },
+  "M Muralitharan": {
+    "full_name": "Muttiah Muralitharan",
+    "confidence": "high",
+    "reason": "CSK/RCB/Kochi"
+  },
+  "M Ntini": {
+    "full_name": "Makhaya Ntini",
+    "confidence": "high",
+    "reason": "CSK 2008"
+  },
+  "DT Patil": {
+    "full_name": "Dwaraka Ravi Teja Patil",
+    "confidence": "low",
+    "reason": "RCB 2008 unclear"
+  },
+  "A Kumble": {
+    "full_name": "Anil Kumble",
+    "confidence": "high",
+    "reason": "RCB captain"
+  },
+  "S Anirudha": {
+    "full_name": "Subramaniam Anirudha",
+    "confidence": "high",
+    "reason": "CSK/SRH"
+  },
+  "MM Patel": {
+    "full_name": "Munaf Manubhai Patel",
+    "confidence": "high",
+    "reason": "MI/RR"
+  },
+  "CK Kapugedera": {
+    "full_name": "Chamara Kapugedera",
+    "confidence": "high",
+    "reason": "CSK 2008"
+  },
+  "A Chopra": {
+    "full_name": "Aakash Chopra",
+    "confidence": "high",
+    "reason": "KKR 2008-09"
+  },
+  "T Taibu": {
+    "full_name": "Tatenda Taibu",
+    "confidence": "high",
+    "reason": "KKR 2008"
+  },
+  "J Arunkumar": {
+    "full_name": "J Arunkumar",
+    "confidence": "high",
+    "reason": "RCB 2008"
+  },
+  "DB Ravi Teja": {
+    "full_name": "Dwaraka Ravi Teja",
+    "confidence": "high",
+    "reason": "DC/SRH"
+  },
+  "PP Ojha": {
+    "full_name": "Pragyan Prayash Ojha",
+    "confidence": "high",
+    "reason": "DC/MI"
+  },
+  "U Kaul": {
+    "full_name": "Uday Kaul",
+    "confidence": "high",
+    "reason": "KXIP 2008"
+  },
+  "TM Dilshan": {
+    "full_name": "Tillakaratne Mudiyanselage Dilshan",
+    "confidence": "high",
+    "reason": "DD/RCB"
+  },
+  "A Mishra": {
+    "full_name": "Amit Mishra",
+    "confidence": "high",
+    "reason": "DC/SRH/DD"
+  },
+  "AD Mascarenhas": {
+    "full_name": "Ashley Dale Mascarenhas",
+    "confidence": "high",
+    "reason": "KXIP/RR"
+  },
+  "NK Patel": {
+    "full_name": "Niraj Patel",
+    "confidence": "high",
+    "reason": "RR 2008-09"
+  },
+  "LA Pomersbach": {
+    "full_name": "Luke Alec Pomersbach",
+    "confidence": "high",
+    "reason": "RCB/KXIP"
+  },
+  "Iqbal Abdulla": {
+    "full_name": "Iqbal Abdulla",
+    "confidence": "high",
+    "reason": "KKR/RCB/RR"
+  },
+  "SR Tendulkar": {
+    "full_name": "Sachin Ramesh Tendulkar",
+    "confidence": "high",
+    "reason": "MI legend"
+  },
+  "PM Sarvesh Kumar": {
+    "full_name": "Pinninti Mahesh Sarvesh Kumar",
+    "confidence": "low",
+    "reason": "DC 2008 obscure player"
+  },
+  "DP Vijaykumar": {
+    "full_name": "Doddapaneni Pradeep Kumar Vijaykumar",
+    "confidence": "medium",
+    "reason": "Deccan Chargers 2008 squad"
+  },
+  "Shoaib Akhtar": {
+    "full_name": "Shoaib Akhtar",
+    "confidence": "high",
+    "reason": "KKR 2008"
+  },
+  "Abdur Razzak": {
+    "full_name": "Abdur Razzak",
+    "confidence": "high",
+    "reason": "RCB 2008 overseas player"
+  },
+  "LPC Silva": {
+    "full_name": "Lanka de Silva",
+    "confidence": "low",
+    "reason": "Unclear expansion of initials for Deccan Chargers 2008"
+  },
+  "H Das": {
+    "full_name": "Halhadar Das",
+    "confidence": "low",
+    "reason": "Insufficient identifying info Deccan Chargers 2008"
+  },
+  "SP Goswami": {
+    "full_name": "Shreevats Pratyush Goswami",
+    "confidence": "high",
+    "reason": "Multiple IPL teams 2008-2020"
+  },
+  "DR Smith": {
+    "full_name": "Dwayne Romel Smith",
+    "confidence": "high",
+    "reason": "MI, CSK, GL all-rounder"
+  },
+  "SD Chitnis": {
+    "full_name": "Saurabh Dilip Chitnis",
+    "confidence": "high",
+    "reason": "MI/KXIP/RR 2008-2012"
+  },
+  "CRD Fernando": {
+    "full_name": "Congenige Randhi Dilhara Fernand",
+    "confidence": "high",
+    "reason": "confirmed"
+  },
+  "VS Yeligati": {
+    "full_name": "Venkata Satyanarayana Yeligati",
+    "confidence": "low",
+    "reason": "MI 2008 obscure player"
+  },
+  "L Balaji": {
+    "full_name": "Lakshmipathy Balaji",
+    "confidence": "high",
+    "reason": "CSK/KXIP/KKR bowler"
+  },
+  "A Mukund": {
+    "full_name": "Abhinav Mukund",
+    "confidence": "high",
+    "reason": "CSK/RCB player"
+  },
+  "Younis Khan": {
+    "full_name": "Younis Khan",
+    "confidence": "high",
+    "reason": "RR 2008"
+  },
+  "RR Powar": {
+    "full_name": "Ramesh Rajaram Powar",
+    "confidence": "high",
+    "reason": "KXIP/Kochi spinner"
+  },
+  "JP Duminy": {
+    "full_name": "Jean-Paul Duminy",
+    "confidence": "high",
+    "reason": "MI/DC/DD"
+  },
+  "A Flintoff": {
+    "full_name": "Andrew Flintoff",
+    "confidence": "high",
+    "reason": "CSK 2009"
+  },
+  "T Thushara": {
+    "full_name": "Thilan Thushara",
+    "confidence": "high",
+    "reason": "CSK 2009-10"
+  },
+  "JD Ryder": {
+    "full_name": "Jesse Daniel Ryder",
+    "confidence": "high",
+    "reason": "RCB/PWI"
+  },
+  "KP Pietersen": {
+    "full_name": "Kevin Peter Pietersen",
+    "confidence": "high",
+    "reason": "RCB/DD/RPS"
+  },
+  "T Henderson": {
+    "full_name": "Tyron Henderson",
+    "confidence": "high",
+    "reason": "RR 2009"
+  },
+  "Kamran Khan": {
+    "full_name": "Kamran Khan",
+    "confidence": "high",
+    "reason": "RR/PWI"
+  },
+  "RS Bopara": {
+    "full_name": "Ravi Shankar Bopara",
+    "confidence": "high",
+    "reason": "KXIP/SRH"
+  },
+  "CH Gayle": {
+    "full_name": "Christopher Henry Gayle",
+    "confidence": "high",
+    "reason": "KKR/RCB/PBKS legend"
+  },
+  "MC Henriques": {
+    "full_name": "Moises Constantino Henriques",
+    "confidence": "high",
+    "reason": "SRH/RCB/DD"
+  },
+  "R Bishnoi": {
+    "full_name": "Rajat Bishnoi",
+    "confidence": "medium",
+    "reason": "RCB 2009 Indian player"
+  },
+  "FH Edwards": {
+    "full_name": "Fidel Henderson Edwards",
+    "confidence": "high",
+    "reason": "Deccan Chargers 2009"
+  },
+  "KV Sharma": {
+    "full_name": "Karn Sharma",
+    "confidence": "high",
+    "reason": "SRH/MI/RCB spinner"
+  },
+  "PC Valthaty": {
+    "full_name": "Paul Chandrasekar Valthaty",
+    "confidence": "high",
+    "reason": "KXIP/RR"
+  },
+  "RJ Quiney": {
+    "full_name": "Rob Quiney",
+    "confidence": "high",
+    "reason": "RR 2009"
+  },
+  "AS Raut": {
+    "full_name": "Ankit Sharma Raut",
+    "confidence": "low",
+    "reason": "Likely Amit Singh Raut (Ambati?) unclear initials"
+  },
+  "Yashpal Singh": {
+    "full_name": "Yashpal Singh",
+    "confidence": "high",
+    "reason": "KKR 2009"
+  },
+  "M Manhas": {
+    "full_name": "Mithun Manhas",
+    "confidence": "high",
+    "reason": "DD/CSK/PWI"
+  },
+  "AA Bilakhia": {
+    "full_name": "Azhar Bilakhia",
+    "confidence": "high",
+    "reason": "Deccan Chargers 2009-10"
+  },
+  "AN Ghosh": {
+    "full_name": "Arindam Ghosh",
+    "confidence": "low",
+    "reason": "KKR 2009 limited data"
+  },
+  "BAW Mendis": {
+    "full_name": "Balapuwaduge Ajantha Winslow Mendis",
+    "confidence": "high",
+    "reason": "KKR/PWI mystery spinner"
+  },
+  "DL Vettori": {
+    "full_name": "Daniel Luca Vettori",
+    "confidence": "high",
+    "reason": "RCB/DD captain"
+  },
+  "MN van Wyk": {
+    "full_name": "Morne van Wyk",
+    "confidence": "high",
+    "reason": "KKR 2009"
+  },
+  "RE van der Merwe": {
+    "full_name": "Roelof Erasmus van der Merwe",
+    "confidence": "high",
+    "reason": "RCB/DD"
+  },
+  "TL Suman": {
+    "full_name": "Tirumalasetti Laxminarayana Suman",
+    "confidence": "high",
+    "reason": "DC/MI/PWI"
+  },
+  "Shoaib Ahmed": {
+    "full_name": "Shoaib Ahmed",
+    "confidence": "low",
+    "reason": "Deccan Chargers 2009 unclear identity"
+  },
+  "GR Napier": {
+    "full_name": "Graham Richard Napier",
+    "confidence": "high",
+    "reason": "MI 2009"
+  },
+  "KP Appanna": {
+    "full_name": "Kotreshwar Prakash Appanna",
+    "confidence": "high",
+    "reason": "RCB spinner"
+  },
+  "LA Carseldine": {
+    "full_name": "Lee Andrew Carseldine",
+    "confidence": "high",
+    "reason": "RR 2009"
+  },
+  "NV Ojha": {
+    "full_name": "Naman Vinay Kumar Ojha",
+    "confidence": "high",
+    "reason": "RR/DD/SRH"
+  },
+  "SM Harwood": {
+    "full_name": "Shane Michael Harwood",
+    "confidence": "high",
+    "reason": "RR 2009"
+  },
+  "M Vijay": {
+    "full_name": "Murali Vijay",
+    "confidence": "high",
+    "reason": "CSK/KXIP/DD"
+  },
+  "SB Jakati": {
+    "full_name": "Shadab Jakati",
+    "confidence": "high",
+    "reason": "CSK/RCB/GL"
+  },
+  "DA Warner": {
+    "full_name": "David Andrew Warner",
+    "confidence": "high",
+    "reason": "DD/SRH/DC"
+  },
+  "RJ Harris": {
+    "full_name": "Ryan James Harris",
+    "confidence": "high",
+    "reason": "DC/KXIP"
+  },
+  "D du Preez": {
+    "full_name": "Dillon du Preez",
+    "confidence": "high",
+    "reason": "RCB 2009"
+  },
+  "M Morkel": {
+    "full_name": "Morne Morkel",
+    "confidence": "high",
+    "reason": "DD/KKR/RR"
+  },
+  "AD Mathews": {
+    "full_name": "Angelo Davis Mathews",
+    "confidence": "high",
+    "reason": "DD/KKR/PWI"
+  },
+  "J Botha": {
+    "full_name": "Johan Botha",
+    "confidence": "high",
+    "reason": "RR/DD/KKR"
+  },
+  "C Nanda": {
+    "full_name": "Chirag Nanda",
+    "confidence": "low",
+    "reason": "MI 2009 obscure player"
+  },
+  "SL Malinga": {
+    "full_name": "Separamadu Lasith Malinga",
+    "confidence": "high",
+    "reason": "MI legend"
+  },
+  "Mashrafe Mortaza": {
+    "full_name": "Mashrafe Bin Mortaza",
+    "confidence": "high",
+    "reason": "KKR 2009"
+  },
+  "A Singh": {
+    "full_name": "Amit Singh",
+    "confidence": "confirmed",
+    "reason": "RR 2009-2012 seamer"
+  },
+  "GJ Bailey": {
+    "full_name": "George John Bailey",
+    "confidence": "high",
+    "reason": "CSK/KXIP/RPS"
+  },
+  "AB McDonald": {
+    "full_name": "Andrew Barry McDonald",
+    "confidence": "high",
+    "reason": "DD/RCB"
+  },
+  "Y Nagar": {
+    "full_name": "Yogesh Nagar",
+    "confidence": "high",
+    "reason": "DD 2009-2012"
+  },
+  "SS Shaikh": {
+    "full_name": "Sarfraz Shaikh",
+    "confidence": "low",
+    "reason": "KKR 2009 unclear"
+  },
+  "R Ashwin": {
+    "full_name": "Ravichandran Ashwin",
+    "confidence": "high",
+    "reason": "CSK/DC/RR"
+  },
+  "Mohammad Ashraful": {
+    "full_name": "Mohammad Ashraful",
+    "confidence": "high",
+    "reason": "MI 2009"
+  },
+  "CA Pujara": {
+    "full_name": "Cheteshwar Arvind Pujara",
+    "confidence": "high",
+    "reason": "RCB/KKR/KXIP"
+  },
+  "OA Shah": {
+    "full_name": "Owais Alam Shah",
+    "confidence": "high",
+    "reason": "RR/KKR/Kochi"
+  },
+  "Anirudh Singh": {
+    "full_name": "Anirudh Singh",
+    "confidence": "high",
+    "reason": "Deccan Chargers 2010"
+  },
+  "Jaskaran Singh": {
+    "full_name": "Jaskaran Singh",
+    "confidence": "high",
+    "reason": "Deccan Chargers 2010"
+  },
+  "AP Tare": {
+    "full_name": "Aditya Prakash Tare",
+    "confidence": "high",
+    "reason": "MI/DD/SRH"
+  },
+  "AT Rayudu": {
+    "full_name": "Ambati Thirupathi Rayudu",
+    "confidence": "high",
+    "reason": "MI/CSK"
+  },
+  "R Sathish": {
+    "full_name": "Ramaswamy Sathish",
+    "confidence": "high",
+    "reason": "MI/KXIP/KKR"
+  },
+  "R McLaren": {
+    "full_name": "Ryan McLaren",
+    "confidence": "high",
+    "reason": "MI/KKR/KXIP all-rounder"
+  },
+  "AA Jhunjhunwala": {
+    "full_name": "Ashok Arjun Jhunjhunwala",
+    "confidence": "low",
+    "reason": "DC/PWI/RR unclear full expansion"
+  },
+  "P Dogra": {
+    "full_name": "Paras Dogra",
+    "confidence": "high",
+    "reason": "KXIP/RR/KKR"
+  },
+  "A Uniyal": {
+    "full_name": "Amit Uniyal",
+    "confidence": "high",
+    "reason": "RR 2010"
+  },
+  "MS Bisla": {
+    "full_name": "Manvinder Singh Bisla",
+    "confidence": "high",
+    "reason": "KKR/KXIP/RCB"
+  },
+  "YA Abdulla": {
+    "full_name": "Yusuf Abdulla",
+    "confidence": "high",
+    "reason": "KXIP 2010"
+  },
+  "EJG Morgan": {
+    "full_name": "Eoin Joseph Gerard Morgan",
+    "confidence": "high",
+    "reason": "KKR/RCB/KXIP/SRH"
+  },
+  "JM Kemp": {
+    "full_name": "Justin Miles Kemp",
+    "confidence": "high",
+    "reason": "CSK 2010"
+  },
+  "S Tyagi": {
+    "full_name": "Sudeep Tyagi",
+    "confidence": "high",
+    "reason": "CSK 2010"
+  },
+  "RS Gavaskar": {
+    "full_name": "Rohan Sunil Gavaskar",
+    "confidence": "high",
+    "reason": "KKR 2010"
+  },
+  "SE Bond": {
+    "full_name": "Shane Edward Bond",
+    "confidence": "high",
+    "reason": "KKR 2010"
+  },
+  "KA Pollard": {
+    "full_name": "Kieron Adrian Pollard",
+    "confidence": "high",
+    "reason": "MI legend"
+  },
+  "S Ladda": {
+    "full_name": "Sarabjit Ladda",
+    "confidence": "high",
+    "reason": "DD/KKR/GL"
+  },
+  "DP Nannes": {
+    "full_name": "Dirk Peter Nannes",
+    "confidence": "high",
+    "reason": "DD/RCB/CSK"
+  },
+  "MJ Lumb": {
+    "full_name": "Michael John Lumb",
+    "confidence": "high",
+    "reason": "RR/DC"
+  },
+  "DR Martyn": {
+    "full_name": "Damien Robert Martyn",
+    "confidence": "high",
+    "reason": "RR 2010"
+  },
+  "S Narwal": {
+    "full_name": "Sumit Narwal",
+    "confidence": "high",
+    "reason": "KKR/RR"
+  },
+  "AB Barath": {
+    "full_name": "Adrian Barath",
+    "confidence": "high",
+    "reason": "KXIP 2010"
+  },
+  "Bipul Sharma": {
+    "full_name": "Bipul Sharma",
+    "confidence": "high",
+    "reason": "KXIP/SRH"
+  },
+  "FY Fazal": {
+    "full_name": "Faiz Fazal",
+    "confidence": "high",
+    "reason": "RR 2010-11"
+  },
+  "AC Voges": {
+    "full_name": "Adam Charles Voges",
+    "confidence": "high",
+    "reason": "RR 2010"
+  },
+  "MD Mishra": {
+    "full_name": "Manoj Mishra",
+    "confidence": "low",
+    "reason": "DC/PWI unclear identity"
+  },
+  "UT Yadav": {
+    "full_name": "Umesh Yadav",
+    "confidence": "high",
+    "reason": "DD/KKR/RCB"
+  },
+  "J Theron": {
+    "full_name": "Juan Theron",
+    "confidence": "high",
+    "reason": "RR/DC/KXIP"
+  },
+  "SJ Srivastava": {
+    "full_name": "Siddharth Srivastava",
+    "confidence": "low",
+    "reason": "KXIP unclear"
+  },
+  "KM Jadhav": {
+    "full_name": "Kedar Mahadev Jadhav",
+    "confidence": "high",
+    "reason": "CSK/RCB/DD"
+  },
+  "R Sharma": {
+    "full_name": "Rohit Sharma",
+    "confidence": "high",
+    "reason": "confirmed"
+  },
+  "Mandeep Singh": {
+    "full_name": "Mandeep Singh",
+    "confidence": "high",
+    "reason": "KXIP/RCB/DD"
+  },
+  "SW Tait": {
+    "full_name": "Shaun William Tait",
+    "confidence": "high",
+    "reason": "RR pacer"
+  },
+  "KB Arun Karthik": {
+    "full_name": "Krishnakumar Balasubramaniam Arun Karthik",
+    "confidence": "high",
+    "reason": "CSK/RCB"
+  },
+  "KAJ Roach": {
+    "full_name": "Kemar Andre Jamal Roach",
+    "confidence": "high",
+    "reason": "DC 2010"
+  },
+  "PD Collingwood": {
+    "full_name": "Paul David Collingwood",
+    "confidence": "high",
+    "reason": "DD 2010"
+  },
+  "CK Langeveldt": {
+    "full_name": "Charl Langeveldt",
+    "confidence": "high",
+    "reason": "RCB/KKR"
+  },
+  "VS Malik": {
+    "full_name": "Vikramjeet Singh Malik",
+    "confidence": "high",
+    "reason": "KXIP/RR"
+  },
+  "A Mithun": {
+    "full_name": "Abhimanyu Mithun",
+    "confidence": "high",
+    "reason": "RCB"
+  },
+  "AP Dole": {
+    "full_name": "Amit Paunikar Dole",
+    "confidence": "low",
+    "reason": "RR unclear"
+  },
+  "AN Ahmed": {
+    "full_name": "Abu Nechim Ahmed",
+    "confidence": "high",
+    "reason": "MI/RCB"
+  },
+  "RS Sodhi": {
+    "full_name": "Reetinder Singh Sodhi",
+    "confidence": "high",
+    "reason": "KXIP 2010"
+  },
+  "DE Bollinger": {
+    "full_name": "Doug Bollinger",
+    "confidence": "high",
+    "reason": "CSK"
+  },
+  "S Sriram": {
+    "full_name": "Sridharan Sriram",
+    "confidence": "high",
+    "reason": "RCB/DD"
+  },
+  "B Sumanth": {
+    "full_name": "Bodapati Sumanth",
+    "confidence": "high",
+    "reason": "DC 2010"
+  },
+  "C Madan": {
+    "full_name": "Chirag Madan",
+    "confidence": "low",
+    "reason": "MI 2010 unclear"
+  },
+  "AG Paunikar": {
+    "full_name": "Ankit Paunikar",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "MR Marsh": {
+    "full_name": "Mitchell Ross Marsh",
+    "confidence": "high",
+    "reason": "DC/SRH/PWI"
+  },
+  "AJ Finch": {
+    "full_name": "Aaron James Finch",
+    "confidence": "high",
+    "reason": "multiple IPL teams"
+  },
+  "STR Binny": {
+    "full_name": "Stuart Terence Roger Binny",
+    "confidence": "high",
+    "reason": "RR/RCB"
+  },
+  "Harmeet Singh": {
+    "full_name": "Harmeet Singh",
+    "confidence": "high",
+    "reason": "DC/RR/KXIP"
+  },
+  "IR Jaggi": {
+    "full_name": "Ishank Jaggi",
+    "confidence": "high",
+    "reason": "KKR/DC"
+  },
+  "DT Christian": {
+    "full_name": "Daniel Trevor Christian",
+    "confidence": "high",
+    "reason": "RCB/DD/DC"
+  },
+  "RV Gomez": {
+    "full_name": "Raiphi Vincent Gomez",
+    "confidence": "high",
+    "reason": "KTK/PWI"
+  },
+  "MA Agarwal": {
+    "full_name": "Mayank Anurag Agarwal",
+    "confidence": "high",
+    "reason": "KXIP/RCB/DC"
+  },
+  "AUK Pathan": {
+    "full_name": "Avesh Khan Pathan",
+    "confidence": "low",
+    "reason": "RCB unclear identity"
+  },
+  "UBT Chand": {
+    "full_name": "Unmukt Bharat Thakur Chand",
+    "confidence": "high",
+    "reason": "DD/RR/MI"
+  },
+  "DJ Jacobs": {
+    "full_name": "Davy Jacobs",
+    "confidence": "high",
+    "reason": "MI 2011-12"
+  },
+  "Sunny Singh": {
+    "full_name": "Sunny Singh",
+    "confidence": "low",
+    "reason": "KXIP 2011 unclear"
+  },
+  "NJ Rimmington": {
+    "full_name": "Nathan Rimmington",
+    "confidence": "high",
+    "reason": "KXIP 2011"
+  },
+  "AL Menaria": {
+    "full_name": "Ashok Menaria",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "WD Parnell": {
+    "full_name": "Wayne Dillon Parnell",
+    "confidence": "high",
+    "reason": "DD/RCB/PWI"
+  },
+  "JJ van der Wath": {
+    "full_name": "Johannes Jacobus van der Wath",
+    "confidence": "high",
+    "reason": "RCB 2011"
+  },
+  "R Ninan": {
+    "full_name": "Raju Ninan",
+    "confidence": "low",
+    "reason": "RCB 2011 unclear"
+  },
+  "S Aravind": {
+    "full_name": "Sreenath Aravind",
+    "confidence": "high",
+    "reason": "RCB"
+  },
+  "MS Wade": {
+    "full_name": "Matthew Scott Wade",
+    "confidence": "high",
+    "reason": "GT/DD"
+  },
+  "TD Paine": {
+    "full_name": "Timothy David Paine",
+    "confidence": "high",
+    "reason": "PWI 2011"
+  },
+  "SB Wagh": {
+    "full_name": "Siddhesh Wagh",
+    "confidence": "low",
+    "reason": "PWI/RR unclear"
+  },
+  "AC Thomas": {
+    "full_name": "Abhishek Thomas",
+    "confidence": "low",
+    "reason": "PWI unclear"
+  },
+  "JEC Franklin": {
+    "full_name": "James Edward Charles Franklin",
+    "confidence": "high",
+    "reason": "MI all-rounder"
+  },
+  "Shakib Al Hasan": {
+    "full_name": "Shakib Al Hasan",
+    "confidence": "high",
+    "reason": "KKR/SRH"
+  },
+  "DH Yagnik": {
+    "full_name": "Dishant Hemant Yagnik",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "S Randiv": {
+    "full_name": "Suraj Randiv",
+    "confidence": "high",
+    "reason": "CSK 2011"
+  },
+  "BJ Haddin": {
+    "full_name": "Bradley James Haddin",
+    "confidence": "high",
+    "reason": "KKR 2011"
+  },
+  "NLTC Perera": {
+    "full_name": "Thisara Perera",
+    "confidence": "high",
+    "reason": "CSK/MI/KXIP all-rounder"
+  },
+  "NL McCullum": {
+    "full_name": "Nathan Leslie McCullum",
+    "confidence": "high",
+    "reason": "PWI 2011"
+  },
+  "JE Taylor": {
+    "full_name": "Jerome Everton Taylor",
+    "confidence": "high",
+    "reason": "PWI 2011"
+  },
+  "J Syed Mohammad": {
+    "full_name": "Jamaluddin Syed Mohammad",
+    "confidence": "low",
+    "reason": "RCB unclear expansion"
+  },
+  "RN ten Doeschate": {
+    "full_name": "Ryan Neil ten Doeschate",
+    "confidence": "high",
+    "reason": "KKR all-rounder"
+  },
+  "TR Birt": {
+    "full_name": "Travis Rodney Birt",
+    "confidence": "high",
+    "reason": "DD 2011"
+  },
+  "AG Murtaza": {
+    "full_name": "Ali Murtaza",
+    "confidence": "high",
+    "reason": "MI/PWI spinner"
+  },
+  "Harpreet Singh": {
+    "full_name": "Harpreet Singh",
+    "confidence": "medium",
+    "reason": "PBKS/PWI multiple players with same name"
+  },
+  "M Klinger": {
+    "full_name": "Michael Klinger",
+    "confidence": "high",
+    "reason": "KTK 2011"
+  },
+  "AC Blizzard": {
+    "full_name": "Aiden Craig Blizzard",
+    "confidence": "high",
+    "reason": "MI opener"
+  },
+  "I Malhotra": {
+    "full_name": "Ishank Malhotra",
+    "confidence": "low",
+    "reason": "DC 2011 unclear"
+  },
+  "L Ablish": {
+    "full_name": "Love Ablish",
+    "confidence": "high",
+    "reason": "KXIP 2011"
+  },
+  "CA Ingram": {
+    "full_name": "Colin Alexander Ingram",
+    "confidence": "high",
+    "reason": "DD/DC"
+  },
+  "S Nadeem": {
+    "full_name": "Shahbaz Nadeem",
+    "confidence": "high",
+    "reason": "DD/SRH"
+  },
+  "P Parameswaran": {
+    "full_name": "Prasanth Parameswaran",
+    "confidence": "high",
+    "reason": "KTK/RCB"
+  },
+  "CJ Ferguson": {
+    "full_name": "Callum James Ferguson",
+    "confidence": "high",
+    "reason": "PWI"
+  },
+  "VR Aaron": {
+    "full_name": "Varun Raymond Aaron",
+    "confidence": "high",
+    "reason": "DD/RCB/RR"
+  },
+  "AA Chavan": {
+    "full_name": "Ankeet Chavan",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "ND Doshi": {
+    "full_name": "Nayan Doshi",
+    "confidence": "high",
+    "reason": "RCB/RR"
+  },
+  "B Kumar": {
+    "full_name": "Bhuvneshwar Kumar",
+    "confidence": "high",
+    "reason": "SRH/PWI"
+  },
+  "Y Gnaneswara Rao": {
+    "full_name": "Yalaka Gnaneswara Rao",
+    "confidence": "high",
+    "reason": "KTK 2011"
+  },
+  "S Rana": {
+    "full_name": "Shalabh Srivastava Rana",
+    "confidence": "low",
+    "reason": "RCB/PWI unclear"
+  },
+  "BA Bhatt": {
+    "full_name": "Bhargav Bhatt",
+    "confidence": "high",
+    "reason": "KXIP"
+  },
+  "F du Plessis": {
+    "full_name": "Francois du Plessis",
+    "confidence": "high",
+    "reason": "CSK/RCB"
+  },
+  "RE Levi": {
+    "full_name": "Richard Levi",
+    "confidence": "high",
+    "reason": "MI 2012"
+  },
+  "GJ Maxwell": {
+    "full_name": "Glenn James Maxwell",
+    "confidence": "high",
+    "reason": "KXIP/RCB"
+  },
+  "SPD Smith": {
+    "full_name": "Steven Peter Devereux Smith",
+    "confidence": "high",
+    "reason": "RR/DC/PWI"
+  },
+  "MN Samuels": {
+    "full_name": "Marlon Nathaniel Samuels",
+    "confidence": "high",
+    "reason": "DD/PWI"
+  },
+  "SA Yadav": {
+    "full_name": "Suryakumar Ashok Yadav",
+    "confidence": "high",
+    "reason": "MI/KKR"
+  },
+  "KK Cooper": {
+    "full_name": "Kevon Cooper",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "JP Faulkner": {
+    "full_name": "James Peter Faulkner",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "HV Patel": {
+    "full_name": "Harshal Vikram Patel",
+    "confidence": "high",
+    "reason": "RCB/DC"
+  },
+  "DAJ Bracewell": {
+    "full_name": "Doug Bracewell",
+    "confidence": "high",
+    "reason": "DD 2012"
+  },
+  "DJ Harris": {
+    "full_name": "Daniel Harris",
+    "confidence": "high",
+    "reason": "DC 2012"
+  },
+  "Ankit Sharma": {
+    "full_name": "Ankit Sharma",
+    "confidence": "high",
+    "reason": "DC/SRH"
+  },
+  "SP Narine": {
+    "full_name": "Sunil Philip Narine",
+    "confidence": "high",
+    "reason": "KKR legend"
+  },
+  "GB Hogg": {
+    "full_name": "George Bradley Hogg",
+    "confidence": "high",
+    "reason": "KKR/RR"
+  },
+  "RR Bhatkal": {
+    "full_name": "Rohan Bhatkal",
+    "confidence": "low",
+    "reason": "RCB 2012 unclear"
+  },
+  "CJ McKay": {
+    "full_name": "Clint McKay",
+    "confidence": "high",
+    "reason": "MI 2012"
+  },
+  "N Saini": {
+    "full_name": "Navdeep Saini",
+    "confidence": "low",
+    "reason": "KXIP 2012 mismatch era"
+  },
+  "DA Miller": {
+    "full_name": "David Andrew Miller",
+    "confidence": "high",
+    "reason": "KXIP/GT"
+  },
+  "Azhar Mahmood": {
+    "full_name": "Azhar Mahmood",
+    "confidence": "high",
+    "reason": "KXIP/KKR"
+  },
+  "P Negi": {
+    "full_name": "Pawan Negi",
+    "confidence": "high",
+    "reason": "CSK/RCB/DD"
+  },
+  "RJ Peterson": {
+    "full_name": "Robin Peterson",
+    "confidence": "high",
+    "reason": "MI 2012"
+  },
+  "KMDN Kulasekara": {
+    "full_name": "Kulasekara Mudiyanselage Dinesh Nuwan Kulasekara",
+    "confidence": "high",
+    "reason": "CSK 2012"
+  },
+  "A Ashish Reddy": {
+    "full_name": "Ashish Reddy",
+    "confidence": "high",
+    "reason": "SRH/DC (South Indian naming)"
+  },
+  "V Pratap Singh": {
+    "full_name": "Veer Pratap Singh",
+    "confidence": "high",
+    "reason": "DC 2012"
+  },
+  "BB Samantray": {
+    "full_name": "Biplab Samantray",
+    "confidence": "high",
+    "reason": "DC/SRH"
+  },
+  "MJ Clarke": {
+    "full_name": "Michael John Clarke",
+    "confidence": "high",
+    "reason": "PWI 2012"
+  },
+  "Gurkeerat Singh": {
+    "full_name": "Gurkeerat Singh Mann",
+    "confidence": "high",
+    "reason": "KXIP/RCB"
+  },
+  "AP Majumdar": {
+    "full_name": "Anustup Majumdar",
+    "confidence": "high",
+    "reason": "PWI"
+  },
+  "PA Reddy": {
+    "full_name": "Pragyan Reddy",
+    "confidence": "low",
+    "reason": "DC/SRH unclear"
+  },
+  "K Upadhyay": {
+    "full_name": "Krishnakant Upadhyay",
+    "confidence": "high",
+    "reason": "PWI"
+  },
+  "P Awana": {
+    "full_name": "Parvinder Awana",
+    "confidence": "high",
+    "reason": "KXIP"
+  },
+  "AD Russell": {
+    "full_name": "Andre Dwayne Russell",
+    "confidence": "high",
+    "reason": "KKR/DD"
+  },
+  "A Chandila": {
+    "full_name": "Ajit Chandila",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "CA Lynn": {
+    "full_name": "Chris Lynn",
+    "confidence": "high",
+    "reason": "KKR/MI"
+  },
+  "Sunny Gupta": {
+    "full_name": "Sunny Gupta",
+    "confidence": "low",
+    "reason": "DD 2012 unclear"
+  },
+  "MC Juneja": {
+    "full_name": "Manprit Juneja",
+    "confidence": "high",
+    "reason": "DD 2013"
+  },
+  "KK Nair": {
+    "full_name": "Karun Kaladharan Nair",
+    "confidence": "high",
+    "reason": "RR/DD/RCB"
+  },
+  "GH Vihari": {
+    "full_name": "Gade Hanuma Vihari",
+    "confidence": "high",
+    "reason": "SRH/DC"
+  },
+  "MDKJ Perera": {
+    "full_name": "Kusal Janith Perera",
+    "confidence": "high",
+    "reason": "RR 2013 Sri Lankan player"
+  },
+  "R Shukla": {
+    "full_name": "Rahul Shukla",
+    "confidence": "high",
+    "reason": "MI/RR/DD"
+  },
+  "B Laughlin": {
+    "full_name": "Ben Laughlin",
+    "confidence": "high",
+    "reason": "CSK/RR"
+  },
+  "AS Rajpoot": {
+    "full_name": "Ankit Singh Rajpoot",
+    "confidence": "high",
+    "reason": "KXIP/RR/KKR"
+  },
+  "M Vohra": {
+    "full_name": "Manan Vohra",
+    "confidence": "high",
+    "reason": "KXIP/RR"
+  },
+  "JD Unadkat": {
+    "full_name": "Jaydev Dipakbhai Unadkat",
+    "confidence": "high",
+    "reason": "RR/RCB/DC"
+  },
+  "Mohammed Shami": {
+    "full_name": "Mohammed Shami",
+    "confidence": "high",
+    "reason": "KXIP/GT/DD"
+  },
+  "BMAJ Mendis": {
+    "full_name": "Jeevan Mendis",
+    "confidence": "high",
+    "reason": "confirmed"
+  },
+  "R Rampaul": {
+    "full_name": "Ravi Rampaul",
+    "confidence": "high",
+    "reason": "RCB"
+  },
+  "CH Morris": {
+    "full_name": "Christopher Henry Morris",
+    "confidence": "high",
+    "reason": "RCB/DD/RR all-rounder"
+  },
+  "SV Samson": {
+    "full_name": "Sanju Viswanath Samson",
+    "confidence": "high",
+    "reason": "RR/DD wicketkeeper"
+  },
+  "SMSM Senanayake": {
+    "full_name": "Sachithra Madhushanka Senanayake",
+    "confidence": "high",
+    "reason": "KKR 2013"
+  },
+  "BJ Rohrer": {
+    "full_name": "Ben Rohrer",
+    "confidence": "high",
+    "reason": "DD 2013"
+  },
+  "KL Rahul": {
+    "full_name": "Kannur Lokesh Rahul",
+    "confidence": "high",
+    "reason": "RCB/PBKS/LSG"
+  },
+  "Q de Kock": {
+    "full_name": "Quinton de Kock",
+    "confidence": "high",
+    "reason": "MI/RCB/DC"
+  },
+  "R Dhawan": {
+    "full_name": "Rishi Dhawan",
+    "confidence": "high",
+    "reason": "MI/PBKS"
+  },
+  "MG Johnson": {
+    "full_name": "Mitchell Guy Johnson",
+    "confidence": "high",
+    "reason": "MI/KXIP/KKR"
+  },
+  "LJ Wright": {
+    "full_name": "Luke James Wright",
+    "confidence": "high",
+    "reason": "PWI"
+  },
+  "IC Pandey": {
+    "full_name": "Ishwar Chandra Pandey",
+    "confidence": "high",
+    "reason": "CSK/PWI"
+  },
+  "X Thalaivan Sargunam": {
+    "full_name": "Thalaivan Sargunam",
+    "confidence": "high",
+    "reason": "SRH 2013"
+  },
+  "DJG Sammy": {
+    "full_name": "Daren Julius Garvey Sammy",
+    "confidence": "high",
+    "reason": "SRH/RCB"
+  },
+  "KW Richardson": {
+    "full_name": "Kane William Richardson",
+    "confidence": "high",
+    "reason": "RCB/PWI/RR"
+  },
+  "MM Sharma": {
+    "full_name": "Mohit Mahipal Sharma",
+    "confidence": "high",
+    "reason": "CSK/GT"
+  },
+  "CM Gautam": {
+    "full_name": "Chidhambaram Gautam",
+    "confidence": "high",
+    "reason": "MI/DD"
+  },
+  "UA Birla": {
+    "full_name": "Udit Arora Birla",
+    "confidence": "low",
+    "reason": "PWI unclear identity"
+  },
+  "Parvez Rasool": {
+    "full_name": "Parvez Rasool",
+    "confidence": "high",
+    "reason": "SRH/RCB/PWI"
+  },
+  "Sandeep Sharma": {
+    "full_name": "Sandeep Sharma",
+    "confidence": "high",
+    "reason": "PBKS/SRH/RR"
+  },
+  "S Kaul": {
+    "full_name": "Siddarth Kaul",
+    "confidence": "high",
+    "reason": "SRH/DD/RCB"
+  },
+  "Sachin Baby": {
+    "full_name": "Sachin Baby",
+    "confidence": "high",
+    "reason": "RCB/RR"
+  },
+  "PV Tambe": {
+    "full_name": "Pravin Vijay Tambe",
+    "confidence": "high",
+    "reason": "RR/GL"
+  },
+  "NM Coulter-Nile": {
+    "full_name": "Nathan Mitchell Coulter-Nile",
+    "confidence": "high",
+    "reason": "MI/KKR/RR"
+  },
+  "CJ Anderson": {
+    "full_name": "Corey James Anderson",
+    "confidence": "high",
+    "reason": "MI/RCB/DD"
+  },
+  "NJ Maddinson": {
+    "full_name": "Nic Maddinson",
+    "confidence": "high",
+    "reason": "RCB"
+  },
+  "AR Patel": {
+    "full_name": "Axar Rajeshbhai Patel",
+    "confidence": "high",
+    "reason": "DC/KXIP"
+  },
+  "JJ Bumrah": {
+    "full_name": "Jasprit Jasbirsingh Bumrah",
+    "confidence": "high",
+    "reason": "MI"
+  },
+  "JDS Neesham": {
+    "full_name": "James Douglas Sheahan Neesham",
+    "confidence": "high",
+    "reason": "MI/PBKS/RR"
+  },
+  "TG Southee": {
+    "full_name": "Timothy Grant Southee",
+    "confidence": "high",
+    "reason": "CSK/KKR/MI"
+  },
+  "MA Starc": {
+    "full_name": "Mitchell Aaron Starc",
+    "confidence": "high",
+    "reason": "RCB/KKR"
+  },
+  "BR Dunk": {
+    "full_name": "Ben Dunk",
+    "confidence": "high",
+    "reason": "MI 2014"
+  },
+  "RR Rossouw": {
+    "full_name": "Rilee Rossouw",
+    "confidence": "high",
+    "reason": "RCB/DC/PBKS"
+  },
+  "Shivam Sharma": {
+    "full_name": "Shivam Sharma",
+    "confidence": "low",
+    "reason": "KXIP 2014 unclear"
+  },
+  "YS Chahal": {
+    "full_name": "Yuzvendra Singh Chahal",
+    "confidence": "high",
+    "reason": "RCB/RR/MI"
+  },
+  "LMP Simmons": {
+    "full_name": "Lendl Mark Platter Simmons",
+    "confidence": "high",
+    "reason": "MI"
+  },
+  "VH Zol": {
+    "full_name": "Vijay Hari Zol",
+    "confidence": "high",
+    "reason": "RCB 2014"
+  },
+  "BCJ Cutting": {
+    "full_name": "Ben Cutting",
+    "confidence": "high",
+    "reason": "SRH/MI/RR"
+  },
+  "Imran Tahir": {
+    "full_name": "Mohammad Imran Tahir",
+    "confidence": "high",
+    "reason": "CSK/DD"
+  },
+  "BE Hendricks": {
+    "full_name": "Beuran Hendricks",
+    "confidence": "high",
+    "reason": "KXIP"
+  },
+  "S Gopal": {
+    "full_name": "Shreyas Gopal",
+    "confidence": "high",
+    "reason": "RR/MI"
+  },
+  "M de Lange": {
+    "full_name": "Marchant de Lange",
+    "confidence": "high",
+    "reason": "MI/KKR"
+  },
+  "R Tewatia": {
+    "full_name": "Rahul Tewatia",
+    "confidence": "high",
+    "reason": "RR/GT"
+  },
+  "JO Holder": {
+    "full_name": "Jason Omar Holder",
+    "confidence": "high",
+    "reason": "SRH/RR/CSK"
+  },
+  "Karanveer Singh": {
+    "full_name": "Karanveer Singh",
+    "confidence": "high",
+    "reason": "KXIP"
+  },
+  "SS Iyer": {
+    "full_name": "Shreyas Santosh Iyer",
+    "confidence": "high",
+    "reason": "KKR/DC"
+  },
+  "DJ Hooda": {
+    "full_name": "Deepak Jagbir Hooda",
+    "confidence": "high",
+    "reason": "PBKS/LSG/SRH"
+  },
+  "Anureet Singh": {
+    "full_name": "Anureet Singh",
+    "confidence": "high",
+    "reason": "KXIP/RR/KKR"
+  },
+  "KS Williamson": {
+    "full_name": "Kane Stuart Williamson",
+    "confidence": "high",
+    "reason": "SRH/GT"
+  },
+  "SA Abbott": {
+    "full_name": "Sean Anthony Abbott",
+    "confidence": "high",
+    "reason": "SRH/RCB"
+  },
+  "J Suchith": {
+    "full_name": "Jagadeesha Suchith",
+    "confidence": "high",
+    "reason": "MI/SRH/DC"
+  },
+  "HH Pandya": {
+    "full_name": "Hardik Himanshu Pandya",
+    "confidence": "high",
+    "reason": "MI/GT"
+  },
+  "D Wiese": {
+    "full_name": "David Wiese",
+    "confidence": "high",
+    "reason": "RCB/KKR"
+  },
+  "SN Khan": {
+    "full_name": "Sarfaraz Khan",
+    "confidence": "high",
+    "reason": "RCB/DC/PBKS"
+  },
+  "MJ McClenaghan": {
+    "full_name": "Mitchell John McClenaghan",
+    "confidence": "high",
+    "reason": "MI"
+  },
+  "DJ Muthuswami": {
+    "full_name": "Dinesh Muthuswami",
+    "confidence": "low",
+    "reason": "DD 2015 unclear"
+  },
+  "PJ Cummins": {
+    "full_name": "Patrick James Cummins",
+    "confidence": "high",
+    "reason": "KKR/SRH/DD"
+  },
+  "RG More": {
+    "full_name": "Rahil Gehani More",
+    "confidence": "low",
+    "reason": "CSK 2015 unclear"
+  },
+  "SN Thakur": {
+    "full_name": "Shardul Narendra Thakur",
+    "confidence": "high",
+    "reason": "CSK/DD/KKR"
+  },
+  "JC Buttler": {
+    "full_name": "Jos Buttler",
+    "confidence": "high",
+    "reason": "RR/MI"
+  },
+  "CR Brathwaite": {
+    "full_name": "Carlos Ricardo Brathwaite",
+    "confidence": "high",
+    "reason": "DD/SRH/KKR"
+  },
+  "MP Stoinis": {
+    "full_name": "Marcus Peter Stoinis",
+    "confidence": "high",
+    "reason": "DC/LSG/RCB"
+  },
+  "Ishan Kishan": {
+    "full_name": "Ishan Kishan",
+    "confidence": "high",
+    "reason": "MI/GL"
+  },
+  "C Munro": {
+    "full_name": "Colin Munro",
+    "confidence": "high",
+    "reason": "DD/KKR"
+  },
+  "P Sahu": {
+    "full_name": "Pradeep Sahu",
+    "confidence": "low",
+    "reason": "KXIP 2016 unclear"
+  },
+  "KH Pandya": {
+    "full_name": "Krunal Himanshu Pandya",
+    "confidence": "high",
+    "reason": "MI/LSG"
+  },
+  "AD Nath": {
+    "full_name": "Ankit Rajpoot Nath",
+    "confidence": "low",
+    "reason": "GL/KXIP unclear mapping"
+  },
+  "MJ Guptill": {
+    "full_name": "Martin James Guptill",
+    "confidence": "high",
+    "reason": "MI/KXIP/SRH"
+  },
+  "KJ Abbott": {
+    "full_name": "Kyle John Abbott",
+    "confidence": "high",
+    "reason": "KXIP 2016"
+  },
+  "TM Head": {
+    "full_name": "Travis Michael Head",
+    "confidence": "high",
+    "reason": "SRH/RCB"
+  },
+  "M Ashwin": {
+    "full_name": "Murugan Ashwin",
+    "confidence": "high",
+    "reason": "KXIP/MI/RR"
+  },
+  "NS Naik": {
+    "full_name": "Nikhil Shankar Naik",
+    "confidence": "high",
+    "reason": "KXIP/KKR"
+  },
+  "RR Pant": {
+    "full_name": "Rishabh Rajendra Pant",
+    "confidence": "high",
+    "reason": "DC/LSG wicketkeeper"
+  },
+  "SW Billings": {
+    "full_name": "Samuel William Billings",
+    "confidence": "high",
+    "reason": "CSK/KKR/DD"
+  },
+  "KC Cariappa": {
+    "full_name": "Krishnappa Gowtham Cariappa",
+    "confidence": "high",
+    "reason": "KKR/KXIP spinner"
+  },
+  "PSP Handscomb": {
+    "full_name": "Peter Stephen Patrick Handscomb",
+    "confidence": "high",
+    "reason": "RPS 2016"
+  },
+  "Swapnil Singh": {
+    "full_name": "Swapnil Singh",
+    "confidence": "high",
+    "reason": "PBKS/RCB/LSG"
+  },
+  "J Yadav": {
+    "full_name": "Jalaj Yadav",
+    "confidence": "high",
+    "reason": "MI/DD/GT"
+  },
+  "UT Khawaja": {
+    "full_name": "Usman Tariq Khawaja",
+    "confidence": "high",
+    "reason": "RPS 2016"
+  },
+  "HM Amla": {
+    "full_name": "Hashim Mahomed Amla",
+    "confidence": "high",
+    "reason": "KXIP 2016-17"
+  },
+  "F Behardien": {
+    "full_name": "Farhaan Behardien",
+    "confidence": "high",
+    "reason": "KXIP 2016"
+  },
+  "BB Sran": {
+    "full_name": "Barinder Balbirsingh Sran",
+    "confidence": "high",
+    "reason": "SRH/KXIP/MI"
+  },
+  "A Zampa": {
+    "full_name": "Adam Zampa",
+    "confidence": "high",
+    "reason": "RPS/RCB/RR"
+  },
+  "N Rana": {
+    "full_name": "Nitish Rana",
+    "confidence": "high",
+    "reason": "KKR/MI/RR"
+  },
+  "S Kaushik": {
+    "full_name": "Shivil Kaushik",
+    "confidence": "high",
+    "reason": "GL 2016"
+  },
+  "ER Dwivedi": {
+    "full_name": "Eklavya Dwivedi",
+    "confidence": "high",
+    "reason": "GL 2016"
+  },
+  "CJ Jordan": {
+    "full_name": "Chris Jordan",
+    "confidence": "high",
+    "reason": "RCB/MI/PBKS"
+  },
+  "TS Mills": {
+    "full_name": "Tymal Solomon Mills",
+    "confidence": "high",
+    "reason": "RCB/MI"
+  },
+  "A Choudhary": {
+    "full_name": "Aniket Choudhary",
+    "confidence": "high",
+    "reason": "RCB 2017"
+  },
+  "BA Stokes": {
+    "full_name": "Benjamin Andrew Stokes",
+    "confidence": "high",
+    "reason": "RR/CSK/RPS"
+  },
+  "JJ Roy": {
+    "full_name": "Jason Jonathan Roy",
+    "confidence": "high",
+    "reason": "KKR/DC/SRH"
+  },
+  "Vishnu Vinod": {
+    "full_name": "Vishnu Vinod",
+    "confidence": "high",
+    "reason": "MI/RCB"
+  },
+  "Basil Thampi": {
+    "full_name": "Basil Thampi",
+    "confidence": "high",
+    "reason": "GL/SRH/MI"
+  },
+  "CR Woakes": {
+    "full_name": "Christopher Roger Woakes",
+    "confidence": "high",
+    "reason": "RCB/KKR/DC"
+  },
+  "RA Tripathi": {
+    "full_name": "Rahul Ajay Tripathi",
+    "confidence": "high",
+    "reason": "KKR/RR/SRH"
+  },
+  "DL Chahar": {
+    "full_name": "Deepak Lokendra Singh Chahar",
+    "confidence": "high",
+    "reason": "CSK/RPS"
+  },
+  "V Shankar": {
+    "full_name": "Vijay Shankar",
+    "confidence": "high",
+    "reason": "SRH/GT/CSK"
+  },
+  "Rashid Khan": {
+    "full_name": "Rashid Khan",
+    "confidence": "high",
+    "reason": "SRH/GT"
+  },
+  "RD Chahar": {
+    "full_name": "Rahul Desraj Chahar",
+    "confidence": "high",
+    "reason": "MI/PBKS"
+  },
+  "LH Ferguson": {
+    "full_name": "Lockie Ferguson",
+    "confidence": "high",
+    "reason": "KKR/GT/RR"
+  },
+  "C de Grandhomme": {
+    "full_name": "Colin de Grandhomme",
+    "confidence": "high",
+    "reason": "RCB/KKR"
+  },
+  "AF Milne": {
+    "full_name": "Adam Fraser Milne",
+    "confidence": "high",
+    "reason": "MI/CSK/RCB"
+  },
+  "S Badree": {
+    "full_name": "Samuel Badree",
+    "confidence": "high",
+    "reason": "RCB/CSK/RR"
+  },
+  "Mohammad Nabi": {
+    "full_name": "Mohammad Nabi",
+    "confidence": "high",
+    "reason": "SRH/MI"
+  },
+  "AJ Tye": {
+    "full_name": "Andrew James Tye",
+    "confidence": "high",
+    "reason": "GL/KXIP/RR"
+  },
+  "K Rabada": {
+    "full_name": "Kagiso Rabada",
+    "confidence": "high",
+    "reason": "DC/PBKS/GT"
+  },
+  "Kuldeep Yadav": {
+    "full_name": "Kuldeep Yadav",
+    "confidence": "high",
+    "reason": "KKR/DC"
+  },
+  "Washington Sundar": {
+    "full_name": "Washington Sundar",
+    "confidence": "high",
+    "reason": "RCB/SRH"
+  },
+  "DM Bravo": {
+    "full_name": "Darren Michael Bravo",
+    "confidence": "high",
+    "reason": "KKR 2017"
+  },
+  "AR Bawne": {
+    "full_name": "Ankit Ramdas Bawne",
+    "confidence": "high",
+    "reason": "DD 2017"
+  },
+  "SP Jackson": {
+    "full_name": "Sheldon Philip Jackson",
+    "confidence": "high",
+    "reason": "KKR"
+  },
+  "Ankit Soni": {
+    "full_name": "Ankit Soni",
+    "confidence": "high",
+    "reason": "GL 2017"
+  },
+  "TA Boult": {
+    "full_name": "Trent Alexander Boult",
+    "confidence": "high",
+    "reason": "MI/RR/DC"
+  },
+  "E Lewis": {
+    "full_name": "Evin Lewis",
+    "confidence": "high",
+    "reason": "MI/RR/LSG"
+  },
+  "MA Wood": {
+    "full_name": "Mark Andrew Wood",
+    "confidence": "high",
+    "reason": "CSK/LSG"
+  },
+  "RK Singh": {
+    "full_name": "Rinku Khanchand Singh",
+    "confidence": "high",
+    "reason": "KKR"
+  },
+  "DJM Short": {
+    "full_name": "D'Arcy John Matthew Short",
+    "confidence": "high",
+    "reason": "RR 2018"
+  },
+  "K Gowtham": {
+    "full_name": "Krishnappa Gowtham",
+    "confidence": "high",
+    "reason": "RR/KXIP/LSG"
+  },
+  "TK Curran": {
+    "full_name": "Tom Curran",
+    "confidence": "high",
+    "reason": "RR/DC/KKR"
+  },
+  "M Markande": {
+    "full_name": "Mayank Markande",
+    "confidence": "high",
+    "reason": "MI/SRH/RR"
+  },
+  "B Stanlake": {
+    "full_name": "Billy Stanlake",
+    "confidence": "high",
+    "reason": "SRH/RCB"
+  },
+  "Mujeeb Ur Rahman": {
+    "full_name": "Mujeeb Ur Rahman",
+    "confidence": "high",
+    "reason": "KXIP/SRH/MI"
+  },
+  "A Dananjaya": {
+    "full_name": "Akila Dananjaya",
+    "confidence": "high",
+    "reason": "MI 2018"
+  },
+  "Shubman Gill": {
+    "full_name": "Shubman Gill",
+    "confidence": "high",
+    "reason": "KKR/GT"
+  },
+  "Shivam Mavi": {
+    "full_name": "Shivam Mavi",
+    "confidence": "high",
+    "reason": "KKR"
+  },
+  "Mohammed Siraj": {
+    "full_name": "Mohammed Siraj",
+    "confidence": "high",
+    "reason": "RCB/SRH/GT"
+  },
+  "H Klaasen": {
+    "full_name": "Heinrich Klaasen",
+    "confidence": "high",
+    "reason": "SRH/RR/RCB"
+  },
+  "RK Bhui": {
+    "full_name": "Ricky Bhui",
+    "confidence": "high",
+    "reason": "SRH/DC"
+  },
+  "JC Archer": {
+    "full_name": "Jofra Chioke Archer",
+    "confidence": "high",
+    "reason": "RR/MI"
+  },
+  "PP Shaw": {
+    "full_name": "Prithvi Pankaj Shaw",
+    "confidence": "high",
+    "reason": "DC"
+  },
+  "LE Plunkett": {
+    "full_name": "Liam Edward Plunkett",
+    "confidence": "high",
+    "reason": "DD 2018"
+  },
+  "Mustafizur Rahman": {
+    "full_name": "Mustafizur Rahman",
+    "confidence": "high",
+    "reason": "SRH/MI/DC"
+  },
+  "AD Hales": {
+    "full_name": "Alex Hales",
+    "confidence": "high",
+    "reason": "SRH 2018"
+  },
+  "MK Lomror": {
+    "full_name": "Mahipal Krishan Lomror",
+    "confidence": "high",
+    "reason": "RR/RCB"
+  },
+  "DR Shorey": {
+    "full_name": "Dhruv Shorey",
+    "confidence": "high",
+    "reason": "CSK"
+  },
+  "MM Ali": {
+    "full_name": "Moeen Munir Ali",
+    "confidence": "high",
+    "reason": "CSK/RCB"
+  },
+  "M Prasidh Krishna": {
+    "full_name": "Muralikrishna Prasidh Krishna",
+    "confidence": "high",
+    "reason": "KKR/RR/GT"
+  },
+  "P Chopra": {
+    "full_name": "Prashant Chopra",
+    "confidence": "high",
+    "reason": "RR 2018"
+  },
+  "JPR Scantlebury-Searles": {
+    "full_name": "Javon Searles",
+    "confidence": "high",
+    "reason": "KKR 2018"
+  },
+  "Abhishek Sharma": {
+    "full_name": "Abhishek Sharma",
+    "confidence": "high",
+    "reason": "SRH/DC"
+  },
+  "IS Sodhi": {
+    "full_name": "Ish Sodhi",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "SO Hetmyer": {
+    "full_name": "Shimron Odilon Hetmyer",
+    "confidence": "high",
+    "reason": "RR/DC/RCB"
+  },
+  "S Dube": {
+    "full_name": "Shivam Dube",
+    "confidence": "high",
+    "reason": "CSK/RCB/RR"
+  },
+  "Navdeep Saini": {
+    "full_name": "Navdeep Saini",
+    "confidence": "high",
+    "reason": "RCB/RR"
+  },
+  "JM Bairstow": {
+    "full_name": "Jonathan Marc Bairstow",
+    "confidence": "high",
+    "reason": "SRH/PBKS"
+  },
+  "KMA Paul": {
+    "full_name": "Keemo Mandela Angus Paul",
+    "confidence": "high",
+    "reason": "DC 2019"
+  },
+  "Rasikh Salam": {
+    "full_name": "Rasikh Salam Dar",
+    "confidence": "high",
+    "reason": "MI/DC/KKR"
+  },
+  "N Pooran": {
+    "full_name": "Nicholas Pooran",
+    "confidence": "high",
+    "reason": "PBKS/SRH/LSG"
+  },
+  "P Ray Barman": {
+    "full_name": "Prayas Ray Barman",
+    "confidence": "high",
+    "reason": "RCB 2019"
+  },
+  "SM Curran": {
+    "full_name": "Samuel Matthew Curran",
+    "confidence": "high",
+    "reason": "CSK/PBKS"
+  },
+  "GC Viljoen": {
+    "full_name": "Gerhardus Viljoen",
+    "confidence": "low",
+    "reason": "KXIP 2019 unclear expansion"
+  },
+  "Avesh Khan": {
+    "full_name": "Avesh Khan",
+    "confidence": "high",
+    "reason": "DC/LSG"
+  },
+  "S Lamichhane": {
+    "full_name": "Sandeep Lamichhane",
+    "confidence": "high",
+    "reason": "DC 2019"
+  },
+  "HF Gurney": {
+    "full_name": "Harry Frederick Gurney",
+    "confidence": "high",
+    "reason": "KKR 2019"
+  },
+  "SD Lad": {
+    "full_name": "Siddhesh Dinesh Lad",
+    "confidence": "high",
+    "reason": "MI 2019"
+  },
+  "AS Joseph": {
+    "full_name": "Alzarri Shaheim Joseph",
+    "confidence": "high",
+    "reason": "MI/RCB/GT"
+  },
+  "R Parag": {
+    "full_name": "Riyan Parag",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "MJ Santner": {
+    "full_name": "Mitchell Josef Santner",
+    "confidence": "high",
+    "reason": "CSK/MI"
+  },
+  "JL Denly": {
+    "full_name": "Joseph Liam Denly",
+    "confidence": "high",
+    "reason": "KKR 2019"
+  },
+  "LS Livingstone": {
+    "full_name": "Liam Stephen Livingstone",
+    "confidence": "high",
+    "reason": "RR/PBKS"
+  },
+  "KK Ahmed": {
+    "full_name": "Khaleel Khursheed Ahmed",
+    "confidence": "high",
+    "reason": "SRH/DC/CSK"
+  },
+  "AJ Turner": {
+    "full_name": "Ashton James Turner",
+    "confidence": "high",
+    "reason": "RR/LSG"
+  },
+  "Harpreet Brar": {
+    "full_name": "Harpreet Brar",
+    "confidence": "high",
+    "reason": "PBKS"
+  },
+  "SE Rutherford": {
+    "full_name": "Sherfane Eviston Rutherford",
+    "confidence": "high",
+    "reason": "DC/RCB/GT"
+  },
+  "Y Prithvi Raj": {
+    "full_name": "Yarra Prithvi Raj",
+    "confidence": "high",
+    "reason": "KKR 2019"
+  },
+  "P Simran Singh": {
+    "full_name": "Prabhsimran Singh",
+    "confidence": "high",
+    "reason": "PBKS"
+  },
+  "JL Pattinson": {
+    "full_name": "James Lee Pattinson",
+    "confidence": "high",
+    "reason": "MI 2020"
+  },
+  "A Nortje": {
+    "full_name": "Anrich Nortje",
+    "confidence": "high",
+    "reason": "DC/KKR"
+  },
+  "D Padikkal": {
+    "full_name": "Devdutt Padikkal",
+    "confidence": "high",
+    "reason": "RCB/RR/LSG"
+  },
+  "JR Philippe": {
+    "full_name": "Joshua Ryan Philippe",
+    "confidence": "high",
+    "reason": "RCB 2020"
+  },
+  "PK Garg": {
+    "full_name": "Priyam Kumar Garg",
+    "confidence": "high",
+    "reason": "SRH/DC"
+  },
+  "T Natarajan": {
+    "full_name": "Thangarasu Natarajan",
+    "confidence": "high",
+    "reason": "SRH"
+  },
+  "YBK Jaiswal": {
+    "full_name": "Yashasvi Bhupendra Kumar Jaiswal",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "RD Gaikwad": {
+    "full_name": "Ruturaj Dashrat Gaikwad",
+    "confidence": "high",
+    "reason": "CSK"
+  },
+  "Abdul Samad": {
+    "full_name": "Abdul Samad",
+    "confidence": "high",
+    "reason": "SRH/LSG"
+  },
+  "KL Nagarkoti": {
+    "full_name": "Kamlesh Lachham Nagarkoti",
+    "confidence": "high",
+    "reason": "KKR/DC"
+  },
+  "Ravi Bishnoi": {
+    "full_name": "Ravi Bishnoi",
+    "confidence": "high",
+    "reason": "PBKS/LSG"
+  },
+  "I Udana": {
+    "full_name": "Isuru Udana",
+    "confidence": "high",
+    "reason": "RCB 2020"
+  },
+  "CV Varun": {
+    "full_name": "Varun Chakravarthy",
+    "confidence": "high",
+    "reason": "KKR/KXIP"
+  },
+  "SS Cottrell": {
+    "full_name": "Sheldon Shane Cottrell",
+    "confidence": "high",
+    "reason": "KXIP 2020"
+  },
+  "Arshdeep Singh": {
+    "full_name": "Arshdeep Singh",
+    "confidence": "high",
+    "reason": "PBKS"
+  },
+  "Kartik Tyagi": {
+    "full_name": "Kartik Tyagi",
+    "confidence": "high",
+    "reason": "RR/SRH/GT"
+  },
+  "N Jagadeesan": {
+    "full_name": "Narayan Jagadeesan",
+    "confidence": "high",
+    "reason": "CSK/KKR"
+  },
+  "AT Carey": {
+    "full_name": "Alex Tyson Carey",
+    "confidence": "high",
+    "reason": "DC 2020"
+  },
+  "T Banton": {
+    "full_name": "Thomas Banton",
+    "confidence": "high",
+    "reason": "KKR 2020"
+  },
+  "TU Deshpande": {
+    "full_name": "Tushar Uday Deshpande",
+    "confidence": "high",
+    "reason": "CSK/DC/RR"
+  },
+  "P Dubey": {
+    "full_name": "Pravin Dubey",
+    "confidence": "high",
+    "reason": "PBKS/DC"
+  },
+  "Shahbaz Ahmed": {
+    "full_name": "Shahbaz Ahmed",
+    "confidence": "high",
+    "reason": "RCB/SRH"
+  },
+  "DR Sams": {
+    "full_name": "Daniel Richard Sams",
+    "confidence": "high",
+    "reason": "MI/RCB/DC"
+  },
+  "M Jansen": {
+    "full_name": "Marco Jansen",
+    "confidence": "high",
+    "reason": "MI/SRH/PBKS"
+  },
+  "RM Patidar": {
+    "full_name": "Rajat Manohar Patidar",
+    "confidence": "high",
+    "reason": "RCB"
+  },
+  "KA Jamieson": {
+    "full_name": "Kyle Alexander Jamieson",
+    "confidence": "high",
+    "reason": "RCB/PBKS"
+  },
+  "M Shahrukh Khan": {
+    "full_name": "Masood Shahrukh Khan",
+    "confidence": "high",
+    "reason": "confirmed"
+  },
+  "JA Richardson": {
+    "full_name": "Jhye Avon Richardson",
+    "confidence": "high",
+    "reason": "PBKS/DC"
+  },
+  "Lalit Yadav": {
+    "full_name": "Lalit Yadav",
+    "confidence": "high",
+    "reason": "DC"
+  },
+  "Virat Singh": {
+    "full_name": "Virat Singh",
+    "confidence": "high",
+    "reason": "SRH"
+  },
+  "FA Allen": {
+    "full_name": "Fabian Allen",
+    "confidence": "high",
+    "reason": "MI/PBKS"
+  },
+  "C Sakariya": {
+    "full_name": "Chetan Sakariya",
+    "confidence": "high",
+    "reason": "RR/DC/KKR"
+  },
+  "DJ Malan": {
+    "full_name": "Dawid Johannes Malan",
+    "confidence": "high",
+    "reason": "PBKS 2021"
+  },
+  "Anmolpreet Singh": {
+    "full_name": "Anmolpreet Singh",
+    "confidence": "high",
+    "reason": "MI/SRH"
+  },
+  "KS Bharat": {
+    "full_name": "Kona Srikar Bharat",
+    "confidence": "high",
+    "reason": "RCB/DC"
+  },
+  "PWH de Silva": {
+    "full_name": "Wanindu Hasaranga de Silva",
+    "confidence": "high",
+    "reason": "RCB/RR"
+  },
+  "VR Iyer": {
+    "full_name": "Venkatesh Rajasekaran Iyer",
+    "confidence": "high",
+    "reason": "KKR"
+  },
+  "AK Markram": {
+    "full_name": "Aiden Kyle Markram",
+    "confidence": "high",
+    "reason": "SRH/PBKS/LSG"
+  },
+  "TH David": {
+    "full_name": "Timothy Hays David",
+    "confidence": "high",
+    "reason": "MI/RCB"
+  },
+  "T Shamsi": {
+    "full_name": "Tabraiz Shamsi",
+    "confidence": "high",
+    "reason": "RCB/RR"
+  },
+  "NT Ellis": {
+    "full_name": "Nathan Ellis",
+    "confidence": "high",
+    "reason": "PBKS/CSK"
+  },
+  "TL Seifert": {
+    "full_name": "Timothy Louis Seifert",
+    "confidence": "high",
+    "reason": "KKR/DC"
+  },
+  "GD Phillips": {
+    "full_name": "Glenn Dominic Phillips",
+    "confidence": "high",
+    "reason": "SRH/RR"
+  },
+  "GHS Garton": {
+    "full_name": "George Henry Scott Garton",
+    "confidence": "high",
+    "reason": "RCB 2021"
+  },
+  "RV Patel": {
+    "full_name": "Ripal Vinubhai Patel",
+    "confidence": "high",
+    "reason": "DC"
+  },
+  "K Yadav": {
+    "full_name": "Kuldeep Yadav",
+    "confidence": "low",
+    "reason": "RR 2021 ambiguity with another Kuldeep"
+  },
+  "Anuj Rawat": {
+    "full_name": "Anuj Rawat",
+    "confidence": "high",
+    "reason": "RCB/RR"
+  },
+  "DP Conway": {
+    "full_name": "Devon Philip Conway",
+    "confidence": "high",
+    "reason": "CSK"
+  },
+  "Tilak Varma": {
+    "full_name": "Tilak Varma",
+    "confidence": "high",
+    "reason": "MI"
+  },
+  "R Powell": {
+    "full_name": "Rovman Powell",
+    "confidence": "high",
+    "reason": "DC/RR/KKR"
+  },
+  "PBB Rajapaksa": {
+    "full_name": "Bhanuka Rajapaksa",
+    "confidence": "high",
+    "reason": "PBKS"
+  },
+  "RA Bawa": {
+    "full_name": "Raj Angad Bawa",
+    "confidence": "high",
+    "reason": "PBKS/MI"
+  },
+  "OF Smith": {
+    "full_name": "Odean Fabian Smith",
+    "confidence": "high",
+    "reason": "PBKS 2022"
+  },
+  "A Badoni": {
+    "full_name": "Ayush Badoni",
+    "confidence": "high",
+    "reason": "LSG"
+  },
+  "PVD Chameera": {
+    "full_name": "Dushmantha Chameera",
+    "confidence": "high",
+    "reason": "LSG/DC/KKR"
+  },
+  "A Manohar": {
+    "full_name": "Abhinav Manohar",
+    "confidence": "high",
+    "reason": "GT/SRH"
+  },
+  "R Shepherd": {
+    "full_name": "Romario Shepherd",
+    "confidence": "high",
+    "reason": "MI/LSG/SRH"
+  },
+  "DJ Willey": {
+    "full_name": "David Jonathan Willey",
+    "confidence": "high",
+    "reason": "RCB/CSK"
+  },
+  "D Pretorius": {
+    "full_name": "Dwaine Pretorius",
+    "confidence": "high",
+    "reason": "CSK 2022"
+  },
+  "JM Sharma": {
+    "full_name": "Jitesh Mohan Sharma",
+    "confidence": "high",
+    "reason": "PBKS/RCB"
+  },
+  "VG Arora": {
+    "full_name": "Vaibhav Arora",
+    "confidence": "high",
+    "reason": "KKR/PBKS"
+  },
+  "Mukesh Choudhary": {
+    "full_name": "Mukesh Choudhary",
+    "confidence": "high",
+    "reason": "CSK"
+  },
+  "Umran Malik": {
+    "full_name": "Umran Malik",
+    "confidence": "high",
+    "reason": "SRH"
+  },
+  "D Brevis": {
+    "full_name": "Dewald Brevis",
+    "confidence": "high",
+    "reason": "MI/CSK"
+  },
+  "B Sai Sudharsan": {
+    "full_name": "Sai Sudharsan",
+    "confidence": "high",
+    "reason": "GT"
+  },
+  "Ramandeep Singh": {
+    "full_name": "Ramandeep Singh",
+    "confidence": "high",
+    "reason": "MI/KKR"
+  },
+  "HE van der Dussen": {
+    "full_name": "Rassie van der Dussen",
+    "confidence": "high",
+    "reason": "RR 2022"
+  },
+  "SS Prabhudessai": {
+    "full_name": "Suyash Prabhudessai",
+    "confidence": "high",
+    "reason": "RCB"
+  },
+  "Akash Deep": {
+    "full_name": "Akash Deep",
+    "confidence": "high",
+    "reason": "RCB/LSG"
+  },
+  "JR Hazlewood": {
+    "full_name": "Josh Reginald Hazlewood",
+    "confidence": "high",
+    "reason": "CSK/RCB"
+  },
+  "KR Sen": {
+    "full_name": "Kuldeep Sen",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "Aman Hakim Khan": {
+    "full_name": "Aman Hakim Khan",
+    "confidence": "high",
+    "reason": "DC/KKR"
+  },
+  "HR Shokeen": {
+    "full_name": "Hrithik Shokeen",
+    "confidence": "high",
+    "reason": "MI"
+  },
+  "Yash Dayal": {
+    "full_name": "Yash Dayal",
+    "confidence": "high",
+    "reason": "GT/RCB"
+  },
+  "DJ Mitchell": {
+    "full_name": "Daryl Mitchell",
+    "confidence": "high",
+    "reason": "CSK/RR"
+  },
+  "Shashank Singh": {
+    "full_name": "Shashank Singh",
+    "confidence": "high",
+    "reason": "PBKS/SRH"
+  },
+  "B Indrajith": {
+    "full_name": "Baba Indrajith",
+    "confidence": "high",
+    "reason": "KKR"
+  },
+  "Harshit Rana": {
+    "full_name": "Harshit Rana",
+    "confidence": "high",
+    "reason": "KKR"
+  },
+  "Mohsin Khan": {
+    "full_name": "Mohsin Khan",
+    "confidence": "medium",
+    "reason": "LSG pacer ambiguity with MI player"
+  },
+  "Simarjeet Singh": {
+    "full_name": "Simarjeet Singh",
+    "confidence": "high",
+    "reason": "CSK/SRH"
+  },
+  "M Theekshana": {
+    "full_name": "Maheesh Theekshana",
+    "confidence": "high",
+    "reason": "CSK/RR"
+  },
+  "AS Roy": {
+    "full_name": "Anukul Sudhakar Roy",
+    "confidence": "high",
+    "reason": "MI/KKR"
+  },
+  "Fazalhaq Farooqi": {
+    "full_name": "Fazalhaq Farooqi",
+    "confidence": "high",
+    "reason": "SRH/RR"
+  },
+  "K Kartikeya": {
+    "full_name": "Kumar Kartikeya",
+    "confidence": "high",
+    "reason": "MI/RR"
+  },
+  "RP Meredith": {
+    "full_name": "Riley Patrick Meredith",
+    "confidence": "high",
+    "reason": "PBKS/MI"
+  },
+  "KS Sharma": {
+    "full_name": "Kuldip Sharma",
+    "confidence": "low",
+    "reason": "LSG unclear identity"
+  },
+  "T Stubbs": {
+    "full_name": "Tristan Stubbs",
+    "confidence": "high",
+    "reason": "MI/DC"
+  },
+  "R Sanjay Yadav": {
+    "full_name": "Sanjay Yadav",
+    "confidence": "high",
+    "reason": "MI 2022"
+  },
+  "A Tomar": {
+    "full_name": "Aman Tomar",
+    "confidence": "low",
+    "reason": "KKR 2022 unclear"
+  },
+  "PN Mankad": {
+    "full_name": "Prerak Mankad",
+    "confidence": "high",
+    "reason": "PBKS/LSG"
+  },
+  "OC McCoy": {
+    "full_name": "Obed Christopher McCoy",
+    "confidence": "high",
+    "reason": "RR 2022"
+  },
+  "Sikandar Raza": {
+    "full_name": "Sikandar Raza",
+    "confidence": "high",
+    "reason": "PBKS"
+  },
+  "Rahmanullah Gurbaz": {
+    "full_name": "Rahmanullah Gurbaz",
+    "confidence": "high",
+    "reason": "KKR"
+  },
+  "KR Mayers": {
+    "full_name": "Kyle Rico Mayers",
+    "confidence": "high",
+    "reason": "LSG"
+  },
+  "Mukesh Kumar": {
+    "full_name": "Mukesh Kumar",
+    "confidence": "high",
+    "reason": "DC"
+  },
+  "HC Brook": {
+    "full_name": "Harry Cherrington Brook",
+    "confidence": "high",
+    "reason": "SRH 2023"
+  },
+  "AU Rashid": {
+    "full_name": "Adil Usman Rashid",
+    "confidence": "high",
+    "reason": "PBKS/SRH"
+  },
+  "C Green": {
+    "full_name": "Cameron Green",
+    "confidence": "high",
+    "reason": "MI/RCB"
+  },
+  "N Wadhera": {
+    "full_name": "Nehal Wadhera",
+    "confidence": "high",
+    "reason": "MI/PBKS"
+  },
+  "Arshad Khan": {
+    "full_name": "Arshad Khan",
+    "confidence": "high",
+    "reason": "MI/GT/LSG"
+  },
+  "Abishek Porel": {
+    "full_name": "Abishek Porel",
+    "confidence": "high",
+    "reason": "DC"
+  },
+  "Dhruv Jurel": {
+    "full_name": "Dhruv Jurel",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "MG Bracewell": {
+    "full_name": "Michael Gordon Bracewell",
+    "confidence": "high",
+    "reason": "RCB 2023"
+  },
+  "MW Short": {
+    "full_name": "Matthew William Short",
+    "confidence": "high",
+    "reason": "PBKS 2023"
+  },
+  "Mohit Rathee": {
+    "full_name": "Mohit Rathee",
+    "confidence": "high",
+    "reason": "PBKS 2023"
+  },
+  "YV Dhull": {
+    "full_name": "Yash Dhull",
+    "confidence": "high",
+    "reason": "DC"
+  },
+  "Yudhvir Singh": {
+    "full_name": "Yudhvir Singh Charak",
+    "confidence": "high",
+    "reason": "LSG/RR"
+  },
+  "Atharva Taide": {
+    "full_name": "Atharva Taide",
+    "confidence": "high",
+    "reason": "PBKS/SRH"
+  },
+  "Liton Das": {
+    "full_name": "Liton Das",
+    "confidence": "high",
+    "reason": "KKR 2023"
+  },
+  "PD Salt": {
+    "full_name": "Philip Dean Salt",
+    "confidence": "high",
+    "reason": "KKR/DC/RCB"
+  },
+  "Vijaykumar Vyshak": {
+    "full_name": "Vijaykumar Vyshak",
+    "confidence": "high",
+    "reason": "RCB/PBKS"
+  },
+  "Abdul Basith": {
+    "full_name": "Abdul Basith",
+    "confidence": "high",
+    "reason": "RR 2023"
+  },
+  "Arjun Tendulkar": {
+    "full_name": "Arjun Tendulkar",
+    "confidence": "high",
+    "reason": "MI"
+  },
+  "JP Behrendorff": {
+    "full_name": "Jason Paul Behrendorff",
+    "confidence": "high",
+    "reason": "MI 2023"
+  },
+  "AJ Hosein": {
+    "full_name": "Akeal Jerome Hosein",
+    "confidence": "high",
+    "reason": "SRH 2023"
+  },
+  "Naveen-ul-Haq": {
+    "full_name": "Naveen-ul-Haq",
+    "confidence": "high",
+    "reason": "LSG"
+  },
+  "Noor Ahmad": {
+    "full_name": "Noor Ahmad",
+    "confidence": "high",
+    "reason": "GT/CSK"
+  },
+  "JE Root": {
+    "full_name": "Joseph Edward Root",
+    "confidence": "high",
+    "reason": "RR 2023"
+  },
+  "KM Asif": {
+    "full_name": "KM Asif",
+    "confidence": "high",
+    "reason": "CSK/RR"
+  },
+  "MD Shanaka": {
+    "full_name": "Dasun Shanaka",
+    "confidence": "high",
+    "reason": "GT 2023"
+  },
+  "Sanvir Singh": {
+    "full_name": "Sanvir Singh",
+    "confidence": "high",
+    "reason": "SRH"
+  },
+  "Vivrant Sharma": {
+    "full_name": "Vivrant Sharma",
+    "confidence": "high",
+    "reason": "SRH"
+  },
+  "DG Nalkande": {
+    "full_name": "Darshan Girish Nalkande",
+    "confidence": "high",
+    "reason": "GT"
+  },
+  "R Ravindra": {
+    "full_name": "Rachin Ravindra",
+    "confidence": "high",
+    "reason": "CSK"
+  },
+  "SD Hope": {
+    "full_name": "Shai Diego Hope",
+    "confidence": "high",
+    "reason": "DC 2024"
+  },
+  "Sumit Kumar": {
+    "full_name": "Sumit Kumar",
+    "confidence": "high",
+    "reason": "DC"
+  },
+  "Azmatullah Omarzai": {
+    "full_name": "Azmatullah Omarzai",
+    "confidence": "high",
+    "reason": "GT/PBKS"
+  },
+  "Naman Dhir": {
+    "full_name": "Naman Dhir",
+    "confidence": "high",
+    "reason": "MI"
+  },
+  "G Coetzee": {
+    "full_name": "Gerald Coetzee",
+    "confidence": "high",
+    "reason": "MI/GT"
+  },
+  "SZ Mulani": {
+    "full_name": "Shams Mulani",
+    "confidence": "high",
+    "reason": "MI 2024"
+  },
+  "Sameer Rizvi": {
+    "full_name": "Sameer Rizvi",
+    "confidence": "high",
+    "reason": "CSK/DC"
+  },
+  "SH Johnson": {
+    "full_name": "Spencer Johnson",
+    "confidence": "high",
+    "reason": "GT/KKR"
+  },
+  "Akash Madhwal": {
+    "full_name": "Akash Madhwal",
+    "confidence": "high",
+    "reason": "MI/RR"
+  },
+  "SB Dubey": {
+    "full_name": "Shubham Dubey",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "Mayank Dagar": {
+    "full_name": "Mayank Dagar",
+    "confidence": "high",
+    "reason": "RCB/SRH"
+  },
+  "RJW Topley": {
+    "full_name": "Reece James William Topley",
+    "confidence": "high",
+    "reason": "RCB/MI"
+  },
+  "A Raghuvanshi": {
+    "full_name": "Angkrish Raghuvanshi",
+    "confidence": "high",
+    "reason": "KKR"
+  },
+  "Ashutosh Sharma": {
+    "full_name": "Ashutosh Sharma",
+    "confidence": "high",
+    "reason": "PBKS/DC"
+  },
+  "Nithish Kumar Reddy": {
+    "full_name": "Nithish Kumar Reddy",
+    "confidence": "high",
+    "reason": "SRH"
+  },
+  "Saurav Chauhan": {
+    "full_name": "Saurav Chauhan",
+    "confidence": "high",
+    "reason": "RCB 2024"
+  },
+  "Kumar Kushagra": {
+    "full_name": "Kumar Kushagra",
+    "confidence": "high",
+    "reason": "DC"
+  },
+  "BR Sharath": {
+    "full_name": "BR Sharath",
+    "confidence": "high",
+    "reason": "GT 2024"
+  },
+  "WG Jacks": {
+    "full_name": "William George Jacks",
+    "confidence": "high",
+    "reason": "RCB/MI"
+  },
+  "J Fraser-McGurk": {
+    "full_name": "Jake Fraser-McGurk",
+    "confidence": "high",
+    "reason": "DC"
+  },
+  "Tanush Kotian": {
+    "full_name": "Tanush Kotian",
+    "confidence": "high",
+    "reason": "RR"
+  },
+  "KA Maharaj": {
+    "full_name": "Keshav Atmanand Maharaj",
+    "confidence": "high",
+    "reason": "RR 2024"
+  },
+  "Arshad Khan (2)": {
+    "full_name": "Arshad Khan",
+    "confidence": "medium",
+    "reason": "LSG duplicate name context"
+  },
+  "R Sai Kishore": {
+    "full_name": "Ravisrinivasan Sai Kishore",
+    "confidence": "high",
+    "reason": "GT"
+  },
+  "L Wood": {
+    "full_name": "Luke Wood",
+    "confidence": "high",
+    "reason": "MI 2024"
+  },
+  "LB Williams": {
+    "full_name": "Lizaad Williams",
+    "confidence": "high",
+    "reason": "DC 2024"
+  },
+  "AA Kulkarni": {
+    "full_name": "Akshay Kulkarni",
+    "confidence": "low",
+    "reason": "LSG unclear identity"
+  },
+  "MJ Suthar": {
+    "full_name": "Manav Suthar",
+    "confidence": "high",
+    "reason": "GT 2024"
+  },
+  "RJ Gleeson": {
+    "full_name": "Richard James Gleeson",
+    "confidence": "high",
+    "reason": "CSK/MI"
+  },
+  "Gulbadin Naib": {
+    "full_name": "Gulbadin Naib",
+    "confidence": "high",
+    "reason": "DC 2024"
+  },
+  "D Ferreira": {
+    "full_name": "Donavon Ferreira",
+    "confidence": "high",
+    "reason": "RR/DC"
+  },
+  "A Kamboj": {
+    "full_name": "Anshul Kamboj",
+    "confidence": "high",
+    "reason": "MI/CSK"
+  },
+  "T Kohler-Cadmore": {
+    "full_name": "Tom Kohler-Cadmore",
+    "confidence": "high",
+    "reason": "RR 2024"
+  },
+  "Shivam Singh": {
+    "full_name": "Shivam Singh",
+    "confidence": "high",
+    "reason": "PBKS"
+  },
+  "V Viyaskanth": {
+    "full_name": "Vijayakanth Viyaskanth",
+    "confidence": "high",
+    "reason": "SRH 2024"
+  },
+  "Aniket Verma": {
+    "full_name": "Aniket Verma",
+    "confidence": "high",
+    "reason": "SRH 2025"
+  },
+  "RD Rickelton": {
+    "full_name": "Ryan David Rickelton",
+    "confidence": "high",
+    "reason": "MI 2025"
+  },
+  "R Minz": {
+    "full_name": "Robin Minz",
+    "confidence": "high",
+    "reason": "MI 2025"
+  },
+  "PVSN Raju": {
+    "full_name": "PVSN Raju",
+    "confidence": "low",
+    "reason": "MI 2025 unclear expansion"
+  },
+  "V Nigam": {
+    "full_name": "Vipraj Nigam",
+    "confidence": "high",
+    "reason": "DC 2025"
+  },
+  "Priyansh Arya": {
+    "full_name": "Priyansh Arya",
+    "confidence": "high",
+    "reason": "PBKS 2025"
+  },
+  "PWA Mulder": {
+    "full_name": "Wiaan Mulder",
+    "confidence": "high",
+    "reason": "SRH 2025"
+  },
+  "J Overton": {
+    "full_name": "Jamie Overton",
+    "confidence": "high",
+    "reason": "CSK 2025"
+  },
+  "PHKD Mendis": {
+    "full_name": "Pathum Nissanka",
+    "confidence": "low",
+    "reason": "SRH unclear initials mismatch"
+  },
+  "Suryansh Shedge": {
+    "full_name": "Suryansh Shedge",
+    "confidence": "high",
+    "reason": "PBKS 2025"
+  },
+  "SK Rasheed": {
+    "full_name": "Shaik Rasheed",
+    "confidence": "high",
+    "reason": "CSK 2025"
+  },
+  "JP Inglis": {
+    "full_name": "Joshua Patrick Inglis",
+    "confidence": "high",
+    "reason": "PBKS 2025"
+  },
+  "XC Bartlett": {
+    "full_name": "Xavier Colin Bartlett",
+    "confidence": "high",
+    "reason": "PBKS 2025"
+  },
+  "MS Bhandage": {
+    "full_name": "Manoj Bhandage",
+    "confidence": "high",
+    "reason": "RCB 2025"
+  },
+  "V Suryavanshi": {
+    "full_name": "Vaibhav Suryavanshi",
+    "confidence": "low",
+    "reason": "RR 2025 unclear"
+  },
+  "A Mhatre": {
+    "full_name": "Aman Mhatre",
+    "confidence": "low",
+    "reason": "CSK 2025 unclear"
+  },
+  "C Bosch": {
+    "full_name": "Corbin Bosch",
+    "confidence": "high",
+    "reason": "MI 2025"
+  },
+  "Prince Yadav": {
+    "full_name": "Prince Yadav",
+    "confidence": "high",
+    "reason": "LSG 2025"
+  },
+  "DS Rathi": {
+    "full_name": "Digvesh Rathi",
+    "confidence": "high",
+    "reason": "LSG 2025"
+  },
+  "JG Bethell": {
+    "full_name": "Jacob Bethell",
+    "confidence": "high",
+    "reason": "RCB 2025"
+  },
+  "KS Rathore": {
+    "full_name": "Kuldeep Singh Rathore",
+    "confidence": "low",
+    "reason": "RR 2025 unclear"
+  },
+  "Urvil Patel": {
+    "full_name": "Urvil Patel",
+    "confidence": "high",
+    "reason": "CSK 2025"
+  },
+  "MJ Owen": {
+    "full_name": "Mitchell Owen",
+    "confidence": "high",
+    "reason": "PBKS 2025"
+  },
+  "KT Maphaka": {
+    "full_name": "Kwena Maphaka",
+    "confidence": "high",
+    "reason": "MI/RR 2025"
+  },
+  "M Tiwari": {
+    "full_name": "Mayank Tiwari",
+    "confidence": "low",
+    "reason": "DC 2025 unclear"
+  },
+  "L Ngidi": {
+    "full_name": "Lungi Ngidi",
+    "confidence": "high",
+    "reason": "CSK/RCB"
+  },
+  "Sediqullah Atal": {
+    "full_name": "Sediqullah Atal",
+    "confidence": "high",
+    "reason": "DC 2025"
+  },
+  "MP Breetzke": {
+    "full_name": "Matthew Breetzke",
+    "confidence": "high",
+    "reason": "LSG 2025"
+  },
+  "Musheer Khan": {
+    "full_name": "Musheer Khan",
+    "confidence": "high",
+    "reason": "PBKS 2025"
+  },
+  "BKG Mendis": {
+    "full_name": "Kamindu Mendis",
+    "confidence": "high",
+    "reason": "confirmed"
+  },
+  "P Amarnath": {
+    "full_name": "Parthiv Amarnath",
+    "confidence": "low",
+    "reason": "CSK 2008 unclear"
+  },
+  "B Geeves": {
+    "full_name": "Brett Geeves",
+    "confidence": "high",
+    "reason": "DD 2008"
+  },
+  "Gagandeep Singh": {
+    "full_name": "Gagandeep Singh",
+    "confidence": "high",
+    "reason": "KXIP 2008"
+  },
+  "A Nel": {
+    "full_name": "Andre Nel",
+    "confidence": "high",
+    "reason": "MI 2008"
+  },
+  "AM Salvi": {
+    "full_name": "Avinash Salvi",
+    "confidence": "high",
+    "reason": "DD"
+  },
+  "RR Bose": {
+    "full_name": "Rohan Bose",
+    "confidence": "low",
+    "reason": "KXIP 2009 unclear"
+  },
+  "SS Sarkar": {
+    "full_name": "Sourav Sarkar",
+    "confidence": "low",
+    "reason": "KKR 2009 unclear"
+  },
+  "RA Shaikh": {
+    "full_name": "Rizwan Shaikh",
+    "confidence": "low",
+    "reason": "MI 2009 unclear"
+  },
+  "C Ganapathy": {
+    "full_name": "Chidambaram Ganapathy",
+    "confidence": "high",
+    "reason": "CSK 2010"
+  },
+  "MB Parmar": {
+    "full_name": "Mohnish Parmar",
+    "confidence": "low",
+    "reason": "KKR 2010 unclear"
+  },
+  "AA Kazi": {
+    "full_name": "Amit Kazi",
+    "confidence": "low",
+    "reason": "RCB 2011 unclear"
+  },
+  "Anand Rajan": {
+    "full_name": "Anand Rajan",
+    "confidence": "high",
+    "reason": "DC/SRH"
+  },
+  "P Prasanth": {
+    "full_name": "Prasanth Parameswaran",
+    "confidence": "medium",
+    "reason": "KTK 2011 possible mapping"
+  },
+  "SS Mundhe": {
+    "full_name": "Shrikant Mundhe",
+    "confidence": "high",
+    "reason": "PWI"
+  },
+  "RW Price": {
+    "full_name": "Raymond Price",
+    "confidence": "high",
+    "reason": "MI 2011"
+  },
+  "TP Sudhindra": {
+    "full_name": "T P Sudhindra",
+    "confidence": "high",
+    "reason": "DC 2012"
+  },
+  "BW Hilfenhaus": {
+    "full_name": "Ben Hilfenhaus",
+    "confidence": "high",
+    "reason": "CSK"
+  },
+  "P Suyal": {
+    "full_name": "Prashant Suyal",
+    "confidence": "high",
+    "reason": "MI"
+  },
+  "MG Neser": {
+    "full_name": "Michael Neser",
+    "confidence": "high",
+    "reason": "KXIP 2013"
+  },
+  "K Santokie": {
+    "full_name": "Krishmar Santokie",
+    "confidence": "high",
+    "reason": "MI 2014"
+  },
+  "JW Hastings": {
+    "full_name": "John Wayne Hastings",
+    "confidence": "high",
+    "reason": "CSK/KKR"
+  },
+  "GS Sandhu": {
+    "full_name": "Gurinder Sandhu",
+    "confidence": "high",
+    "reason": "DD 2015"
+  },
+  "SM Boland": {
+    "full_name": "Scott Michael Boland",
+    "confidence": "high",
+    "reason": "RPS 2016"
+  },
+  "Tejas Baroka": {
+    "full_name": "Tejas Baroka",
+    "confidence": "high",
+    "reason": "GL 2017"
+  },
+  "SS Agarwal": {
+    "full_name": "Shubham Agarwal",
+    "confidence": "low",
+    "reason": "GL 2017 unclear"
+  },
+  "NB Singh": {
+    "full_name": "Nathu Singh",
+    "confidence": "high",
+    "reason": "GL 2017"
+  },
+  "MJ Henry": {
+    "full_name": "Matt Henry",
+    "confidence": "high",
+    "reason": "KXIP/LSG"
+  },
+  "K Khejroliya": {
+    "full_name": "Kulwant Khejroliya",
+    "confidence": "high",
+    "reason": "RCB/KKR/GT"
+  },
+  "CJ Dala": {
+    "full_name": "Chris Dala",
+    "confidence": "high",
+    "reason": "DD 2018"
+  },
+  "SC Kuggeleijn": {
+    "full_name": "Scott Kuggeleijn",
+    "confidence": "high",
+    "reason": "CSK 2019"
+  },
+  "S Midhun": {
+    "full_name": "Shreyas Midhun",
+    "confidence": "high",
+    "reason": "RR 2019"
+  },
+  "O Thomas": {
+    "full_name": "Oshane Thomas",
+    "confidence": "high",
+    "reason": "RR 2019"
+  },
+  "S Sandeep Warrier": {
+    "full_name": "Sandeep Warrier",
+    "confidence": "high",
+    "reason": "KKR/GT"
+  },
+  "CJ Green": {
+    "full_name": "Chris Green",
+    "confidence": "high",
+    "reason": "KKR 2020"
+  },
+  "Monu Kumar": {
+    "full_name": "Monu Kumar",
+    "confidence": "high",
+    "reason": "CSK 2020"
+  },
+  "LI Meriwala": {
+    "full_name": "Lukman Meriwala",
+    "confidence": "high",
+    "reason": "DC 2021"
+  },
+  "Jalaj S Saxena": {
+    "full_name": "Jalaj Saxena",
+    "confidence": "high",
+    "reason": "PBKS 2021"
+  },
+  "IC Porel": {
+    "full_name": "Ishan Porel",
+    "confidence": "high",
+    "reason": "PBKS 2021"
+  },
+  "Akash Singh": {
+    "full_name": "Akash Singh",
+    "confidence": "high",
+    "reason": "CSK/RR/LSG"
+  },
+  "PH Solanki": {
+    "full_name": "Prashant Solanki",
+    "confidence": "high",
+    "reason": "CSK 2022"
+  },
+  "M Pathirana": {
+    "full_name": "Matheesha Pathirana",
+    "confidence": "high",
+    "reason": "CSK"
+  },
+  "J Little": {
+    "full_name": "Joshua Little",
+    "confidence": "high",
+    "reason": "GT"
+  },
+  "RS Hangargekar": {
+    "full_name": "Rajvardhan Hangargekar",
+    "confidence": "high",
+    "reason": "CSK"
+  },
+  "NA Saini": {
+    "full_name": "Navdeep Saini",
+    "confidence": "high",
+    "reason": "confirmed"
+  },
+  "Yash Thakur": {
+    "full_name": "Yash Thakur",
+    "confidence": "high",
+    "reason": "LSG/PBKS"
+  },
+  "Suyash Sharma": {
+    "full_name": "Suyash Sharma",
+    "confidence": "high",
+    "reason": "KKR/RCB"
+  },
+  "SSB Magala": {
+    "full_name": "Sisanda Magala",
+    "confidence": "high",
+    "reason": "CSK 2023"
+  },
+  "D Jansen": {
+    "full_name": "Duan Jansen",
+    "confidence": "high",
+    "reason": "MI 2023"
+  },
+  "Gurnoor Brar": {
+    "full_name": "Gurnoor Singh Brar",
+    "confidence": "high",
+    "reason": "PBKS 2023"
+  },
+  "R Goyal": {
+    "full_name": "Raghav Goyal",
+    "confidence": "high",
+    "reason": "MI 2023"
+  },
+  "H Sharma": {
+    "full_name": "Himanshu Sharma",
+    "confidence": "high",
+    "reason": "RCB"
+  },
+  "N Burger": {
+    "full_name": "Nandre Burger",
+    "confidence": "high",
+    "reason": "RR 2024"
+  },
+  "M Siddharth": {
+    "full_name": "Manimaran Siddharth",
+    "confidence": "high",
+    "reason": "LSG"
+  },
+  "MP Yadav": {
+    "full_name": "Mayank Yadav",
+    "confidence": "high",
+    "reason": "LSG"
+  },
+  "S Joseph": {
+    "full_name": "Shamar Joseph",
+    "confidence": "high",
+    "reason": "LSG 2024"
+  },
+  "N Thushara": {
+    "full_name": "Nuwan Thushara",
+    "confidence": "high",
+    "reason": "MI/RCB"
+  },
+  "V Kaverappa": {
+    "full_name": "Vidwath Kaverappa",
+    "confidence": "high",
+    "reason": "PBKS 2024"
+  },
+  "V Puthur": {
+    "full_name": "Vishnu Puthur",
+    "confidence": "low",
+    "reason": "MI 2025 unclear"
+  },
+  "Zeeshan Ansari": {
+    "full_name": "Zeeshan Ansari",
+    "confidence": "high",
+    "reason": "SRH 2025"
+  },
+  "Ashwani Kumar": {
+    "full_name": "Ashwani Kumar",
+    "confidence": "high",
+    "reason": "MI 2025"
+  },
+  "E Malinga": {
+    "full_name": "Eshan Malinga",
+    "confidence": "low",
+    "reason": "SRH 2025 unclear"
+  },
+  "Karim Janat": {
+    "full_name": "Karim Janat",
+    "confidence": "high",
+    "reason": "GT 2025"
+  },
+  "Harsh Dubey": {
+    "full_name": "Harsh Dubey",
+    "confidence": "high",
+    "reason": "SRH 2025"
+  },
+  "W O'Rourke": {
+    "full_name": "William O'Rourke",
+    "confidence": "high",
+    "reason": "LSG 2025"
+  },
+  "Unknown": {
+    "full_name": "Unknown",
+    "confidence": "low",
+    "reason": "No identifying information"
+  }
+}

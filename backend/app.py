@@ -308,7 +308,8 @@ def players():
     if season == "all":
         matches = [
             {
-                "name": p["name"],
+                "name": p.get("full_name", p["name"]),
+                "raw_name": p["name"],
                 "runs": p["total_runs"],
                 "balls": p["total_balls"],
                 "fours": p["fours"],
@@ -317,6 +318,7 @@ def players():
             }
             for p in players_cache.values()
             if name.lower() in p["name"].lower()
+             or name.lower() in p.get("full_name", "").lower()
         ]
         return jsonify(sorted(matches, key=lambda x: x["name"])[:20])
 
@@ -341,7 +343,8 @@ def players():
         bowl = bowl_group.get_group(player_name) if player_name in bowl_group.groups else pd.DataFrame()
 
         results.append({
-            "name": player_name,
+            "name": players_cache.get(player_name, {}).get("full_name", player_name),
+            "raw_name": player_name,
             "runs": int(bat["runs_batter"].sum()) if not bat.empty else 0,
             "balls": int(bat["balls_faced"].sum()) if not bat.empty else 0,
             "fours": int((bat["runs_batter"] == 4).sum()) if not bat.empty else 0,
@@ -1020,7 +1023,7 @@ def goat():
     for i, p in enumerate(top, 1):
         result.append({
             "rank":     i,
-            "name":     p["name"],
+            "name": p.get("full_name", p["name"]),
             "goat_score": p[sort_key],
             "breakdown":  p.get(
                 "batter_goat_breakdown" if role == "batter" else "bowler_goat_breakdown",
