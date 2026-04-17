@@ -361,8 +361,8 @@
   },
   "MA Khote": {
     "full_name": "Musavir Khote",
-    "confidence": "medium",
-    "reason": "MI 2008 squad"
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "A Nehra": {
     "full_name": "Ashish Nehra",
@@ -455,9 +455,9 @@
     "reason": "DD all-rounder"
   },
   "VY Mahesh": {
-    "full_name": "Vidyut Yadav Mahesh",
-    "confidence": "medium",
-    "reason": "DD/CSK 2008 player"
+    "full_name": "Vijaykumar Yo Mahesh",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "TM Srivastava": {
     "full_name": "Tanmay Manoj Srivastava",
@@ -700,9 +700,9 @@
     "reason": "DC 2008"
   },
   "DP Vijaykumar": {
-    "full_name": "Doddapaneni Pradeep Kumar Vijaykumar",
-    "confidence": "medium",
-    "reason": "Deccan Chargers 2008 squad"
+    "full_name": "Paidikalva Vijaykumar",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "Shoaib Akhtar": {
     "full_name": "Shoaib Akhtar",
@@ -820,9 +820,9 @@
     "reason": "SRH/RCB/DD"
   },
   "R Bishnoi": {
-    "full_name": "Rajat Bishnoi",
-    "confidence": "medium",
-    "reason": "RCB 2009 Indian player"
+    "full_name": "Rajesh Bishnoi",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "FH Edwards": {
     "full_name": "Fidel Henderson Edwards",
@@ -1436,8 +1436,8 @@
   },
   "Harpreet Singh": {
     "full_name": "Harpreet Singh",
-    "confidence": "medium",
-    "reason": "PBKS/PWI multiple players with same name"
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "M Klinger": {
     "full_name": "Michael Klinger",
@@ -2961,8 +2961,8 @@
   },
   "Mohsin Khan": {
     "full_name": "Mohsin Khan",
-    "confidence": "medium",
-    "reason": "LSG pacer ambiguity with MI player"
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "Simarjeet Singh": {
     "full_name": "Simarjeet Singh",
@@ -3301,8 +3301,8 @@
   },
   "Arshad Khan (2)": {
     "full_name": "Arshad Khan",
-    "confidence": "medium",
-    "reason": "LSG duplicate name context"
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "R Sai Kishore": {
     "full_name": "Ravisrinivasan Sai Kishore",
@@ -3576,8 +3576,8 @@
   },
   "P Prasanth": {
     "full_name": "Prasanth Parameswaran",
-    "confidence": "medium",
-    "reason": "KTK 2011 possible mapping"
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "SS Mundhe": {
     "full_name": "Shrikant Mundhe",
