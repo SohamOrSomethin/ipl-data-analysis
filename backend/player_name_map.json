@@ -1255,9 +1255,9 @@
     "reason": "DC 2010"
   },
   "C Madan": {
-    "full_name": "Chirag Madan",
-    "confidence": "low",
-    "reason": "MI 2010 unclear"
+    "full_name": "Chandan Madan",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "AG Paunikar": {
     "full_name": "Ankit Paunikar",
