@@ -2061,8 +2061,8 @@
   },
   "P Sahu": {
     "full_name": "Pradeep Sahu",
-    "confidence": "low",
-    "reason": "KXIP 2016 unclear"
+    "confidence": "high",
+    "reason": "KXIP 2016 ur"
   },
   "KH Pandya": {
     "full_name": "Krunal Himanshu Pandya",
@@ -2070,9 +2070,9 @@
     "reason": "MI/LSG"
   },
   "AD Nath": {
-    "full_name": "Ankit Rajpoot Nath",
-    "confidence": "low",
-    "reason": "GL/KXIP unclear mapping"
+    "full_name": "Akshdeep Nath",
+    "confidence": "high",
+    "reason": "GL/KXIP/RCB"
   },
   "MJ Guptill": {
     "full_name": "Martin James Guptill",
@@ -2490,9 +2490,9 @@
     "reason": "CSK/PBKS"
   },
   "GC Viljoen": {
-    "full_name": "Gerhardus Viljoen",
-    "confidence": "low",
-    "reason": "KXIP 2019 unclear expansion"
+    "full_name": "Hardus Viljoen",
+    "confidence": "high",
+    "reason": "KXIP 2019"
   },
   "Avesh Khan": {
     "full_name": "Avesh Khan",
@@ -2795,9 +2795,9 @@
     "reason": "DC"
   },
   "K Yadav": {
-    "full_name": "Kuldeep Yadav",
-    "confidence": "low",
-    "reason": "RR 2021 ambiguity with another Kuldeep"
+    "full_name": "Kuldip Yadav",
+    "confidence": "high",
+    "reason": "RR 2021"
   },
   "Anuj Rawat": {
     "full_name": "Anuj Rawat",
@@ -2995,9 +2995,9 @@
     "reason": "PBKS/MI"
   },
   "KS Sharma": {
-    "full_name": "Kuldip Sharma",
-    "confidence": "low",
-    "reason": "LSG unclear identity"
+    "full_name": "Karan Sunny Sharma",
+    "confidence": "high",
+    "reason": "LSG 2022"
   },
   "T Stubbs": {
     "full_name": "Tristan Stubbs",
@@ -3010,9 +3010,9 @@
     "reason": "MI 2022"
   },
   "A Tomar": {
-    "full_name": "Aman Tomar",
-    "confidence": "low",
-    "reason": "KKR 2022 unclear"
+    "full_name": "Abhijeet Tomar",
+    "confidence": "high",
+    "reason": "KKR 2022"
   },
   "PN Mankad": {
     "full_name": "Prerak Mankad",
@@ -3320,9 +3320,9 @@
     "reason": "DC 2024"
   },
   "AA Kulkarni": {
-    "full_name": "Akshay Kulkarni",
-    "confidence": "low",
-    "reason": "LSG unclear identity"
+    "full_name": "Arshin Atul Kulkarni",
+    "confidence": "high",
+    "reason": "LSG 2025"
   },
   "MJ Suthar": {
     "full_name": "Manav Suthar",
@@ -3380,9 +3380,9 @@
     "reason": "MI 2025"
   },
   "PVSN Raju": {
-    "full_name": "PVSN Raju",
-    "confidence": "low",
-    "reason": "MI 2025 unclear expansion"
+    "full_name": "Penumatsa Venkata Satyanarayana Raju",
+    "confidence": "high",
+    "reason": "MI 2025"
   },
   "V Nigam": {
     "full_name": "Vipraj Nigam",
@@ -3405,9 +3405,9 @@
     "reason": "CSK 2025"
   },
   "PHKD Mendis": {
-    "full_name": "Pathum Nissanka",
-    "confidence": "low",
-    "reason": "SRH unclear initials mismatch"
+    "full_name": "Pasqual Handi Kamindu Dilanka Mendis",
+    "confidence": "high",
+    "reason": "SRH 2025"
   },
   "Suryansh Shedge": {
     "full_name": "Suryansh Shedge",
@@ -3435,14 +3435,14 @@
     "reason": "RCB 2025"
   },
   "V Suryavanshi": {
-    "full_name": "Vaibhav Suryavanshi",
-    "confidence": "low",
-    "reason": "RR 2025 unclear"
+    "full_name": "Vaibhav Sooryavanshi",
+    "confidence": "high",
+    "reason": "RR 2025"
   },
   "A Mhatre": {
-    "full_name": "Aman Mhatre",
-    "confidence": "low",
-    "reason": "CSK 2025 unclear"
+    "full_name": "Ayush Mhatre",
+    "confidence": "high",
+    "reason": "CSK 2025"
   },
   "C Bosch": {
     "full_name": "Corbin Bosch",
@@ -3465,9 +3465,9 @@
     "reason": "RCB 2025"
   },
   "KS Rathore": {
-    "full_name": "Kuldeep Singh Rathore",
-    "confidence": "low",
-    "reason": "RR 2025 unclear"
+    "full_name": "Kunal Singh Rathore",
+    "confidence": "high",
+    "reason": "RR 2025"
   },
   "Urvil Patel": {
     "full_name": "Urvil Patel",
@@ -3485,9 +3485,9 @@
     "reason": "MI/RR 2025"
   },
   "M Tiwari": {
-    "full_name": "Mayank Tiwari",
-    "confidence": "low",
-    "reason": "DC 2025 unclear"
+    "full_name": "Madhav Tiwari",
+    "confidence": "high",
+    "reason": "DC 2025"
   },
   "L Ngidi": {
     "full_name": "Lungi Ngidi",
@@ -3515,9 +3515,9 @@
     "reason": "confirmed"
   },
   "P Amarnath": {
-    "full_name": "Parthiv Amarnath",
-    "confidence": "low",
-    "reason": "CSK 2008 unclear"
+    "full_name": "Palani Amarnath",
+    "confidence": "high",
+    "reason": "CSK 2008"
   },
   "B Geeves": {
     "full_name": "Brett Geeves",
@@ -3540,19 +3540,19 @@
     "reason": "DD"
   },
   "RR Bose": {
-    "full_name": "Rohan Bose",
-    "confidence": "low",
-    "reason": "KXIP 2009 unclear"
+    "full_name": "Ranadeb Ranjit Bose",
+    "confidence": "high",
+    "reason": "KXIP 2009"
   },
   "SS Sarkar": {
-    "full_name": "Sourav Sarkar",
-    "confidence": "low",
-    "reason": "KKR 2009 unclear"
+    "full_name": "Sourav Subrata Sarkar",
+    "confidence": "high",
+    "reason": "KKR 2009"
   },
   "RA Shaikh": {
-    "full_name": "Rizwan Shaikh",
-    "confidence": "low",
-    "reason": "MI 2009 unclear"
+    "full_name": "Rahil Akhil Ahmed  Shaikh",
+    "confidence": "high",
+    "reason": "MI 2009"
   },
   "C Ganapathy": {
     "full_name": "Chidambaram Ganapathy",
@@ -3560,14 +3560,14 @@
     "reason": "CSK 2010"
   },
   "MB Parmar": {
-    "full_name": "Mohnish Parmar",
-    "confidence": "low",
-    "reason": "KKR 2010 unclear"
+    "full_name": "Mohnish Bipinbhai Parmar",
+    "confidence": "high",
+    "reason": "KKR 2010"
   },
   "AA Kazi": {
-    "full_name": "Amit Kazi",
-    "confidence": "low",
-    "reason": "RCB 2011 unclear"
+    "full_name": "Abrar Anjum Kazi",
+    "confidence": "high",
+    "reason": "RCB 2011"
   },
   "Anand Rajan": {
     "full_name": "Anand Rajan",
@@ -3635,9 +3635,9 @@
     "reason": "GL 2017"
   },
   "SS Agarwal": {
-    "full_name": "Shubham Agarwal",
-    "confidence": "low",
-    "reason": "GL 2017 unclear"
+    "full_name": "Shubham Sanjay Agarwal",
+    "confidence": "high",
+    "reason": "GL 2017"
   },
   "NB Singh": {
     "full_name": "Nathu Singh",
@@ -3800,9 +3800,9 @@
     "reason": "PBKS 2024"
   },
   "V Puthur": {
-    "full_name": "Vishnu Puthur",
-    "confidence": "low",
-    "reason": "MI 2025 unclear"
+    "full_name": "Vignesh Puthur",
+    "confidence": "high",
+    "reason": "MI 2025"
   },
   "Zeeshan Ansari": {
     "full_name": "Zeeshan Ansari",
@@ -3815,9 +3815,9 @@
     "reason": "MI 2025"
   },
   "E Malinga": {
-    "full_name": "Eshan Malinga",
-    "confidence": "low",
-    "reason": "SRH 2025 unclear"
+    "full_name": "Kiribathgala Kankanamalage Eshan Malinga Dharmasena",
+    "confidence": "high",
+    "reason": "SRH 2025"
   },
   "Karim Janat": {
     "full_name": "Karim Janat",
