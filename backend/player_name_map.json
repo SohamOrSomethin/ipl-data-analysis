@@ -1305,9 +1305,9 @@
     "reason": "KXIP/RCB/DC"
   },
   "AUK Pathan": {
-    "full_name": "Avesh Khan Pathan",
-    "confidence": "low",
-    "reason": "RCB unclear identity"
+    "full_name": "Asad Ullah Khan Pathan",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "UBT Chand": {
     "full_name": "Unmukt Bharat Thakur Chand",
@@ -1321,8 +1321,8 @@
   },
   "Sunny Singh": {
     "full_name": "Sunny Singh",
-    "confidence": "low",
-    "reason": "KXIP 2011 unclear"
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "NJ Rimmington": {
     "full_name": "Nathan Rimmington",
@@ -1345,9 +1345,9 @@
     "reason": "RCB 2011"
   },
   "R Ninan": {
-    "full_name": "Raju Ninan",
-    "confidence": "low",
-    "reason": "RCB 2011 unclear"
+    "full_name": "Ryan Ninan",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "S Aravind": {
     "full_name": "Sreenath Aravind",
@@ -1365,14 +1365,14 @@
     "reason": "PWI 2011"
   },
   "SB Wagh": {
-    "full_name": "Siddhesh Wagh",
-    "confidence": "low",
-    "reason": "PWI/RR unclear"
+    "full_name": "Shrikant Bhaskar Wagh",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "AC Thomas": {
-    "full_name": "Abhishek Thomas",
-    "confidence": "low",
-    "reason": "PWI unclear"
+    "full_name": "Alfonso Clive Thomas",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "JEC Franklin": {
     "full_name": "James Edward Charles Franklin",
@@ -1416,8 +1416,8 @@
   },
   "J Syed Mohammad": {
     "full_name": "Jamaluddin Syed Mohammad",
-    "confidence": "low",
-    "reason": "RCB unclear expansion"
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "RN ten Doeschate": {
     "full_name": "Ryan Neil ten Doeschate",
@@ -1450,9 +1450,9 @@
     "reason": "MI opener"
   },
   "I Malhotra": {
-    "full_name": "Ishank Malhotra",
-    "confidence": "low",
-    "reason": "DC 2011 unclear"
+    "full_name": "Ishan Malhotra",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "L Ablish": {
     "full_name": "Love Ablish",
@@ -1505,9 +1505,9 @@
     "reason": "KTK 2011"
   },
   "S Rana": {
-    "full_name": "Shalabh Srivastava Rana",
-    "confidence": "low",
-    "reason": "RCB/PWI unclear"
+    "full_name": "Sachin Rana",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "BA Bhatt": {
     "full_name": "Bhargav Bhatt",
@@ -1585,9 +1585,9 @@
     "reason": "KKR/RR"
   },
   "RR Bhatkal": {
-    "full_name": "Rohan Bhatkal",
-    "confidence": "low",
-    "reason": "RCB 2012 unclear"
+    "full_name": "Raju Ravi Bhatkal",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "CJ McKay": {
     "full_name": "Clint McKay",
@@ -1595,9 +1595,9 @@
     "reason": "MI 2012"
   },
   "N Saini": {
-    "full_name": "Navdeep Saini",
-    "confidence": "low",
-    "reason": "KXIP 2012 mismatch era"
+    "full_name": "Nitin Saini",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "DA Miller": {
     "full_name": "David Andrew Miller",
@@ -1655,9 +1655,9 @@
     "reason": "PWI"
   },
   "PA Reddy": {
-    "full_name": "Pragyan Reddy",
-    "confidence": "low",
-    "reason": "DC/SRH unclear"
+    "full_name": "Produturi Akshath Reddy",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "K Upadhyay": {
     "full_name": "Krishnakant Upadhyay",
@@ -1686,8 +1686,8 @@
   },
   "Sunny Gupta": {
     "full_name": "Sunny Gupta",
-    "confidence": "low",
-    "reason": "DD 2012 unclear"
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "MC Juneja": {
     "full_name": "Manprit Juneja",
@@ -1825,9 +1825,9 @@
     "reason": "MI/DD"
   },
   "UA Birla": {
-    "full_name": "Udit Arora Birla",
-    "confidence": "low",
-    "reason": "PWI unclear identity"
+    "full_name": "Udit Alok Birla",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "Parvez Rasool": {
     "full_name": "Parvez Rasool",
@@ -1906,8 +1906,8 @@
   },
   "Shivam Sharma": {
     "full_name": "Shivam Sharma",
-    "confidence": "low",
-    "reason": "KXIP 2014 unclear"
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "YS Chahal": {
     "full_name": "Yuzvendra Singh Chahal",
@@ -2015,9 +2015,9 @@
     "reason": "MI"
   },
   "DJ Muthuswami": {
-    "full_name": "Dinesh Muthuswami",
-    "confidence": "low",
-    "reason": "DD 2015 unclear"
+    "full_name": "Domnic Joseph Muthuswami",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "PJ Cummins": {
     "full_name": "Patrick James Cummins",
@@ -2025,9 +2025,9 @@
     "reason": "KKR/SRH/DD"
   },
   "RG More": {
-    "full_name": "Rahil Gehani More",
-    "confidence": "low",
-    "reason": "CSK 2015 unclear"
+    "full_name": "Ronit Gajanan More",
+    "confidence": "high",
+    "reason": "Manual Verification"
   },
   "SN Thakur": {
     "full_name": "Shardul Narendra Thakur",
