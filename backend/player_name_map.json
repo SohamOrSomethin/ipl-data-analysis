@@ -1180,7 +1180,7 @@
     "reason": "CSK/RCB/DD"
   },
   "R Sharma": {
-    "full_name": "Rohit Sharma",
+    "full_name": "Rahul Sharma",
     "confidence": "high",
     "reason": "confirmed"
   },
@@ -3833,10 +3833,5 @@
     "full_name": "William O'Rourke",
     "confidence": "high",
     "reason": "LSG 2025"
-  },
-  "Unknown": {
-    "full_name": "Unknown",
-    "confidence": "low",
-    "reason": "No identifying information"
   }
 }
