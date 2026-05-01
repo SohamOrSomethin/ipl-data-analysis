@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API = 'http://localhost:5000';
+const API = '';
 
 function getNearestDateKey(dataMap, currentMonth, currentDay) {
   const current = new Date(2000, currentMonth - 1, currentDay);

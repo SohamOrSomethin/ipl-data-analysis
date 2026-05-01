@@ -14,7 +14,7 @@ export default function Dashboard() {
   })
 
   useEffect(() => {
-    axios.get('http://localhost:5000/static/data/records.json')
+    axios.get('/static/data/records.json')
       .then(res => setRecords(res.data))
       .catch(err => console.error("Error loading records:", err))
   }, [])

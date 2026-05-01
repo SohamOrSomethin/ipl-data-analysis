@@ -26,7 +26,7 @@ const TeamSelector = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/teams')
+    fetch('/api/teams')
       .then(res => res.json())
       .then(data => setTeams(data));
   }, []);

@@ -4,7 +4,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid
 } from 'recharts';
 
-const API = 'http://localhost:5000';
+const API = '';
 const C1  = '#06b6d4';
 const C2  = '#f59e0b';
 

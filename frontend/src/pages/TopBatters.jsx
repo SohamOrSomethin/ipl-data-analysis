@@ -12,14 +12,14 @@ export default function TopBatters() {
   const [hoveredIndex, setHoveredIndex] = useState(null)
 
   useEffect(() => {
-    axios.get('http://localhost:5000/static/data/seasons.json')
+    axios.get('/static/data/seasons.json')
       .then(res => setSeasons(res.data))
       .catch(err => console.error("Error fetching seasons:", err))
   }, [])
 
   useEffect(() => {
     setLoading(true)
-    axios.get(`http://localhost:5000/api/top-batters?season=${selected}`)
+    axios.get(`/api/top-batters?season=${selected}`)
       .then(res => {
         setBatters(res.data)
         setLoading(false)

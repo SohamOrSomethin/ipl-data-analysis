@@ -12,14 +12,14 @@ export default function TopBowlers() {
   const [hoveredIndex, setHoveredIndex] = useState(null)
 
   useEffect(() => {
-    axios.get('http://localhost:5000/static/data/seasons.json')
+    axios.get('/static/data/seasons.json')
       .then(res => setSeasons(res.data))
       .catch(err => console.error("Error fetching seasons:", err))
   }, [])
 
   useEffect(() => {
     setLoading(true)
-    axios.get(`http://localhost:5000/api/top-bowlers?season=${selected}`)
+    axios.get(`/api/top-bowlers?season=${selected}`)
       .then(res => {
         setBowlers(res.data)
         setLoading(false)

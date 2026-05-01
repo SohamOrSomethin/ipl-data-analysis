@@ -23,7 +23,7 @@ export default function RecordCard() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:5000/static/data/records_wall.json')
+    fetch('/static/data/records_wall.json')
       .then(res => res.json())
       .then(data => {
         setRecords(data);

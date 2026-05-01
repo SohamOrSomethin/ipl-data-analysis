@@ -10,7 +10,7 @@ export default function GoatPlayers() {
 
   useEffect(() => {
     setLoading(true)
-    axios.get(`http://localhost:5000/api/goat?role=${role}&limit=10`)
+    axios.get(`/api/goat?role=${role}&limit=10`)
       .then(res => {
         setPlayers(res.data.players)
         setLoading(false)

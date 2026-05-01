@@ -5,7 +5,7 @@ export default function OrangeCap() {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/orange-cap')
+    fetch('/api/orange-cap')
       .then(res => res.json())
       .then(data => setData(data))
   }, [])

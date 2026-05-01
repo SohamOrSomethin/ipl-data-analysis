@@ -16,7 +16,7 @@ const TeamDashboard = () => {
 
     // 1. Fetch available seasons for the dropdown
     useEffect(() => {
-        fetch('http://localhost:5000/api/seasons')
+        fetch('/api/seasons')
             .then(res => res.json())
             .then(data => setSeasons(data));
     }, []);
@@ -24,7 +24,7 @@ const TeamDashboard = () => {
     // 2. Fetch team summary whenever the team or selected season changes
     useEffect(() => {
         setLoading(true);
-        fetch(`http://localhost:5000/api/teams/${teamName}/summary?season=${selectedSeason}`)
+        fetch(`/api/teams/${teamName}/summary?season=${selectedSeason}`)
             .then(res => res.json())
             .then(data => {
                 setTeamData(data);

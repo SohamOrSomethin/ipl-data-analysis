@@ -11,11 +11,12 @@ import random
 
 
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__)
 CORS(app)
 
 # ── Load & Clean ──────────────────────────────────────────
-df = pd.read_parquet(r"static/data/ipl.parquet")
+df = pd.read_parquet(os.path.join(os.path.dirname(os.path.abspath(__file__)), "static", "data", "ipl.parquet"))
 
 TEAM_ALIASES = {
     # abbreviations
@@ -133,19 +134,19 @@ def normalise_venue(name):
     name = name.strip()
     return VENUE_ALIASES.get(name, name)
 
-with open("static/data/orange_cap.json") as f:
+with open(os.path.join(BASE_DIR, "static", "data", "orange_cap.json")) as f:
     ORANGE_CAP = json.load(f)
 
-with open("static/data/purple_cap.json") as f:
+with open(os.path.join(BASE_DIR, "static", "data", "purple_cap.json")) as f:
     PURPLE_CAP = json.load(f)
 
-with open("static/data/teams.json") as f:
+with open(os.path.join(BASE_DIR, "static", "data", "teams.json")) as f:
     TEAMS = json.load(f)
 
-with open("static/data/ipl_quiz.json") as f:
+with open(os.path.join(BASE_DIR, "static", "data", "ipl_quiz.json")) as f:
     quiz = json.load(f)
 
-with open("static/data/on_this_day.json", encoding="utf-8") as f:
+with open(os.path.join(BASE_DIR, "static", "data", "on_this_day.json"), encoding="utf-8") as f:
     on_this_day = json.load(f)
 
 def clean_data(df):
@@ -289,7 +290,7 @@ def teams():
     }
     return jsonify(sorted(unique))
 
-with open("static/data/players.json") as f:
+with open(os.path.join(BASE_DIR, "static", "data", "players.json")) as f:
     players_cache = {p["name"]: p for p in json.load(f)}
     # basically makes it faster to query players
     #toh in players.json we already have all players with runs nd wickets
@@ -492,7 +493,7 @@ def h2h(t1, t2):
     team1 = resolve_team(t1)
     team2 = resolve_team(t2)
 
-    with open("static/data/head_to_head.json", "r") as f:
+    with open(os.path.join(BASE_DIR, "static", "data", "head_to_head.json"), "r") as f:
         data = json.load(f)
 
     for record in data:
@@ -505,7 +506,7 @@ def h2h(t1, t2):
 
     return jsonify({"error": "H2H not found"}), 404
 
-MATCH_SUMMARY_PATH = os.path.join("static", "data", "match_summary.json")
+MATCH_SUMMARY_PATH = os.path.join(BASE_DIR, "static", "data", "match_summary.json")
 
 with open(MATCH_SUMMARY_PATH, "r", encoding="utf-8") as f:
     MATCH_SUMMARY = json.load(f)
@@ -680,7 +681,7 @@ def h2h_venues():
         "venues": venues_list
     })
 
-with open("static/data/match_summary.json", encoding="utf-8") as f:
+with open(os.path.join(BASE_DIR, "static", "data", "match_summary.json"), encoding="utf-8") as f:
     MATCH_SUMMARY = json.load(f)
 
 VENUE_STATS = build_venue_stats(MATCH_SUMMARY)
@@ -994,7 +995,7 @@ BOWLER_MIN_WICKETS = 15
 
 @app.route('/api/goat')
 def goat():
-    with open("static/data/players.json") as f:
+    with open(os.path.join(BASE_DIR, "static", "data", "players.json")) as f:
      players = json.load(f)
 
     role  = request.args.get('role', 'batter')   # ?role=batter or ?role=bowler

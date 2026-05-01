@@ -22,7 +22,7 @@ export default function Players() {
     setError(null);
 
     try {
-      const response = await axios.get(`http://localhost:5000/api/players?name=${query}`);
+      const response = await axios.get(`/api/players?name=${query}`);
       setSearchResults(response.data);
     } catch (err) {
       console.error("Error fetching players:", err);

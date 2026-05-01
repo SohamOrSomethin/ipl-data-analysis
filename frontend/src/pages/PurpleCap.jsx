@@ -5,7 +5,7 @@ export default function PurpleCap() {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/purple-cap')
+    fetch('/api/purple-cap')
       .then(res => res.json())
       .then(data => setData(data))
   }, [])
