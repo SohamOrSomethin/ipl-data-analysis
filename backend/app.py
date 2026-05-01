@@ -15,7 +15,7 @@ app = Flask(__name__)
 CORS(app)
 
 # ── Load & Clean ──────────────────────────────────────────
-df = pd.read_csv("../data/IPL.csv", low_memory=False)
+df = pd.read_parquet(r"static/data/ipl.parquet")
 
 TEAM_ALIASES = {
     # abbreviations
