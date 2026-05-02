@@ -102,7 +102,7 @@ export default function DailyQuiz() {
   };
 
   useEffect(() => {
-    fetch('/static/data/ipl_quiz.json')
+    api.get('/static/data/ipl_quiz.json')
       .then(res => res.data)
       .then(allQuestions => {
         // Date-seed logic: day of year
@@ -257,5 +257,7 @@ export default function DailyQuiz() {
     </div>
   );
 }
+
+
 
 

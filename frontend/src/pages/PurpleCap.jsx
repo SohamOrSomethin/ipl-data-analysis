@@ -6,7 +6,7 @@ export default function PurpleCap() {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    fetch('/api/purple-cap')
+    api.get('/api/purple-cap')
       .then(res => res.data)
       .then(data => setData(data))
   }, [])
@@ -58,5 +58,7 @@ export default function PurpleCap() {
     </div>
   )
 }
+
+
 
 

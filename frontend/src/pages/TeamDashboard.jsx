@@ -17,7 +17,7 @@ const TeamDashboard = () => {
 
     // 1. Fetch available seasons for the dropdown
     useEffect(() => {
-        fetch('/api/seasons')
+        api.get('/api/seasons')
             .then(res => res.data)
             .then(data => setSeasons(data));
     }, []);
@@ -150,5 +150,7 @@ const TeamDashboard = () => {
 };
 
 export default TeamDashboard;
+
+
 
 

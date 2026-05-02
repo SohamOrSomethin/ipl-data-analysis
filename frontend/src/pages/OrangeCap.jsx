@@ -6,7 +6,7 @@ export default function OrangeCap() {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    fetch('/api/orange-cap')
+    api.get('/api/orange-cap')
       .then(res => res.data)
       .then(data => setData(data))
   }, [])
@@ -58,5 +58,7 @@ export default function OrangeCap() {
     </div>
   )
 }
+
+
 
 

@@ -24,7 +24,7 @@ export default function RecordCard() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/static/data/records_wall.json')
+    api.get('/static/data/records_wall.json')
       .then(res => res.data)
       .then(data => {
         setRecords(data);
@@ -64,5 +64,7 @@ export default function RecordCard() {
     </div>
   );
 }
+
+
 
 

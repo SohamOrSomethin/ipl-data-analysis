@@ -27,7 +27,7 @@ export default function OnThisDay() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`${API}/static/data/on_this_day.json`)
+    api.get(`${API}/static/data/on_this_day.json`)
       .then(res => res.data)
       .then(data => {
         const today = new Date();
@@ -102,4 +102,6 @@ export default function OnThisDay() {
     </div>
   );
 }
+
+
 

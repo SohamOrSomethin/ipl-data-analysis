@@ -34,14 +34,14 @@ export default function HeadToHead() {
 
   /* ── seed teams + seasons ── */
   useEffect(() => {
-    fetch(`${API}/api/teams`)
-      .then(r => r.json())
+    api.get(`${API}/api/teams`)
+      .then(r => r.data)
       .then(d => {
         setTeams(d);
         if (d.length >= 2) { setTeam1(d[0]); setTeam2(d[1]); }
       });
-    fetch(`${API}/api/seasons`)
-      .then(r => r.json())
+    api.get(`${API}/api/seasons`)
+      .then(r => r.data)
       .then(setSeasons);
   }, []);
 
@@ -56,8 +56,8 @@ export default function HeadToHead() {
     const qs = params.toString();
 
     Promise.all([
-      fetch(`${API}/api/h2h?${qs}`).then(r => r.json()),
-      fetch(`${API}/api/h2h/venues?${qs}`).then(r => r.json()),
+      api.get(`${API}/api/h2h?${qs}`).then(r => r.data),
+      api.get(`${API}/api/h2h/venues?${qs}`).then(r => r.data),
     ])
       .then(([h2h, ven]) => {
         if (h2h.error) { setError(h2h.error); setLoading(false); return; }
@@ -391,4 +391,6 @@ export default function HeadToHead() {
     </div>
   );
 }
+
+
 

@@ -27,7 +27,7 @@ const TeamSelector = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('/api/teams')
+    api.get('/api/teams')
       .then(res => res.data)
       .then(data => setTeams(data));
   }, []);
@@ -48,5 +48,7 @@ const TeamSelector = () => {
 };
 
 export default TeamSelector;
+
+
 
 
