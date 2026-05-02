@@ -1,10 +1,5 @@
 {
-  "routes": [
-    { "src": "/api/(.*)", "dest": "backend/app.py" },
-    { "src": "/static/(.*)", "dest": "backend/app.py" },
-    { "src": "/on-this-day", "dest": "backend/app.py" },
-    { "src": "/quiz", "dest": "backend/app.py" },
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
