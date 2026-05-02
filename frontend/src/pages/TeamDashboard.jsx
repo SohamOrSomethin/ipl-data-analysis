@@ -15,27 +15,23 @@ const TeamDashboard = () => {
     const [selectedSeason, setSelectedSeason] = useState("all");
     const [loading, setLoading] = useState(true);
 
-    // 1. Fetch available seasons for the dropdown
     useEffect(() => {
         api.get('/api/seasons')
-            .then(res => res.data)
-            .then(data => setSeasons(data));
+            .then(res => setSeasons(res.data));
     }, []);
 
-    // 2. Fetch team summary whenever the team or selected season changes
     useEffect(() => {
         setLoading(true);
-        fetch(`/api/teams/${teamName}/summary?season=${selectedSeason}`)
-            .then(res => res.data)
-            .then(data => {
-                setTeamData(data);
+        api.get(`/api/teams/${teamName}/summary?season=${selectedSeason}`)
+            .then(res => {
+                setTeamData(res.data);
                 setLoading(false);
-            });
+            })
+            .catch(() => setLoading(false));
     }, [teamName, selectedSeason]);
 
     if (loading || !teamData) return <LoadingSpinner />;
 
-    // Prepare data for Win vs Loss/Tie Pie Chart
     const winLossData = [
         { name: 'Wins', value: teamData.wins },
         { name: 'Losses & Ties', value: teamData.matches - teamData.wins },
@@ -61,7 +57,6 @@ const TeamDashboard = () => {
                 </div>
             </div>
 
-            {/* Top Stats Row */}
             <div className="stats-grid">
                 <StatCard title="Win Percentage" value={`${teamData.win_pct}%`} subtitle={`Wins: ${teamData.wins}`} accentColor="#06b6d4" />
                 <StatCard title="Total Matches" value={teamData.matches} subtitle="Played" accentColor="#8b5cf6" />
@@ -69,7 +64,6 @@ const TeamDashboard = () => {
             </div>
 
             <div className="grid-layout">
-                {/* Chart 1: Win/Loss Ratio (Pie) */}
                 <div className="glass-card chart-card">
                     <h2 className="card-title">Overall Match Results</h2>
                     <div style={{ width: '100%', height: 300 }}>
@@ -96,7 +90,6 @@ const TeamDashboard = () => {
                     </div>
                 </div>
 
-                {/* Chart 2: Season Win Timeline (Line) - Only show for "All Seasons" */}
                 {selectedSeason === "all" && (
                     <div className="glass-card chart-card">
                         <h2 className="card-title">Season Win Timeline</h2>
@@ -115,7 +108,6 @@ const TeamDashboard = () => {
                 )}
             </div>
 
-            {/* Players Section */}
             <div className="grid-layout">
                 <div className="glass-card">
                     <h3 className="card-title">Top 3 Batters</h3>
@@ -150,7 +142,3 @@ const TeamDashboard = () => {
 };
 
 export default TeamDashboard;
-
-
-
-

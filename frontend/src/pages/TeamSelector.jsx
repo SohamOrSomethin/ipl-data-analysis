@@ -28,8 +28,8 @@ const TeamSelector = () => {
 
   useEffect(() => {
     api.get('/api/teams')
-      .then(res => res.data)
-      .then(data => setTeams(data));
+      .then(res => setTeams(res.data))
+      .catch(err => console.error('Failed to load teams:', err));
   }, []);
 
   return (
@@ -48,7 +48,3 @@ const TeamSelector = () => {
 };
 
 export default TeamSelector;
-
-
-
-
