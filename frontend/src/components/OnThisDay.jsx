@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
-const API = '';
+import api from '../api';
 
 function getNearestDateKey(dataMap, currentMonth, currentDay) {
   const current = new Date(2000, currentMonth - 1, currentDay);
@@ -27,7 +26,7 @@ export default function OnThisDay() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    api.get(`${API}/static/data/on_this_day.json`)
+    api.get('/static/data/on_this_day.json')
       .then(res => res.data)
       .then(data => {
         const today = new Date();
@@ -35,7 +34,6 @@ export default function OnThisDay() {
         const dd = String(today.getDate()).padStart(2, '0');
         const todayKey = `${mm}-${dd}`;
 
-        // Convert the backend array into a map where fact !== null
         const dataMap = {};
         if (Array.isArray(data)) {
           data.forEach(item => {
@@ -46,12 +44,10 @@ export default function OnThisDay() {
               else if (item.category === 'record') yearStr = '🏆 Record';
               else if (item.category === 'final') yearStr = '🌟 Final Match';
               else if (item.category === 'semifinal') yearStr = '🔥 Semifinal Match';
-
               dataMap[item.date] = { year: yearStr, event: item.fact };
             }
           });
         } else {
-          // fallback if it's still the old dict object
           Object.assign(dataMap, data);
         }
 
@@ -68,7 +64,7 @@ export default function OnThisDay() {
         setLoading(false);
       })
       .catch(err => {
-        console.error("Failed to load on-this-day events", err);
+        console.error('Failed to load on-this-day events', err);
         setLoading(false);
       });
   }, []);
@@ -83,7 +79,7 @@ export default function OnThisDay() {
           <span style={{ fontSize: '1.5rem' }}>🗓️</span>
           <h2 className="card-title" style={{ margin: 0, fontSize: '1.4rem' }}>On This Day in IPL History</h2>
         </div>
-        
+
         {isNearest && (
           <div style={{ fontSize: '0.85rem', color: '#f59e0b', marginBottom: '1rem', fontStyle: 'italic', background: 'rgba(245, 158, 11, 0.1)', padding: '0.5rem 1rem', borderRadius: '4px' }}>
             No event matches today's exact date. Showing the nearest historical event ({eventData.date}):
@@ -102,6 +98,3 @@ export default function OnThisDay() {
     </div>
   );
 }
-
-
-

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import api from '../api';
 import {
   PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend,
   BarChart, Bar, XAxis, YAxis, CartesianGrid
 } from 'recharts';
 
-const API = import.meta.env.VITE_API_BASE_URL || '';
 const C1  = '#06b6d4';
 const C2  = '#f59e0b';
 
@@ -30,22 +30,18 @@ export default function HeadToHead() {
   const [venues,     setVenues]     = useState(null);
   const [loading,    setLoading]    = useState(false);
   const [error,      setError]      = useState('');
-  const [activeTab,  setActiveTab]  = useState('overview');   // overview | venues | matches
+  const [activeTab,  setActiveTab]  = useState('overview');
 
-  /* ── seed teams + seasons ── */
   useEffect(() => {
-    api.get(`${API}/api/teams`)
-      .then(r => r.data)
-      .then(d => {
-        setTeams(d);
-        if (d.length >= 2) { setTeam1(d[0]); setTeam2(d[1]); }
+    api.get('/api/teams')
+      .then(res => {
+        setTeams(res.data);
+        if (res.data.length >= 2) { setTeam1(res.data[0]); setTeam2(res.data[1]); }
       });
-    api.get(`${API}/api/seasons`)
-      .then(r => r.data)
-      .then(setSeasons);
+    api.get('/api/seasons')
+      .then(res => setSeasons(res.data));
   }, []);
 
-  /* ── fetch when selection changes ── */
   const fetchAll = () => {
     if (!team1 || !team2 || team1 === team2) return;
     setLoading(true); setError(''); setStats(null); setVenues(null);
@@ -56,13 +52,13 @@ export default function HeadToHead() {
     const qs = params.toString();
 
     Promise.all([
-      api.get(`${API}/api/h2h?${qs}`).then(r => r.data),
-      api.get(`${API}/api/h2h/venues?${qs}`).then(r => r.data),
+      api.get(`/api/h2h?${qs}`),
+      api.get(`/api/h2h/venues?${qs}`),
     ])
-      .then(([h2h, ven]) => {
-        if (h2h.error) { setError(h2h.error); setLoading(false); return; }
-        setStats(h2h);
-        setVenues(ven.error ? null : ven);
+      .then(([h2hRes, venRes]) => {
+        if (h2hRes.data.error) { setError(h2hRes.data.error); setLoading(false); return; }
+        setStats(h2hRes.data);
+        setVenues(venRes.data.error ? null : venRes.data);
         setLoading(false);
       })
       .catch(() => { setError('Failed to load data.'); setLoading(false); });
@@ -72,7 +68,6 @@ export default function HeadToHead() {
     if (team1 && team2 && team1 !== team2) fetchAll();
   }, [team1, team2, fromSeason, toSeason]);
 
-  /* ── pie data ── */
   const pieData = stats
     ? [
         { name: stats.team1, value: stats.team1_wins },
@@ -80,11 +75,10 @@ export default function HeadToHead() {
       ]
     : [];
 
-  /* ── venue bar data (top 6) ── */
   const venueBar = venues?.venues
     ?.slice(0, 6)
     .map(v => ({
-      name: v.venue.length > 22 ? v.venue.slice(0, 22) + '…' : v.venue,
+      name: v.venue.length > 22 ? v.venue.slice(0, 22) + '\u2026' : v.venue,
       [stats?.team1 || 't1']: v.team1_wins,
       [stats?.team2 || 't2']: v.team2_wins,
     })) ?? [];
@@ -106,28 +100,23 @@ export default function HeadToHead() {
     <div className="dashboard-content">
       <h1 className="section-title">⚔️ <span className="text-gradient">Head-to-Head Comparison</span></h1>
 
-      {/* ── Selectors ── */}
       <div className="glass-card chart-card" style={{ marginBottom: '2rem' }}>
         <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', alignItems: 'flex-end' }}>
-
           <div style={{ flex: 2, minWidth: 180 }}>
             <label style={{ display: 'block', marginBottom: '0.5rem', color: '#94a3b8', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Team 1</label>
             <select className="premium-select" value={team1} onChange={e => setTeam1(e.target.value)}>
               {teams.map(t => <option key={t} value={t} disabled={t === team2}>{t}</option>)}
             </select>
           </div>
-
           <div style={{ display: 'flex', alignItems: 'center', marginBottom: '0.15rem', paddingBottom: '0.75rem' }}>
             <span style={{ fontSize: '1.4rem', fontWeight: 800, color: '#e2e8f0' }}>VS</span>
           </div>
-
           <div style={{ flex: 2, minWidth: 180 }}>
             <label style={{ display: 'block', marginBottom: '0.5rem', color: '#94a3b8', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Team 2</label>
             <select className="premium-select" value={team2} onChange={e => setTeam2(e.target.value)}>
               {teams.map(t => <option key={t} value={t} disabled={t === team1}>{t}</option>)}
             </select>
           </div>
-
           <div style={{ flex: 1, minWidth: 130 }}>
             <label style={{ display: 'block', marginBottom: '0.5rem', color: '#94a3b8', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>From Season</label>
             <select className="premium-select" value={fromSeason} onChange={e => setFromSeason(e.target.value)}>
@@ -135,7 +124,6 @@ export default function HeadToHead() {
               {seasons.map(s => <option key={s} value={s}>{s}</option>)}
             </select>
           </div>
-
           <div style={{ flex: 1, minWidth: 130 }}>
             <label style={{ display: 'block', marginBottom: '0.5rem', color: '#94a3b8', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>To Season</label>
             <select className="premium-select" value={toSeason} onChange={e => setToSeason(e.target.value)}>
@@ -146,7 +134,6 @@ export default function HeadToHead() {
         </div>
       </div>
 
-      {/* ── States ── */}
       {loading && (
         <div style={{ textAlign: 'center', padding: '3rem', color: '#94a3b8' }}>
           <div className="spinner"><div className="spinner-ring"/><div className="spinner-ring"/><div className="spinner-core">⚔️</div></div>
@@ -160,20 +147,16 @@ export default function HeadToHead() {
         </div>
       )}
 
-      {/* ── Main content ── */}
       {!loading && stats && (
         <>
-          {/* ── Tab bar ── */}
           <div style={{ display: 'flex', gap: '0.75rem', marginBottom: '1.5rem' }}>
             <Tab id="overview" label="📊 Overview" />
             <Tab id="venues"   label="🏟️ Venues"   />
             <Tab id="matches"  label="📋 Matches"  />
           </div>
 
-          {/* ══ OVERVIEW ══ */}
           {activeTab === 'overview' && (
             <>
-              {/* Team name banner */}
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
                 <span style={{ color: C1, fontWeight: 700, fontSize: '1.1rem' }}>{stats.team1}</span>
                 <span style={{ color: '#475569', fontSize: '0.85rem' }}>
@@ -185,7 +168,6 @@ export default function HeadToHead() {
               </div>
 
               <div className="grid-layout">
-                {/* Pie */}
                 <div className="glass-card chart-card">
                   <h2 className="card-title">Win Distribution</h2>
                   <ResponsiveContainer width="100%" height={280}>
@@ -201,7 +183,6 @@ export default function HeadToHead() {
                   </ResponsiveContainer>
                 </div>
 
-                {/* Stats table */}
                 <div className="glass-card chart-card" style={{ justifyContent: 'center' }}>
                   <h2 className="card-title" style={{ textAlign: 'center' }}>Match Stats</h2>
                   <RowStat label="Wins" v1={stats.team1_wins} v2={stats.team2_wins} />
@@ -219,168 +200,85 @@ export default function HeadToHead() {
                 </div>
               </div>
 
-              {/* Highest scoring match */}
               {stats.highest_scoring_match && (
                 <div className="glass-card" style={{ marginTop: '2rem', padding: '1.5rem' }}>
                   <h2 className="card-title">🔥 Highest Scoring Match</h2>
                   <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'center' }}>
-                    <div>
-                      <div style={{ color: '#94a3b8', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Date</div>
-                      <div style={{ fontWeight: 600 }}>{stats.highest_scoring_match.date || '—'}</div>
-                    </div>
-                    <div>
-                      <div style={{ color: '#94a3b8', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Season</div>
-                      <div style={{ fontWeight: 600 }}>{stats.highest_scoring_match.season || '—'}</div>
-                    </div>
-                    <div>
-                      <div style={{ color: '#94a3b8', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Venue</div>
-                      <div style={{ fontWeight: 600 }}>{stats.highest_scoring_match.venue || '—'}</div>
-                    </div>
-                    <div>
-                      <div style={{ color: '#94a3b8', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Total Runs</div>
-                      <div style={{ fontWeight: 700, fontSize: '1.5rem', color: C1 }}>{stats.highest_scoring_match.total_runs ?? '—'}</div>
-                    </div>
-                    <div>
-                      <div style={{ color: '#94a3b8', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Winner</div>
-                      <div style={{ fontWeight: 600, color: C2 }}>{stats.highest_scoring_match.winner || 'No Result'}</div>
-                    </div>
+                    <div><div style={{ color: '#94a3b8', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Date</div><div style={{ fontWeight: 600 }}>{stats.highest_scoring_match.date || '—'}</div></div>
+                    <div><div style={{ color: '#94a3b8', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Season</div><div style={{ fontWeight: 600 }}>{stats.highest_scoring_match.season || '—'}</div></div>
+                    <div><div style={{ color: '#94a3b8', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Venue</div><div style={{ fontWeight: 600 }}>{stats.highest_scoring_match.venue || '—'}</div></div>
+                    <div><div style={{ color: '#94a3b8', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Total Runs</div><div style={{ fontWeight: 700, fontSize: '1.5rem', color: C1 }}>{stats.highest_scoring_match.total_runs ?? '—'}</div></div>
+                    <div><div style={{ color: '#94a3b8', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Winner</div><div style={{ fontWeight: 600, color: C2 }}>{stats.highest_scoring_match.winner || 'No Result'}</div></div>
                   </div>
                 </div>
               )}
             </>
           )}
 
-          {/* ══ VENUES ══ */}
           {activeTab === 'venues' && venues && (
             <>
-              {/* Fortress cards */}
               <div className="grid-layout" style={{ marginBottom: '2rem' }}>
                 {venues.most_played_venue && (
                   <div className="glass-card" style={{ borderTop: `3px solid ${C1}` }}>
                     <h2 className="card-title">🏟️ Most Played Venue</h2>
                     <div style={{ fontWeight: 700, fontSize: '1.1rem', marginBottom: '0.5rem' }}>{venues.most_played_venue.venue}</div>
-                    <div style={{ color: '#94a3b8', fontSize: '0.85rem' }}>{venues.most_played_venue.city}</div>
-                    <div style={{ color: '#94a3b8', marginTop: '0.75rem' }}>
-                      <span style={{ color: '#fff', fontWeight: 700, fontSize: '1.4rem' }}>{venues.most_played_venue.matches}</span> matches played
-                    </div>
-                    <div style={{ display: 'flex', gap: '1.5rem', marginTop: '0.75rem' }}>
-                      <span style={{ color: C1 }}>{stats.team1}: <b>{venues.most_played_venue.team1_wins}W</b></span>
-                      <span style={{ color: C2 }}>{stats.team2}: <b>{venues.most_played_venue.team2_wins}W</b></span>
-                    </div>
+                    <div style={{ color: '#94a3b8', fontSize: '0.9rem' }}>{venues.most_played_venue.matches} matches</div>
                   </div>
                 )}
-
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                  {venues.team1_fortress && (
-                    <div className="glass-card" style={{ borderLeft: `4px solid ${C1}`, padding: '1rem 1.25rem' }}>
-                      <div style={{ color: C1, fontWeight: 700, fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                        {stats.team1} Fortress
-                      </div>
-                      <div style={{ fontWeight: 600, marginTop: '0.25rem' }}>{venues.team1_fortress.venue}</div>
-                      <div style={{ color: '#94a3b8', fontSize: '0.8rem' }}>{venues.team1_fortress.team1_win_pct}% win rate · {venues.team1_fortress.matches} matches</div>
-                    </div>
-                  )}
-                  {venues.team2_fortress && (
-                    <div className="glass-card" style={{ borderLeft: `4px solid ${C2}`, padding: '1rem 1.25rem' }}>
-                      <div style={{ color: C2, fontWeight: 700, fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                        {stats.team2} Fortress
-                      </div>
-                      <div style={{ fontWeight: 600, marginTop: '0.25rem' }}>{venues.team2_fortress.venue}</div>
-                      <div style={{ color: '#94a3b8', fontSize: '0.8rem' }}>{venues.team2_fortress.team2_win_pct}% win rate · {venues.team2_fortress.matches} matches</div>
-                    </div>
-                  )}
-                </div>
+                {venues.team1_fortress && (
+                  <div className="glass-card" style={{ borderTop: `3px solid ${C1}` }}>
+                    <h2 className="card-title" style={{ color: C1 }}>🏰 {stats.team1} Fortress</h2>
+                    <div style={{ fontWeight: 700, fontSize: '1.1rem', marginBottom: '0.5rem' }}>{venues.team1_fortress.venue}</div>
+                    <div style={{ color: '#94a3b8', fontSize: '0.9rem' }}>{venues.team1_fortress.team1_wins} wins here</div>
+                  </div>
+                )}
+                {venues.team2_fortress && (
+                  <div className="glass-card" style={{ borderTop: `3px solid ${C2}` }}>
+                    <h2 className="card-title" style={{ color: C2 }}>🏰 {stats.team2} Fortress</h2>
+                    <div style={{ fontWeight: 700, fontSize: '1.1rem', marginBottom: '0.5rem' }}>{venues.team2_fortress.venue}</div>
+                    <div style={{ color: '#94a3b8', fontSize: '0.9rem' }}>{venues.team2_fortress.team2_wins} wins here</div>
+                  </div>
+                )}
               </div>
-
-              {/* Bar chart */}
-              {venueBar.length > 0 && (
-                <div className="glass-card chart-card">
-                  <h2 className="card-title">Wins by Venue (top 6)</h2>
-                  <ResponsiveContainer width="100%" height={300}>
-                    <BarChart data={venueBar} margin={{ top: 10, right: 20, left: 0, bottom: 60 }}>
-                      <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" />
-                      <XAxis dataKey="name" tick={{ fill: '#94a3b8', fontSize: 11 }} angle={-30} textAnchor="end" interval={0} />
-                      <YAxis tick={{ fill: '#94a3b8', fontSize: 11 }} />
-                      <Tooltip contentStyle={{ background: '#1e293b', border: 'none', borderRadius: 8, color: '#fff' }} />
-                      <Legend wrapperStyle={{ color: '#94a3b8' }} />
-                      <Bar dataKey={stats.team1} fill={C1} radius={[4, 4, 0, 0]} />
-                      <Bar dataKey={stats.team2} fill={C2} radius={[4, 4, 0, 0]} />
-                    </BarChart>
-                  </ResponsiveContainer>
-                </div>
-              )}
-
-              {/* Full venue table */}
-              <div className="glass-card" style={{ marginTop: '2rem' }}>
-                <h2 className="card-title">All Venues</h2>
-                <div className="table-container">
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Venue</th>
-                        <th>City</th>
-                        <th>Matches</th>
-                        <th style={{ color: C1 }}>{stats.team1}</th>
-                        <th style={{ color: C2 }}>{stats.team2}</th>
-                        <th>No Result</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {venues.venues.map((v, i) => (
-                        <tr key={i}>
-                          <td style={{ fontWeight: 600 }}>{v.venue}</td>
-                          <td style={{ color: '#94a3b8' }}>{v.city || '—'}</td>
-                          <td>{v.matches}</td>
-                          <td style={{ color: C1, fontWeight: 600 }}>{v.team1_wins} <span style={{ color: '#475569', fontWeight: 400 }}>({v.team1_win_pct}%)</span></td>
-                          <td style={{ color: C2, fontWeight: 600 }}>{v.team2_wins} <span style={{ color: '#475569', fontWeight: 400 }}>({v.team2_win_pct}%)</span></td>
-                          <td style={{ color: '#94a3b8' }}>{v.no_result}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
+              <div className="glass-card chart-card">
+                <h2 className="card-title">Wins by Venue (Top 6)</h2>
+                <ResponsiveContainer width="100%" height={300}>
+                  <BarChart data={venueBar} layout="vertical">
+                    <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" horizontal={false} />
+                    <XAxis type="number" stroke="#94a3b8" tick={{ fill: '#94a3b8', fontSize: 11 }} />
+                    <YAxis type="category" dataKey="name" stroke="#94a3b8" tick={{ fill: '#94a3b8', fontSize: 11 }} width={140} />
+                    <Tooltip contentStyle={{ background: '#1e293b', border: 'none', borderRadius: 8, color: '#fff' }} />
+                    <Legend wrapperStyle={{ color: '#94a3b8' }} />
+                    <Bar dataKey={stats.team1} fill={C1} radius={[0, 4, 4, 0]} barSize={10} />
+                    <Bar dataKey={stats.team2} fill={C2} radius={[0, 4, 4, 0]} barSize={10} />
+                  </BarChart>
+                </ResponsiveContainer>
               </div>
             </>
           )}
 
-          {/* ══ MATCHES ══ */}
-          {activeTab === 'matches' && stats.matches_list && (
+          {activeTab === 'matches' && stats.recent_matches && (
             <div className="glass-card">
-              <h2 className="card-title">Match History ({stats.matches_list.length})</h2>
-              <div className="table-container">
-                <table>
+              <h2 className="card-title">Recent Matches</h2>
+              <div style={{ overflowX: 'auto' }}>
+                <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                   <thead>
-                    <tr>
-                      <th>Date</th>
-                      <th>Season</th>
-                      <th>Venue</th>
-                      <th style={{ color: C1 }}>{stats.team1} Runs</th>
-                      <th style={{ color: C2 }}>{stats.team2} Runs</th>
-                      <th>Winner</th>
-                      <th>Margin</th>
+                    <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
+                      {['Date','Season','Venue','Winner','Margin'].map(h => (
+                        <th key={h} style={{ padding: '0.75rem 1rem', textAlign: 'left', color: '#94a3b8', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{h}</th>
+                      ))}
                     </tr>
                   </thead>
                   <tbody>
-                    {[...stats.matches_list].reverse().map((m, i) => {
-                      const t1Runs = m.team1 === stats.team1 ? m.team1_runs : m.team2_runs;
-                      const t2Runs = m.team1 === stats.team2 ? m.team1_runs : m.team2_runs;
-                      return (
-                        <tr key={i}>
-                          <td style={{ color: '#94a3b8' }}>{m.date || '—'}</td>
-                          <td>{m.season}</td>
-                          <td style={{ fontSize: '0.85rem', maxWidth: 200 }}>{m.venue || '—'}</td>
-                          <td style={{ color: C1, fontWeight: 600 }}>{t1Runs ?? '—'}</td>
-                          <td style={{ color: C2, fontWeight: 600 }}>{t2Runs ?? '—'}</td>
-                          <td style={{
-                            fontWeight: 700,
-                            color: m.winner === stats.team1 ? C1 : m.winner === stats.team2 ? C2 : '#94a3b8'
-                          }}>
-                            {m.winner || 'No Result'}
-                          </td>
-                          <td style={{ color: '#94a3b8', fontSize: '0.85rem' }}>{m.win_outcome || '—'}</td>
-                        </tr>
-                      );
-                    })}
+                    {stats.recent_matches.map((m, i) => (
+                      <tr key={i} style={{ borderBottom: '1px solid rgba(255,255,255,0.04)' }}>
+                        <td style={{ padding: '0.75rem 1rem', color: '#94a3b8', fontSize: '0.9rem' }}>{m.date}</td>
+                        <td style={{ padding: '0.75rem 1rem' }}>{m.season}</td>
+                        <td style={{ padding: '0.75rem 1rem', color: '#94a3b8', fontSize: '0.9rem' }}>{m.venue}</td>
+                        <td style={{ padding: '0.75rem 1rem', fontWeight: 600, color: m.winner === stats.team1 ? C1 : C2 }}>{m.winner || 'No Result'}</td>
+                        <td style={{ padding: '0.75rem 1rem', color: '#94a3b8', fontSize: '0.9rem' }}>{m.result_margin ? `${m.result_margin} ${m.result_type}` : '—'}</td>
+                      </tr>
+                    ))}
                   </tbody>
                 </table>
               </div>
@@ -391,6 +289,3 @@ export default function HeadToHead() {
     </div>
   );
 }
-
-
-
