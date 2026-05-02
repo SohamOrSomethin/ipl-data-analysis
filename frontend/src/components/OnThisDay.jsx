@@ -28,7 +28,7 @@ export default function OnThisDay() {
 
   useEffect(() => {
     fetch(`${API}/static/data/on_this_day.json`)
-      .then(res => res.json())
+      .then(res => res.data)
       .then(data => {
         const today = new Date();
         const mm = String(today.getMonth() + 1).padStart(2, '0');
@@ -102,3 +102,4 @@ export default function OnThisDay() {
     </div>
   );
 }
+

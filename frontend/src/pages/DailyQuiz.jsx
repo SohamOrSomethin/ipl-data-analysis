@@ -1,3 +1,4 @@
+import api from '../api'
 import React, { useState, useEffect } from 'react';
 
 // Sub-component: A single quiz card
@@ -102,7 +103,7 @@ export default function DailyQuiz() {
 
   useEffect(() => {
     fetch('/static/data/ipl_quiz.json')
-      .then(res => res.json())
+      .then(res => res.data)
       .then(allQuestions => {
         // Date-seed logic: day of year
         const today = new Date();
@@ -256,3 +257,5 @@ export default function DailyQuiz() {
     </div>
   );
 }
+
+

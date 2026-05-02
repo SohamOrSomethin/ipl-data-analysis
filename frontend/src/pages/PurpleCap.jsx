@@ -1,3 +1,4 @@
+import api from '../api'
 import { useEffect, useState } from 'react'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts'
 
@@ -6,7 +7,7 @@ export default function PurpleCap() {
 
   useEffect(() => {
     fetch('/api/purple-cap')
-      .then(res => res.json())
+      .then(res => res.data)
       .then(data => setData(data))
   }, [])
 
@@ -57,3 +58,5 @@ export default function PurpleCap() {
     </div>
   )
 }
+
+

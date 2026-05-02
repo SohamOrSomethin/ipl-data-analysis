@@ -1,3 +1,4 @@
+import api from '../api'
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -27,7 +28,7 @@ const TeamSelector = () => {
 
   useEffect(() => {
     fetch('/api/teams')
-      .then(res => res.json())
+      .then(res => res.data)
       .then(data => setTeams(data));
   }, []);
 
@@ -47,3 +48,5 @@ const TeamSelector = () => {
 };
 
 export default TeamSelector;
+
+

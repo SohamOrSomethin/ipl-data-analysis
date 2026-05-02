@@ -1,3 +1,4 @@
+import api from '../api'
 import React, { useState, useEffect } from 'react';
 import StatCard from '../components/StatCard';
 
@@ -24,7 +25,7 @@ export default function RecordCard() {
 
   useEffect(() => {
     fetch('/static/data/records_wall.json')
-      .then(res => res.json())
+      .then(res => res.data)
       .then(data => {
         setRecords(data);
         setLoading(false);
@@ -63,3 +64,5 @@ export default function RecordCard() {
     </div>
   );
 }
+
+

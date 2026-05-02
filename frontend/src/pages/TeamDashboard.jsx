@@ -1,3 +1,4 @@
+import api from '../api'
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { 
@@ -17,7 +18,7 @@ const TeamDashboard = () => {
     // 1. Fetch available seasons for the dropdown
     useEffect(() => {
         fetch('/api/seasons')
-            .then(res => res.json())
+            .then(res => res.data)
             .then(data => setSeasons(data));
     }, []);
 
@@ -25,7 +26,7 @@ const TeamDashboard = () => {
     useEffect(() => {
         setLoading(true);
         fetch(`/api/teams/${teamName}/summary?season=${selectedSeason}`)
-            .then(res => res.json())
+            .then(res => res.data)
             .then(data => {
                 setTeamData(data);
                 setLoading(false);
@@ -149,3 +150,5 @@ const TeamDashboard = () => {
 };
 
 export default TeamDashboard;
+
+
