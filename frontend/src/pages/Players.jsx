@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
-import axios from 'axios';
+import api from '../api';
 import PlayerSearchBar from '../components/PlayerSearchBar';
 import PlayerCard from '../components/PlayerCard';
 import LoadingSpinner from '../components/LoadingSpinner';
@@ -22,7 +22,7 @@ export default function Players() {
     setError(null);
 
     try {
-      const response = await axios.get(`/api/players?name=${query}`);
+      const response = await api.get(`/api/players?name=${query}`);
       setSearchResults(response.data);
     } catch (err) {
       console.error("Error fetching players:", err);

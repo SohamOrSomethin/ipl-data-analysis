@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import axios from 'axios'
+import api from '../api'
 import LoadingSpinner from '../components/LoadingSpinner'
 import ErrorBoundary from '../components/ErrorBoundary'
 
@@ -10,7 +10,7 @@ export default function GoatPlayers() {
 
   useEffect(() => {
     setLoading(true)
-    axios.get(`/api/goat?role=${role}&limit=10`)
+    api.get(`/api/goat?role=${role}&limit=10`)
       .then(res => {
         setPlayers(res.data.players)
         setLoading(false)

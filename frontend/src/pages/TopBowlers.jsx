@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import axios from 'axios'
+import api from '../api'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts'
 import LoadingSpinner from '../components/LoadingSpinner'
 import ErrorBoundary from '../components/ErrorBoundary'
@@ -12,14 +12,14 @@ export default function TopBowlers() {
   const [hoveredIndex, setHoveredIndex] = useState(null)
 
   useEffect(() => {
-    axios.get('/static/data/seasons.json')
+    api.get('/static/data/seasons.json')
       .then(res => setSeasons(res.data))
       .catch(err => console.error("Error fetching seasons:", err))
   }, [])
 
   useEffect(() => {
     setLoading(true)
-    axios.get(`/api/top-bowlers?season=${selected}`)
+    api.get(`/api/top-bowlers?season=${selected}`)
       .then(res => {
         setBowlers(res.data)
         setLoading(false)

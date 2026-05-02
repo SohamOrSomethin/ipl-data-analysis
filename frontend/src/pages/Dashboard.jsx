@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import axios from 'axios'
+import api from '../api'
 import TopBatters from './TopBatters'
 import TopBowlers from './TopBowlers'
 import StatCard from '../components/StatCard'
@@ -14,7 +14,7 @@ export default function Dashboard() {
   })
 
   useEffect(() => {
-    axios.get('/static/data/records.json')
+    api.get('/static/data/records.json')
       .then(res => setRecords(res.data))
       .catch(err => console.error("Error loading records:", err))
   }, [])
