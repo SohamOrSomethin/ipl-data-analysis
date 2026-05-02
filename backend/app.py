@@ -13,7 +13,17 @@ import random
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": [
+    "https://ipl-data-analysis-alpha.vercel.app",
+    "http://localhost:5173"
+]}})
+
+@app.after_request
+def add_cors_headers(response):
+    response.headers["Access-Control-Allow-Origin"] = "https://ipl-data-analysis-alpha.vercel.app"
+    response.headers["Access-Control-Allow-Methods"] = "GET, OPTIONS"
+    response.headers["Access-Control-Allow-Headers"] = "Content-Type"
+    return response
 
 # ── Load & Clean ──────────────────────────────────────────
 df = pd.read_parquet(os.path.join(os.path.dirname(os.path.abspath(__file__)), "static", "data", "ipl.parquet"))

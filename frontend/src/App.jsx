@@ -37,7 +37,11 @@ function App() {
     </Router>
   )
 }
-
+// Keep Render backend warm — ping every 10 minutes
+const BACKEND = import.meta.env.VITE_API_BASE_URL;
+setInterval(() => {
+  fetch(`${BACKEND}/api/seasons`).catch(() => {});
+}, 10 * 60 * 1000); // every 10 min
 export default App
 
 
