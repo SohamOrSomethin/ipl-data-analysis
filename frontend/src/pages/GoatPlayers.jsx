@@ -2,116 +2,77 @@ import { useState, useEffect } from 'react'
 import api from '../api'
 import LoadingSpinner from '../components/LoadingSpinner'
 import ErrorBoundary from '../components/ErrorBoundary'
+import { useNavigate } from 'react-router-dom'
+
+const StatPill = ({ label, value }) => (
+  <div style={{ background: 'var(--bg-main)', padding: '.625rem .875rem', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)' }}>
+    <div style={{ fontSize: '.6875rem', textTransform: 'uppercase', letterSpacing: '.06em', color: 'var(--text-sub)', fontWeight: 600, marginBottom: '.15rem' }}>{label}</div>
+    <div style={{ fontSize: '1.0625rem', fontWeight: 700, color: 'var(--text-main)' }}>{value}</div>
+  </div>
+);
 
 export default function GoatPlayers() {
   const [role, setRole] = useState('batter')
   const [players, setPlayers] = useState([])
   const [loading, setLoading] = useState(true)
+  const navigate = useNavigate()
 
   useEffect(() => {
     setLoading(true)
     api.get(`/api/goat?role=${role}&limit=10`)
-      .then(res => {
-        setPlayers(res.data.players)
-        setLoading(false)
-      })
-      .catch(err => {
-        console.error("Error fetching GOAT players:", err)
-        setLoading(false)
-      })
+      .then(r => { setPlayers(r.data.players); setLoading(false) })
+      .catch(() => setLoading(false))
   }, [role])
 
   return (
-    <div className="glass-card page-container" style={{ padding: '2rem' }}>
-      <h1 className="page-title" style={{ textAlign: 'center', marginBottom: '2rem', fontSize: '2.5rem', background: 'linear-gradient(45deg, #fbbf24, #f59e0b)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-        G.O.A.T Players
-      </h1>
-      
-      <div className="select-container" style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginBottom: '2rem' }}>
-        <button 
-          onClick={() => setRole('batter')}
-          style={{ 
-            padding: '0.75rem 2rem', 
-            borderRadius: '8px', 
-            border: '1px solid rgba(255,255,255,0.1)', 
-            background: role === 'batter' ? 'rgba(245, 158, 11, 0.2)' : 'rgba(255,255,255,0.05)', 
-            color: role === 'batter' ? '#fbbf24' : '#94a3b8', 
-            cursor: 'pointer', 
-            transition: 'all 0.3s ease',
-            fontWeight: role === 'batter' ? '600' : '400'
-          }}
-        >
-          🏏 Batters
-        </button>
-        <button 
-          onClick={() => setRole('bowler')}
-          style={{ 
-            padding: '0.75rem 2rem', 
-            borderRadius: '8px', 
-            border: '1px solid rgba(255,255,255,0.1)', 
-            background: role === 'bowler' ? 'rgba(245, 158, 11, 0.2)' : 'rgba(255,255,255,0.05)', 
-            color: role === 'bowler' ? '#fbbf24' : '#94a3b8', 
-            cursor: 'pointer', 
-            transition: 'all 0.3s ease',
-            fontWeight: role === 'bowler' ? '600' : '400'
-          }}
-        >
-          ⚾ Bowlers
-        </button>
+    <div>
+      <div className="page-header">
+        <h1 className="page-title">G.O.A.T Players</h1>
+        <p className="page-subtitle">Greatest of all time — ranked by composite performance score</p>
+      </div>
+
+      <div style={{ display: 'flex', gap: '.5rem', marginBottom: '2rem' }}>
+        <button className={`btn-tab${role === 'batter' ? ' active' : ''}`} onClick={() => setRole('batter')}>Batters</button>
+        <button className={`btn-tab${role === 'bowler' ? ' active' : ''}`} onClick={() => setRole('bowler')}>Bowlers</button>
       </div>
 
       <ErrorBoundary>
         {loading ? <LoadingSpinner /> : (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '1.5rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '1rem' }}>
             {players.map((p, idx) => (
-              <div key={idx} className="glass-card" style={{ position: 'relative', overflow: 'hidden', padding: '1.5rem' }}>
-                <div style={{ position: 'absolute', top: 0, right: 0, padding: '0.5rem 1rem', background: 'rgba(245, 158, 11, 0.15)', color: '#fbbf24', borderBottomLeftRadius: '12px', fontWeight: 'bold', fontSize: '1.1rem' }}>
-                  #{p.rank}
-                </div>
-                
-                <h3 style={{ fontSize: '1.4rem', marginBottom: '0.25rem', color: '#f8fafc', paddingRight: '3rem' }}>
+              <div key={idx} className="glass-card" style={{ padding: '1.5rem', position: 'relative', borderTop: '2px solid var(--amber)' }}>
+                <div style={{
+                  position: 'absolute', top: '1.25rem', right: '1.25rem',
+                  background: 'rgba(245,158,11,.12)', color: 'var(--amber)',
+                  borderRadius: 'var(--radius-sm)', padding: '.2rem .55rem',
+                  fontSize: '.8125rem', fontWeight: 700
+                }}>#{p.rank}</div>
+
+                <h3
+                  className="player-link"
+                  style={{ fontSize: '1.125rem', marginBottom: '.2rem', paddingRight: '2.5rem', cursor: 'pointer' }}
+                  onClick={() => navigate(`/players?q=${encodeURIComponent(p.name)}`)}
+                >
                   {p.name}
                 </h3>
-                
-                <div style={{ color: '#fbbf24', fontSize: '1.1rem', marginBottom: '1.25rem', fontWeight: '600' }}>
+
+                <p style={{ fontSize: '.875rem', color: 'var(--amber)', fontWeight: 600, marginBottom: '1rem' }}>
                   GOAT Score: {parseFloat(p.goat_score).toFixed(1)}
-                </div>
-                
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem', fontSize: '0.9rem', color: '#cbd5e1' }}>
-                  <div style={{ background: 'rgba(255,255,255,0.03)', padding: '0.75rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
-                    <div style={{ color: '#94a3b8', fontSize: '0.8rem', marginBottom: '0.25rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Matches</div>
-                    <div style={{ fontSize: '1.1rem', fontWeight: '500', color: '#f1f5f9' }}>{p.stats.matches}</div>
-                  </div>
-                  
+                </p>
+
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '.5rem' }}>
+                  <StatPill label="Matches" value={p.stats.matches} />
                   {role === 'batter' ? (
                     <>
-                      <div style={{ background: 'rgba(255,255,255,0.03)', padding: '0.75rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
-                        <div style={{ color: '#94a3b8', fontSize: '0.8rem', marginBottom: '0.25rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Runs</div>
-                        <div style={{ fontSize: '1.1rem', fontWeight: '500', color: '#f1f5f9' }}>{p.stats.runs}</div>
-                      </div>
-                      <div style={{ background: 'rgba(255,255,255,0.03)', padding: '0.75rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
-                        <div style={{ color: '#94a3b8', fontSize: '0.8rem', marginBottom: '0.25rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Strike Rate</div>
-                        <div style={{ fontSize: '1.1rem', fontWeight: '500', color: '#f1f5f9' }}>{p.stats.strike_rate}</div>
-                      </div>
-                      <div style={{ background: 'rgba(255,255,255,0.03)', padding: '0.75rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
-                        <div style={{ color: '#94a3b8', fontSize: '0.8rem', marginBottom: '0.25rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Average</div>
-                        <div style={{ fontSize: '1.1rem', fontWeight: '500', color: '#f1f5f9' }}>{p.stats.batting_avg}</div>
-                      </div>
+                      <StatPill label="Runs" value={p.stats.runs} />
+                      <StatPill label="Strike Rate" value={p.stats.strike_rate} />
+                      <StatPill label="Average" value={p.stats.batting_avg} />
                     </>
                   ) : (
                     <>
-                      <div style={{ background: 'rgba(255,255,255,0.03)', padding: '0.75rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
-                        <div style={{ color: '#94a3b8', fontSize: '0.8rem', marginBottom: '0.25rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Wickets</div>
-                        <div style={{ fontSize: '1.1rem', fontWeight: '500', color: '#f1f5f9' }}>{p.stats.wickets}</div>
-                      </div>
-                      <div style={{ background: 'rgba(255,255,255,0.03)', padding: '0.75rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
-                        <div style={{ color: '#94a3b8', fontSize: '0.8rem', marginBottom: '0.25rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Economy</div>
-                        <div style={{ fontSize: '1.1rem', fontWeight: '500', color: '#f1f5f9' }}>{p.stats.economy}</div>
-                      </div>
-                      <div style={{ background: 'rgba(255,255,255,0.03)', padding: '0.75rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
-                        <div style={{ color: '#94a3b8', fontSize: '0.8rem', marginBottom: '0.25rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Average</div>
-                        <div style={{ fontSize: '1.1rem', fontWeight: '500', color: '#f1f5f9' }}>{p.stats.bowling_avg}</div>
-                      </div>
+                      <StatPill label="Wickets" value={p.stats.wickets} />
+                      <StatPill label="Economy" value={p.stats.economy} />
+                      <StatPill label="Average" value={p.stats.bowling_avg} />
                     </>
                   )}
                 </div>
@@ -123,6 +84,3 @@ export default function GoatPlayers() {
     </div>
   )
 }
-
-
-

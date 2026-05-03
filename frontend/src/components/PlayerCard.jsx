@@ -1,25 +1,27 @@
+import { useState } from 'react';
+
 export default function PlayerCard({ player }) {
   const { name, runs, balls, fours, sixes, wickets } = player;
-
-  const sr = balls > 0 ? ((runs / balls) * 100).toFixed(2) : "0.00";
+  const sr = balls > 0 ? ((runs / balls) * 100).toFixed(1) : '0.0';
 
   return (
     <div className="player-card glass-card">
       <div className="player-header">
-        <h3 className="player-name">{name}</h3>
-        <div className="player-badges">
-          {runs > 5000 && <span className="badge elite">Elite Batter</span>}
-          {wickets > 150 && <span className="badge elite">Elite Bowler</span>}
+        <div>
+          <h3 className="player-name">{name}</h3>
+          <div style={{ display: 'flex', gap: '.5rem', marginTop: '.4rem', flexWrap: 'wrap' }}>
+            {runs > 5000 && <span className="badge elite">Elite Batter</span>}
+            {wickets > 150 && <span className="badge elite">Elite Bowler</span>}
+          </div>
         </div>
       </div>
 
       <div className="player-stats-grid">
-        {/* Batting Panel */}
         <div className="stats-panel batting-theme">
-          <h4 className="panel-title">🏏 Batting Performance</h4>
+          <p className="panel-title">Batting</p>
           <div className="stats-metric-row">
             <div className="metric">
-              <span className="label">Total Runs</span>
+              <span className="label">Runs</span>
               <span className="value gold">{runs.toLocaleString()}</span>
             </div>
             <div className="metric">
@@ -28,29 +30,25 @@ export default function PlayerCard({ player }) {
             </div>
           </div>
           <div className="mini-metrics">
-            <span className="mini-metric"><b>4s:</b> {fours}</span>
-            <span className="mini-metric"><b>6s:</b> {sixes}</span>
-            <span className="mini-metric"><b>Balls:</b> {balls}</span>
+            <span><strong>4s:</strong> {fours}</span>
+            <span><strong>6s:</strong> {sixes}</span>
+            <span><strong>Balls:</strong> {balls.toLocaleString()}</span>
           </div>
         </div>
 
-        {/* Bowling Panel */}
         <div className="stats-panel bowling-theme">
-          <h4 className="panel-title">🎯 Bowling Performance</h4>
+          <p className="panel-title">Bowling</p>
           <div className="stats-metric-row">
             <div className="metric">
-              <span className="label">Total Wickets</span>
+              <span className="label">Wickets</span>
               <span className="value purple">{wickets}</span>
             </div>
           </div>
-          <p className="panel-footer">
-            {wickets > 0 ? "Key strike bowler for his franchises" : "Primarily a specialist batter"}
+          <p style={{ fontSize: '.875rem', color: 'var(--text-sub)', marginTop: '.25rem' }}>
+            {wickets > 0 ? 'Key strike bowler for his franchises' : 'Primarily a specialist batter'}
           </p>
         </div>
       </div>
     </div>
   );
 }
-
-
-

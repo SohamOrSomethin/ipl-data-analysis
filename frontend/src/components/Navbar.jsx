@@ -1,75 +1,71 @@
 import { NavLink } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+
+const SunIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="12" r="4"/>
+    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+  </svg>
+);
+const MoonIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
+  </svg>
+);
+
+const NAV = [
+  { to: '/', label: 'Dashboard', end: true },
+  { to: '/orange-cap', label: 'Orange Cap' },
+  { to: '/purple-cap', label: 'Purple Cap' },
+  { to: '/players', label: 'Players' },
+  { to: '/teams', label: 'Teams' },
+  { to: '/head-to-head', label: 'Head to Head' },
+  { to: '/record-card', label: 'Records' },
+  { to: '/daily-quiz', label: 'Daily Quiz' },
+  { to: '/goat-players', label: 'G.O.A.T' },
+];
 
 export default function Navbar() {
+  const [isDark, setIsDark] = useState(() => {
+    const saved = localStorage.getItem('theme');
+    if (saved) return saved === 'dark';
+    return true; // default dark
+  });
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', isDark);
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  }, [isDark]);
+
   return (
     <nav className="glass-nav">
       <div className="nav-container">
         <NavLink to="/" className="nav-logo">
-          <span className="logo-icon">🏏</span>
           IPL Analytics
         </NavLink>
+
         <div className="nav-links">
-          <NavLink 
-            to="/" 
-            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
-            end
-          >
-            Dashboard
-          </NavLink>
-          <NavLink 
-            to="/orange-cap" 
-            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
-          >
-            Orange Cap
-          </NavLink>
-          <NavLink 
-            to="/purple-cap" 
-            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
-          >
-            Purple Cap
-          </NavLink>
-          <NavLink 
-            to="/players" 
-            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
-          >
-            Players
-          </NavLink>
-          <NavLink 
-            to="/teams" 
-            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
-          >
-            Teams
-          </NavLink>
-          <NavLink 
-            to="/head-to-head" 
-            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
-          >
-            H2H
-          </NavLink>
-          <NavLink 
-            to="/record-card" 
-            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
-          >
-            Record Card
-          </NavLink>
-          <NavLink 
-            to="/daily-quiz" 
-            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
-            style={{ color: 'var(--accent-gold)' }}
-          >
-            Daily Quiz 🧠
-          </NavLink>
-          <NavLink 
-            to="/goat-players" 
-            className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
-          >
-            G.O.A.T
-          </NavLink>
+          {NAV.map(({ to, label, end }) => (
+            <NavLink
+              key={to}
+              to={to}
+              end={end}
+              className={({ isActive }) => `nav-item${isActive ? ' active' : ''}`}
+            >
+              {label}
+            </NavLink>
+          ))}
         </div>
+
+        <button
+          className="theme-toggle"
+          onClick={() => setIsDark(d => !d)}
+          aria-label="Toggle theme"
+          title="Toggle light / dark mode"
+        >
+          {isDark ? <SunIcon /> : <MoonIcon />}
+        </button>
       </div>
     </nav>
   );
 }
-
-
-

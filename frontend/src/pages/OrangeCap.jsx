@@ -1,53 +1,75 @@
 import api from '../api'
 import { useEffect, useState } from 'react'
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts'
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, Cell } from 'recharts'
+import { useNavigate } from 'react-router-dom'
+
+const TIP_STYLE = {
+  backgroundColor: 'var(--bg-raised)',
+  border: '1px solid var(--border-hi)',
+  borderRadius: '8px',
+  color: 'var(--text-main)',
+  fontSize: '0.875rem',
+};
 
 export default function OrangeCap() {
   const [data, setData] = useState([])
+  const [hovered, setHovered] = useState(null)
+  const navigate = useNavigate()
 
-  useEffect(() => {
-    api.get('/api/orange-cap')
-      .then(res => res.data)
-      .then(data => setData(data))
-  }, [])
+  useEffect(() => { api.get('/api/orange-cap').then(r => setData(r.data)) }, [])
+
+  const handlePlayerClick = (batter) => {
+    navigate(`/players?q=${encodeURIComponent(batter)}`);
+  };
 
   return (
-    <div className="dashboard-content">
-      <h1 className="section-title" style={{ background: 'none', WebkitTextFillColor: 'initial', color: 'var(--accent-gold)' }}>
-        🏏 Orange Cap Winners
-      </h1>
-      
-      <div className="glass-card chart-card mb-4" style={{ marginBottom: '2rem' }}>
+    <div>
+      <div className="page-header">
+        <h1 className="page-title">Orange Cap Winners</h1>
+        <p className="page-subtitle">Highest run-scorers each IPL season</p>
+      </div>
+
+      <div className="glass-card chart-card" style={{ marginBottom: '1.25rem' }}>
         <h2 className="card-title">Runs by Season</h2>
-        <div style={{ width: '100%', height: 350 }}>
-          <ResponsiveContainer>
-             <BarChart data={data}>
-               <CartesianGrid strokeDasharray="3 3" stroke="#334155" vertical={false}/>
-               <XAxis dataKey="season" stroke="#94a3b8" />
-               <YAxis stroke="#94a3b8" />
-               <Tooltip 
-                 contentStyle={{ backgroundColor: '#1e293b', border: 'none', borderRadius: '8px', color: '#fff' }} 
-                 labelStyle={{ color: '#06b6d4' }}
-                 formatter={(value, name, props) => [value, `${props.payload.batter} (${props.payload.team})`]} 
-               />
-               <Bar dataKey="runs" fill="#f59e0b" radius={[4, 4, 0, 0]} />
-             </BarChart>
-          </ResponsiveContainer>
-        </div>
+        <ResponsiveContainer width="100%" height={320}>
+          <BarChart data={data} margin={{ top: 4, right: 8, left: -10, bottom: 0 }}>
+            <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" vertical={false} />
+            <XAxis dataKey="season" tick={{ fill: 'var(--text-sub)', fontSize: 12 }} axisLine={false} tickLine={false} />
+            <YAxis tick={{ fill: 'var(--text-sub)', fontSize: 12 }} axisLine={false} tickLine={false} />
+            <Tooltip
+              contentStyle={TIP_STYLE}
+              cursor={{ fill: 'rgba(245,158,11,0.08)', radius: 4 }}
+              formatter={(v, _, props) => [v + ' runs', `${props.payload.batter} · ${props.payload.team}`]}
+            />
+            <Bar dataKey="runs" radius={[4, 4, 0, 0]} barSize={24}>
+              {data.map((_, i) => (
+                <Cell
+                  key={i}
+                  fill={i === hovered ? '#fbbf24' : 'var(--amber)'}
+                  onMouseEnter={() => setHovered(i)}
+                  onMouseLeave={() => setHovered(null)}
+                  style={{ cursor: 'pointer', transition: 'fill .15s' }}
+                />
+              ))}
+            </Bar>
+          </BarChart>
+        </ResponsiveContainer>
       </div>
 
       <div className="glass-card">
         <div className="table-container">
           <table>
             <thead>
-              <tr><th>Season</th><th>Batter Name</th><th>Total Runs</th><th>Team</th></tr>
+              <tr><th>Season</th><th>Batter</th><th>Runs</th><th>Team</th></tr>
             </thead>
             <tbody>
               {data.map(row => (
                 <tr key={row.season}>
                   <td>{row.season}</td>
-                  <td>{row.batter}</td>
-                  <td style={{ color: '#f59e0b', fontWeight: 'bold' }}>{row.runs}</td>
+                  <td>
+                    <span className="player-link" onClick={() => handlePlayerClick(row.batter)}>{row.batter}</span>
+                  </td>
+                  <td style={{ color: 'var(--amber)', fontWeight: 700 }}>{row.runs}</td>
                   <td>{row.team}</td>
                 </tr>
               ))}
@@ -58,7 +80,3 @@ export default function OrangeCap() {
     </div>
   )
 }
-
-
-
-
